@@ -15,8 +15,8 @@
             url
         </h1>
         <ol>
-            <li>qnote  https://shimo.im/docs/m5kv9mzgEpU4JNqX/ 「qnote」，可复制链接后用石墨文档 App 或小程序打开</li>
-            <li>linux common https://shimo.im/docs/2wAlXLgPl4CLY5AP/  </li>
+            <li>qnote https://shimo.im/docs/m5kv9mzgEpU4JNqX/ 「qnote」，可复制链接后用石墨文档 App 或小程序打开</li>
+            <li>linux common https://shimo.im/docs/2wAlXLgPl4CLY5AP/ </li>
             <li>recode https://shimo.im/docs/25q5MR17O6HlK0qD/ </li>
 
         </ol>
@@ -27,16 +27,44 @@
     <div id="noteContainer">
         <h1>note</h1>
         <a href="./note/recoder.html">recoder</a> <br>
-        <a href="./note/linux.html">linux</a>   <br>
+        <a href="./note/linux.html">linux</a> <br>
         <a href="./note/note1.html">note1</a> <br>
     </div>
+
 
     <div id="fileContainer">
         <h1>
             file
         </h1>
-        <a href="./file1">file1</a> <br>
+        <a href="./file/ruby.pac">ruby.pac</a> <br>
+        <a href="./file/file1">file1</a> <br>
     </div>
+
+
+    <div id="qnoteContainer">
+        <h1>
+            qnote
+        </h1>
+        <pre>
+
+echo $WAYLAND_DISPLAY
+echo $XDG_SESSION_TYPE
+loginctl show-session "$XDG_SESSION_ID" -p Type
+chown suisuy:suisuy file1
+scp vimbk suisuy@43.154.39.152:~/vimbk.tar.gz
+sudo pacman-mirrors -i -c China -m rank
+rsync --progress largefile.gz somewhere/else/ #cp with speed display
+kill -9 -1 #logou de
+chromium --proxy-server="//ruby.l:10808"
+xzcat test.img.xz | dd of=/dev/mmcblk2 bs=1M status=progress oflag=dsync
+losetup -f -P sda.img #mount img file
+
+
+
+        </pre>
+
+    </div>
+
 
 
 </body>
