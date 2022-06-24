@@ -1,1133 +1,1234 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>recoder</title>
 </head>
+
 <body>
     <pre>
-        <code>
-            https://shimo.im/docs/25q5MR17O6HlK0qD/ 「recorder」，可复制链接后用石墨文档 App 或小程序打开
-            
-            
-            android vscdoe dev
-            use github codespace
-            run android emulator using docker
-            check if kvm supported
-            sudo apt install cpu-checker
-            kvm-ok
-            then run android use docker
-            docker run --privileged -d -p 6080:6080 -p 5554:5554 -p 5555:5555 -e DEVICE="Samsung Galaxy S6" --name android-container
-            budtmo/docker-android-x86-7.1.1
-            
-            then open url localhost:6080
-            
-            install jdk and android sdk platform tool
-            download sdk command tools and unzip it,
-            copy bin lib NOTICE.txt source.properties to dir called latest
-            cmdline-tools/latest/bin/sdkmanager "platforms;android-25" "build-tools;25.0.2" "extras;google;m2repository"
-            "extras;android;m2repository"
-            cmdline-tools/latest/bin/sdkmanager --licenses
-            this will install them in <android>/platforms and <android>/platform-tools
-                    add these to .bashrc then restart bash
-                    export ANDROID_SDK_ROOT=/home/suisuy/an
-                    export PATH=$PATH:$ANDROID_SDK_ROOT/tools
-            
-            
-            
-                    clone a helloworld project to build
-                    git clone https://github.com/codepath/android_hello_world.git
-                    cd to the project
-            
-            
-                    arch
-                    #unable lock database when use pacman
-                    sudo rm /var/lib/pacman/db.lck
-            
-            
-            
-            
-                    keyboard only control
-                    warpd
-                    yay warpd
-            
-            
-                    short
-                    systemctl status display-manager
-            
-                    install xfce and chromium on 72.5.34.25
-                    upgraded, 472 newly installed, 0 to remove and 70 not upgraded.
-                    Need to get 274 MB of archives.
-                    After this operation, 938 MB of additional disk space will be used.
-            
-                    remove chromium
-                    205MB freeed
-                    instal firefox
-                    218M used
-                    install rclone
-                    43 MB used
-            
-            
-                    copy fils
-                    copy bypass file cache
-                    Duplicate the directory tree from $SOURCE to $TARGET
-                    find . -type d -exec mkdir -p "$TARGET{}" \;
-                    Duplicate files from $SOURCE to $TARGET omitting write cache (but utilising read cache!)
-                    find . -type f -exec dd if={} of="$TARGET{}" bs=8M oflag=direct \;
-            
-            
-                    or
-                    dd if=/path/to/source of=/path/to/destination bs=4M iflag=direct oflag=direct
-            
-            
-            
-                    docker
-                    Specifying a default Docker storage directory for manually installed Docker
-                    If you installed Docker on your nodes, take the following steps:
-                    Remove all Docker containers and images.
-                    sudo docker rm -f $(docker ps -aq); docker rmi -f $(docker images -q)
-            
-                    Stop the Docker service.
-                    sudo systemctl stop docker
-            
-                    Remove the Docker storage directory.
-                    sudo rm -rf /var/lib/docker
-            
-                    Create a new /var/lib/docker storage directory.
-                    sudo mkdir /var/lib/docker
-            
-                    Note: A /var/lib/docker directory with less than 50 GB disk space isn’t supported.
-                    Use bind mount to set the new location. For example, to set the new location as /mnt/docker run the following
-                    commands:
-                    sudo mkdir /mnt/docker
-                    sudo mount --rbind /mnt/docker /var/lib/docker
-            
-                    Start the Docker service.
-                    sudo systemctl start docker
-            
-            
-            
-                    first backup
-            
-                    network
-                    You aren't setting up NetworkManager; wifi-menu comes from "netctl" and it doesn't automatically configure its
-                    generated netctl profiles to start on boot.
-                    From your question I assume you have NetworkManager installed. To use it,
-                    start it:
-                    systemctl start NetworkManager
-                    make it auto-start on boot:
-                    systemctl enable NetworkManager
-                    tell it to connect to a WiFi network:
-                    nmcli dev wifi con "wifiname"
-            
-                    However, if you actually meant netctl by "the network manager", enable the netctl-auto service:
-                    systemctl enable netctl-auto@wl…
-                    (Replace wl… with the actual interface name that you see in ip link.)
-            
-                    nfs
-                    To enable access to an entire subnet
-                    /mnt/myshareddir {subnetIP}/{subnetMask}(rw,sync,no_subtree_check)
-            
-                    #vim /etc/exports
-            
-                    /srv/nfs 192.168.1.0/24(rw,sync,crossmnt,fsid=0)
-                    exportfs -arv
-                    systemctl start nfs-server.service
-                    systemctl restart nfs-server.service
-                    systemctl enable nfs-server.service
-                    mount it
-                    arch
-                    install nfs-utils
-                    ubuntu
-                    install nfs-common
-                    windows
-                    in feature,enable nfs client
-            
-                    then mount it use:
-                    mount [NFS _IP]:/[NFS_export] [Local_mountpoint] #onlinux
-                    #mount it on win
-                    mount -o anon \\ruby.l\home\suisuy\ Z:
-            
-            
-            
-            
-                    2022-05-15 08:04:49
-                    Terminology
-                    https://www.enlightenment.org/about-terminology
-                    use pacman install it
-            
-            
-                    https://extraterm.org/guide.html
-            
-            
-                    fzf
-            
-            
-                    waydroid
-                    yay anbox-modules-dkms
-                    modprobe ashmem_linux
-                    modprobe binder_linux
-                    yay waydroid
-                    yay waydroid-image
-                    sudo waydroid init
-                    waydroid-container.service
-                    systemctl start waydroid-container.service.
-                    systemctl enable --now waydroid-container.service
-                    Make sure that waydroid-container.service is running then run:
-                    $ waydroid session start
-                    The Waydroid session is now active, here are a couple of useful commands to interact with it:
-                    Launch GUI:
-                    $ waydroid show-full-ui
-                    Launch shell:
-                    # waydroid shell
-                    Install an application:
-                    $ waydroid app install $path_to_apk
-                    Run an application:
-                    $ waydroid app launch $package-name #Can be retrieved with `waydroid app list`
-            
-            
-            
-                    ssh x forward remote app to local x server
-                    install on remote
-                    xorg-xauth xorg-xhost
-                    install xorg-xauth on client
-            
-                    in /etc/ssh/sshd_config:
-                    set X11Forwarding to yes
-                    verify that AllowTcpForwarding and X11UseLocalhost options are set to yes, and that X11DisplayOffset is set to
-                    10 (those are the default values if nothing has been changed, see sshd_config(5))
-                    systemctl restart sshd
-            
-            
-            
-                    fig
-                    install
-                    fig ssh enable
-                    then ssh to host,it will give some notice to install fig on linux host to enable
-            
-                    Install the privoxy package.
-                    /etc/privoxy/config:
-                    listen-address [SERVER-IP]:[PORT]
-                    For example:
-                    listen-address 192.168.1.1:8118
-                    systemctl restart privoxy
-                    systemctl enable privoxy
-            
-            
-                    pip install --upgrade proxy.py
-                    proxy --port 10809
-            
-                    x11 tcp listen
-                    lightdm.conf:
-                    [Seat:*]
-                    autologin-guest=false
-                    autologin-user=ubuntu
-                    autologin-user-timeout=0
-                    autologin-session=lightdm-autologin
-                    xserver-allow-tcp=true
-                    xserver-command=X -listen tcp
-                    i only changed
-                    xserver-allow-tcp=true
-                    xserver-command=X -listen tcp
-                    use ss to check if there are port 6000
-                    ss -tln
-                    or use
-                    netstat -nla | grep 6000
-            
-                    then on local machine use xhost to disable authorization
-                    xhost +
-            
-            
-            
-                    sudo nmap -sP 192.168.1.0/24
-                    autossh -M 0 -o "ServerAliveInterval 45" -o "ServerAliveCountMax 2" suisuy@192.168.122.231
-            
-                    ssh suisuy@192.168.122.231
-            
-                    $ autossh -M 0 -o "ServerAliveInterval 45" -o "ServerAliveCountMax 2" username@example.com
-            
-            
-                    wayland
-                    sudo pacman -S wlroots sway xorg-xwayland
-                    cp /etc/sway/config ~/.config/sway/
-                    vim ~/.config/sway/config
-                    sway的配置文件和i3wm的很像，所以大家可以根据自己在i3上的使用习惯修改配置文件。
-                    而与wayland协议相关的特殊配置也就那么几个——
-                    ### Input configuration
+        https://shimo.im/docs/25q5MR17O6HlK0qD/ 「recorder」，可复制链接后用石墨文档 App 或小程序打开
+        
+        
+        
+        url
+        https://ggjav.com/main/video?id=195862
+        
+        android vscdoe dev
+        
+        u
+        
+        
+        
+        use github codespace
+        run android emulator using docker
+        check if kvm supported
+        sudo apt install cpu-checker
+        kvm-ok
+        then run android use docker
+        docker run --privileged -d -p 6080:6080 -p 5554:5554 -p 5555:5555 -e DEVICE="Samsung Galaxy S6" --name android-container
+        budtmo/docker-android-x86-7.1.1
+        
+        then open url localhost:6080
+        
+        install jdk and android sdk platform tool
+        download sdk command tools and unzip it,
+        copy bin lib NOTICE.txt source.properties to dir called latest
+        cmdline-tools/latest/bin/sdkmanager "platforms;android-25" "build-tools;25.0.2" "extras;google;m2repository"
+        "extras;android;m2repository"
+        cmdline-tools/latest/bin/sdkmanager --licenses
+        this will install them in <android>/platforms and <android>/platform-tools
+                add these to .bashrc then restart bash
+                export ANDROID_SDK_ROOT=/home/suisuy/an
+                export PATH=$PATH:$ANDROID_SDK_ROOT/tools
+        
+        
+        
+                clone a helloworld project to build
+                git clone https://github.com/codepath/android_hello_world.git
+                cd to the project
+        
+        
+        
+        
+        
+        
+        
+                arch
+                #unable lock database when use pacman
+                sudo rm /var/lib/pacman/db.lck
+        
+        
+        
+        
+                keyboard only control
+                warpd
+                yay warpd
+        
+        
+                short
+                systemctl status display-manager
+        
+                install xfce and chromium on 72.5.34.25
+                upgraded, 472 newly installed, 0 to remove and 70 not upgraded.
+                Need to get 274 MB of archives.
+                After this operation, 938 MB of additional disk space will be used.
+        
+                remove chromium
+                205MB freeed
+                instal firefox
+                218M used
+                install rclone
+                43 MB used
+        
+        
+                copy fils
+                copy bypass file cache
+                Duplicate the directory tree from $SOURCE to $TARGET
+                find . -type d -exec mkdir -p "$TARGET{}" \;
+                Duplicate files from $SOURCE to $TARGET omitting write cache (but utilising read cache!)
+                find . -type f -exec dd if={} of="$TARGET{}" bs=8M oflag=direct \;
+        
+        
+                or
+                dd if=/path/to/source of=/path/to/destination bs=4M iflag=direct oflag=direct
+        
+        
+        
+                docker
+                Specifying a default Docker storage directory for manually installed Docker
+                If you installed Docker on your nodes, take the following steps:
+                Remove all Docker containers and images.
+                sudo docker rm -f $(docker ps -aq); docker rmi -f $(docker images -q)
+        
+                Stop the Docker service.
+                sudo systemctl stop docker
+        
+                Remove the Docker storage directory.
+                sudo rm -rf /var/lib/docker
+        
+                Create a new /var/lib/docker storage directory.
+                sudo mkdir /var/lib/docker
+        
+                Note: A /var/lib/docker directory with less than 50 GB disk space isn’t supported.
+                Use bind mount to set the new location. For example, to set the new location as /mnt/docker run the following
+                commands:
+                sudo mkdir /mnt/docker
+                sudo mount --rbind /mnt/docker /var/lib/docker
+        
+                Start the Docker service.
+                sudo systemctl start docker
+        
+        
+        
+                first backup
+        
+                network
+                You aren't setting up NetworkManager; wifi-menu comes from "netctl" and it doesn't automatically configure its
+                generated netctl profiles to start on boot.
+                From your question I assume you have NetworkManager installed. To use it,
+                start it:
+                systemctl start NetworkManager
+                make it auto-start on boot:
+                systemctl enable NetworkManager
+                tell it to connect to a WiFi network:
+                nmcli dev wifi con "wifiname"
+        
+                However, if you actually meant netctl by "the network manager", enable the netctl-auto service:
+                systemctl enable netctl-auto@wl…
+                (Replace wl… with the actual interface name that you see in ip link.)
+        
+                nfs
+                To enable access to an entire subnet
+                /mnt/myshareddir {subnetIP}/{subnetMask}(rw,sync,no_subtree_check)
+        
+                #vim /etc/exports
+        
+                /srv/nfs 192.168.1.0/24(rw,sync,crossmnt,fsid=0)
+                exportfs -arv
+                systemctl start nfs-server.service
+                systemctl restart nfs-server.service
+                systemctl enable nfs-server.service
+                mount it
+                arch
+                install nfs-utils
+                ubuntu
+                install nfs-common
+                windows
+                in feature,enable nfs client
+        
+                then mount it use:
+                mount [NFS _IP]:/[NFS_export] [Local_mountpoint] #onlinux
+                #mount it on win
+                mount -o anon \\ruby.l\home\suisuy\ Z:
+        
+        
+        
+        
+                2022-05-15 08:04:49
+                Terminology
+                https://www.enlightenment.org/about-terminology
+                use pacman install it
+        
+        
+                https://extraterm.org/guide.html
+        
+        
+                fzf
+        
+        
+                waydroid
+                yay anbox-modules-dkms
+                modprobe ashmem_linux
+                modprobe binder_linux
+                yay waydroid
+                yay waydroid-image
+                sudo waydroid init
+                waydroid-container.service
+                systemctl start waydroid-container.service.
+                systemctl enable --now waydroid-container.service
+                Make sure that waydroid-container.service is running then run:
+                $ waydroid session start
+                The Waydroid session is now active, here are a couple of useful commands to interact with it:
+                Launch GUI:
+                $ waydroid show-full-ui
+                Launch shell:
+                # waydroid shell
+                Install an application:
+                $ waydroid app install $path_to_apk
+                Run an application:
+                $ waydroid app launch $package-name #Can be retrieved with `waydroid app list`
+        
+        
+        
+                ssh x forward remote app to local x server
+                install on remote
+                xorg-xauth xorg-xhost
+                install xorg-xauth on client
+        
+                in /etc/ssh/sshd_config:
+                set X11Forwarding to yes
+                verify that AllowTcpForwarding and X11UseLocalhost options are set to yes, and that X11DisplayOffset is set to
+                10 (those are the default values if nothing has been changed, see sshd_config(5))
+                systemctl restart sshd
+        
+        
+        
+                fig
+                install
+                fig ssh enable
+                then ssh to host,it will give some notice to install fig on linux host to enable
+        
+                Install the privoxy package.
+                /etc/privoxy/config:
+                listen-address [SERVER-IP]:[PORT]
+                For example:
+                listen-address 192.168.1.1:8118
+                systemctl restart privoxy
+                systemctl enable privoxy
+        
+        
+                pip install --upgrade proxy.py
+                proxy --port 10809
+        
+                x11 tcp listen
+                lightdm.conf:
+                [Seat:*]
+                autologin-guest=false
+                autologin-user=ubuntu
+                autologin-user-timeout=0
+                autologin-session=lightdm-autologin
+                xserver-allow-tcp=true
+                xserver-command=X -listen tcp
+                i only changed
+                xserver-allow-tcp=true
+                xserver-command=X -listen tcp
+                use ss to check if there are port 6000
+                ss -tln
+                or use
+                netstat -nla | grep 6000
+        
+                then on local machine use xhost to disable authorization
+                xhost +
+        
+        
+        
+                sudo nmap -sP 192.168.1.0/24
+                autossh -M 0 -o "ServerAliveInterval 45" -o "ServerAliveCountMax 2" suisuy@192.168.122.231
+        
+                ssh suisuy@192.168.122.231
+        
+                $ autossh -M 0 -o "ServerAliveInterval 45" -o "ServerAliveCountMax 2" username@example.com
+        
+        
+                wayland
+                sudo pacman -S wlroots sway xorg-xwayland
+                cp /etc/sway/config ~/.config/sway/
+                vim ~/.config/sway/config
+                sway的配置文件和i3wm的很像，所以大家可以根据自己在i3上的使用习惯修改配置文件。
+                而与wayland协议相关的特殊配置也就那么几个——
+                ### Input configuration
+                #
+                # Example configuration:
+                #
+                input "1267:12668:MSFT0001:00_04F3:317C_Touchpad" {
+                dwt enabled
+                tap enabled
+                natural_scroll enabled
+                middle_emulation enabled
+                }
+        
+                input * accel_profile flat
+                # You can get the names of your inputs by running: swaymsg -t get_inputs
+                # Read `man 5 sway-input` for more information about this section.
+                这是关于鼠标和触摸板的设置，怎么设置的注释已经很清楚了，看man 5 sway-input就行。
+                ### Output configuration
+                #
+                # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
+                output * bg <你自己的桌面壁纸图片路径> fill
                     #
                     # Example configuration:
                     #
-                    input "1267:12668:MSFT0001:00_04F3:317C_Touchpad" {
-                    dwt enabled
-                    tap enabled
-                    natural_scroll enabled
-                    middle_emulation enabled
-                    }
-            
-                    input * accel_profile flat
-                    # You can get the names of your inputs by running: swaymsg -t get_inputs
-                    # Read `man 5 sway-input` for more information about this section.
-                    这是关于鼠标和触摸板的设置，怎么设置的注释已经很清楚了，看man 5 sway-input就行。
-                    ### Output configuration
+                    # output HDMI-A-1 resolution 1920x1080 position 1920,0
                     #
-                    # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-                    output * bg <你自己的桌面壁纸图片路径> fill
-                        #
-                        # Example configuration:
-                        #
-                        # output HDMI-A-1 resolution 1920x1080 position 1920,0
-                        #
-                        # You can get the names of your outputs by running: swaymsg -t get_outputs
-                        这是关于屏幕和桌面壁纸的设置。
-                        xwayland enabled
-            
-            
-            
-                        systemd
-                        faild
-                        ls /etc/systemd/system
-            
-                        sudo vim /etc/systemd/system/script.service
-            
-            
-                        [Unit]
-            
-                        Description=YourScriptName.service
-            
-                        After=default.target
-            
-                        [Service]
-            
-                        ExecStart=/PATH/TO/Script.sh
-            
-                        [Install]
-                        WantedBy=default.target
-            
-            
-                        [Unit]
-            
-                        Description=test.service
-            
-                        After=default.target
-            
-                        [Service]
-            
-                        ExecStart=/home/suisuy/test/test.sh
-            
-                        [Install]
-                        WantedBy=default.target
-            
-                        sudo systemctl enable test.service
-                        maybe should try
-                        run at boot
-                        systemd
-                        [Unit]
-                        Description=Reboot message systemd service.
-                        [Service]
-                        Type=simple
-                        ExecStart=/bin/bash /home/ec2-user/reboot_message.sh
-                        [Install]
-                        WantedBy=multi-user.target
-                        for example
-                        cat test.sh
-                        echo test >>/home/suisuy/test/t.out
-            
-                        cat /etc/systemd/system/test.service
-                        [Unit]
-                        Description=test message systemd service.
-                        [Service]
-                        Type=simple
-                        ExecStart=/bin/bash /home/suisuy/test/test.sh
-                        [Install]
-                        WantedBy=multi-user.target
-                        systemctl enable --now test
-                        sudo systemctl restart test.service
-            
-                        use rc.local failed
-                        /etc/rc.d/rc.local file
-            
-            
-                        use cron
-                        install it then
-                        crontab -e #add this to the file
-                        @reboot sh /home/ec2-user/reboot_message.sh/home/suisuy/tmp/zh-CN/Licenses
-                        /home/suisuy/tmp/zh-CN/localspl.dll.mui
-                        /home/suisuy/tmp/zh-CN/localui.dll.mui
-            
-            
-                        hackintosh gpu passthrough
-                        https://github.com/PassthroughPOST/Hackintosh-KVM.git
-            
-            
-            
-                        wine
-                        common command
-                        wine taskmgr
-                        wine regedit
-                        wine start /
-                        wine explorer
-            
-                        LANG=zh_CN.UTF-8 wine
-                        ALL_LOCAL=zh_CN.UTF-8 wine
-                        WINEPREFIX=~/.wine32 WINEARCH=win32 wineboot
-            
-            
-                        locale
-                        LANG=zh_TW.UTF-8 ./wine winecfg
-                        LANG=zh_CN.UTF-8 wine
-                        net user "Administrator" /active:yes
-            
-                        this seems useless
-                        change the locale for all applications via Registry, by setting the LC_ALL environment variable in
-                        HKEY_CURRENT_USER\Environment (Right click -> New -> String value).
-            
-            
-            
-                        install fonts
-                        winetrick install fakechinese font
-                        @suisuy 从Windows虚拟机里面把字体复制出来，tty和ttc以外的删掉，扔到~/.local/share/fonts下单独建个文件夹
-                        然后fc-cache -fv
-            
-                        cacls - edit ACLs
-                        clock - displays a rudimentary clock
-                        cmd - Command prompt implementation
-                        cmdlgtst - (for developers) commdlg.dll test jig
-                        control - Control Panel implementation
-                        eject - ejects optical discs (note that wine eject is different from the normal eject command)
-                        expand - expands cabinet (.cab) files
-                        explorer - explorer.exe implementation
-                        hh - HTML help (.chm file) viewer
-                        icinfo - shows installed video compressors for Wine
-                        iexplore - Internet Explorer implementation
-                        lodctr - load performance monitor counters
-                        msiexec - msiexec.exe implementation for installing .msi files
-                        net - starts and stops services
-                        notepad - Notepad, a simple text editor
-                        oleview - allows browsing and exploring COM objects as well as configuring DCOM
-                        progman - Program Manager implementation
-                        reg - console-based registry editor
-                        regedit - Registry Editor implementation
-                        regsvr32 - register OLE components in the registry
-                        rpcss - quasi-implementation of rpcss.exe
-                        rundll32"] - loads a DLL and runs an entry point with the specified parameters
-                        secedit - security configuration edit command
-                        services - manages services
-                        spoolsv - print wrapper
-                        start - starts a program or opens a document in the program normally used for files with that suffix
-                        svchost - (internal) host process for services
-                        taskmgr - Task Manager implementation
-                        uninstaller - basic program uninstaller
-                        unlodctr - unload performance monitor counters
-                        view - metafile viewer
-                        wineboot - "reboots" (restarts) Wine, for when Windows apps call for a real reboot
-                        winebrowser - launches native OS browser or mail client
-                        winecfg - GUI configuration tool for Wine
-                        wineconsole - displays Windows console
-                        winedbg - Wine debugger core
-                        winedevice - (internal) manages devices
-                        winefile - file explorer implementation
-                        winemenubuilder - helps to build Unix menu entries
-                        winemine - classic minesweeper game
-                        winepath - translates between Windows and Unix paths formats
-                        winetest - all the DLL conformance test programs suitable for unattended testing and report submission
-                        winevdm - Wine virtual DOS program
-                        winhelp - Help viewer
-                        winhlp32 - Help viewer (32-bit)
-                        winver - displays an "about Wine" window
-                        wordpad - wordpad.exe implementation
-                        write - starts wordpad (for Win16 compatibility)
-                        xcopy - Wine-compatible xcopy program
-            
-            
-                        bridged network in virtlib
-                        sudo virsh net-list --all
-                        sudo virsh net-edit default
-                        ip link show type bridge
-                        ip link show master virbr0
-            
-                        sudo ip link add br0 type bridge
-                        give up since need another net card
-            
-                        aganin
-                        iw dev wlp2s0 set 4addr on
-                        nmtui
-                        brctl show
-            
-                        在宿主机给虚拟网卡virbr0（kvm默认生成的）设置ip，网关，dns等等
-                        将无线网卡加入virbr0
-            
-                        sudo brctl addif virbr0 wlp2s0
-            
-                        sudo systemctl restart NetworkManager
-            
-            
-                        optimus-manager on arch linux
-                        set default target boot into
-                        systemctl get-default
-                        graphical.target
-                        systemctl set-default multi-user.target
-                        faq
-                        nouveau not load
-                        cat /etc/modprobe.d/nvidia-installer-disable-nouveau.conf
-                        # generated by nvidia-installer
-                        #blacklist nouveau
-                        #options nouveau modeset=0
-            
-                        commnet some files like abouve in /etc/modeprobe.d/
-            
-            
-                        test
-                        glxgears headless
-                        Xvfb :5 -screen 0 1920x1080x24 &
-                        export DISPLAY=:5
-                        env __GLX_VENDOR_LIBRARY_NAME=mesa LIBGL_ALWAYS_SOFTWARE=1 DISPLAY=:5 vblank_mode=0 glxgears -fullscreen
-                        -info | grep "GL_RENDER\|FPS"
-            
-            
-                        check which card you have
-            
-                        lspci -k | grep -A 2 -i "VGA"
-                        xrandr --listproviders
-                        glxinfo | grep "OpenGL renderer"
-                        xrandr --setprovideroffloadsink 1 0
-            
-            
-                        __GL_SYNC_TO_VBLANK=0 vblank_mode=0 glxgears -fullscreen -info
-                        export __GL_SYNC_TO_VBLANK=0 vblank_mode=0
-                        glxgears -fullscreen -info | grep "GL_RENDER\|FPS"
-                        env __GLX_VENDOR_LIBRARY_NAME=mesa LIBGL_ALWAYS_SOFTWARE=1 vblank_mode=0 glxgears -info -fullscreen| grep
-                        "GL_RENDER\|FPS"
-            
-            
-            
-                        #https://webglsamples.org/aquarium/aquarium.html
-            
-                        prime-run
-            
-            
-            
-                        __GL_SYNC_TO_VBLANK=0 vblank_mode=0 DRI_PRIME=1 glxgears -fullscreen -info | grep "GL_RENDER\|FPS"
-                        vblank_mode=0 DRI_PRIME=1 glxgears -fullscreen -info | grep "GL_RENDER\|FPS"
-            
-            
-            
-                        Providers: number : 2
-                        Provider 0: id: 0x43 cap: 0xf, Source Output, Sink Output, Source Offload, Sink Offload crtcs: 3 outputs: 2
-                        associated providers: 1 name:modesetting
-                        Provider 1: id: 0x7fa cap: 0x5, Source Output, Source Offload crtcs: 0 outputs: 0 associated providers: 1
-                        name:modesetting
-            
-                        DRI_PRIME=0 glxinfo | grep "OpenGL vendor string"
-                        DRI_PRIME=0 glxinfo | grep "OpenGL vendor string"
-                        OpenGL vendor string: Intel
-                        DRI_PRIME=1 glxinfo | grep "OpenGL vendor string"
-                        OpenGL vendor string: nouveau
-            
-            
-                        #nvidia-prime privide
-                        prime-run glxspheres64
-                        __GL_SYNC_TO_VBLANK=0 DRI_PRIME=1 vblank_mode=0 glxgears
-                        DRI_PRIME=1 glxgears
-            
-                        vblank_mode=0 glxgears
-                        #seems it use intel card
-                        45920 frames in 5.0 seconds = 9183.930 FPS
-                        23728 frames in 5.0 seconds = 4745.037 FPS
-                        #after fullscreen
-                        3556 frames in 5.0 seconds = 711.081 FPS
-                        3650 frames in 5.0 seconds = 729.987 FPS
-                        3657 frames in 5.0 seconds = 731.370 FPS
-            
-                        #if use nvidia card
-                        export __GL_SYNC_TO_VBLANK=0
-                        [suisuy@ruby ~]$ glxgears
-                        45599 frames in 5.0 seconds = 9119.707 FPS
-                        49291 frames in 5.0 seconds = 9858.158 FPS
-                        22893 frames in 5.0 seconds = 4578.194 FPS
-                        6264 frames in 5.0 seconds = 1252.745 FPS
-                        6258 frames in 5.0 seconds = 1251.578 FPS
-                        6170 frames in 5.0 seconds = 1233.900 FPS
-                        6190 frames in 5.0 seconds = 1237.892 FPS
-                        X connection to :0 broken (explicit kill or server shutdown).
-            
-            
-                        关闭nvidia的垂直平衡，测试显卡性能
-            
-                        __GL_SYNC_TO_VBLANK=0 glxgears
-            
-                        注意:这样测出来的帧数并不客观，请全屏那个测试齿轮。
-            
-                        如果你的N卡驱动安装成功，fps至少1000往上
-                        how to use optimus-manager to shift between Integrated and NVIDIA GPU on Arch Linux with i3 as the tiling
-                        windows manager and no display manager.
-            
-                        use browser,here i
-                        launch edge use intelcard
-                        DRI_PRIME=0 microsoft-edge-beta
-                        then goto https://webglsamples.org/aquarium/aquarium.html
-                        select number of fish to 30000 on top left screen,got 25fps,not bad
-            
-            
-                        launch edge use nouveau
-                        DRI_PRIME=1 microsoft-edge-beta
-                        then goto https://webglsamples.org/aquarium/aquarium.html
-                        select number of fish to 30000 on top left screen,only 10fps,less than intel card
-            
-                        install nvidia
-                        install in manjora-setting-manager->hardware-config
-            
-                        sudo mhwd -i pci video-nvidia
-                        remove
-                        sudo mhwd -r pci video-nvidia
-            
-            
-            
-            
-                        optimus-manager
-                        systemctl start optimus-manager.service
-                        optimus-manager --print-mode
-            
-                        optimus-manager --switch nvidia
-                        optimus-manager --switch integrated
-                        optimus-manager --switch hybrid
-            
-            
-                        optimus-manager --switch nvidia to switch to the Nvidia GPU
-                        optimus-manager --switch integrated to switch to the integrated GPU and power the Nvidia GPU off
-                        optimus-manager --switch hybrid to switch to the iGPU but leave the Nvidia GPU available for on-demand
-                        offloading, similar to how Optimus works on Windows. See the Wiki for more details.
-            
-            
-            
-            
-                        图片:
-                        https://bjbdn.openstorage.cn/v1/doc/c1/image/3d2ebebd-70e5-4922-bae4-2bf6a1f1d916.png?image/scaling/width/661&token=be328304f0349498ff5ff8e65a6607ee435645ed&e=1653741512&accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2NTU4MTI1MTEsImZpbGVHVUlEIjoiMjVxNU1SMTdPNkhsSzBxRCIsImlhdCI6MTY1NTgxMjIxMSwidXNlcklkIjo3OTkwNTY2OH0.huv6AI4IQtnfHCwZmKc6j5vqzcmXOhDShTt0unewHkk
-            
-                        result
-                        optimus-manager --switch integrated图片:
-                        https://bjbdn.openstorage.cn/v1/doc/c1/image/de424d92-9237-48e9-b644-b2cfd14c37b1.png?image/scaling/width/661&token=06f70081c2946005da650002069d1b828a9380e2&e=1653741512&accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2NTU4MTI1MTEsImZpbGVHVUlEIjoiMjVxNU1SMTdPNkhsSzBxRCIsImlhdCI6MTY1NTgxMjIxMSwidXNlcklkIjo3OTkwNTY2OH0.huv6AI4IQtnfHCwZmKc6j5vqzcmXOhDShTt0unewHkk
-            
-                        __GL_SYNC_TO_VBLANK=0 vblank_mode=0 glxgears -fullscreen -info | grep "GL_RENDER\|FPS"
-                        图片:
-                        https://bjbdn.openstorage.cn/v1/doc/c1/image/85d57098-0a5a-4182-b45b-ee5ef0db5225.png?image/scaling/width/661&token=107cbc748f6a825bd4d86e7b9267738960e15c0d&e=1653741512&accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2NTU4MTI1MTEsImZpbGVHVUlEIjoiMjVxNU1SMTdPNkhsSzBxRCIsImlhdCI6MTY1NTgxMjIxMSwidXNlcklkIjo3OTkwNTY2OH0.huv6AI4IQtnfHCwZmKc6j5vqzcmXOhDShTt0unewHkk
-                        optimus-manager --switch nvidia
-            
-                        xrandr --listproviders
-                        optimus-manager --print-mode
-            
-                        图片:
-                        https://bjbdn.openstorage.cn/v1/doc/c1/image/a8b7072e-8229-414f-abcd-d85385fc8048.png?image/scaling/width/661&token=bab46797d182f4c936cf3ec026a0a6a421a9545b&e=1653741512&accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2NTU4MTI1MTEsImZpbGVHVUlEIjoiMjVxNU1SMTdPNkhsSzBxRCIsImlhdCI6MTY1NTgxMjIxMSwidXNlcklkIjo3OTkwNTY2OH0.huv6AI4IQtnfHCwZmKc6j5vqzcmXOhDShTt0unewHkk
-                        __GL_SYNC_TO_VBLANK=0 vblank_mode=0 glxgears -fullscreen -info | grep "GL_RENDER\|FPS"
-                        图片:
-                        https://bjbdn.openstorage.cn/v1/doc/c1/image/3bea4180-cd4e-408e-b184-0644e4393fed.png?image/scaling/width/661&token=08ef8179e3fbb5ce839c257b12d8a7b41fb20388&e=1653741512&accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2NTU4MTI1MTEsImZpbGVHVUlEIjoiMjVxNU1SMTdPNkhsSzBxRCIsImlhdCI6MTY1NTgxMjIxMSwidXNlcklkIjo3OTkwNTY2OH0.huv6AI4IQtnfHCwZmKc6j5vqzcmXOhDShTt0unewHkk
-                        DRI_PRIME=0 glxinfo | grep "OpenGL vendor string"
-                        DRI_PRIME=1 glxinfo | grep "OpenGL vendor string"
-                        图片:
-                        https://bjbdn.openstorage.cn/v1/doc/c1/image/bb7070a2-db2a-4f7a-85d0-7806d4d97cec.png?image/scaling/width/661&token=05bb0f025dbfb7dc279b4370f59eed5bc84e49ca&e=1653741512&accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2NTU4MTI1MTEsImZpbGVHVUlEIjoiMjVxNU1SMTdPNkhsSzBxRCIsImlhdCI6MTY1NTgxMjIxMSwidXNlcklkIjo3OTkwNTY2OH0.huv6AI4IQtnfHCwZmKc6j5vqzcmXOhDShTt0unewHkk
-                        https://webglsamples.org/aquarium/aquarium.html
-                        图片:
-                        https://bjbdn.openstorage.cn/v1/doc/c1/image/92e45ddb-cf60-417c-96ce-45554ac2c645.png?image/scaling/width/661&token=e3dc4cf93d89b07c1fb44e73b21c2d6f6d809dfd&e=1653741512&accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2NTU4MTI1MTEsImZpbGVHVUlEIjoiMjVxNU1SMTdPNkhsSzBxRCIsImlhdCI6MTY1NTgxMjIxMSwidXNlcklkIjo3OTkwNTY2OH0.huv6AI4IQtnfHCwZmKc6j5vqzcmXOhDShTt0unewHkk
-                        chrome://gpu
-            
-                        图片:
-                        https://bjbdn.openstorage.cn/v1/doc/c1/image/746acef2-38ad-4777-8fe6-5dfa15f88d62.png?image/scaling/width/661&token=b996c048f33162f64d70644c58110bb6b7e79420&e=1653741512&accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2NTU4MTI1MTEsImZpbGVHVUlEIjoiMjVxNU1SMTdPNkhsSzBxRCIsImlhdCI6MTY1NTgxMjIxMSwidXNlcklkIjo3OTkwNTY2OH0.huv6AI4IQtnfHCwZmKc6j5vqzcmXOhDShTt0unewHkk
-            
-            
-                        optimus-manager --switch integrated
-                        xrandr --listproviders
-                        optimus-manager --print-mode
-            
-                        图片:
-                        https://bjbdn.openstorage.cn/v1/doc/c1/image/2dc0ecfb-dfc6-4bd4-b8d0-3ea3bf55d1eb.png?image/scaling/width/661&token=d8b4b1562bdbedf1cace64214a961fd05746492a&e=1653741512&accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2NTU4MTI1MTEsImZpbGVHVUlEIjoiMjVxNU1SMTdPNkhsSzBxRCIsImlhdCI6MTY1NTgxMjIxMSwidXNlcklkIjo3OTkwNTY2OH0.huv6AI4IQtnfHCwZmKc6j5vqzcmXOhDShTt0unewHkk
-            
-                        __GL_SYNC_TO_VBLANK=0 vblank_mode=0 glxgears -fullscreen -info | grep "GL_RENDER\|FPS"
-                        图片:
-                        https://bjbdn.openstorage.cn/v1/doc/c1/image/d6f50e6e-27b9-4c81-baea-b883039f5b5e.png?image/scaling/width/661&token=96e75aa7112dca77a28ad831e0dd1702fbaf5d4a&e=1653741512&accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2NTU4MTI1MTEsImZpbGVHVUlEIjoiMjVxNU1SMTdPNkhsSzBxRCIsImlhdCI6MTY1NTgxMjIxMSwidXNlcklkIjo3OTkwNTY2OH0.huv6AI4IQtnfHCwZmKc6j5vqzcmXOhDShTt0unewHkk
-            
-                        __GL_SYNC_TO_VBLANK=0 DRI_PRIME=1 glxgears -fullscreen -info | grep "GL_RENDER\|FPS"
-                        图片:
-                        https://bjbdn.openstorage.cn/v1/doc/c1/image/527f964e-7423-4e61-befd-d51ccd088aad.png?image/scaling/width/661&token=193063f238966ac707dc9e01fa3e54e2d9a07a9f&e=1653741512&accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2NTU4MTI1MTEsImZpbGVHVUlEIjoiMjVxNU1SMTdPNkhsSzBxRCIsImlhdCI6MTY1NTgxMjIxMSwidXNlcklkIjo3OTkwNTY2OH0.huv6AI4IQtnfHCwZmKc6j5vqzcmXOhDShTt0unewHkk
-                        gl render still is mesa intel,
-            
-                        vblank_mode=0 DRI_PRIME=0 glxgears -fullscreen -info | grep "GL_RENDER\|FPS"
-                        图片:
-                        https://bjbdn.openstorage.cn/v1/doc/c1/image/9d47aced-719d-49e9-a70f-0c27370ebaf0.png?image/scaling/width/661&token=9cfbb619660d5fc97ec53742990ecc6266d84758&e=1653741512&accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2NTU4MTI1MTEsImZpbGVHVUlEIjoiMjVxNU1SMTdPNkhsSzBxRCIsImlhdCI6MTY1NTgxMjIxMSwidXNlcklkIjo3OTkwNTY2OH0.huv6AI4IQtnfHCwZmKc6j5vqzcmXOhDShTt0unewHkk
-            
-                        export __GL_SYNC_TO_VBLANK=0 vblank_mode=0
-                        prime-run glxgears -fullscreen -info | grep "GL_RENDER\|FPS"
-                        图片:
-                        https://bjbdn.openstorage.cn/v1/doc/c1/image/052b352c-f794-4d70-b59c-ce4cc72138eb.png?image/scaling/width/661&token=06dc7170fb18cc5e50d56b2820eeae7396807f85&e=1653741512&accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2NTU4MTI1MTEsImZpbGVHVUlEIjoiMjVxNU1SMTdPNkhsSzBxRCIsImlhdCI6MTY1NTgxMjIxMSwidXNlcklkIjo3OTkwNTY2OH0.huv6AI4IQtnfHCwZmKc6j5vqzcmXOhDShTt0unewHkk
-                        it use nvidia now,but bad perfermance
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-                        EXCEL
-            
-                        =SUM(INDIRECT(ADDRESS(1,COLUMN())&":"&ADDRESS(ROW()-1,COLUMN())))
-            
-            
-                        =SUM(INDIRECT(ADDRESS(ROW()+1,COLUMN())&":"&ADDRESS(ROWS(A:A),COLUMN())))
-                        You can then copy/paste to the right till last column.
-                        Some explanations:
-                        Both formula sums up every value in the range from A2 till the bottom of column A (i.e. for Excel 2010 this
-                        would be A2:A1048576)
-                        It doesn't matter if there are blanks or cells without value; the formula sums up only the numbers
-                        I put A$2 and B:B in the OFFSET formula to avoid circular references, since I'm writing in cell A1 and I
-                        cannot write A$1 nor A:A
-                        With the INDIRECT formula you don't have to worry about circular references
-                        Further commenting (sorry, I don't have the credits to comment at the right place under the question):
-                        Phylogenesis formula =SUM(A3:A65535) could also do the work, isn't it?
-                        Didn't understand your question at first, because you talk of "sum of all the numbers for a particular row"
-                        but then you sum columns, isn't it?
-            
-            
-                        arch error
-                        looking for conflicting packages...
-                        error: failed to prepare transaction (could not satisfy dependencies)
-                        :: installing openjpeg2 (2.5.0-1) breaks de pendency 'openjpeg2=2.4.0' required by lib32-openjpeg2
-            
-            
-                        wxy
-                        simple estimate
-                        if 1MB/s,then 1 hour is 3.6G, about 0.03 yuan per hour,0.7 yuan one day,
-                        50M bandwidth about 6M/s,about 6 yuan one day at best case
-                        data usage
-                        0525 18 53
-                        0524 18 53图片:
-                        https://uploader.shimo.im/f/8GNsqugczOG3UBgp.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2NTU4MTI1MTEsImZpbGVHVUlEIjoiMjVxNU1SMTdPNkhsSzBxRCIsImlhdCI6MTY1NTgxMjIxMSwidXNlcklkIjo3OTkwNTY2OH0.huv6AI4IQtnfHCwZmKc6j5vqzcmXOhDShTt0unewHkk
-            
-                        0526 07 31
-            
-            
-                        0526 19 12
-                        图片:
-                        https://uploader.shimo.im/f/vVDba9DL4YvlnTZi.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2NTU4MTI1MTEsImZpbGVHVUlEIjoiMjVxNU1SMTdPNkhsSzBxRCIsImlhdCI6MTY1NTgxMjIxMSwidXNlcklkIjo3OTkwNTY2OH0.huv6AI4IQtnfHCwZmKc6j5vqzcmXOhDShTt0unewHkk
-            
-                        0527 8 20
-                        图片:
-                        https://uploader.shimo.im/f/BAnyNTF6tMlEM26E.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2NTU4MTI1MTEsImZpbGVHVUlEIjoiMjVxNU1SMTdPNkhsSzBxRCIsImlhdCI6MTY1NTgxMjIxMSwidXNlcklkIjo3OTkwNTY2OH0.huv6AI4IQtnfHCwZmKc6j5vqzcmXOhDShTt0unewHkk
-            
-            
-                        openfogo
-                        https://i.openfogos.com/home/script
-                        install_args="--platform=PEAR_1900_X64_LINUX --user_id=17681729610 --storage_path=auto --cpu_cores=2
-                        --storage_size=80% --bandwidth=80% --memory=80%" bash -c "$(curl -sS
-                        https://download.openfogos.com/linux/openfog_installer.sh)"
-            
-                        install kde
-                        Install a basic KDE Plasma environment
-                        sudo pacman -S plasma kio-extras
-                        Optional: Install KDE applications
-                        To install a full set of K* applications use kde-applications. This will be ~300 packages(including
-                        dependencies)
-                        sudo pacman -S kde-applications
-            
-                        plasma-systemmonitor
-                        plasma-systemmonitor
-            
-            
-            
-                        vbox command
-            
-                        vboxmanage startvm --type headless arch
-                        vboxmanage controlvm <subcommand>
-                            Valid <subcommands> related to VM state operations include pause, resume, reset, poweroff, and
-                                savestate.
-            
-                                VBoxManage list runningvms
-            
-            
-            
-            
-                                grep awk sed
-                                sed Stream Editor
-                                #sed can accept sets of instructions from a program file. you can put s/this/that/g to a file called
-                                test.sed
-                                #Search and Replace all "this" to that
-                                sed -e 's/this/that/g' test.txt
-                                #this will modify directly all .txt file and create backup file
-                                sed -f test.sed -i.bak *.txt
-                                #Prepend this will insert line before line 2
-                                sed '2 i #This is the extra line' test.txt
-                                #delete 2nd line
-                                sed '2d' test.txt
-                                #delete all lines that have first
-                                sed '/first/d' test.txt
-            
-                                grep Global Regular Expression Pattern
-                                grep [OPTIONS] PATTERN [FILES...]
-                                --color highlight your search term
-                                -i, --ignore-case
-                                Grep: Viewing a Search Term’s Context
-                                grep -B 4 "fonts" /var/log/apache2/access.log
-            
-                                -B num: displays the lines before the search term match. Replace num with the number of lines to
-                                display.
-                                -A num: displays the lines after the search term match. Replace num with the number of lines to
-                                display
-                                -C num: displays the lines before and after the search term match. Replace num with the number of
-                                lines to display. The default value for num is 2.
-                                Grep: List Files that Match a Pattern
-                                grep -l -i copyright *.html
-            
-                                Grep can also find files that do not match a pattern.
-                                grep -L -i copyright *.html
-            
-                                #find all files in a directory that contain the pattern “dogs” and “cats”.
-                                grep -l cats $(grep -l dogs *.html)
-            
-            
-                                pinebook
-                                boot from microSD
-                                open up a terminal
-                                go to the folder holding your downloaded image file
-                                get root via sudo su -
-                                run xzcat Manjaro-ARM-sway-pbpro-20.08.img.xz | dd of=/dev/mmcblk2 bs=1M status=progress conv=fsync
-                                to flash it to eMMC
-                                after it’s done reboot the pbpro and follow the initial setup wizard steps
-            
-            
-                                tiantangdocker
-            
-                                docker run -v /home/suisuy/mnt/sdb4/ttcloud:/mnt/data/ttnode \
-                                -v /var/run/docker.sock:/var/run/docker.sock \
-                                --name ttnoderuby \
-                                --hostname ttnoderuby \
-                                --net=host \
-                                --restart=always \
-                                --memory=2g \
-                                tiptime/ttnode:latest
-            
-            
-            
-                                docker container ls # 查看所有容器
-                                docker rm -f 容器名 # 删除容器
-                                docker inspect -f '{{ .Mounts }}' 容器名
-                                docker inspect 容器名 -f "{{json .NetworkSettings.Networks.macnet.IPAddress }}"
-            
-                                docker image ls
-                                docker container rm 9bcc131f6a50
-                                docker image rm 877a5a34d9ef
-            
-                                tun2socks
-                                https://github.com/xjasonlyu/tun2socks/wiki/Examples
-                                Create TUN interface tun0 and assign an IP address for it.
-            
-            
-                                ip tuntap add mode tun dev tun0
-                                ip addr add 198.18.0.1/15 dev tun0
-                                ip link set dev tun0 up
-                                Configure the default route table with different metrics. Let's say the primary interface is eth0
-                                and gateway is 172.17.0.1.
-                                ip route del default
-                                ip route add default via 198.18.0.1 dev tun0 metric 1
-                                ip route add default via 192.168.68.1 dev wlan0 metric 10
-                                Start tun2socks and bind it to the primary interface.
-                                tun2socks -device tun0 -proxy socks5://host:port -interface eth0
-                                Note: sometimes we need to disable rp_filter for the corresponding interface so that it can receive
-                                packets from other interfaces.
-                                sysctl net.ipv4.conf.all.rp_filter=0
-                                sysctl net.ipv4.conf.eth0.rp_filter=0
-            
-            
-                                nix
-            
-            
-            
-                                nix-shell -p nodejs
-                                --packages / -p packages…
-                                Set up an environment in which the specified packages are present.
-                                { pkgs ? import <nixpkgs> {} # here we import the nixpkgs package set
-                                    }:
-                                    pkgs.mkShell { # mkShell is a helper function
-                                    name="dev-environment"; # that requires a name
-                                    buildInputs = [ # and a list of packages
-                                    pkgs.nodejs
-                                    ];
-                                    shellHook = '' # bash to run when you enter the shell
-                                    echo "Start developing..."
-                                    '';
-                                    }
-            
-                                    You can view the set of available packages in Nixpkgs:
-            
-                                    $ nix-env -qaP
-                                    nix-env -qaP firefox
-                                    nix-env -qaP 'firefox.*'
-                                    The flag -q specifies a query operation, -a means that you want to show the “available” (i.e.,
-                                    installable) packages, as opposed to the installed packages, and -P prints the attribute paths
-                                    that can be used to unambiguously select a package for installation (listed in the first
-                                    column).
-            
-                                    It is also possible to see the status of available packages, i.e., whether they are installed
-                                    into the user environment and/or present in the system:
-            
-                                    $ nix-env -qaPs
-                                    …
-                                    -PS nixpkgs.bash bash-3.0
-                                    --S nixpkgs.binutils binutils-2.15
-                                    IPS nixpkgs.bison bison-1.875d
-                                    The first character (I) indicates whether the package is installed in your current user
-                                    environment. The second (P) indicates whether it is present on your system (in which case
-                                    installing it into your user environment would be a very quick operation). The last one (S)
-                                    indicates whether there is a so-called substitute for the package, which is Nix’s mechanism for
-                                    doing binary deployment. It just means that Nix knows that it can fetch a pre-built package from
-                                    somewhere (typically a network server) instead of building it locally.
-            
-                                    You can install a package using nix-env -iA. For instance,
-            
-                                    nix-env -iA nixpkgs.subversion
-                                    nix-env -e subversion
-                                    nix-env -uA nixpkgs.subversion
-            
-                                    find out what packages would be upgraded by nix-env -u, you can do
-            
-                                    $ nix-env -u --dry-run
-            
-            
-            
-                                    Nix makes no assumptions about the global state of the system. This has many advantages, but
-                                    also some drawbacks of course. The core of a Nix system is the Nix store, usually installed
-                                    under /nix/store, and some tools to manipulate the store. In Nix there is the notion of a
-                                    derivation rather than a package. The difference can be subtle at the beginning, so I will often
-                                    use the words interchangeably.
-                                    Derivations/packages are stored in the Nix store as follows: /nix/store/hash-name, where the
-                                    hash uniquely identifies the derivation (this isn't quite true, it's a little more complex), and
-                                    the name is the name of the derivation.
-                                    Let's take a bash derivation as an example:
-                                    /nix/store/s4zia7hhqkin1di0f187b79sa2srhv6k-bash-4.2-p45/. This is a directory in the Nix store
-                                    which contains bin/bash.
-                                    What that means is that there's no /bin/bash, there's only that self-contained build output in
-                                    the store. The same goes for coreutils and everything else. To make them convenient to use from
-                                    the shell, Nix will arrange for binaries to appear in your PATH as appropriate.
-                                    What we have is basically a store of all packages (with different versions occupying different
-                                    locations), and everything in the Nix store is immutable.
-                                    In fact, there's no ldconfig cache either. So where does bash find libc?
-                                    $ ldd `which bash`
-                                    libc.so.6 => /nix/store/94n64qy99ja0vgbkf675nyk39g9b978n-glibc-2.19/lib/libc.so.6
-                                    (0x00007f0248cce000)
-                                    It turns out that when bash was built, it was built against that specific version of glibc in
-                                    the Nix store, and at runtime it will require exactly that glibc version.
-                                    Don't be confused by the version in the derivation name: it's only a name for us humans. You may
-                                    end up having two derivations with the same name but different hashes: it's the hash that really
-                                    matters.
-                                    What does all this mean? It means that you could run mysql 5.2 with glibc-2.18, and mysql 5.5
-                                    with glibc-2.19. You could use your python module with python 2.7 compiled with gcc 4.6 and the
-                                    same python module with python 3 compiled with gcc 4.8, all in the same system.
-                                    In other words: no dependency hell, not even a dependency resolution algorithm. Straight
-                                    dependencies from derivations to other derivations.
-                                    From an administrator's point of view: if you want an old PHP version for one application, but
-                                    want to upgrade the rest of the system, that's not painful any more.
-                                    From a developer's point of view: if you want to develop webkit with llvm 3.4 and 3.3, that's
-                                    not painful any more.
-            
-            
-            
-            
-                                    typescript
-                                    https://www.youtube.com/watch?v=gp5H0Vw39yw
-                                    install
-                                    cnpm i -g typescript
-                                    then use tsc to use it
-                                    check
-                                    tsc -v
-            
-                                    //tsconfig.json
-            
-                                    {
-                                    "compilerOptions": {
-                                    "rootDir": "./src",
-                                    "outDir": "./dist"
-                                    }
-                                    }
-                                    use tsc -w to watch file change and compile automatically
-            
-            
-            
-                                    vriable
-                                    const
-                                    const word = "Hello";
-            
-                                    here wrod is const word: "Hello"
-                                    notice the type is "Hello" because word is const
-            
-                                    let
-                                    let word = "Hello";
-                                    let word: string
-                                    notice type is string
-            
-                                    let word:string = "Hello";
-                                    use :string to declare type to string explictly
-                                    word cant be assigned to other value except string value
-            
-                                    in dist/main.js
-                                    var word = "Hello";
-                                    word = 1;
-            
-                                    typescript transpiles everything in es3
-            
-                                    function
-                                    normal js arrow function works in ts
-                                    const getFullName = (firstName,lastName) => {
-                                    return firstName + " " + lastName;
-                                    }
-                                    use this to type arguments
-                                    const getFullName = (firstName: string, lastName: string) => {
-                                    return firstName + " " + lastName;
-                                    }
-            
-                                    const getFullName = (firstName: string, lastName: string):string => {
-                                    return firstName + " " + lastName;
-                                    }
-            
-                                    interface
-                                    interface User {
-                                    name: string;
-                                    age: number;
-                                    home?: string;
-                                    }
-            
-                                    let user1: User = {
-                                    name: 'John',
-                                    age: 0
-                                    };
-            
-                                    union
-                                    let pageName:string|number|null = null;
-            
-                                    alias type
-                                    type ID = string;
-            
-                                    let newid:ID = '123';
-            
-            
-                                    void
-                                    let a: void = null;
-                                    a = undefined;
-                                    a = "game"; #this is error,string cant be assigned to void
-            
-                                    void is set of null and undefined
-            
-                                    unkonw and as
-                                    let unknowV: unknown = 1;
-                                    unknowV = 2;
-                                    let astring: string = unknowV as string;
-            
-                                    console.log(astring);
-            
-                                    The as keyword is a Type Assertion in TypeScript which tells the compiler to consider the object
-                                    as another type than the type the compiler infers the object to be. ,It's called Type Assertion,
-                                    you are just telling the compiler to treat something as a type:
-            
-                                    exclamation bang/point/mark !
-                                    That's the non-null assertion operator. It is a way to tell the compiler "this expression cannot
-                                    be null or undefined here, so don't complain about the possibility of it being null or
-                                    undefined." Sometimes the type checker is unable to make that determination itself.
-            
-                                    DOM
-                                    let fooElement = document.querySelector(".foo") ;
-                                    console.log(fooElement.value); //this will error because fooElement is type Element has no
-                                    property "value",but HTMLInputElement has,so:
-            
-                                    let fooElement = document.querySelector(".foo") as HTMLInputElement;
-                                    console.log(fooElement.value);
-            
-            
-                                    class
-                                    class User{
-                                    firstName: string;
-                                    private lastName: string;
-                                    readonly id: number;
-                                    static maxAge: number = 100;
-            
-                                    constructor(firstName: string, lastName: string){
-                                    this.firstName = firstName;
-                                    this.lastName = lastName;
-                                    this.id=Math.floor(Math.random()*100);
-            
-                                    }
-            
-                                    getFullName(){
-                                    return this.firstName + " " + this.lastName;
-                                    }
-            
-                                    }
-            
-                                    let u1 = new User("John", "Doe");
-                                    console.log(u1.getFullName());
-                                    console.log(User.maxAge);
-            
-                                    public property is default,it can be accessed anywhere
-                                    private property will only accessed in current class,
-                                    readonly property only changed in constructor
-                                    static proerty only accessed use class not obj
-            
-                                    interface
-                                    interface UserInterface {
-                                    getFullName(): string;
-                                    }
-            
-                                    class User implements UserInterface {
-                                    firstName: string;
-                                    private lastName: string;
-                                    readonly id: number;
-                                    static maxAge: number = 100;
-            
-                                    constructor(firstName: string, lastName: string){
-                                    this.firstName = firstName;
-                                    this.lastName = lastName;
-                                    this.id=Math.floor(Math.random()*100);
-            
-                                    }
-            
-                                    getFullName(){
-                                    return this.firstName + " " + this.lastName;
-                                    }
-            
-                                    }
-            
-            
-                                    inherentance
-                                    class Admin extends User {
-                                    editor: string;
-            
-                                    constructor(firstName: string, lastName: string, editor: string) {
-                                    super(firstName, lastName);
-                                    this.editor = editor;
-                                    }
-                                    }
-            
-                                    let u1 = new User("John", "Doe");
-                                    console.log(u1.getFullName());
-                                    console.log(User.maxAge);
-            
-                                    let a1 = new Admin("Jane", "Doe", "VS Code");
-                                    console.log(a1.getFullName(), a1.editor);
-            
-            
-            
-            
-                                    xpra
-                                    install xpar xfce4 xfce4-goodies on server
-                                    install xpra on client
-            
-                                    connect it on client
-            
-                                    xpra start ssh://USER@HOST/ --start=xterm
-                                    xpra start ssh://admin@47.243.80.22/ --start=xterm
-        </code>
+                    # You can get the names of your outputs by running: swaymsg -t get_outputs
+                    这是关于屏幕和桌面壁纸的设置。
+                    xwayland enabled
+        
+        
+        
+                    systemd
+                    faild
+                    ls /etc/systemd/system
+        
+                    sudo vim /etc/systemd/system/script.service
+        
+        
+                    [Unit]
+        
+                    Description=YourScriptName.service
+        
+                    After=default.target
+        
+                    [Service]
+        
+                    ExecStart=/PATH/TO/Script.sh
+        
+                    [Install]
+                    WantedBy=default.target
+        
+        
+                    [Unit]
+        
+                    Description=test.service
+        
+                    After=default.target
+        
+                    [Service]
+        
+                    ExecStart=/home/suisuy/test/test.sh
+        
+                    [Install]
+                    WantedBy=default.target
+        
+                    sudo systemctl enable test.service
+                    maybe should try
+                    run at boot
+                    systemd
+                    [Unit]
+                    Description=Reboot message systemd service.
+                    [Service]
+                    Type=simple
+                    ExecStart=/bin/bash /home/ec2-user/reboot_message.sh
+                    [Install]
+                    WantedBy=multi-user.target
+                    for example
+                    cat test.sh
+                    echo test >>/home/suisuy/test/t.out
+        
+                    cat /etc/systemd/system/test.service
+                    [Unit]
+                    Description=test message systemd service.
+                    [Service]
+                    Type=simple
+                    ExecStart=/bin/bash /home/suisuy/test/test.sh
+                    [Install]
+                    WantedBy=multi-user.target
+                    systemctl enable --now test
+                    sudo systemctl restart test.service
+        
+                    use rc.local failed
+                    /etc/rc.d/rc.local file
+        
+        
+                    use cron
+                    install it then
+                    crontab -e #add this to the file
+                    @reboot sh /home/ec2-user/reboot_message.sh/home/suisuy/tmp/zh-CN/Licenses
+                    /home/suisuy/tmp/zh-CN/localspl.dll.mui
+                    /home/suisuy/tmp/zh-CN/localui.dll.mui
+        
+        
+                    hackintosh gpu passthrough
+                    https://github.com/PassthroughPOST/Hackintosh-KVM.git
+        
+        
+        
+                    wine
+                    common command
+                    wine taskmgr
+                    wine regedit
+                    wine start /
+                    wine explorer
+        
+                    LANG=zh_CN.UTF-8 wine
+                    ALL_LOCAL=zh_CN.UTF-8 wine
+                    WINEPREFIX=~/.wine32 WINEARCH=win32 wineboot
+        
+        
+                    locale
+                    LANG=zh_TW.UTF-8 ./wine winecfg
+                    LANG=zh_CN.UTF-8 wine
+                    net user "Administrator" /active:yes
+        
+                    this seems useless
+                    change the locale for all applications via Registry, by setting the LC_ALL environment variable in
+                    HKEY_CURRENT_USER\Environment (Right click -> New -> String value).
+        
+        
+        
+                    install fonts
+                    winetrick install fakechinese font
+                    @suisuy 从Windows虚拟机里面把字体复制出来，tty和ttc以外的删掉，扔到~/.local/share/fonts下单独建个文件夹
+                    然后fc-cache -fv
+        
+                    cacls - edit ACLs
+                    clock - displays a rudimentary clock
+                    cmd - Command prompt implementation
+                    cmdlgtst - (for developers) commdlg.dll test jig
+                    control - Control Panel implementation
+                    eject - ejects optical discs (note that wine eject is different from the normal eject command)
+                    expand - expands cabinet (.cab) files
+                    explorer - explorer.exe implementation
+                    hh - HTML help (.chm file) viewer
+                    icinfo - shows installed video compressors for Wine
+                    iexplore - Internet Explorer implementation
+                    lodctr - load performance monitor counters
+                    msiexec - msiexec.exe implementation for installing .msi files
+                    net - starts and stops services
+                    notepad - Notepad, a simple text editor
+                    oleview - allows browsing and exploring COM objects as well as configuring DCOM
+                    progman - Program Manager implementation
+                    reg - console-based registry editor
+                    regedit - Registry Editor implementation
+                    regsvr32 - register OLE components in the registry
+                    rpcss - quasi-implementation of rpcss.exe
+                    rundll32"] - loads a DLL and runs an entry point with the specified parameters
+                    secedit - security configuration edit command
+                    services - manages services
+                    spoolsv - print wrapper
+                    start - starts a program or opens a document in the program normally used for files with that suffix
+                    svchost - (internal) host process for services
+                    taskmgr - Task Manager implementation
+                    uninstaller - basic program uninstaller
+                    unlodctr - unload performance monitor counters
+                    view - metafile viewer
+                    wineboot - "reboots" (restarts) Wine, for when Windows apps call for a real reboot
+                    winebrowser - launches native OS browser or mail client
+                    winecfg - GUI configuration tool for Wine
+                    wineconsole - displays Windows console
+                    winedbg - Wine debugger core
+                    winedevice - (internal) manages devices
+                    winefile - file explorer implementation
+                    winemenubuilder - helps to build Unix menu entries
+                    winemine - classic minesweeper game
+                    winepath - translates between Windows and Unix paths formats
+                    winetest - all the DLL conformance test programs suitable for unattended testing and report submission
+                    winevdm - Wine virtual DOS program
+                    winhelp - Help viewer
+                    winhlp32 - Help viewer (32-bit)
+                    winver - displays an "about Wine" window
+                    wordpad - wordpad.exe implementation
+                    write - starts wordpad (for Win16 compatibility)
+                    xcopy - Wine-compatible xcopy program
+        
+        
+                    bridged network in virtlib
+                    sudo virsh net-list --all
+                    sudo virsh net-edit default
+                    ip link show type bridge
+                    ip link show master virbr0
+        
+                    sudo ip link add br0 type bridge
+                    give up since need another net card
+        
+                    aganin
+                    iw dev wlp2s0 set 4addr on
+                    nmtui
+                    brctl show
+        
+                    在宿主机给虚拟网卡virbr0（kvm默认生成的）设置ip，网关，dns等等
+                    将无线网卡加入virbr0
+        
+                    sudo brctl addif virbr0 wlp2s0
+        
+                    sudo systemctl restart NetworkManager
+        
+        
+                    optimus-manager on arch linux
+                    set default target boot into
+                    systemctl get-default
+                    graphical.target
+                    systemctl set-default multi-user.target
+                    faq
+                    nouveau not load
+                    cat /etc/modprobe.d/nvidia-installer-disable-nouveau.conf
+                    # generated by nvidia-installer
+                    #blacklist nouveau
+                    #options nouveau modeset=0
+        
+                    commnet some files like abouve in /etc/modeprobe.d/
+        
+        
+                    test
+                    glxgears headless
+                    Xvfb :5 -screen 0 1920x1080x24 &
+                    export DISPLAY=:5
+                    env __GLX_VENDOR_LIBRARY_NAME=mesa LIBGL_ALWAYS_SOFTWARE=1 DISPLAY=:5 vblank_mode=0 glxgears -fullscreen
+                    -info | grep "GL_RENDER\|FPS"
+        
+        
+                    check which card you have
+        
+                    lspci -k | grep -A 2 -i "VGA"
+                    xrandr --listproviders
+                    glxinfo | grep "OpenGL renderer"
+                    xrandr --setprovideroffloadsink 1 0
+        
+        
+                    __GL_SYNC_TO_VBLANK=0 vblank_mode=0 glxgears -fullscreen -info
+                    export __GL_SYNC_TO_VBLANK=0 vblank_mode=0
+                    glxgears -fullscreen -info | grep "GL_RENDER\|FPS"
+                    env __GLX_VENDOR_LIBRARY_NAME=mesa LIBGL_ALWAYS_SOFTWARE=1 vblank_mode=0 glxgears -info -fullscreen| grep
+                    "GL_RENDER\|FPS"
+        
+        
+        
+                    #https://webglsamples.org/aquarium/aquarium.html
+        
+                    prime-run
+        
+        
+        
+                    __GL_SYNC_TO_VBLANK=0 vblank_mode=0 DRI_PRIME=1 glxgears -fullscreen -info | grep "GL_RENDER\|FPS"
+                    vblank_mode=0 DRI_PRIME=1 glxgears -fullscreen -info | grep "GL_RENDER\|FPS"
+        
+        
+        
+                    Providers: number : 2
+                    Provider 0: id: 0x43 cap: 0xf, Source Output, Sink Output, Source Offload, Sink Offload crtcs: 3 outputs: 2
+                    associated providers: 1 name:modesetting
+                    Provider 1: id: 0x7fa cap: 0x5, Source Output, Source Offload crtcs: 0 outputs: 0 associated providers: 1
+                    name:modesetting
+        
+                    DRI_PRIME=0 glxinfo | grep "OpenGL vendor string"
+                    DRI_PRIME=0 glxinfo | grep "OpenGL vendor string"
+                    OpenGL vendor string: Intel
+                    DRI_PRIME=1 glxinfo | grep "OpenGL vendor string"
+                    OpenGL vendor string: nouveau
+        
+        
+                    #nvidia-prime privide
+                    prime-run glxspheres64
+                    __GL_SYNC_TO_VBLANK=0 DRI_PRIME=1 vblank_mode=0 glxgears
+                    DRI_PRIME=1 glxgears
+        
+                    vblank_mode=0 glxgears
+                    #seems it use intel card
+                    45920 frames in 5.0 seconds = 9183.930 FPS
+                    23728 frames in 5.0 seconds = 4745.037 FPS
+                    #after fullscreen
+                    3556 frames in 5.0 seconds = 711.081 FPS
+                    3650 frames in 5.0 seconds = 729.987 FPS
+                    3657 frames in 5.0 seconds = 731.370 FPS
+        
+                    #if use nvidia card
+                    export __GL_SYNC_TO_VBLANK=0
+                    [suisuy@ruby ~]$ glxgears
+                    45599 frames in 5.0 seconds = 9119.707 FPS
+                    49291 frames in 5.0 seconds = 9858.158 FPS
+                    22893 frames in 5.0 seconds = 4578.194 FPS
+                    6264 frames in 5.0 seconds = 1252.745 FPS
+                    6258 frames in 5.0 seconds = 1251.578 FPS
+                    6170 frames in 5.0 seconds = 1233.900 FPS
+                    6190 frames in 5.0 seconds = 1237.892 FPS
+                    X connection to :0 broken (explicit kill or server shutdown).
+        
+        
+                    关闭nvidia的垂直平衡，测试显卡性能
+        
+                    __GL_SYNC_TO_VBLANK=0 glxgears
+        
+                    注意:这样测出来的帧数并不客观，请全屏那个测试齿轮。
+        
+                    如果你的N卡驱动安装成功，fps至少1000往上
+                    how to use optimus-manager to shift between Integrated and NVIDIA GPU on Arch Linux with i3 as the tiling
+                    windows manager and no display manager.
+        
+                    use browser,here i
+                    launch edge use intelcard
+                    DRI_PRIME=0 microsoft-edge-beta
+                    then goto https://webglsamples.org/aquarium/aquarium.html
+                    select number of fish to 30000 on top left screen,got 25fps,not bad
+        
+        
+                    launch edge use nouveau
+                    DRI_PRIME=1 microsoft-edge-beta
+                    then goto https://webglsamples.org/aquarium/aquarium.html
+                    select number of fish to 30000 on top left screen,only 10fps,less than intel card
+        
+                    install nvidia
+                    install in manjora-setting-manager->hardware-config
+        
+                    sudo mhwd -i pci video-nvidia
+                    remove
+                    sudo mhwd -r pci video-nvidia
+        
+        
+        
+        
+                    optimus-manager
+                    systemctl start optimus-manager.service
+                    optimus-manager --print-mode
+        
+                    optimus-manager --switch nvidia
+                    optimus-manager --switch integrated
+                    optimus-manager --switch hybrid
+        
+        
+                    optimus-manager --switch nvidia to switch to the Nvidia GPU
+                    optimus-manager --switch integrated to switch to the integrated GPU and power the Nvidia GPU off
+                    optimus-manager --switch hybrid to switch to the iGPU but leave the Nvidia GPU available for on-demand
+                    offloading, similar to how Optimus works on Windows. See the Wiki for more details.
+        
+        
+        
+        
+                    图片:
+                    https://bjbdn.openstorage.cn/v1/doc/c1/image/3d2ebebd-70e5-4922-bae4-2bf6a1f1d916.png?image/scaling/width/661&token=be328304f0349498ff5ff8e65a6607ee435645ed&e=1653741512&accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2NTYwMzIyNzMsImZpbGVHVUlEIjoiMjVxNU1SMTdPNkhsSzBxRCIsImlhdCI6MTY1NjAzMTk3MywidXNlcklkIjo3OTkwNTY2OH0.JyTluYoOUiTD2ouhTpiAlVyVIuZmERpaS0FuGd0OXmo
+        
+                    result
+                    optimus-manager --switch integrated图片:
+                    https://bjbdn.openstorage.cn/v1/doc/c1/image/de424d92-9237-48e9-b644-b2cfd14c37b1.png?image/scaling/width/661&token=06f70081c2946005da650002069d1b828a9380e2&e=1653741512&accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2NTYwMzIyNzMsImZpbGVHVUlEIjoiMjVxNU1SMTdPNkhsSzBxRCIsImlhdCI6MTY1NjAzMTk3MywidXNlcklkIjo3OTkwNTY2OH0.JyTluYoOUiTD2ouhTpiAlVyVIuZmERpaS0FuGd0OXmo
+        
+                    __GL_SYNC_TO_VBLANK=0 vblank_mode=0 glxgears -fullscreen -info | grep "GL_RENDER\|FPS"
+                    图片:
+                    https://bjbdn.openstorage.cn/v1/doc/c1/image/85d57098-0a5a-4182-b45b-ee5ef0db5225.png?image/scaling/width/661&token=107cbc748f6a825bd4d86e7b9267738960e15c0d&e=1653741512&accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2NTYwMzIyNzMsImZpbGVHVUlEIjoiMjVxNU1SMTdPNkhsSzBxRCIsImlhdCI6MTY1NjAzMTk3MywidXNlcklkIjo3OTkwNTY2OH0.JyTluYoOUiTD2ouhTpiAlVyVIuZmERpaS0FuGd0OXmo
+                    optimus-manager --switch nvidia
+        
+                    xrandr --listproviders
+                    optimus-manager --print-mode
+        
+                    图片:
+                    https://bjbdn.openstorage.cn/v1/doc/c1/image/a8b7072e-8229-414f-abcd-d85385fc8048.png?image/scaling/width/661&token=bab46797d182f4c936cf3ec026a0a6a421a9545b&e=1653741512&accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2NTYwMzIyNzMsImZpbGVHVUlEIjoiMjVxNU1SMTdPNkhsSzBxRCIsImlhdCI6MTY1NjAzMTk3MywidXNlcklkIjo3OTkwNTY2OH0.JyTluYoOUiTD2ouhTpiAlVyVIuZmERpaS0FuGd0OXmo
+                    __GL_SYNC_TO_VBLANK=0 vblank_mode=0 glxgears -fullscreen -info | grep "GL_RENDER\|FPS"
+                    图片:
+                    https://bjbdn.openstorage.cn/v1/doc/c1/image/3bea4180-cd4e-408e-b184-0644e4393fed.png?image/scaling/width/661&token=08ef8179e3fbb5ce839c257b12d8a7b41fb20388&e=1653741512&accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2NTYwMzIyNzMsImZpbGVHVUlEIjoiMjVxNU1SMTdPNkhsSzBxRCIsImlhdCI6MTY1NjAzMTk3MywidXNlcklkIjo3OTkwNTY2OH0.JyTluYoOUiTD2ouhTpiAlVyVIuZmERpaS0FuGd0OXmo
+                    DRI_PRIME=0 glxinfo | grep "OpenGL vendor string"
+                    DRI_PRIME=1 glxinfo | grep "OpenGL vendor string"
+                    图片:
+                    https://bjbdn.openstorage.cn/v1/doc/c1/image/bb7070a2-db2a-4f7a-85d0-7806d4d97cec.png?image/scaling/width/661&token=05bb0f025dbfb7dc279b4370f59eed5bc84e49ca&e=1653741512&accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2NTYwMzIyNzMsImZpbGVHVUlEIjoiMjVxNU1SMTdPNkhsSzBxRCIsImlhdCI6MTY1NjAzMTk3MywidXNlcklkIjo3OTkwNTY2OH0.JyTluYoOUiTD2ouhTpiAlVyVIuZmERpaS0FuGd0OXmo
+                    https://webglsamples.org/aquarium/aquarium.html
+                    图片:
+                    https://bjbdn.openstorage.cn/v1/doc/c1/image/92e45ddb-cf60-417c-96ce-45554ac2c645.png?image/scaling/width/661&token=e3dc4cf93d89b07c1fb44e73b21c2d6f6d809dfd&e=1653741512&accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2NTYwMzIyNzMsImZpbGVHVUlEIjoiMjVxNU1SMTdPNkhsSzBxRCIsImlhdCI6MTY1NjAzMTk3MywidXNlcklkIjo3OTkwNTY2OH0.JyTluYoOUiTD2ouhTpiAlVyVIuZmERpaS0FuGd0OXmo
+                    chrome://gpu
+        
+                    图片:
+                    https://bjbdn.openstorage.cn/v1/doc/c1/image/746acef2-38ad-4777-8fe6-5dfa15f88d62.png?image/scaling/width/661&token=b996c048f33162f64d70644c58110bb6b7e79420&e=1653741512&accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2NTYwMzIyNzMsImZpbGVHVUlEIjoiMjVxNU1SMTdPNkhsSzBxRCIsImlhdCI6MTY1NjAzMTk3MywidXNlcklkIjo3OTkwNTY2OH0.JyTluYoOUiTD2ouhTpiAlVyVIuZmERpaS0FuGd0OXmo
+        
+        
+                    optimus-manager --switch integrated
+                    xrandr --listproviders
+                    optimus-manager --print-mode
+        
+                    图片:
+                    https://bjbdn.openstorage.cn/v1/doc/c1/image/2dc0ecfb-dfc6-4bd4-b8d0-3ea3bf55d1eb.png?image/scaling/width/661&token=d8b4b1562bdbedf1cace64214a961fd05746492a&e=1653741512&accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2NTYwMzIyNzMsImZpbGVHVUlEIjoiMjVxNU1SMTdPNkhsSzBxRCIsImlhdCI6MTY1NjAzMTk3MywidXNlcklkIjo3OTkwNTY2OH0.JyTluYoOUiTD2ouhTpiAlVyVIuZmERpaS0FuGd0OXmo
+        
+                    __GL_SYNC_TO_VBLANK=0 vblank_mode=0 glxgears -fullscreen -info | grep "GL_RENDER\|FPS"
+                    图片:
+                    https://bjbdn.openstorage.cn/v1/doc/c1/image/d6f50e6e-27b9-4c81-baea-b883039f5b5e.png?image/scaling/width/661&token=96e75aa7112dca77a28ad831e0dd1702fbaf5d4a&e=1653741512&accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2NTYwMzIyNzMsImZpbGVHVUlEIjoiMjVxNU1SMTdPNkhsSzBxRCIsImlhdCI6MTY1NjAzMTk3MywidXNlcklkIjo3OTkwNTY2OH0.JyTluYoOUiTD2ouhTpiAlVyVIuZmERpaS0FuGd0OXmo
+        
+                    __GL_SYNC_TO_VBLANK=0 DRI_PRIME=1 glxgears -fullscreen -info | grep "GL_RENDER\|FPS"
+                    图片:
+                    https://bjbdn.openstorage.cn/v1/doc/c1/image/527f964e-7423-4e61-befd-d51ccd088aad.png?image/scaling/width/661&token=193063f238966ac707dc9e01fa3e54e2d9a07a9f&e=1653741512&accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2NTYwMzIyNzMsImZpbGVHVUlEIjoiMjVxNU1SMTdPNkhsSzBxRCIsImlhdCI6MTY1NjAzMTk3MywidXNlcklkIjo3OTkwNTY2OH0.JyTluYoOUiTD2ouhTpiAlVyVIuZmERpaS0FuGd0OXmo
+                    gl render still is mesa intel,
+        
+                    vblank_mode=0 DRI_PRIME=0 glxgears -fullscreen -info | grep "GL_RENDER\|FPS"
+                    图片:
+                    https://bjbdn.openstorage.cn/v1/doc/c1/image/9d47aced-719d-49e9-a70f-0c27370ebaf0.png?image/scaling/width/661&token=9cfbb619660d5fc97ec53742990ecc6266d84758&e=1653741512&accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2NTYwMzIyNzMsImZpbGVHVUlEIjoiMjVxNU1SMTdPNkhsSzBxRCIsImlhdCI6MTY1NjAzMTk3MywidXNlcklkIjo3OTkwNTY2OH0.JyTluYoOUiTD2ouhTpiAlVyVIuZmERpaS0FuGd0OXmo
+        
+                    export __GL_SYNC_TO_VBLANK=0 vblank_mode=0
+                    prime-run glxgears -fullscreen -info | grep "GL_RENDER\|FPS"
+                    图片:
+                    https://bjbdn.openstorage.cn/v1/doc/c1/image/052b352c-f794-4d70-b59c-ce4cc72138eb.png?image/scaling/width/661&token=06dc7170fb18cc5e50d56b2820eeae7396807f85&e=1653741512&accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2NTYwMzIyNzMsImZpbGVHVUlEIjoiMjVxNU1SMTdPNkhsSzBxRCIsImlhdCI6MTY1NjAzMTk3MywidXNlcklkIjo3OTkwNTY2OH0.JyTluYoOUiTD2ouhTpiAlVyVIuZmERpaS0FuGd0OXmo
+                    it use nvidia now,but bad perfermance
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                    EXCEL
+        
+                    =SUM(INDIRECT(ADDRESS(1,COLUMN())&":"&ADDRESS(ROW()-1,COLUMN())))
+        
+        
+                    =SUM(INDIRECT(ADDRESS(ROW()+1,COLUMN())&":"&ADDRESS(ROWS(A:A),COLUMN())))
+                    You can then copy/paste to the right till last column.
+                    Some explanations:
+                    Both formula sums up every value in the range from A2 till the bottom of column A (i.e. for Excel 2010 this
+                    would be A2:A1048576)
+                    It doesn't matter if there are blanks or cells without value; the formula sums up only the numbers
+                    I put A$2 and B:B in the OFFSET formula to avoid circular references, since I'm writing in cell A1 and I
+                    cannot write A$1 nor A:A
+                    With the INDIRECT formula you don't have to worry about circular references
+                    Further commenting (sorry, I don't have the credits to comment at the right place under the question):
+                    Phylogenesis formula =SUM(A3:A65535) could also do the work, isn't it?
+                    Didn't understand your question at first, because you talk of "sum of all the numbers for a particular row"
+                    but then you sum columns, isn't it?
+        
+        
+                    arch error
+                    looking for conflicting packages...
+                    error: failed to prepare transaction (could not satisfy dependencies)
+                    :: installing openjpeg2 (2.5.0-1) breaks de pendency 'openjpeg2=2.4.0' required by lib32-openjpeg2
+        
+        
+                    wxy
+                    docker
+                    docker run -d --name=wxedge --restart=always --privile
+                    ged --net=host --tmpfs /run --tmpfs /tmp -v /home/admin/wxy:/storage:rw regist
+                    ry.hub.docker.com/onething1/wxedge
+        
+                    then open ip:18888
+        
+        
+                    docker run \
+                    --name=wxedge \
+                    --restart=always \
+                    --privileged \
+                    --net=host \
+                    --tmpfs /run \
+                    --tmpfs /tmp \
+                    -v /media/wxedge_storage:/storage:rw \
+                    -d \
+                    registry.hub.docker.com/onething1/wxedge
+        
+        
+        
+                    simple estimate
+                    if 1MB/s,then 1 hour is 3.6G, about 0.03 yuan per hour,0.7 yuan one day,
+                    50M bandwidth about 6M/s,about 6 yuan one day at best case
+                    data usage
+                    0525 18 53
+                    0524 18 53图片:
+                    https://uploader.shimo.im/f/8GNsqugczOG3UBgp.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2NTYwMzIyNzMsImZpbGVHVUlEIjoiMjVxNU1SMTdPNkhsSzBxRCIsImlhdCI6MTY1NjAzMTk3MywidXNlcklkIjo3OTkwNTY2OH0.JyTluYoOUiTD2ouhTpiAlVyVIuZmERpaS0FuGd0OXmo
+        
+                    0526 07 31
+        
+        
+                    0526 19 12
+                    图片:
+                    https://uploader.shimo.im/f/vVDba9DL4YvlnTZi.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2NTYwMzIyNzMsImZpbGVHVUlEIjoiMjVxNU1SMTdPNkhsSzBxRCIsImlhdCI6MTY1NjAzMTk3MywidXNlcklkIjo3OTkwNTY2OH0.JyTluYoOUiTD2ouhTpiAlVyVIuZmERpaS0FuGd0OXmo
+        
+                    0527 8 20
+                    图片:
+                    https://uploader.shimo.im/f/BAnyNTF6tMlEM26E.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2NTYwMzIyNzMsImZpbGVHVUlEIjoiMjVxNU1SMTdPNkhsSzBxRCIsImlhdCI6MTY1NjAzMTk3MywidXNlcklkIjo3OTkwNTY2OH0.JyTluYoOUiTD2ouhTpiAlVyVIuZmERpaS0FuGd0OXmo
+        
+        
+                    openfogo
+                    https://i.openfogos.com/home/script
+                    install_args="--platform=PEAR_1900_X64_LINUX --user_id=17681729610 --storage_path=auto --cpu_cores=2
+                    --storage_size=80% --bandwidth=80% --memory=80%" bash -c "$(curl -sS
+                    https://download.openfogos.com/linux/openfog_installer.sh)"
+        
+                    install kde
+                    Install a basic KDE Plasma environment
+                    sudo pacman -S plasma kio-extras
+                    Optional: Install KDE applications
+                    To install a full set of K* applications use kde-applications. This will be ~300 packages(including
+                    dependencies)
+                    sudo pacman -S kde-applications
+        
+                    plasma-systemmonitor
+                    plasma-systemmonitor
+        
+        
+        
+                    vbox command
+        
+                    vboxmanage startvm --type headless arch
+                    vboxmanage controlvm <subcommand>
+                        Valid <subcommands> related to VM state operations include pause, resume, reset, poweroff, and
+                            savestate.
+        
+                            VBoxManage list runningvms
+        
+        
+        
+        
+                            grep awk sed
+                            sed Stream Editor
+                            #sed can accept sets of instructions from a program file. you can put s/this/that/g to a file called
+                            test.sed
+                            #Search and Replace all "this" to that
+                            sed -e 's/this/that/g' test.txt
+                            #this will modify directly all .txt file and create backup file
+                            sed -f test.sed -i.bak *.txt
+                            #Prepend this will insert line before line 2
+                            sed '2 i #This is the extra line' test.txt
+                            #delete 2nd line
+                            sed '2d' test.txt
+                            #delete all lines that have first
+                            sed '/first/d' test.txt
+        
+                            grep Global Regular Expression Pattern
+                            grep [OPTIONS] PATTERN [FILES...]
+                            --color highlight your search term
+                            -i, --ignore-case
+                            Grep: Viewing a Search Term’s Context
+                            grep -B 4 "fonts" /var/log/apache2/access.log
+        
+                            -B num: displays the lines before the search term match. Replace num with the number of lines to
+                            display.
+                            -A num: displays the lines after the search term match. Replace num with the number of lines to
+                            display
+                            -C num: displays the lines before and after the search term match. Replace num with the number of
+                            lines to display. The default value for num is 2.
+                            Grep: List Files that Match a Pattern
+                            grep -l -i copyright *.html
+        
+                            Grep can also find files that do not match a pattern.
+                            grep -L -i copyright *.html
+        
+                            #find all files in a directory that contain the pattern “dogs” and “cats”.
+                            grep -l cats $(grep -l dogs *.html)
+        
+        
+                            pinebook
+                            boot from microSD
+                            open up a terminal
+                            go to the folder holding your downloaded image file
+                            get root via sudo su -
+                            xzcat filexz | dd of=/dev/mmcblk2 bs=1M status=progress oflag=direct
+                            to flash it to eMMC
+                            after it’s done reboot the pbpro and follow the initial setup wizard steps
+        
+                            disable gpu
+                            xserver
+                            /etc/X11/xorg.conf.d/disable-gpu.conf
+                            Section "Extensions"
+                            Option "GLX" "Disable"
+                            EndSection
+        
+        
+        
+        
+        
+        
+        
+        
+                            tiantangdocker
+        
+                            docker run -v /home/suisuy/mnt/sdb4/ttcloud:/mnt/data/ttnode \
+                            -v /var/run/docker.sock:/var/run/docker.sock \
+                            --name ttnoderuby \
+                            --hostname ttnoderuby \
+                            --net=host \
+                            --restart=always \
+                            --memory=2g \
+                            tiptime/ttnode:latest
+        
+        
+        
+                            docker container ls # 查看所有容器
+                            docker rm -f 容器名 # 删除容器
+                            docker inspect -f '{{ .Mounts }}' 容器名
+                            docker inspect 容器名 -f "{{json .NetworkSettings.Networks.macnet.IPAddress }}"
+        
+                            docker image ls
+                            docker container rm 9bcc131f6a50
+                            docker image rm 877a5a34d9ef
+        
+                            tun2socks
+                            https://github.com/xjasonlyu/tun2socks/wiki/Examples
+                            Create TUN interface tun0 and assign an IP address for it.
+        
+        
+                            ip tuntap add mode tun dev tun0
+                            ip addr add 198.18.0.1/15 dev tun0
+                            ip link set dev tun0 up
+                            Configure the default route table with different metrics. Let's say the primary interface is eth0
+                            and gateway is 172.17.0.1.
+                            ip route del default
+                            ip route add default via 198.18.0.1 dev tun0 metric 1
+                            ip route add default via 192.168.68.1 dev wlan0 metric 10
+                            Start tun2socks and bind it to the primary interface.
+                            tun2socks -device tun0 -proxy socks5://host:port -interface eth0
+                            Note: sometimes we need to disable rp_filter for the corresponding interface so that it can receive
+                            packets from other interfaces.
+                            sysctl net.ipv4.conf.all.rp_filter=0
+                            sysctl net.ipv4.conf.eth0.rp_filter=0
+        
+        
+                            nix
+        
+        
+        
+                            nix-shell -p nodejs
+                            --packages / -p packages…
+                            Set up an environment in which the specified packages are present.
+                            { pkgs ? import <nixpkgs> {} # here we import the nixpkgs package set
+                                }:
+                                pkgs.mkShell { # mkShell is a helper function
+                                name="dev-environment"; # that requires a name
+                                buildInputs = [ # and a list of packages
+                                pkgs.nodejs
+                                ];
+                                shellHook = '' # bash to run when you enter the shell
+                                echo "Start developing..."
+                                '';
+                                }
+        
+                                You can view the set of available packages in Nixpkgs:
+        
+                                $ nix-env -qaP
+                                nix-env -qaP firefox
+                                nix-env -qaP 'firefox.*'
+                                The flag -q specifies a query operation, -a means that you want to show the “available” (i.e.,
+                                installable) packages, as opposed to the installed packages, and -P prints the attribute paths
+                                that can be used to unambiguously select a package for installation (listed in the first
+                                column).
+        
+                                It is also possible to see the status of available packages, i.e., whether they are installed
+                                into the user environment and/or present in the system:
+        
+                                $ nix-env -qaPs
+                                …
+                                -PS nixpkgs.bash bash-3.0
+                                --S nixpkgs.binutils binutils-2.15
+                                IPS nixpkgs.bison bison-1.875d
+                                The first character (I) indicates whether the package is installed in your current user
+                                environment. The second (P) indicates whether it is present on your system (in which case
+                                installing it into your user environment would be a very quick operation). The last one (S)
+                                indicates whether there is a so-called substitute for the package, which is Nix’s mechanism for
+                                doing binary deployment. It just means that Nix knows that it can fetch a pre-built package from
+                                somewhere (typically a network server) instead of building it locally.
+        
+                                You can install a package using nix-env -iA. For instance,
+        
+                                nix-env -iA nixpkgs.subversion
+                                nix-env -e subversion
+                                nix-env -uA nixpkgs.subversion
+        
+                                find out what packages would be upgraded by nix-env -u, you can do
+        
+                                $ nix-env -u --dry-run
+        
+        
+        
+                                Nix makes no assumptions about the global state of the system. This has many advantages, but
+                                also some drawbacks of course. The core of a Nix system is the Nix store, usually installed
+                                under /nix/store, and some tools to manipulate the store. In Nix there is the notion of a
+                                derivation rather than a package. The difference can be subtle at the beginning, so I will often
+                                use the words interchangeably.
+                                Derivations/packages are stored in the Nix store as follows: /nix/store/hash-name, where the
+                                hash uniquely identifies the derivation (this isn't quite true, it's a little more complex), and
+                                the name is the name of the derivation.
+                                Let's take a bash derivation as an example:
+                                /nix/store/s4zia7hhqkin1di0f187b79sa2srhv6k-bash-4.2-p45/. This is a directory in the Nix store
+                                which contains bin/bash.
+                                What that means is that there's no /bin/bash, there's only that self-contained build output in
+                                the store. The same goes for coreutils and everything else. To make them convenient to use from
+                                the shell, Nix will arrange for binaries to appear in your PATH as appropriate.
+                                What we have is basically a store of all packages (with different versions occupying different
+                                locations), and everything in the Nix store is immutable.
+                                In fact, there's no ldconfig cache either. So where does bash find libc?
+                                $ ldd `which bash`
+                                libc.so.6 => /nix/store/94n64qy99ja0vgbkf675nyk39g9b978n-glibc-2.19/lib/libc.so.6
+                                (0x00007f0248cce000)
+                                It turns out that when bash was built, it was built against that specific version of glibc in
+                                the Nix store, and at runtime it will require exactly that glibc version.
+                                Don't be confused by the version in the derivation name: it's only a name for us humans. You may
+                                end up having two derivations with the same name but different hashes: it's the hash that really
+                                matters.
+                                What does all this mean? It means that you could run mysql 5.2 with glibc-2.18, and mysql 5.5
+                                with glibc-2.19. You could use your python module with python 2.7 compiled with gcc 4.6 and the
+                                same python module with python 3 compiled with gcc 4.8, all in the same system.
+                                In other words: no dependency hell, not even a dependency resolution algorithm. Straight
+                                dependencies from derivations to other derivations.
+                                From an administrator's point of view: if you want an old PHP version for one application, but
+                                want to upgrade the rest of the system, that's not painful any more.
+                                From a developer's point of view: if you want to develop webkit with llvm 3.4 and 3.3, that's
+                                not painful any more.
+        
+        
+        
+        
+                                typescript
+                                https://www.youtube.com/watch?v=gp5H0Vw39yw
+                                install
+                                cnpm i -g typescript
+                                then use tsc to use it
+                                check
+                                tsc -v
+        
+                                //tsconfig.json
+        
+                                {
+                                "compilerOptions": {
+                                "rootDir": "./src",
+                                "outDir": "./dist"
+                                }
+                                }
+                                use tsc -w to watch file change and compile automatically
+        
+        
+        
+                                vriable
+                                const
+                                const word = "Hello";
+        
+                                here wrod is const word: "Hello"
+                                notice the type is "Hello" because word is const
+        
+                                let
+                                let word = "Hello";
+                                let word: string
+                                notice type is string
+        
+                                let word:string = "Hello";
+                                use :string to declare type to string explictly
+                                word cant be assigned to other value except string value
+        
+                                in dist/main.js
+                                var word = "Hello";
+                                word = 1;
+        
+                                typescript transpiles everything in es3
+        
+                                function
+                                normal js arrow function works in ts
+                                const getFullName = (firstName,lastName) => {
+                                return firstName + " " + lastName;
+                                }
+                                use this to type arguments
+                                const getFullName = (firstName: string, lastName: string) => {
+                                return firstName + " " + lastName;
+                                }
+        
+                                const getFullName = (firstName: string, lastName: string):string => {
+                                return firstName + " " + lastName;
+                                }
+        
+                                interface
+                                interface User {
+                                name: string;
+                                age: number;
+                                home?: string;
+                                }
+        
+                                let user1: User = {
+                                name: 'John',
+                                age: 0
+                                };
+        
+                                union
+                                let pageName:string|number|null = null;
+        
+                                alias type
+                                type ID = string;
+        
+                                let newid:ID = '123';
+        
+        
+                                void
+                                let a: void = null;
+                                a = undefined;
+                                a = "game"; #this is error,string cant be assigned to void
+        
+                                void is set of null and undefined
+        
+                                unkonw and as
+                                let unknowV: unknown = 1;
+                                unknowV = 2;
+                                let astring: string = unknowV as string;
+        
+                                console.log(astring);
+        
+                                The as keyword is a Type Assertion in TypeScript which tells the compiler to consider the object
+                                as another type than the type the compiler infers the object to be. ,It's called Type Assertion,
+                                you are just telling the compiler to treat something as a type:
+        
+                                exclamation bang/point/mark !
+                                That's the non-null assertion operator. It is a way to tell the compiler "this expression cannot
+                                be null or undefined here, so don't complain about the possibility of it being null or
+                                undefined." Sometimes the type checker is unable to make that determination itself.
+        
+                                DOM
+                                let fooElement = document.querySelector(".foo") ;
+                                console.log(fooElement.value); //this will error because fooElement is type Element has no
+                                property "value",but HTMLInputElement has,so:
+        
+                                let fooElement = document.querySelector(".foo") as HTMLInputElement;
+                                console.log(fooElement.value);
+        
+        
+                                class
+                                class User{
+                                firstName: string;
+                                private lastName: string;
+                                readonly id: number;
+                                static maxAge: number = 100;
+        
+                                constructor(firstName: string, lastName: string){
+                                this.firstName = firstName;
+                                this.lastName = lastName;
+                                this.id=Math.floor(Math.random()*100);
+        
+                                }
+        
+                                getFullName(){
+                                return this.firstName + " " + this.lastName;
+                                }
+        
+                                }
+        
+                                let u1 = new User("John", "Doe");
+                                console.log(u1.getFullName());
+                                console.log(User.maxAge);
+        
+                                public property is default,it can be accessed anywhere
+                                private property will only accessed in current class,
+                                readonly property only changed in constructor
+                                static proerty only accessed use class not obj
+        
+                                interface
+                                interface UserInterface {
+                                getFullName(): string;
+                                }
+        
+                                class User implements UserInterface {
+                                firstName: string;
+                                private lastName: string;
+                                readonly id: number;
+                                static maxAge: number = 100;
+        
+                                constructor(firstName: string, lastName: string){
+                                this.firstName = firstName;
+                                this.lastName = lastName;
+                                this.id=Math.floor(Math.random()*100);
+        
+                                }
+        
+                                getFullName(){
+                                return this.firstName + " " + this.lastName;
+                                }
+        
+                                }
+        
+        
+                                inherentance
+                                class Admin extends User {
+                                editor: string;
+        
+                                constructor(firstName: string, lastName: string, editor: string) {
+                                super(firstName, lastName);
+                                this.editor = editor;
+                                }
+                                }
+        
+                                let u1 = new User("John", "Doe");
+                                console.log(u1.getFullName());
+                                console.log(User.maxAge);
+        
+                                let a1 = new Admin("Jane", "Doe", "VS Code");
+                                console.log(a1.getFullName(), a1.editor);
+        
+        
+                                vscode
+                                shortcuts
+                                join line meta+j
+        
+                                fold
+                                ctlshift[/]
+        
+                                select word
+                                ctl d
+        
+                                add multy cursor to word
+                                ctl d d
+        
+                                open sidebar
+                                ctl b
+        
+                                goto line
+                                ctl g
+        
+                                goto symbol in file
+                                ctl shift o or ctl p then
+        
+                                goto symbol in workspace
+                                ctl t or ctl p then #
+        
+                                add cursor above
+                                ctl shift up/down
+        
+                                rename symbol
+                                f2
+                                图片:
+                                https://uploader.shimo.im/f/cPYVNATxzEUGoUWa.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2NTYwMzIyNzMsImZpbGVHVUlEIjoiMjVxNU1SMTdPNkhsSzBxRCIsImlhdCI6MTY1NjAzMTk3MywidXNlcklkIjo3OTkwNTY2OH0.JyTluYoOUiTD2ouhTpiAlVyVIuZmERpaS0FuGd0OXmo
+        
+        
+        
+                                wayland
+                                echo $WAYLAND_DISPLAY
+                                echo $XDG_SESSION_TYPE
+        
+                                loginctl show-session "$XDG_SESSION_ID" -p Type
+        
+                                ps aux | grep gnome-shell
+        
+                                window manager
+                                weston
+                                sway
+        
+        
+        
+        
+                                xpra
+                                install xpar xfce4 xfce4-goodies on server
+                                install xpra on client
+        
+                                connect it on client
+        
+                                xpra start ssh://USER@HOST/ --start=xterm
+                                xpra start ssh://admin@47.243.80.22/ --start=xterm
+
+
+
+
     </pre>
 </body>
+
 </html>

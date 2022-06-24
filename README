@@ -1,2 +1,7 @@
 many notes and files,projects for learning puples,
 it will deploy to vercel so open them fast on any devices
+
+
+start http sever for test 
+
+python3 -m http.server
