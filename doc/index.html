@@ -45,9 +45,19 @@ hardstatus alwayslastline \n\
 hardstatus string '%{gk}[%{wk}%?%-Lw%?%{=b kR}(%{W}%n*%f %t%?(%u)%?%{=b kR})%{=w}%?%+Lw%?%? %{g}][%{d}%l%{g}][ %{= w}%Y/%m/%d %0C:%s%a%{g} ]%{W}' \n\
 termcapinfo xterm* ti@:te@"\n\
 >~/.screenrc
-
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
+
+#basic packages
+sudo pacman -S
+sudo apt install
+sudo dnf install 
+base-devel wqy-microhei  
+openssh git vi   bash-completion fish screen w3m   p7zip  unrar  rsync  sshfs  mitmproxy
+
+#gui app
+xfce4-terminal xterm dolphin konsole 
+iputils-ping
 
 
 
@@ -59,7 +69,6 @@ export all_proxy=http://192.168.100.2:10801
 
 echo $WAYLAND_DISPLAY
 echo $XDG_SESSION_TYPE
-
 
 
 Xvfb :0 -screen 0 1600x900x24 &
@@ -81,8 +90,7 @@ losetup -f -P sda.img #mount img file
 
 
 
-        </pre
-      >
+        </pre>
     </div>
   </body>
 </html>
