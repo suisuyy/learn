@@ -87,10 +87,15 @@ xzcat test.img.xz | dd of=/dev/mmcblk2 bs=1M status=progress oflag=dsync
 losetup -f -P sda.img #mount img file
 
 
+7z b -mmn1
+dd if=/dev/zero of=testspeed bs=20M oflag=dsync status=progress count=50
 
 
 
-        </pre>
+
+
+        </pre
+      >
     </div>
   </body>
 </html>
