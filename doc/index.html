@@ -45,9 +45,13 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 
 
 #common cmdl
+export DISPLAY=:0 
+export all_proxy=http://192.168.100.2:10801
+
+
 echo $WAYLAND_DISPLAY
 echo $XDG_SESSION_TYPE
-export DISPLAY=:0 
+
 
 
 Xvfb :0 -screen 0 1600x900x24 &
