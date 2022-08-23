@@ -1,7 +1,6 @@
 
 - [benchmark](#benchmark)
 - [route](#route)
-- [2. Disable ICMP redirects.](#2-disable-icmp-redirects)
 - [3. Create an iptables ruleset that redirects the desired traffic to mitmproxy.](#3-create-an-iptables-ruleset-that-redirects-the-desired-traffic-to-mitmproxy)
 - [4. Fire up mitmproxy.](#4-fire-up-mitmproxy)
 - [5. Finally, configure your test device.](#5-finally-configure-your-test-device)
@@ -198,7 +197,7 @@ sysctl -w net.ipv4.ip_forward=1
 sysctl -w net.ipv6.conf.all.forwarding=1
 This makes sure that your machine forwards packets instead of rejecting them.
 If you want to persist this across reboots, you need to adjust your /etc/sysctl.conf or a newly created /etc/sysctl.d/mitmproxy.conf (see here).
-#  2. Disable ICMP redirects.
+#2. Disable ICMP redirects.
 
 sysctl -w net.ipv4.conf.all.send_redirects=0
 If your test device is on the same physical network, your machine shouldn’t inform the device that there’s a shorter route available by skipping the proxy.
