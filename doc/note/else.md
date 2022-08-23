@@ -1,7 +1,6 @@
 
 - [benchmark](#benchmark)
 - [route](#route)
-- [1. Enable IP forwarding.](#1-enable-ip-forwarding)
 - [2. Disable ICMP redirects.](#2-disable-icmp-redirects)
 - [3. Create an iptables ruleset that redirects the desired traffic to mitmproxy.](#3-create-an-iptables-ruleset-that-redirects-the-desired-traffic-to-mitmproxy)
 - [4. Fire up mitmproxy.](#4-fire-up-mitmproxy)
@@ -193,7 +192,7 @@ n2n router
 
 tproxy
 On Linux, mitmproxy integrates with the iptables redirection mechanism to achieve transparent mode.
-#  1. Enable IP forwarding.
+#1. Enable IP forwarding.
 
 sysctl -w net.ipv4.ip_forward=1
 sysctl -w net.ipv6.conf.all.forwarding=1
