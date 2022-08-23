@@ -1,7 +1,8 @@
 
 - [benchmark](#benchmark)
 - [route](#route)
-- [](#)
+- [dns](#dns)
+- [2. Connect DNS.SB DoH Server](#2-connect-dnssb-doh-server)
 - [end](#end)
 
 
@@ -450,7 +451,59 @@ yum install bind bind-utils -y
 named
 
 
-#
+# dns
+dns
+./cloudflared-linux-amd64 proxy-dns --port 53
+dig +short @127.0.0.1 -p5553 cloudflare.com AAAA
+dnsmasq 
+
+
+pip3 install doh-proxy
+ sudo doh-proxy \
+    --upstream-resolver=::1 \
+    --certfile=./fullchain.pem \
+    --keyfile=./privkey.pem
+
+dnscrypt-proxy.toml:
+server_names = ['cloudflare', 'cloudflare-ipv6']
+ sudo systemctl status dnscrypt-proxy
+
+sudo dnsproxy-adguard -u sdns://AgcAAAAAAAAABzEuMC4wLjGgENk8mGSlIfMGXMOlIlCcKvq7AVgcr
+Zxtjon911-ep0cg63Ul-I8NlFj4GplQGb_TTLiczclX57DvMV8Q-JdjgRgSZG5zLmNsb3VkZmxhcmUuY29tCi9kbnMtcXVlcnk
+
+
+
+
+1. Install DNS Proxy
+VERSION=$(curl -s https://api.github.com/repos/AdguardTeam/dnsproxy/releases/latest | grep tag_name | cut -d '"' -f 4) && echo "Latest AdguardTeam dnsproxy version is $VERSION"
+wget -O dnsproxy.tar.gz "https://github.com/AdguardTeam/dnsproxy/releases/download/${VERSION}/dnsproxy-linux-amd64-${VERSION}.tar.gz"
+tar -xzvf dnsproxy.tar.gz
+cd linux-amd64
+mv dnsproxy /usr/bin/dnsproxy
+# 2. Connect DNS.SB DoH Server
+dnsproxy -l 127.0.0.1 -p 53 -u https://doh.dns.sb/dns-query -b 185.222.222.222:53
+Now we can open another terminal to test DNS
+root@dns ~ # dig example.com @127.0.0.1
+
+; <<>> DiG 9.16.15-Debian <<>> example.com @127.0.0.1
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22295
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;example.com.			IN	A
+
+;; ANSWER SECTION:
+example.com.		1094	IN	A	93.184.216.34
+
+;; Query time: 3 msec
+;; SERVER: 127.0.0.1#53(127.0.0.1)
+;; WHEN: Fri Jul 02 13:07:43 UTC 2021
+;; MSG SIZE  rcvd: 56
+We can see the response server  SERVER: 127.0.0.1#53(127.0.0.1) is working fine.
 
 
 # end
