@@ -1,7 +1,6 @@
 
 - [benchmark](#benchmark)
 - [route](#route)
-- [3. Create an iptables ruleset that redirects the desired traffic to mitmproxy.](#3-create-an-iptables-ruleset-that-redirects-the-desired-traffic-to-mitmproxy)
 - [4. Fire up mitmproxy.](#4-fire-up-mitmproxy)
 - [5. Finally, configure your test device.](#5-finally-configure-your-test-device)
 - [Work-around to redirect traffic originating from the machine itself](#work-around-to-redirect-traffic-originating-from-the-machine-itself)
@@ -202,7 +201,7 @@ If you want to persist this across reboots, you need to adjust your /etc/sysctl.
 sysctl -w net.ipv4.conf.all.send_redirects=0
 If your test device is on the same physical network, your machine shouldn’t inform the device that there’s a shorter route available by skipping the proxy.
 If you want to persist this across reboots, see above.
-#  3. Create an iptables ruleset that redirects the desired traffic to mitmproxy.
+#3. Create an iptables ruleset that redirects the desired traffic to mitmproxy.
 Details will differ according to your setup, but the ruleset should look something like this:
 
 iptables -t nat -A PREROUTING -i enp0s3 -p tcp --dport 80 -j REDIRECT --to-port 8080
