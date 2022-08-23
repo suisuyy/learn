@@ -1,7 +1,6 @@
 
 - [benchmark](#benchmark)
 - [route](#route)
-- [ip route add default via 192.168.1.2 (a route via gateway IP address)](#ip-route-add-default-via-19216812-a-route-via-gateway-ip-address)
 - [ip route add default via enp0s3 (a route using a device name)](#ip-route-add-default-via-enp0s3-a-route-using-a-device-name)
 - [ip route replace default via 192.168.1.2](#ip-route-replace-default-via-19216812)
 - [1. Enable IP forwarding.](#1-enable-ip-forwarding)
@@ -96,7 +95,7 @@ set default router
 You can remove a default route using the ip route del command:
  ip route del default via 192.168.1.1 dev enp0s3
 To set a new default route, the following command is used in CentOS/RHEL Linux:
-# ip route add default via 192.168.1.2 (a route via gateway IP address)
+ ip route add default via 192.168.1.2 (a route via gateway IP address)
 # ip route add default via enp0s3 (a route using a device name)
 To change the default route settings, this command is used:
 # ip route replace default via 192.168.1.2  
