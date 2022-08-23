@@ -1,7 +1,6 @@
 
 - [benchmark](#benchmark)
 - [route](#route)
-- [5. Finally, configure your test device.](#5-finally-configure-your-test-device)
 - [Work-around to redirect traffic originating from the machine itself](#work-around-to-redirect-traffic-originating-from-the-machine-itself)
 
 
@@ -216,7 +215,7 @@ iptables -L -t nat
 You probably want a command like this:
 mitmproxy --mode transparent --showhost
 The --mode transparent option turns on transparent mode, and the --showhost argument tells mitmproxy to use the value of the Host header for URL display.
-#  5. Finally, configure your test device.
+#5. Finally, configure your test device.
 Set the test device up to use the host on which mitmproxy is running as the default gateway and install the mitmproxy certificate authority on the test device.
 #  Work-around to redirect traffic originating from the machine itself
 Follow steps 1, 2 as above, but instead of the commands in step 3, run the following
