@@ -1,4 +1,16 @@
 
+- [benchmark](#benchmark)
+- [route](#route)
+- [ip route del default via 192.168.1.1 dev enp0s3](#ip-route-del-default-via-19216811-dev-enp0s3)
+- [ip route add default via 192.168.1.2 (a route via gateway IP address)](#ip-route-add-default-via-19216812-a-route-via-gateway-ip-address)
+- [ip route add default via enp0s3 (a route using a device name)](#ip-route-add-default-via-enp0s3-a-route-using-a-device-name)
+- [ip route replace default via 192.168.1.2](#ip-route-replace-default-via-19216812)
+- [1. Enable IP forwarding.](#1-enable-ip-forwarding)
+- [2. Disable ICMP redirects.](#2-disable-icmp-redirects)
+- [3. Create an iptables ruleset that redirects the desired traffic to mitmproxy.](#3-create-an-iptables-ruleset-that-redirects-the-desired-traffic-to-mitmproxy)
+- [4. Fire up mitmproxy.](#4-fire-up-mitmproxy)
+- [5. Finally, configure your test device.](#5-finally-configure-your-test-device)
+- [Work-around to redirect traffic originating from the machine itself](#work-around-to-redirect-traffic-originating-from-the-machine-itself)
 
 
 
