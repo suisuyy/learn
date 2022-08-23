@@ -2,7 +2,6 @@
 - [benchmark](#benchmark)
 - [route](#route)
 - [dns](#dns)
-- [2. Connect DNS.SB DoH Server](#2-connect-dnssb-doh-server)
 - [end](#end)
 
 
@@ -480,7 +479,7 @@ wget -O dnsproxy.tar.gz "https://github.com/AdguardTeam/dnsproxy/releases/downlo
 tar -xzvf dnsproxy.tar.gz
 cd linux-amd64
 mv dnsproxy /usr/bin/dnsproxy
-# 2. Connect DNS.SB DoH Server
+#2. Connect DNS.SB DoH Server
 dnsproxy -l 127.0.0.1 -p 53 -u https://doh.dns.sb/dns-query -b 185.222.222.222:53
 Now we can open another terminal to test DNS
 root@dns ~ # dig example.com @127.0.0.1
