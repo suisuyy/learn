@@ -1,7 +1,6 @@
 
 - [benchmark](#benchmark)
 - [route](#route)
-- [4. Fire up mitmproxy.](#4-fire-up-mitmproxy)
 - [5. Finally, configure your test device.](#5-finally-configure-your-test-device)
 - [Work-around to redirect traffic originating from the machine itself](#work-around-to-redirect-traffic-originating-from-the-machine-itself)
 
@@ -213,7 +212,7 @@ If you want to persist this across reboots, you can use the iptables-persistent 
 iptables -L -t nat
  
 
-#  4. Fire up mitmproxy.
+#4. Fire up mitmproxy.
 You probably want a command like this:
 mitmproxy --mode transparent --showhost
 The --mode transparent option turns on transparent mode, and the --showhost argument tells mitmproxy to use the value of the Host header for URL display.
