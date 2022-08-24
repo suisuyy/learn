@@ -126,7 +126,7 @@ sudo su
 iptables -t nat -A POSTROUTING -j MASQUERADE
 sysctl -p
 supernode /etc/n2n/supernode.conf
- edge -c suinet -k 080797ssY -a 192.168.100.2 -f -l 15.152.42.41:7777 -r -z1
+ edge -c suinet -k 080797ssY -a 192.168.100.200 -f -l 15.152.42.41:7777 -r -z1
 
 
 default via 172.31.32.1 dev eth0  
