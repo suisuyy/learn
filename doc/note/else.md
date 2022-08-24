@@ -505,6 +505,10 @@ example.com.		1094	IN	A	93.184.216.34
 We can see the response server  SERVER: 127.0.0.1#53(127.0.0.1) is working fine.
 
 
+
+# ubuntu touch
+
+
 # end
 
 
