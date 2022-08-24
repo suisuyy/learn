@@ -14,7 +14,6 @@
   - [benchmark](#benchmark)
     - [disk](#disk)
       - [dd and disk speed](#dd-and-disk-speed)
-      - [parted](#parted)
   - [boot](#boot)
     - [grub](#grub)
   - [browser](#browser)
@@ -293,20 +292,6 @@ screen -S vndefault -dm bash -c 'sudo virsh net-start default; '
 ### disk
 #### dd and disk speed
 
-#### parted
-```
-cp /sdcard/parted /sbin/ && chmod 755 /sbin/parted
-umount /data && umount /sdcard
-parted /dev/block/sda
-rm 17 #17是userdata分区号 
-mkpart esp fat32 6559MB 7000MB
-mkpart pe fat32 7000MB 10000MB
-mkpart win ntfs 10000MB 70GB
-mkpart userdata ext4 70GB 125GB
-#设置17分区为esp分区，这步很重要
-set 17 esp on
-quit
-```
 #for ntfs not mount it use -o sync
 
 #write speed
