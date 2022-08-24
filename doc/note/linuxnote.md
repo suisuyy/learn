@@ -14,6 +14,7 @@
   - [benchmark](#benchmark)
     - [disk](#disk)
       - [dd and disk speed](#dd-and-disk-speed)
+      - [parted](#parted)
   - [boot](#boot)
     - [grub](#grub)
   - [browser](#browser)
@@ -348,6 +349,23 @@ the input file, this flag can matter when reading from a remote file that has be
 other process. Metadata (e.g., last-access and last-modified time) is not necessarily synchronized.
 
 -sync likewise, but also for metadata
+
+#### parted
+```
+cp /sdcard/parted /sbin/ && chmod 755 /sbin/parted
+umount /data && umount /sdcard
+parted /dev/block/sda
+rm 17 #17是userdata分区号 
+mkpart esp fat32 6559MB 7000MB
+mkpart pe fat32 7000MB 10000MB
+mkpart win ntfs 10000MB 70GB
+mkpart userdata ext4 70GB 125GB
+#设置17分区为esp分区，这步很重要
+set 17 esp on
+quit
+```
+
+
 
 
 ## boot
