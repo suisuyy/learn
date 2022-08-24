@@ -520,6 +520,8 @@ http://kriscode.blogspot.com/2016/09/x-applications-on-ubuntu-phone.html
 
   /usr/share/applications/chromium-browser.desktop   ~/.local/share/applications/ 
 
+  sudo apt-get -q -y install maliit-inputcontext-gtk3 maliit-inputcontext-gtk2
+
 
 X-Ubuntu-Touch=true
  X-Ubuntu-XMir-Enable=true
