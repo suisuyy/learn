@@ -12,6 +12,7 @@
   - [](#-1)
   - [backup](#backup)
   - [benchmark](#benchmark)
+    - [disk](#disk)
     - [dd and disk speed](#dd-and-disk-speed)
   - [boot](#boot)
     - [grub](#grub)
@@ -23,7 +24,7 @@
     - [route](#route)
     - [doh](#doh)
     - [dns](#dns)
-  - [Disk](#disk)
+  - [Disk](#disk-1)
   - [email web](#email-web)
   - [config](#config)
   - [docker](#docker)
@@ -288,7 +289,7 @@ screen -S vndefault -dm bash -c 'sudo virsh net-start default; '
 
 
 
-
+### disk
 ### dd and disk speed
 
 #for ntfs not mount it use -o sync
