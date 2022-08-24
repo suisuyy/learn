@@ -12,7 +12,7 @@
   - [](#-1)
   - [backup](#backup)
   - [benchmark](#benchmark)
-    - [disk](#disk)
+  - [disk](#disk)
       - [dd and disk speed](#dd-and-disk-speed)
       - [parted](#parted)
   - [boot](#boot)
@@ -290,7 +290,7 @@ screen -S vndefault -dm bash -c 'sudo virsh net-start default; '
 
 
 
-### disk
+## disk
 #### dd and disk speed
 
 #for ntfs not mount it use -o sync
