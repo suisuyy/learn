@@ -2,6 +2,8 @@
 - [benchmark](#benchmark)
 - [route](#route)
 - [dns](#dns)
+- [ubports  ubuntu touch](#ubports--ubuntu-touch)
+- [wired problem](#wired-problem)
 - [end](#end)
 
 
