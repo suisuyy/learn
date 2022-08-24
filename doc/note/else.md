@@ -509,7 +509,7 @@ We can see the response server  SERVER: 127.0.0.1#53(127.0.0.1) is working fine.
 # ubports  ubuntu touch
 https://docs.ubports.com/en/latest/?pk_vid=62c130ed61d5dd391661311603e6432f
 https://wiki.ubuntu.com/Touch/Libertine
-
+http://kriscode.blogspot.com/2016/09/x-applications-on-ubuntu-phone.html
 
 problem 
 root filesystem too small
