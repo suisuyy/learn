@@ -521,6 +521,8 @@ http://kriscode.blogspot.com/2016/09/x-applications-on-ubuntu-phone.html
  ~/.local/share/applications/ 
 
 
+
+
 problem 
 root filesystem too small
 
