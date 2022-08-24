@@ -15,6 +15,8 @@
     - [disk](#disk)
       - [dd and disk speed](#dd-and-disk-speed)
       - [parted](#parted)
+  - [boot](#boot)
+    - [grub](#grub)
   - [browser](#browser)
     - [firefox](#firefox)
   - [net](#net)
@@ -292,6 +294,7 @@ screen -S vndefault -dm bash -c 'sudo virsh net-start default; '
 #### dd and disk speed
 
 #### parted
+```
 cp /sdcard/parted /sbin/ && chmod 755 /sbin/parted
 umount /data && umount /sdcard
 parted /dev/block/sda
