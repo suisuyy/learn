@@ -366,6 +366,7 @@ mkpart userdata ext4 70GB 125GB
 set 17 esp on
 quit  #save and quit
 name 48  newlablename
+resize2fs -f /dev/sda23
 
 ```
 
