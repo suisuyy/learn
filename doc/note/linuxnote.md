@@ -1008,6 +1008,7 @@ home/suisuy/.local/share/Steam/steamapps/compatdata
 tar cvzf file.tar.gz files #create verbos gzip filename
 tar xvf file.tar.gz #Extract
 tar tf file.tar.gz #list content in tar
+
 ```
 
 
