@@ -518,7 +518,7 @@ https://docs.ubports.com/en/latest/?pk_vid=62c130ed61d5dd391661311603e6432f
 https://wiki.ubuntu.com/Touch/Libertine
 http://kriscode.blogspot.com/2016/09/x-applications-on-ubuntu-phone.html
 
-   ~/.local/share/applications/ 
+  /usr/share/applications/chromium-browser.desktop   ~/.local/share/applications/ 
 
 
 X-Ubuntu-Touch=true
