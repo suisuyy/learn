@@ -702,6 +702,7 @@ screen->session->window
 ~/.screenrc
 
 
+
 ```bash
 #change keybind to ctrl + j
 escape ^Jj
