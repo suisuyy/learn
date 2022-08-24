@@ -546,6 +546,13 @@ default via 192.168.68.1 dev wlan0
 192.168.122.0/24 dev virbr0 proto kernel scope link src 192.168.122.1 linkdown 
 
 #B
+default via 192.168.68.174 dev wlan0 proto dhcp src 192.168.68.123 metric 301 
+default via 192.168.68.1 dev wlan0 proto dhcp src 192.168.68.123 metric 303 
+169.254.0.0/16 dev veth752d926 scope link src 169.254.201.87 metric 206 
+172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 
+192.168.68.0/24 dev wlan0 proto dhcp scope link src 192.168.68.123 metric 303 
+
+but unconnected
 
 
 
