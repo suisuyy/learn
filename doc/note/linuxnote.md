@@ -355,6 +355,7 @@ other process. Metadata (e.g., last-access and last-modified time) is not necess
 cp /sdcard/parted /sbin/ && chmod 755 /sbin/parted
 umount /data && umount /sdcard
 parted /dev/block/sda
+p free
 rm 17 #17是userdata分区号 
 mkpart esp fat32 6559MB 7000MB
 mkpart pe fat32 7000MB 10000MB
