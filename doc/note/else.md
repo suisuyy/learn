@@ -507,6 +507,8 @@ We can see the response server  SERVER: 127.0.0.1#53(127.0.0.1) is working fine.
 
 
 # ubports  ubuntu touch
+https://docs.ubports.com/en/latest/?pk_vid=62c130ed61d5dd391661311603e6432f
+
 problem 
 root filesystem too small
 
