@@ -78,6 +78,9 @@ sdm845  400
 870 1000
 
 # route
+
+
+
 common cmd
 nmcli dev wifi con  suiwifi2 && ip route add default via 192.168.100.2 dev edge0
 sudo nmcli connection modify edge0 ipv4.gateway "192.168.100.2"
