@@ -376,7 +376,7 @@ tool
 ### status
 
 netstat -tulpn #show port
-
+nload -u M  wlan0
 
 ### bbr
 
