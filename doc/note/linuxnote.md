@@ -362,7 +362,9 @@ mkpart win ntfs 10000MB 70GB
 mkpart userdata ext4 70GB 125GB
 #设置17分区为esp分区，这步很重要
 set 17 esp on
-quit
+quit  #save and quit
+name 48  newlablename
+
 ```
 
 
