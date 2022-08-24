@@ -533,6 +533,22 @@ Halium is the collaborative project to unify the Hardware Abstraction Layer for 
 
 
 
+# wired problem
+#host A
+default via 192.168.68.1 dev wlan0 
+1.1.1.1 via 192.168.100.2 dev edge0 
+8.8.8.8 via 192.168.100.2 dev edge0 
+13.208.182.227 via 192.168.68.1 dev wlan0 proto static metric 600 
+15.152.37.220 via 192.168.68.1 dev wlan0 metric 600 
+172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 linkdown 
+192.168.68.0/24 dev wlan0 proto kernel scope link src 192.168.68.174 metric 600 
+192.168.100.0/24 dev edge0 proto kernel scope link src 192.168.100.3 
+192.168.122.0/24 dev virbr0 proto kernel scope link src 192.168.122.1 linkdown 
+
+#B
+
+
+
 # end
 
 
