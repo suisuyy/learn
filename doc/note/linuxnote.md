@@ -155,7 +155,7 @@ sudo apt-get install xfce4 --no-install-recommends fonts-arphic-uming fonts-arph
 
 # startup
 ## debian
-apt install fonts-wqy-zenhei
+apt install fonts-wqy-zenhei openssh git vim bash-completion screen w3c aria2 p7zip unrar rsync 
 
 ## arch
 
