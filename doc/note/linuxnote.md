@@ -372,6 +372,12 @@ resize2fs -f /dev/sda23
 
 ```
 
+#### resize
+sudo -s
+dd if=/dev/null of=/userdata/ubuntu.img bs=1M seek=6000 count=0
+resize2fs -f /userdata/ubuntu.img                                            
+reboot
+
 
 
 
