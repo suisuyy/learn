@@ -1102,8 +1102,8 @@ CocConfig
 
 edit file in .vim/coc-settings.json
 
-## virt
-### chroot
+##virt
+###chroot
 export MCHRMIRROR=http://deb.debian.org/debian
 export MCHRARCH=i386
 export MCHRREL=buster
