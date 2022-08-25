@@ -165,8 +165,8 @@ sudo pacman-mirrors -c China
 
 #necessary package
 
-wqy-microhei base-devel openssh git vim bash-completion screen w3c aria2 p7zip unrar rsync sshfs tinyproxy   proxychains 
-gnome-terminal firefox chromium
+wqy-microhei base-devel openssh git vim bash-completion screen w3c aria2 p7zip unrar rsync sshfs tinyproxy   proxychains gnome-terminal firefox chromium 
+
 
 #start up package
 
