@@ -157,11 +157,7 @@ sudo apt-get install xfce4 --no-install-recommends fonts-arphic-uming fonts-arph
 ## debian
 apt install fonts-wqy-zenhei
 
-
-
-# useage
-
-arch
+## arch
 
 #setup mirror to china
 
@@ -182,6 +178,11 @@ arm repo
 ```plain
 Server = https://mirrors.ustc.edu.cn/archlinuxarm/$arch/$repo
 ```
+
+
+
+# useage
+
 
 
 ## autolaunch
