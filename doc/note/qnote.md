@@ -221,6 +221,7 @@ suisuy@527y3c.onmicrosoft.com
 Realme Q3 Pro Carnival  RMX3142
 
 小米笔记本ruby
+RTL8111/8168/8411 PCI Express Gigabit
 
 SN: 23240/00015124
 
