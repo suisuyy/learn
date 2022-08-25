@@ -58,6 +58,7 @@
     - [](#-3)
   - [chown](#chown)
   - [vim](#vim)
+  - [virt](#virt)
 - [Entering the chroot, leave it with exit](#entering-the-chroot-leave-it-with-exit)
 - [if you mounted these above](#if-you-mounted-these-above)
   - [vmware](#vmware)
@@ -1119,7 +1120,7 @@ CocConfig
 
 edit file in .vim/coc-settings.json
 
-##virt
+## virt
 ###chroot
 export MCHRMIRROR=http://deb.debian.org/debian
 export MCHRARCH=arm64
