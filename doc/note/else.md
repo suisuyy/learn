@@ -524,6 +524,7 @@ pacman -S tlp tlp-rdw
 # rclone
 rclone ls  sonedriver:/
 
+
 # ubports
 https://docs.ubports.com/en/latest/userguide/dailyuse/libertine.html
 https://docs.ubports.com/en/latest/?pk_vid=62c130ed61d5dd391661311603e6432f
