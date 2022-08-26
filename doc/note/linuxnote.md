@@ -1183,7 +1183,8 @@ Unmount
 [ ! -z ${MCHRDIR} ] && umount ${MCHRDIR}/sys
 [ ! -z ${MCHRDIR} ] && umount ${MCHRDIR}/run
 
-# 
+# vnc
+no
 
 ## vmware
 
