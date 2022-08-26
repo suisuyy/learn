@@ -140,7 +140,7 @@ setxkbmap -option "caps:swapescape"
 
 
 
-edge -r -z1 -c suinet -k 080797ssY -a 192.168.100.11 -f -l 15.152.42.41:7777 -E -A2
+edge -r -z1 -c suinet -k 080797ssY -a 192.168.100.11 -f -l 15.152.37.220:7777 -E -A2
 http-server -a :: #listen on both ipv4 and ipv6 addr
 
 
