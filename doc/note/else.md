@@ -457,6 +457,7 @@ named
 
 # rclone
 install
+rclone config
 
 
 
