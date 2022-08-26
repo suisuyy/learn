@@ -1059,7 +1059,7 @@ tar tf file.tar.gz #list content in tar
 ## user
 useradd -m -G sudo admin
 
-echo "student ALL=(ALL) ALL" > /etc/sudoers
+echo "admin ALL=(ALL) ALL" > /etc/sudoers
 
 
 ## usermod
