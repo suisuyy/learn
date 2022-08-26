@@ -1058,7 +1058,6 @@ tar tf file.tar.gz #list content in tar
 
 ## user
 useradd -m -G sudo admin
-## sudoer
 
 **echo "student ALL=(ALL) ALL" > /etc/sudoers.d/student**
 
