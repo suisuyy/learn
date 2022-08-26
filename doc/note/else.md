@@ -456,6 +456,8 @@ yum install bind bind-utils -y
 named
 
 
+
+
 # dns
 dns
 ./cloudflared-linux-amd64 proxy-dns --port 53
