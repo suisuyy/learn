@@ -456,7 +456,7 @@ yum install bind bind-utils -y
 named
 
 # rclone
-
+install
 
 
 # dns
