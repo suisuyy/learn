@@ -522,7 +522,7 @@ pacman -S tlp tlp-rdw
 
 
 # rclone
---vfs-cache-max-age  --vfs-cache-mode full    
+--vfs-cache-max-age 10 --vfs-cache-mode full    
 
 rclone ls  sonedriver:/
 rclone mount remote:path/to/files /path/to/local/mount
