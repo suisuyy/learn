@@ -521,7 +521,7 @@ sudo tlp start
 pacman -S tlp tlp-rdw
 
 
-
+# rclone
 
 # ubports
 https://docs.ubports.com/en/latest/userguide/dailyuse/libertine.html
