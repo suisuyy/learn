@@ -1057,7 +1057,7 @@ tar tf file.tar.gz #list content in tar
 
 
 ## user
-
+useradd -m -G sudo admin
 
 ## usermod
 
