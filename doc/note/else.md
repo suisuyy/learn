@@ -522,6 +522,8 @@ pacman -S tlp tlp-rdw
 
 
 # rclone
+
+
 rclone ls  sonedriver:/
 rclone mount remote:path/to/files /path/to/local/mount
 fusermount -u /path/to/local/mount
