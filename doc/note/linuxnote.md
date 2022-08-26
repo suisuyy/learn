@@ -1201,9 +1201,7 @@ modprobe vboxdrv
 
 sudo mount -t vboxsf -o uid=$UID,gid=$(id -g) hh ~/hosthome/
 
-## sudoer
 
-**echo "student ALL=(ALL) ALL" > /etc/sudoers.d/student**
 
 ### usb connection problem
 
