@@ -1059,6 +1059,7 @@ tar tf file.tar.gz #list content in tar
 ## user
 useradd -m -G sudo admin
 
+
 ## usermod
 
 sudo usermod -aG group1,g2,g3 username
