@@ -1179,7 +1179,7 @@ Unmount
 [ ! -z ${MCHRDIR} ] && umount ${MCHRDIR}/dev/pts
 [ ! -z ${MCHRDIR} ] && umount ${MCHRDIR}/dev
 
-# if you mounted these above
+#if you mounted these above
 [ ! -z ${MCHRDIR} ] && umount ${MCHRDIR}/sys
 [ ! -z ${MCHRDIR} ] && umount ${MCHRDIR}/run
 
