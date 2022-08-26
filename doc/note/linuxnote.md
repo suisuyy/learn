@@ -1184,7 +1184,7 @@ Unmount
 [ ! -z ${MCHRDIR} ] && umount ${MCHRDIR}/run
 
 # vnc
-no
+novnc and
 
 ## vmware
 
