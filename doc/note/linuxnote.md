@@ -1165,7 +1165,7 @@ mount --bind /run  ${MCHRDIR}/run
 
 #Okay
 
-# Entering the chroot, leave it with exit
+#Entering the chroot, leave it with exit
 
 chroot ${MCHRDIR}
 #enjoy your new environment
