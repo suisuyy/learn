@@ -1184,7 +1184,8 @@ Unmount
 [ ! -z ${MCHRDIR} ] && umount ${MCHRDIR}/run
 
 # vnc
-novnc and
+novnc and turbovnc
+
 
 ## vmware
 
