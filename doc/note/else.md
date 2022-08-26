@@ -522,7 +522,7 @@ pacman -S tlp tlp-rdw
 
 
 # rclone
-
+--vfs-cache-mode CacheMode    
 
 rclone ls  sonedriver:/
 rclone mount remote:path/to/files /path/to/local/mount
