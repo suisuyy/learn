@@ -523,6 +523,7 @@ pacman -S tlp tlp-rdw
 
 # rclone
 rclone mount sonedriver:/ /home/admin/onedriver --vfs-cache-max-age 10m --vfs-cache-mode full    
+rclone mount onedriver:/ /home/admin/mnt/one  --allow-non-empty --vfs-cache-max-age 10m --vfs-cache-mode full
 
 rclone ls  sonedriver:/
 rclone mount remote:path/to/files /path/to/local/mount
