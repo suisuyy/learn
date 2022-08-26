@@ -19,7 +19,7 @@
 
 
 # tmp
-
+http://192.168.68.202:5801/vnc.html?host=192.168.68.202&port=5901&password=080797ssY&autoconnect=true&reconnect=true&compression=0&quality=9
 
 https://527y3c-my.sharepoint.com/personal/suisuy_527y3c_onmicrosoft_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsuisuy%5F527y3c%5Fonmicrosoft%5Fcom%2FDocuments%2Fshare%2Fvideo%2FSony%20Swordsmith%20HDR%20UHD%204K%20Demo%2Emp4&parent=%2Fpersonal%2Fsuisuy%5F527y3c%5Fonmicrosoft%5Fcom%2FDocuments%2Fshare%2Fvideo&ga=1
 
