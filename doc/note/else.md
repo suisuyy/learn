@@ -455,7 +455,7 @@ enable named on remote 192.168.100.2
 yum install bind bind-utils -y
 named
 
-
+# rclone
 
 
 # dns
