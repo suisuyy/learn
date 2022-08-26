@@ -510,6 +510,9 @@ example.com.		1094	IN	A	93.184.216.34
 ;; MSG SIZE  rcvd: 56
 We can see the response server  SERVER: 127.0.0.1#53(127.0.0.1) is working fine.
 
+#tlp power manager
+pacman -S tlp tlp-rdw
+
 
 
 # ubports
