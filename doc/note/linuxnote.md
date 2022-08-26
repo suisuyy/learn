@@ -1185,7 +1185,7 @@ Unmount
 
 # vnc
 novnc and turbovnc
-
+http://192.168.68.202:5801/vnc.html?host=192.168.68.202&port=5901&password=080797ssY&autoconnect=true&reconnect=true&compression=9&quality=9
 
 ## vmware
 
