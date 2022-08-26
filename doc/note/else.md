@@ -512,7 +512,7 @@ We can see the response server  SERVER: 127.0.0.1#53(127.0.0.1) is working fine.
 
 #tlp power manager
 pacman -S tlp tlp-rdw
-
+sudo tlp start
 pacman -S tlp tlp-rdw
 
 
