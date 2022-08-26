@@ -526,6 +526,7 @@ rclone ls  sonedriver:/
 rclone mount remote:path/to/files /path/to/local/mount
 fusermount -u /path/to/local/mount
 
+
 Without the use of --vfs-cache-mode this can only write files sequentially, it can only seek when reading. This means that many applications won't work with their files on an rclone mount without --vfs-cache-mode writes or --vfs-cache-mode full. See the VFS File Caching section for more info
 
 
