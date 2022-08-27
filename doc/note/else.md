@@ -640,6 +640,9 @@ but unconnected
 
 
 # tmp
+docker run --privileged --pull=always --name my-tl-demo --publish 9922:22 -t oposs/tl-ubuntu
+
+
 Android needs kernel support to run docker
 install termux  https://f-droid.org/en/packages/com.termux/
 
