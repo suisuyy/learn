@@ -13,6 +13,7 @@
 
 
 
+
 # android chroot
 
 /dev/shm is a public shared memory directory, 
