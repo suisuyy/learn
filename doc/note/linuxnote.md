@@ -257,12 +257,26 @@ adb reboot bootloader
 ## bash
 
 ```bash
- -e "\n bind 'set completion-ignore-case on'\n bind 'set show-all-if-ambiguous on'\n bind '\C-p:menu-complete'\n" >>
-~/.bashrc
+echo -e "\n bind 'set completion-ignore-case on'\n bind 'set show-all-if-ambiguous on'\n bind '\C-p:menu-complete'\n" >>~/.bashrc
+
+echo -e \
+"escape ^Jj \n\
+hardstatus alwayslastline \n\
+hardstatus string '%{gk}[%{wk}%?%-Lw%?%{=b kR}(%{W}%n*%f %t%?(%u)%?%{=b kR})%{=w}%?%+Lw%?%? %{g}][%{d}%l%{g}][ %{=w}%Y/%m/%d %0C:%s%a%{g} ]%{W}' \n\
+termcapinfo xterm* ti@:te@"\n\
+>~/.screenrc
+
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
+
+
 ```
 
+
+
+##
+
+##
 
 ## backup
 
@@ -294,7 +308,7 @@ screen -S vndefault -dm bash -c 'sudo virsh net-start default; '
 ```plain
 7z b -mmt1
 
-#get 1865 for sd845 ,double point for i58250u
+#get 1865 for sd845 ,double point for ruby
 ```
 
 
@@ -756,8 +770,7 @@ termcapinfo xterm* ti@:te@
 echo -e \
 "escape ^Jj \n\
 hardstatus alwayslastline \n\
-hardstatus string '%{gk}[%{wk}%?%-Lw%?%{=b kR}(%{W}%n*%f %t%?(%u)%?%{=b kR})%{=w}%?%+Lw%?%? %{g}][%{d}%l%{g}][ %{=
-w}%Y/%m/%d %0C:%s%a%{g} ]%{W}' \n\
+hardstatus string '%{gk}[%{wk}%?%-Lw%?%{=b kR}(%{W}%n*%f %t%?(%u)%?%{=b kR})%{=w}%?%+Lw%?%? %{g}][%{d}%l%{g}][ %{=w}%Y/%m/%d %0C:%s%a%{g} ]%{W}' \n\
 termcapinfo xterm* ti@:te@"\n\
 >~/.screenrc
 ```
