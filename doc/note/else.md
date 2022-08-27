@@ -29,7 +29,7 @@ That's because Android normally adds users (i.e. apps) to these groups only when
 
 Adding a user to these groups gives it permission to use socket() as described in the question:
 
-usermod -a -G aid_bt,aid_bt_net,aid_inet,aid_net_raw,aid_admin someuser
+usermod -a -G aid_bt,aid_bt_net,aid_inet,aid_net_raw,aid_admin admin
 
 However, when a process uses seteuid() to switch from root to a unprivileged user (for example someuser), then it's not enough (or probably irrelevant) that this effective user has aid_* group membership. Instead, the root user must explicitly be a member of these groups:
 
