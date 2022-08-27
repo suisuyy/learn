@@ -298,6 +298,8 @@ screen -S vndefault -dm bash -c 'sudo virsh net-start default; '
 
 ```plain
 7z b -mmt1
+
+#1865 for sd845 ,double point for ruby
 ```
 
 
