@@ -624,6 +624,7 @@ Installation Dependencies
 pkg install golang make cmake ndk-multilib tsu tmux docker
 
 Compilation tini
+```
 cd $TMPDIR/docker-build
 wget https://github.com/krallin/tini/archive/v0.19.0.tar.gz
 tar xf v0.19.0.tar.gz
@@ -634,9 +635,10 @@ cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=$PREFIX ..
 make -j8
 make install
 ln -s $PREFIX/bin/tini-static $PREFIX/bin/docker-init
-
+```
 
 Start up docker
+```
 sudo mount -t tmpfs -o uid=0,gid=0,mode=0755 cgroup /sys/fs/cgroup
 
 sudo dockerd --iptables=false
