@@ -546,6 +546,7 @@ If run with -vv rclone will print the location of the file cache. The files are 
 
 
 ## dipper
+userdata can be ext2 f2fs
 
 
 ## ubports dipper
