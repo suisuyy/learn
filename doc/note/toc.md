@@ -11,5 +11,5 @@
 
 [else](./mdreader.html?md=note/else.md)
 
-[markdown cheatsheet](./mdreader.html?md=)
+[markdown cheatsheet](./mdreader.html?md=./m)
 
