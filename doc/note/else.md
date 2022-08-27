@@ -458,7 +458,7 @@ named
 # rclone
 install
 rclone config
-rclone mount remote:path/to/files /path/to/local/mount --vfs-cache-mode
+rclone mount onedriver:/ /path/to/local/mount --vfs-cache-mode
 
 
 # dns
