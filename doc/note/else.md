@@ -13,6 +13,7 @@
 
 
 
+# android chroot
 
 
 
