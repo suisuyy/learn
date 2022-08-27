@@ -458,7 +458,7 @@ named
 # rclone
 install
 rclone config
-jjj
+rclone mount remote:path/to/files /path/to/local/mount
 
 
 # dns
