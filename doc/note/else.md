@@ -17,6 +17,8 @@
 
 /dev/shm is a public shared memory directory, 
 
+## net
+
 groupadd -g 3001 aid_bt
 groupadd -g 3002 aid_bt_net
 groupadd -g 3003 aid_inet
