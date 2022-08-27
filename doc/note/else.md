@@ -16,6 +16,26 @@
 # android chroot
 
 
+groupadd -g 3001 aid_bt
+groupadd -g 3002 aid_bt_net
+groupadd -g 3003 aid_inet
+groupadd -g 3004 aid_net_raw
+groupadd -g 3005 aid_admin
+
+That's because Android normally adds users (i.e. apps) to these groups only when the specific app has networking permissions.
+
+Adding a user to these groups gives it permission to use socket() as described in the question:
+
+usermod -a -G aid_bt,aid_bt_net,aid_inet,aid_net_raw,aid_admin someuser
+
+However, when a process uses seteuid() to switch from root to a unprivileged user (for example someuser), then it's not enough (or probably irrelevant) that this effective user has aid_* group membership. Instead, the root user must explicitly be a member of these groups:
+
+usermod -a -G aid_bt,aid_bt_net,aid_inet,aid_net_raw,aid_admin root
+
+This solved the problem for me.
+
+Note that I've also tried to play with setegid() and similar as an alternative, but none of that helped...
+
 
 # benchmark
 7z b
