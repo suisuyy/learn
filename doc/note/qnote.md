@@ -1,5 +1,6 @@
-#qnote
+# qnote
 
+- [qnote](#qnote)
 - [tmp](#tmp)
 - [links:](#links)
     - [ Global CDN](#global-cdn)
@@ -214,10 +215,6 @@ rq3 5G cu
  
 
 # id
-
-suisuy@527y3c.onmicrosoft.com
-
-080797ssY@4049719
 
 Realme Q3 Pro Carnival  RMX3142
 

@@ -1,5 +1,8 @@
+# linuxnote
+
 # toc
 
+- [linuxnote](#linuxnote)
 - [toc](#toc)
 - [doc url](#doc-url)
 - [quicknote](#quicknote)
@@ -59,12 +62,10 @@
   - [chown](#chown)
   - [vim](#vim)
   - [virt](#virt)
-- [Entering the chroot, leave it with exit](#entering-the-chroot-leave-it-with-exit)
-- [if you mounted these above](#if-you-mounted-these-above)
+- [vnc](#vnc)
   - [vmware](#vmware)
   - [virtual box usage](#virtual-box-usage)
     - [mount shared foder owned by noroot](#mount-shared-foder-owned-by-noroot)
-  - [sudoer](#sudoer)
     - [usb connection problem](#usb-connection-problem)
     - [zram usage](#zram-usage)
 
