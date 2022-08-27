@@ -1187,7 +1187,7 @@ Unmount
 ### docker
 docker exec -it <container-name-or-id> bash
 docker run --rm -it --entrypoint bash <image-name-or-id>
-docker
+docker container 
 
 ## vnc
 novnc and turbovnc
