@@ -1,1 +1,2 @@
-    let bookName = new URL(location.href).searchParams.get("epub")
+let bookName = new URL(location.href).searchParams.get("epub")
+
