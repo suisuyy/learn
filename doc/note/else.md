@@ -459,7 +459,7 @@ named
 install
 rclone config
 rclone mount onedriver:/ /path/to/local/mount --vfs-cache-mode
-
+rclone mount onedriver:/ ./onedriver/ --vfs-cache-mode full   --vfs-read-ahead 300M
 
 # dns
 dns
