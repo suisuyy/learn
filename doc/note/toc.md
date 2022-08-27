@@ -11,5 +11,5 @@
 
 [else](./mdreader.html?md=note/else.md)
 
-[markdown cheatsheet](./mdreader.html?md=https://github.com/itopaloglu83/Jekyll-Markdown-Cheat-Sheet/blob/master/index.mdt/)
+[markdown cheatsheet](./mdreader.html?md=https://github.com/itopaloglu83/Jekyll-Markdown-Cheat-Sheet/blob/master/index.md/)
 
