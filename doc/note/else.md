@@ -15,7 +15,7 @@
 
 # android chroot
 
-
+/dev/shm is a public shared memory directory, 
 
 groupadd -g 3001 aid_bt
 groupadd -g 3002 aid_bt_net
