@@ -57,6 +57,7 @@ sudo pacman -Qdtq | pacman -Rs -
 mail
 
 docker run  --name mailpile -p 8080:33411 -v $(pwd)/mailpile:/root rroemhild/mailpile
+--entrypoint /bin/bash
 
 
 
