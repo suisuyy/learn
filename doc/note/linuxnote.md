@@ -556,7 +556,7 @@ xfce4
 ```plain
 #basic cmd
 sudo docker run --rm  -it --shm-size=512m -p 6901:6901 -e VNC_PW=password kasmweb/ubuntu-focal-desktop:1.11.0
-sudo docker run --rm  -it --shm-size=512m -p 6901:6901 -e VNC_PW=password kasmweb/ubuntu-focal-desktop:1.11.0
+sudo docker run --rm  -it --shm-size=512m -p 6901:6901 -e VNC_PW=password --entrypoint /bin/bash kasmweb/ubuntu-focal-desktop:1.11.0
 
 
 
