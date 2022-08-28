@@ -29,6 +29,10 @@ groupadd -g 3004 aid_net_raw
 groupadd -g 3005 aid_admin
 usermod -a -G aid_bt,aid_bt_net,aid_inet,aid_net_raw,aid_admin root
 
+edit /etc/passwd look up "_apt", change the value of group from 65534 to 3003 enter image description here
+
+
+
 That's because Android normally adds users (i.e. apps) to these groups only when the specific app has networking permissions.
 
 Adding a user to these groups gives it permission to use socket() as described in the question:
