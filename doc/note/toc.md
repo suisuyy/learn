@@ -13,6 +13,6 @@
 
 [markdown cheatsheet](./mdreader.html?md=note/mdnote.md)
 
-[tmp](./mdreader.html?md=https://gist.github.com/suisuyy/d69d11f06fd644f46580a76af1e7790a)
+[tmp](./mdreader.html?md=https://raw.githubusercontent.com/suisuyy/test/main/tmp.md)
 
 
