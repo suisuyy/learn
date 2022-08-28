@@ -557,7 +557,7 @@ xfce4
 #basic cmd
 sudo docker container ls -a
 docker exec my-tl-demo tlcfg add-user myuser mypassword
-docker run --rm  -it --shm-size=512m  --entrypoint /bin/bash
+docker run --rm  -it --shm-size=512m --net host --entrypoint /bin/bash
 
 sudo docker run --rm  -it --shm-size=512m -p 6901:6901 -e VNC_PW=password kasmweb/ubuntu-focal-desktop:1.11.0
 sudo docker run --rm  -it --shm-size=512m -p 6901:6901 -e VNC_PW=password --entrypoint /bin/bash kasmweb/ubuntu-focal-desktop:1.11.0
