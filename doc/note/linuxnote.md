@@ -559,8 +559,11 @@ sudo docker container ls -a
 docker kill $(docker ps -q)
 
 docker exec my-tl-demo tlcfg add-user myuser mypassword
-
 docker run --rm  -it --shm-size=512m --net host --entrypoint /bin/bash
+docker commit 5a8f89adeead newimagename
+docker run -ti -v "$PWD/somedir":/somedir newimagename /bin/bash
+
+
 
 sudo docker run --rm  -it --shm-size=512m -p 6901:6901 -e VNC_PW=password kasmweb/ubuntu-focal-desktop:develop
 
