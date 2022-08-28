@@ -554,6 +554,11 @@ xfce4
 ## docker
 
 ```plain
+#basic cmd
+sudo docker run --rm  -it --shm-size=512m -p 6901:6901 -e VNC_PW=password kasmweb/ubuntu-focal-desktop:1.11.0
+--entrypoint
+
+
 #check if run in docker
 if [[ ! $(cat /proc/1/sched | head -n 1 | grep init) ]]; then {
 echo in docker
