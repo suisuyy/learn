@@ -14,8 +14,6 @@
   - [autolaunch](#autolaunch)
     - [autolanuch at login](#autolanuch-at-login)
   - [bash](#bash)
-  - [](#)
-  - [](#-1)
   - [backup](#backup)
   - [benchmark](#benchmark)
   - [disk](#disk)
@@ -49,7 +47,7 @@
   - [remote desktop](#remote-desktop)
   - [screen](#screen)
   - [setting](#setting)
-  - [](#-2)
+  - [](#)
   - [security](#security)
   - [system monitor](#system-monitor)
   - [sound](#sound)
@@ -58,11 +56,13 @@
   - [‘tar’ stands for tape archive](#tar-stands-for-tape-archive)
   - [user](#user)
   - [usermod](#usermod)
-    - [](#-3)
+    - [](#-1)
   - [chown](#chown)
   - [vim](#vim)
   - [virt](#virt)
-- [vnc](#vnc)
+    - [chroot](#chroot)
+    - [docker](#docker-1)
+  - [vnc](#vnc)
   - [vmware](#vmware)
   - [virtual box usage](#virtual-box-usage)
     - [mount shared foder owned by noroot](#mount-shared-foder-owned-by-noroot)
@@ -556,6 +556,7 @@ xfce4
 ```plain
 #basic cmd
 sudo docker container ls -a
+docker exec my-tl-demo tlcfg add-user myuser mypassword
 docker run --rm  -it --shm-size=512m  --entrypoint /bin/bash
 
 sudo docker run --rm  -it --shm-size=512m -p 6901:6901 -e VNC_PW=password kasmweb/ubuntu-focal-desktop:1.11.0
