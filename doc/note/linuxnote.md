@@ -1214,6 +1214,7 @@ Unmount
 
 ### docker
 ```
+
 docker exec -it <container-name-or-id> bash
 docker run --rm -it --entrypoint bash <image-name-or-id>
 docker container ls -a
