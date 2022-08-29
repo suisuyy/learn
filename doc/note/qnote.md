@@ -184,7 +184,6 @@ qq mail imap smtp
 发件服务器
 
 SMTP  
-
 smtp.qq.com
 25  465/587
 
@@ -193,7 +192,6 @@ pop.qq.com
 110  995
 
 IMAP
-
 imap.qq.com
 143  993
 
