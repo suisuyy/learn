@@ -191,6 +191,10 @@ smtp.qq.com
 POP
 pop.qq.com
 110  995
+IMAP
+
+imap.qq.com
+143  993
 
 
 ip
