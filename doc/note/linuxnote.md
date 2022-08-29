@@ -1214,7 +1214,7 @@ Unmount
 
 ### docker
 ```
-docker run  -it --entrypoint bash <image-name-or-id>
+docker run  -it --net host -v /mnt:/mnt --entrypoint bash <image-name-or-id>
 
 docker run --rm -it --entrypoint bash <image-name-or-id>
 
