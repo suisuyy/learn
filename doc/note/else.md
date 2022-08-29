@@ -813,7 +813,8 @@ sudo docker rm    Delete a container.
 
 # hack
 ## box m301h sm
-
+cpu: hi3798mv300
+1g 8g 
 ![image](https://github.com/suisuyy/learn/raw/main/images/Mon_Aug_29_2022_1661784305731.png)
 
 
