@@ -989,7 +989,7 @@ ServerAliveInterval 1
 ServerAliveCountMax 2
 ```
 restart sshd
-/usr/bin/sshd
+/usr/bin/sshd -p 2222
 
 or
 
