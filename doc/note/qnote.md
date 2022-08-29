@@ -181,7 +181,15 @@ linux usage
 
 
 qq mail imap smtp
+发件服务器
 
+SMTP
+
+smtp.qq.com
+
+25
+
+465/587
 
 15.152.37.220
 
