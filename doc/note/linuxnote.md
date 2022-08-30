@@ -82,6 +82,28 @@
 # short
 
 ```plain
+
+
+/home/suisuy/.local/share/applications/
+
+/usr/share/applications/
+
+/home/suisuy/.local/share/applications/wine/Programs/7-Zip
+
+```plain
+/etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
+```
+ ~/Android/Sdk/emulator -avd Galaxy_Nexus_API_19
+sudo chown $(whoami) -R /dev/kvm
+
+#!/data/data/com.termux/files/usr/bin/sh
+
+unset LD_LIBRARY_PATH LD_PRELOAD
+
+PATH=$PATH:/system/bin exec /system/bin/ping "$@"
+
+cat /etc/NetworkManager/system-connections/suiwifi2.nmconnection 
+
 ln -s file1 link1
 chown suisuy:suisuy file1
 scp vimbk suisuy@43.154.39.152:~/vimbk.tar.gz
