@@ -16,7 +16,7 @@ alias ipr="ip route show"
 alias winec="LANG=zh_CN.UTF-8 wine"
 alias aria2x="aria2c --file-allocation=none -x 10"
 alias mountx="mount -o sync"
-alias ddd="dd oflag=direct status=progress  bs=20M"
+alias ddx="dd oflag=direct status=progress  bs=20M"
 
 #alias cpx="rsync -ah --progress" #slow speed so disabled
 #alias winec="ALL_LOCAL=zh_CN.UTF-8 wine"
