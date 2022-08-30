@@ -557,8 +557,8 @@ xfce4
 ```plain
 #basic cmd
 sudo docker container ls -a
-docker kill $(docker ps -q)
-
+docker kill $(docker ps -q)  #kill all container
+docker container rm  $(docker ps -qa)  #rm all container
 docker exec my-tl-demo tlcfg add-user myuser mypassword
 
 docker run -it --shm-size=512m --net host --entrypoint /bin/bash
