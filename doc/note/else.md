@@ -232,6 +232,9 @@ supernode /etc/n2n/supernode.conf
 
 ```
 
+try this
+https://help.ubuntu.com/community/Router#Enable_IP_forwarding_and_Masquerading
+
 
 
 
