@@ -207,7 +207,10 @@ sudo nmcli connection modify edge0 ipv4.gateway "192.168.100.2"
  ip route add 10.0.0.0/24 via 192.168.0.15 dev enp0s3
 Which essentially reads, “Add a route to the 10.0.0.0/24 network  through the enp0s3 network interface using 192.168.0.15 as gateway”.
 
+
 sysctl -w net.ipv4.ip_forward=1
+cat /proc/sys/net/ipv4/ip_forward
+
 iptables -L -v -n
 
 iptables -A FORWARD -i wlan0 -o edge0 -j ACCEPT
