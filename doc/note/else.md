@@ -213,6 +213,12 @@ iptables -L -v -n
 ```
 
 
+
+## config mi8 lineage termux as router
+apt install n2n
+
+
+
 ## config a common linux desktop as router
 
 tried this, worked before,but not now
