@@ -3,7 +3,7 @@
 init bash
 ```
 
-
+# alias
 alias pingb="ping baidu.com"
 alias pingr="ping 192.168.68.1"
 alias pingd="ping 8.8.8.8"
