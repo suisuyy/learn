@@ -404,8 +404,9 @@ reboot
 
 ### grub
 
-```plain
+```
 grub-mkconfig -o /boot/grub/grub.cfg
+
 ```
 
 ## browser
