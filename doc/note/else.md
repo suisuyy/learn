@@ -210,6 +210,7 @@ Which essentially reads, “Add a route to the 10.0.0.0/24 network  through the 
 sysctl -w net.ipv4.ip_forward=1
 iptables -L -v -n
 
+
 ```
 
 
