@@ -208,6 +208,7 @@ sudo nmcli connection modify edge0 ipv4.gateway "192.168.100.2"
 Which essentially reads, “Add a route to the 10.0.0.0/24 network  through the enp0s3 network interface using 192.168.0.15 as gateway”.
 
 sysctl -w net.ipv4.ip_forward=1
+iptables -L -v -n
 
 ```
 
