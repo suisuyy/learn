@@ -235,6 +235,20 @@ supernode /etc/n2n/supernode.conf
 try this
 https://help.ubuntu.com/community/Router#Enable_IP_forwarding_and_Masquerading
 
+1.4. Technical Overview
+
+The router that will be created is an Internet gateway for wired and/or wireless clients to share an internet connection with one IP address.
+
+The essential components are:
+
+    routing of packets from your local networks to the internet, with IP_masquerading
+    handling DNS requests
+    providing IP addresses to devices on your local networks (DHCP) 
+
+This router can also provide:
+
+    A firewall
+    port forwarding 
 
 
 
