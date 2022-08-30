@@ -235,7 +235,7 @@ supernode /etc/n2n/supernode.conf
 try this
 https://help.ubuntu.com/community/Router#Enable_IP_forwarding_and_Masquerading
 
-1.4. Technical Overview
+### Technical Overview
 
 The router that will be created is an Internet gateway for wired and/or wireless clients to share an internet connection with one IP address.
 
