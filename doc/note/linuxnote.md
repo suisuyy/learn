@@ -1248,6 +1248,8 @@ install then
 
 modprobe vboxdrv
 
+
+community/virtualbox-host-dkms
 ### mount shared foder owned by noroot
 
 sudo mount -t vboxsf -o uid=$UID,gid=$(id -g) hh ~/hosthome/
