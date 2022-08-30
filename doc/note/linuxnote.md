@@ -1250,6 +1250,7 @@ modprobe vboxdrv
 sudo /sbin/vboxconfig 
 virtualbox-host-dkms
 
+
 community/virtualbox-host-dkms
 ### mount shared foder owned by noroot
 
