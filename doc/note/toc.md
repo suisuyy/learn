@@ -15,7 +15,7 @@
 
 [tmp](./mdreader.html?md=https://raw.githubusercontent.com/suisuyy/test/main/tmp.md)
 
-[sh](./mdreader.html?md=https://gitee.com/suisuy/note/raw/master/README.md)
+[sh](./mdreader.html?md=)
 
 
 
