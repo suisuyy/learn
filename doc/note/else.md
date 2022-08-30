@@ -198,6 +198,40 @@ sdm845  400
 
 # route
 
+## config a common linux desktop as router
+
+tried this, worked before,but not now
+
+```
+A
+default via 192.168.68.174 dev wlan0 
+
+B  192.168.68.174
+sudo su
+iptables -t nat -A POSTROUTING -j MASQUERADE 
+echo -e "\nnet.ipv4.ip_forward=1 " >>/etc/sysctl.conf  && sysctl -p
+sysctl -p
+edge -r -z1 -c suinet -k 080797ssY -a 192.168.100.11 -f -l 15.152.42.41:7777
+
+
+
+default via 192.168.100.2 dev edge0 
+default via 192.168.68.1 dev wlan0 proto dhcp src 192.168.68.174 metric 600 
+15.152.42.41 via 192.168.68.1 dev wlan0 
+172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 linkdown 
+172.31.32.0/20 via 192.168.100.2 dev edge0 
+192.168.68.0/24 dev wlan0 proto kernel scope link src 192.168.68.174 metric 600 
+192.168.100.0/24 dev edge0 proto kernel scope link src 192.168.100.3 
+
+C  13.208.182.227
+sudo su
+iptables -t nat -A POSTROUTING -j MASQUERADE
+sysctl -p
+supernode /etc/n2n/supernode.conf
+ edge -c suinet -k 080797ssY -a 192.168.100.200 -f -l 15.152.37.220:7777 -r -z1
+
+```
+
 
 
 common cmd
@@ -216,7 +250,7 @@ To set a new default route, the following command is used in CentOS/RHEL Linux:
 To change the default route settings, this command is used:
  ip route replace default via 192.168.1.2  
 
- 
+
 A route to B,B route C with n2n
 
 A
