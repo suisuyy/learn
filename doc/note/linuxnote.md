@@ -556,6 +556,8 @@ xfce4
 ## docker
 
 ```plain
+docker run -it --shm-size=512m --net host --entrypoint /bin/bash
+
 #basic cmd
 sudo docker container ls -a
 docker kill $(docker ps -q)  #kill all container
