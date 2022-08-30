@@ -1,6 +1,7 @@
 # bash
 
-init bash
+## init bash
+
 ```
 
 # alias
