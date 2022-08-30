@@ -15,7 +15,7 @@
 
 [tmp](./mdreader.html?md=https://raw.githubusercontent.com/suisuyy/test/main/tmp.md)
 
-[sh](./mdreader.html?md=)
+[sh](./mdreader.html?md=note/sh.md)
 
 
 
