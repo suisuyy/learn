@@ -4,9 +4,6 @@
 
 - [linuxnote](#linuxnote)
 - [toc](#toc)
-- [startup](#startup)
-  - [debian](#debian)
-  - [arch](#arch)
 - [useage](#useage)
   - [autolaunch](#autolaunch)
     - [autolanuch at login](#autolanuch-at-login)
@@ -66,37 +63,11 @@
     - [usb connection problem](#usb-connection-problem)
     - [zram usage](#zram-usage)
 - [short](#short)
+- [startup](#startup)
+  - [debian](#debian)
+  - [arch](#arch)
 
 
-
-
-# startup
-
-## debian
-
-apt install -y fonts-wqy-zenhei openssh-server iputils-ping iputils-* iperf3 curl wget git vim bash-completion screen w3m aria2 p7zip unrar rsync sshfs tinyproxy  
-
-apt install dbus-x11 xfce4  xfce4-terminal firefox-esr chromium 
-
-## arch
-
-#setup mirror to china
-
-sudo pacman-mirrors -c China
-
-#necessary package
-
-wqy-microhei base-devel openssh git vim bash-completion screen w3c aria2 p7zip unrar rsync sshfs tinyproxy   proxychains gnome-terminal firefox chromium 
-
-
-#start up package
-
-pacstrap /mnt base linux linux-firmware intel-ucode vi grub efibootmgr bash-completion
-[wqy-microhei](https://archlinux.org/packages/?name=wqy-microhei) openssh vim man ncdu netcat xfce4-terminal
-
-arm repo
-
-Server = https://mirrors.ustc.edu.cn/archlinuxarm/$arch/$repo
 
 
 
@@ -1552,3 +1523,33 @@ QT_QPA_PLATFORM=xcb /usr/bin/kfontview
 sudo apt-get install xfce4 --no-install-recommends fonts-arphic-uming fonts-arphic-ukai
 
 ```
+
+# startup
+
+## debian
+
+apt install -y fonts-wqy-zenhei openssh-server iputils-ping iputils-* iperf3 curl wget git vim bash-completion screen w3m aria2 p7zip unrar rsync sshfs tinyproxy  
+
+apt install dbus-x11 xfce4  xfce4-terminal firefox-esr chromium 
+
+## arch
+
+#setup mirror to china
+
+sudo pacman-mirrors -c China
+
+#necessary package
+
+wqy-microhei base-devel openssh git vim bash-completion screen w3c aria2 p7zip unrar rsync sshfs tinyproxy   proxychains gnome-terminal firefox chromium 
+
+
+#start up package
+
+pacstrap /mnt base linux linux-firmware intel-ucode vi grub efibootmgr bash-completion
+[wqy-microhei](https://archlinux.org/packages/?name=wqy-microhei) openssh vim man ncdu netcat xfce4-terminal
+
+arm repo
+
+Server = https://mirrors.ustc.edu.cn/archlinuxarm/$arch/$repo
+
+
