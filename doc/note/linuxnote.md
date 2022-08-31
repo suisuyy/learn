@@ -1482,4 +1482,84 @@ new device’s device id (meaning that you can use /dev/zram<id>) or an error co
 
             gwinview
 
-            
+
+# short
+
+```plain
+
+
+/home/suisuy/.local/share/applications/
+
+/usr/share/applications/
+
+/home/suisuy/.local/share/applications/wine/Programs/7-Zip
+
+
+/etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
+ ~/Android/Sdk/emulator -avd Galaxy_Nexus_API_19
+sudo chown $(whoami) -R /dev/kvm
+
+#!/data/data/com.termux/files/usr/bin/sh
+
+unset LD_LIBRARY_PATH LD_PRELOAD
+
+PATH=$PATH:/system/bin exec /system/bin/ping "$@"
+
+cat /etc/NetworkManager/system-connections/suiwifi2.nmconnection 
+
+ln -s file1 link1
+chown suisuy:suisuy file1
+scp vimbk suisuy@43.154.39.152:~/vimbk.tar.gz
+#adb and scrcpy
+adb tcpip 5555 #enable tcp debug
+scrcpy -Sw --shortcut-mod=rsuper --disable-screensaver --tcpip=rq3
+scrcpy -SKw --tcpip=192.168.100.4 --shortcut-mod=rsuper --disable-screensaver --bit-rate 1M --max-size 1280
+
+setxkbmap -layout us -option
+setxkbmap -option caps:swapescape
+setxkbmap -option caps:tab
+echo freeze > /sys/power/state
+showkey --scancodes
+sudo xinput reattach 18 3
+sudo xinput float 18
+xinput list
+mkpkg --skippgpcheck -sri
+pacman -Syu pkg1 #install
+pacman -Ss string1 #search both name and description
+pacman -Qi #list all installed with extra info
+pacman -Qs string1 string2 #search installed, use above instead
+pacman -Rs#remove a package and its dependencies
+pacman -Rsc package_name #dependencies and all the packages that depend on the target package:
+pacman -U yourfile.zst
+sudo pacman-mirrors -i -c China -m rank
+expac "%n %m" -l'\n' -Q $(pacman -Qq) | sort -rhk 2 | less
+
+rsync --progress largefile.gz somewhere/else/ #cp with speed display
+kill -9 -1 #logou de
+chromium --proxy-server="//ruby.l:10808"
+sudo virsh net-start default
+rsync -ah --progress source destination
+xzcat test.img.xz | dd of=/dev/mmcblk2 bs=1M status=progress oflag=dsync
+losetup -f -P sda.img #mount img file
+setxkbmap -option "caps:swapescape"
+
+
+
+edge -r -z1 -c suinet -k 080797ssY -a 192.168.100.11 -f -l 15.152.37.220:7777 -Ee -A2
+http-server -a :: #listen on both ipv4 and ipv6 addr
+
+
+xrandr --listproviders
+Xvfb :0 -screen 0 1600x900x24 &
+export DISPLAY=:0
+
+lspci -nnv
+prime-run glxspheres64 
+glxinfo | grep OpenGL
+vblank_mode=0 DRI_PRIME=1 glxgears -fullscreen -info | grep "GL_RENDER\|FPS" 
+DISPLAY=:1 QT_QPA_PLATFORM=wayland kwrite
+QT_QPA_PLATFORM=xcb /usr/bin/kfontview
+
+sudo apt-get install xfce4 --no-install-recommends fonts-arphic-uming fonts-arphic-ukai
+
+```
