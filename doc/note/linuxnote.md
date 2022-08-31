@@ -227,8 +227,7 @@ screen -S vndefault -dm bash -c 'sudo virsh net-start default; '
 
 #write speed
 
-sudo umount tmp ;sudo mount /dev/sdb4  tmp  -o rw,sync && dd if=/dev/zero of=tmp/testspeed bs=20M oflag=dsync
-status=progress count=10;sudo umount tmp
+sudo umount tmp ;sudo mount /dev/sdb4  tmp  -o rw,sync && dd if=/dev/zero of=tmp/testspeed bs=20M oflag=dsync status=progress count=10;sudo umount tmp
 
 #write and read speed of sdb4
 
