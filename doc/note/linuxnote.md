@@ -5,8 +5,6 @@
 - [linuxnote](#linuxnote)
 - [toc](#toc)
 - [doc url](#doc-url)
-- [quicknote](#quicknote)
-- [short](#short)
 - [startup](#startup)
   - [debian](#debian)
   - [arch](#arch)
@@ -68,6 +66,7 @@
     - [mount shared foder owned by noroot](#mount-shared-foder-owned-by-noroot)
     - [usb connection problem](#usb-connection-problem)
     - [zram usage](#zram-usage)
+- [short](#short)
 
 
 
