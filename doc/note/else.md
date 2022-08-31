@@ -18,7 +18,7 @@ test fo build
 
 # android chroot
 
-/dev/shm is a public shared memory directory, 
+/dev/shm is a public shared memory directory,
 
 ## net
 ```
