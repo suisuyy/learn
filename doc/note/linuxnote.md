@@ -74,7 +74,7 @@
 
 ## debian
 
-apt install -y fonts-wqy-zenhei openssh iputils-ping iputils-* curl wget git vim bash-completion screen w3m aria2 p7zip unrar rsync sshfs tinyproxy  
+apt install -y fonts-wqy-zenhei openssh-server iputils-ping iputils-* curl wget git vim bash-completion screen w3m aria2 p7zip unrar rsync sshfs tinyproxy  
 
 apt install dbus-x11 xfce4  xfce4-terminal firefox-esr chromium 
 
