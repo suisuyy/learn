@@ -203,6 +203,7 @@ sdm845  400
 ```
 ip link set wlan0 up/dwon
 ip addr show wlan0
+#use ip addr add need use ip lin set wlan0 down and up to tack effect
 ip addr add 192.168.50.5 dev eth1
 nmcli dev wifi con  suiwifi2 && ip route add default via 192.168.100.2 dev edge0
 sudo nmcli connection modify edge0 ipv4.gateway "192.168.100.2"
