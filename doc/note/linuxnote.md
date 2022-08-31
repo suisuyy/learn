@@ -186,9 +186,8 @@ pacstrap /mnt base linux linux-firmware intel-ucode vi grub efibootmgr bash-comp
 
 arm repo
 
-```plain
 Server = https://mirrors.ustc.edu.cn/archlinuxarm/$arch/$repo
-```
+
 
 
 
