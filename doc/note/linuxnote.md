@@ -90,9 +90,8 @@
 
 /home/suisuy/.local/share/applications/wine/Programs/7-Zip
 
-```plain
+
 /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
-```
  ~/Android/Sdk/emulator -avd Galaxy_Nexus_API_19
 sudo chown $(whoami) -R /dev/kvm
 
