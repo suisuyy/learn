@@ -1481,3 +1481,5 @@ new device’s device id (meaning that you can use /dev/zram<id>) or an error co
             # common app
 
             gwinview
+
+            
