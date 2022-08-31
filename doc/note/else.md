@@ -201,7 +201,7 @@ sdm845  400
 # route
 ## common cmd
 ```
-ip link wlanp up/dwon
+ip link wlan0 up/dwon
 ip addr show wlan0
 ip addr add 192.168.50.5 dev eth1
 nmcli dev wifi con  suiwifi2 && ip route add default via 192.168.100.2 dev edge0
