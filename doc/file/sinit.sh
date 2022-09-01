@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #install packages
+sudo apt update
 sudo apt install -y fonts-wqy-zenhei openssh-server iputils-ping iputils-* iperf3 curl wget git vim bash-completion screen w3m aria2 p7zip unrar rsync sshfs tinyproxy 
 
 sudo apt  install  -y dbus-x11 xfce4  xfce4-terminal
