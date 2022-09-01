@@ -144,33 +144,7 @@ dns.adguard.com
 [https://archon-runtime.github.io/](https://archon-runtime.github.io/)   not usable
 
 
-microsoft
 
-[https://527y3c-my.sharepoint.com/personal/suisuy_527y3c_onmicrosoft_com/_layouts/15/Doc.aspx?sourcedoc={11a3491a-7cf9-413d-90b9-8cb416b00309}&action=view&wd=target%28test.one%7C8a4dd83f-fd80-4db0-802a-f1921802c3f8%2Ftest%7C914a5288-823a-42dc-ba71-3f7993e58c3f%2F%29&wdorigin=NavigationUrl](https://527y3c-my.sharepoint.com/personal/suisuy_527y3c_onmicrosoft_com/_layouts/15/Doc.aspx?sourcedoc={11a3491a-7cf9-413d-90b9-8cb416b00309}&action=view&wd=target%28test.one%7C8a4dd83f-fd80-4db0-802a-f1921802c3f8%2Ftest%7C914a5288-823a-42dc-ba71-3f7993e58c3f%2F%29&wdorigin=NavigationUrl)  onenote
-
-[https://527y3c-my.sharepoint.com/:f:/g/personal/suisuy_527y3c_onmicrosoft_com/EqCC4a3y4WtAspmvmsoY2hgBS077prdGDGN8Em3jhWeqQQ?e=ZUwcFj](https://527y3c-my.sharepoint.com/:f:/g/personal/suisuy_527y3c_onmicrosoft_com/EqCC4a3y4WtAspmvmsoY2hgBS077prdGDGN8Em3jhWeqQQ?e=ZUwcFj)  drive shared
-
-
-[https://527y3c-my.sharepoint.com/personal/suisuy_527y3c_onmicrosoft_com/_layouts/15/onedrive.aspx?login_hint=suisuy%40527y3c%2Eonmicrosoft%2Ecom&id=%2Fpersonal%2Fsuisuy%5F527y3c%5Fonmicrosoft%5Fcom%2FDocuments%2Fwindriver](https://527y3c-my.sharepoint.com/personal/suisuy_527y3c_onmicrosoft_com/_layouts/15/onedrive.aspx?login_hint=suisuy%40527y3c%2Eonmicrosoft%2Ecom&id=%2Fpersonal%2Fsuisuy%5F527y3c%5Fonmicrosoft%5Fcom%2FDocuments%2Fwindriver)  drive
-
-linux
-
-[https://www.testufo.com/framerates#count=6&background=none&pps=120](https://www.testufo.com/framerates#count=6&background=none&pps=120)
-
-shell project  
-
-[https://iflydocs.com/h/s/doc/fMCUWEKDuSkQE34r](https://iflydocs.com/h/s/doc/fMCUWEKDuSkQE34r)
-
-linux usage
-
- [https://iflydocs.com/h/s/doc/GUsgsfGMnNbzoeeQ](https://iflydocs.com/h/s/doc/GUsgsfGMnNbzoeeQ)
-
-[https://github.com/marlonrichert/zsh-autocomplete](https://github.com/marlonrichert/zsh-autocomplete)
-
-
- 1840843025
-
-19353440224
 
 
 
