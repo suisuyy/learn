@@ -268,6 +268,7 @@ Targets: A target is a decision of what to do with a packet. Typically, this is 
 
 ## zerotier
 ```
+233ccaac2732bb47
 zerotier-cli status
 
 
