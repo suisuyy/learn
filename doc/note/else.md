@@ -231,6 +231,7 @@ sudo iptables -L --line-numbers
 
 sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT
 ￼
+#
 sudo iptables -D INPUT <Number>
 
 
