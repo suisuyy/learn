@@ -238,6 +238,15 @@ sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT
 sudo iptables -D INPUT <Number>
 
 
+#delete all table
+iptables -P INPUT ACCEPT
+iptables -P FORWARD ACCEPT
+iptables -P OUTPUT ACCEPT
+iptables -t nat -F
+iptables -t mangle -F
+iptables -F
+iptables -X
+
 
 ```
 
