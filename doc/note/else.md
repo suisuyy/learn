@@ -225,6 +225,7 @@ iptables -A FORWARD -i edge0 -o wlan0 -j ACCEPT
 ## iptables
 ```
 sudo iptables -L
+sudo iptables -L --line-numbers
 
 #To allow HTTP web traffic, enter the following command:-p – Check for the specified protocol (tcp).--dport – Specify the destination port.-j jump – Take the specified action.
 
