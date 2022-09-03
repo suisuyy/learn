@@ -222,6 +222,9 @@ iptables -A FORWARD -i edge0 -o wlan0 -j ACCEPT
 
 ```
 
+## iptables
+How iptables Work
+Network traffic is made up of packets. Data is broken up into smaller pieces (called packets), sent over a network, then put back together. Iptables identifies the packets received and then uses a set of rules to decide what to do with them.
 
 
 ## config mi8 lineage termux as router
