@@ -274,6 +274,7 @@ zerotier-cli join 233ccaac2732bb47
 curl -s https://install.zerotier.com | sudo bash
 
 
+image.png
 
 ```
 
