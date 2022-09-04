@@ -274,7 +274,11 @@ zerotier-cli join 233ccaac2732bb47
 curl -s https://install.zerotier.com | sudo bash
 
 
-image.png
+PHY_IFACE=eth0
+ZT_IFACE=ztxxxxxxx
+sudo iptables -t nat -A POSTROUTING -o $PHY_IFACE -j MASQUERADE
+sudo iptables -A FORWARD -i $ZT_IFACE -o $PHY_IFACE -j ACCEPT
+sudo iptables -A FORWARD -i $PHY_IFACE -o $ZT_IFACE -m state --state RELATED,ESTABLISHED -j ACCEPT
 
 ```
 
