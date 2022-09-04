@@ -5,3 +5,5 @@ https://15.152.37.220:5801/vnc.html?host=15.152.37.220&port=5901&reconnect=true&
 https://webcamera.io/
 
 http://www.ip111.cn/
+
+https://www.dnsleaktest.com/results.html
