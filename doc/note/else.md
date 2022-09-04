@@ -281,6 +281,9 @@ sudo iptables -t nat -A POSTROUTING -o $PHY_IFACE -j MASQUERADE
 sudo iptables -A FORWARD -i $ZT_IFACE -o $PHY_IFACE -j ACCEPT
 sudo iptables -A FORWARD -i $PHY_IFACE -o $ZT_IFACE -m state --state RELATED,ESTABLISHED -j ACCEPT
 
+
+sudo sysctl -w net.ipv4.conf.all.rp_filter=2
+
 ```
 
 
