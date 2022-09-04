@@ -233,7 +233,7 @@ sudo /sbin/iptables–save
 #To allow HTTP web traffic, enter the following command:-p – Check for the specified protocol (tcp).--dport – Specify the destination port.-j jump – Take the specified action.
 
 sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT
-￼
+
 #delete
 sudo iptables -D INPUT <Number>
 
