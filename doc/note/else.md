@@ -275,7 +275,7 @@ curl -s https://install.zerotier.com | sudo bash
 
 
 PHY_IFACE=eth0
-ZT_IFACE=ztxxxxxxx
+ZT_IFACE=ztr4n7qf3a
 
 sudo iptables -t nat -A POSTROUTING -o $PHY_IFACE -j MASQUERADE
 sudo iptables -A FORWARD -i $ZT_IFACE -o $PHY_IFACE -j ACCEPT
