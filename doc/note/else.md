@@ -283,7 +283,10 @@ sudo iptables -A FORWARD -i $PHY_IFACE -o $ZT_IFACE -m state --state RELATED,EST
 
 
 
-sudo zerotier-cli set 233ccaac2732bb47  allowDefault=1
+
+
+sudo zerotier-cli set <networkId> allowDefault=1
+
 
 
 sudo sysctl -w net.ipv4.conf.all.rp_filter=2
