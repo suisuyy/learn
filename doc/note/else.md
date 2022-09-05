@@ -3,6 +3,12 @@
   - [net](#net)
 - [benchmark](#benchmark)
 - [route](#route)
+  - [common cmd](#common-cmd)
+  - [iptables](#iptables)
+  - [zerotier](#zerotier)
+  - [config mi8 lineage termux as router](#config-mi8-lineage-termux-as-router)
+  - [config a common linux desktop as router](#config-a-common-linux-desktop-as-router)
+    - [Technical Overview](#technical-overview)
 - [rclone](#rclone)
 - [dns](#dns)
 - [rclone](#rclone-1)
@@ -11,6 +17,8 @@
 - [wired problem](#wired-problem)
 - [tmp](#tmp)
 - [end](#end)
+- [hack](#hack)
+  - [box m301h sm ciot](#box-m301h-sm-ciot)
 
 test fo build
 
