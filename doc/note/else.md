@@ -276,7 +276,10 @@ Targets: A target is a decision of what to do with a packet. Typically, this is 
 
 ## zerotier
 ```
+
 233ccaac2732bb47
+
+curl -s https://install.zerotier.com | sudo bash
 zerotier-cli status
 zerotier-cli join 233ccaac2732bb47
 
