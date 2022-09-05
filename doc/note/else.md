@@ -274,7 +274,7 @@ zerotier-cli join 233ccaac2732bb47
 curl -s https://install.zerotier.com | sudo bash
 
 
-PHY_IFACE=eth0
+PHY_IFACE=wlan0
 ZT_IFACE=ztr4n7qf3a
 
 sudo iptables -t nat -A POSTROUTING -o $PHY_IFACE -j MASQUERADE
@@ -285,7 +285,8 @@ sudo iptables -A FORWARD -i $PHY_IFACE -o $ZT_IFACE -m state --state RELATED,EST
 
 
 
-sudo zerotier-cli set <networkId> allowDefault=1
+sudo zerotier-cli set 233ccaac2732bb47 allowDefault=1
+sudo zerotier-cli set 233ccaac2732bb47 allowDefault=0
 
 
 
