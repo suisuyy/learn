@@ -304,6 +304,9 @@ tool
 ### status
 
 netstat -tulpn #show port
+sudo lsof -i:22
+
+
 
 nload -u M  wlan0
 
