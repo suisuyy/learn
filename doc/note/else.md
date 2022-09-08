@@ -208,6 +208,8 @@ sdm845  400
 
 
 # fig
+curl -SsL https://pkg.fig.io/install.sh | bash
+
 
 
 # route
