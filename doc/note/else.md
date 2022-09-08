@@ -208,11 +208,14 @@ sdm845  400
 
 
 # fig
+```
+fig doctor
 curl -SsL https://pkg.fig.io/install.sh | bash
 
 fig install --dotfiles
 fig _ should-figterm-launch
-
+figterm
+```
 # route
 ## common cmd
 ```
