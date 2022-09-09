@@ -1005,11 +1005,6 @@ cpu: hi3798mv300
 adb push parted  /tmp
 adb shell chmod +x /tmp/parted
 
-adb shell
-mount /dev/block/by-name/logfs /mnt
-create new file called simpleinit.static.uefi.cfg 
-
-
 
 parted /dev/block/sda
 rm 23
