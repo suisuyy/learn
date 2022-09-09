@@ -1056,8 +1056,8 @@ print
 userdata分区是被安卓使用作为内部存储的分区，esp分区用来引导windows系统的，win分区被windows使用一般是C盘。以下命令建议一行一行的复制粘贴，保证前一个命令完成再执行下一条
 rm 21 #21是userdata分区号
 mkpart esp fat32 1611MB 2100MB
-mkpart win ntfs 2100MB 53GB   
-mkpart userdata ext4 53GB 59GB  
+mkpart win ntfs 2100MB 42GB   
+mkpart userdata ext4 42GB 59GB  
 set 21 esp on  
 
 分区好再用print查看分区状态，可以看到这里给了win分区50.9GB，给安卓6GB左右
