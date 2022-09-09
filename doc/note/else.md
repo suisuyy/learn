@@ -1000,6 +1000,9 @@ cpu: hi3798mv300
 
 # mi8 win11
 ```
+额外说明
+win10 从版本号21277才支持x64位软件
+
 手机安装win11
 
 adb push parted  /tmp
