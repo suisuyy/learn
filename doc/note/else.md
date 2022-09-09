@@ -1094,8 +1094,7 @@ bcdedit /store Y:\efi\microsoft\boot\bcd /set {Default} nointegritychecks on
 
 
 
-额外说明
-win10 从版本号21277才支持x64位软件 
+ 
 
 在安装之前应先解锁手机，刷入第三方twrp
 和一般使用手机电脑依靠鼠标或者触摸操作不同，这次刷机主要使用键盘输入命令控制电脑手机，powershell是windows自带程序用来执行命令，打开输入命令后按回车执行命令，常见命令有ls用来显示当前目录所有文件，cd用来进入指定文件夹，adb是命令行应用也是再powershell里面使用，命令由命令名+参数组成，两者一般会用空格分开，比如之后使用的umount /data命令，umount 是命令名表示卸载， /data为参数，就是卸载/data分区
