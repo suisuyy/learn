@@ -1086,13 +1086,13 @@ diskpart  
 select disk 7
 list part
 select part 21 #21为你的esp分区号
-assign letter=Y
+assign letter=T
 exit
 第二行的 select disk 7 中的数字7 可能要根据实际情况修改
 
 复制下面内容到命令窗口，这里使用powershell会出错，用cmd才行
-bcdedit /store Y:\efi\microsoft\boot\bcd /set {Default} testsigning on
-bcdedit /store Y:\efi\microsoft\boot\bcd /set {Default} nointegritychecks on
+bcdedit /store T:\efi\microsoft\boot\bcd /set {Default} testsigning on
+bcdedit /store T:\efi\microsoft\boot\bcd /set {Default} nointegritychecks on
 
 
  
