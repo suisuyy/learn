@@ -1082,7 +1082,7 @@ fastboot boot boot.img
 
 修改手机efi分区，打开测试模式以关闭驱动签名认证，因为刚刚加载的驱动是没有经过微软认证的，不打开测试模式Windows无法使用驱动
 为efi系统分区设定盘符以便对其进行修改
-diskpart  #回车之后稍等一小会
+diskpart  
 select disk 7
 list part
 select part 21 #21为你的esp分区号
