@@ -1095,8 +1095,6 @@ bcdedit /store Y:\efi\microsoft\boot\bcd /set {Default} testsigning on
 bcdedit /store Y:\efi\microsoft\boot\bcd /set {Default} nointegritychecks on
 
 
-
-
  
 
 在安装之前应先解锁手机，刷入第三方twrp
