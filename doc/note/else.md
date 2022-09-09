@@ -1001,21 +1001,6 @@ cpu: hi3798mv300
 # mi8 win11
 ```
 手机安装win11
-双系统启动尝试
-目前edk2-sdm845内置了SimpleInit作为启动菜单，你可以通过修改logfs分区中的simpleinit.static.uefi.cfg来进行配置
-SimpleInit能自动检测到Windows并生成启动项，所以你不需要添加Windows启动项
-你需要使用v2.0或更新版本的edk2-sdm845来启动安卓
-先删除simpleinit.uefi.cfg中的boot.default配置,可以使用#符号
-# -*- coding: utf-8 -*-
-##
-## Simple Init Configuration Store For UEFI
-##
-
-logger.use_console = true
-logger.min_level = 44545 
-#boot.default = "continue"
-boot.second = "simple-init"
-
 
 adb push parted  /tmp
 adb shell chmod +x /tmp/parted
