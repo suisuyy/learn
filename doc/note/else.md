@@ -888,6 +888,12 @@ wsl --install  #not work
 
 wsl --set-version Ubuntu 1
 wsl --set-default-version 1
+
+
+#sample output
+>wsl -l -v
+  NAME      STATE           VERSION
+* Ubuntu    Running         1
 ```
 
 
