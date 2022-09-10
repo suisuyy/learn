@@ -884,6 +884,7 @@ wsl --list --online
 wsl --install -d <DistroName>
 wsl --install
 
+wsl --set-version <distro name> 2
 ```
 
 
