@@ -878,12 +878,13 @@ Halium is the collaborative project to unify the Hardware Abstraction Layer for 
 
 # windows
 ```
+route CHANGE 0.0.0.0 MASK 0.0.0.0 192.168.68.1 METRIC 40
 net user administrator passwd
 
 wsl --list -v
 wsl --list --online
-wsl --install -d Ubuntu-20.04
-wsl --install
+wsl --install -d Ubuntu-20.04  #this not work
+wsl --install  #not work
 
 wsl --set-version Ubuntu 1
 wsl --set-default-version 1
