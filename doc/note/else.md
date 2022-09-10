@@ -879,8 +879,8 @@ Halium is the collaborative project to unify the Hardware Abstraction Layer for 
 # windows
 ```
 net user administrator passwd
-wsl -l
 
+wsl --install
 
 ```
 
