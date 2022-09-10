@@ -886,7 +886,7 @@ wsl --install -d <DistroName>
 wsl --install
 
 wsl --set-version Ubuntu 1
-wsl --set-default-version <Version#>
+wsl --set-default-version 1
 ```
 
 
