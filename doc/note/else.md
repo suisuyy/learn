@@ -882,7 +882,7 @@ net user administrator passwd
 
 wsl --list -v
 wsl --list --online
-wsl --install -d <DistroName>
+wsl --install -d Ubuntu-20.04
 wsl --install
 
 wsl --set-version Ubuntu 1
