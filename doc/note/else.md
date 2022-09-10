@@ -880,6 +880,7 @@ Halium is the collaborative project to unify the Hardware Abstraction Layer for 
 ```
 net user administrator passwd
 
+wsl --list --online
 wsl --install
 
 ```
