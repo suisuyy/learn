@@ -885,6 +885,7 @@ wsl --install -d <DistroName>
 wsl --install
 
 wsl --set-version <distro name> 2
+wsl --set-default-version <Version#>
 ```
 
 
