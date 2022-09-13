@@ -22,3 +22,13 @@ alias ddx="dd oflag=direct status=progress  bs=20M"
 #alias winec="ALL_LOCAL=zh_CN.UTF-8 wine"
 
 ```
+
+## dd
+```
+#dd disk write speed mount sync
+DEV='/dev/sdb1' BUFSIZE=100K  COUNT=4 MFLAGS='-o sync' DFLAGS='';sudo mkdir tmp ;sudo umount tmp ;sudo mount $MFLAGS $DEV tmp;echo start test write speed_______________; sudo dd if=/dev/zero of=tmp/testspeed bs=$BUFSIZE  count=$COUNT  status=progress $DFLAGS;
+sudo echo 3 > /proc/sys/vm/drop_caches && echo start test read speed________
+sudo dd if=tmp/testspeed of=/dev/null iflag=fullblock status=progress  bs=${BUFSIZE} count=${COUNT} 
+sudo rm tmp/testspeed; sudo umount tmp
+
+```
