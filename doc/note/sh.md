@@ -31,7 +31,7 @@ sudo echo 3 > /proc/sys/vm/drop_caches && echo start test read speed________
 sudo dd if=tmp/testspeed of=/dev/null iflag=fullblock status=progress  bs=${BUFSIZE} count=${COUNT} 
 sudo rm tmp/testspeed; sudo umount tmp
 
-#dd disk write speed mount sync ntfs3 dsync
+#dd disk write speed mount sync ntfs3 ddsync
 DEV='/dev/sda3' BUFSIZE=100M  COUNT=4 MFLAGS='-t ntfs3 -o sync' DFLAGS='oflag=dsync';sudo mkdir tmp ;sudo umount tmp ;sudo mount $MFLAGS $DEV tmp;echo start test write speed_______________; sudo dd if=/dev/zero of=tmp/testspeed bs=$BUFSIZE  count=$COUNT  status=progress $DFLAGS;
 sudo echo 3 > /proc/sys/vm/drop_caches && echo start test read speed________
 sudo dd if=tmp/testspeed of=/dev/null iflag=fullblock status=progress  bs=${BUFSIZE} count=${COUNT} 
