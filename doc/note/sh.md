@@ -59,11 +59,15 @@ sudo rm tmp/testspeed; sudo umount tmp
 
 
 # pac
+
 ```
+
 function FindProxyForURL(url, host) {
     if (isResolvable(host)) {
       return "DIRECT";
     }
     return "PROXY 192.168.100.2:10801";
   }
+
+
   ```
