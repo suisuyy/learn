@@ -75,7 +75,15 @@ function FindProxyForURL(url, host) {
 
   # tmp
   ```
-
+ docker run  \
+  -v /mnt/sda5:/mnt/data/ttnode \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  -v /proc:/host/proc:ro \
+  --name ttnode \
+  --hostname ttnode \
+  --privileged \
+  --net=host \
+  registry.cn-hangzhou.aliyuncs.com/tiptime/ttnode:latest
 
 
 
