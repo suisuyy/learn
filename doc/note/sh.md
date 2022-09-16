@@ -85,6 +85,8 @@ function FindProxyForURL(url, host) {
   --net=host \
   registry.cn-hangzhou.aliyuncs.com/tiptime/ttnode:latest
 
+http://ip:1024
+
 
 
 
