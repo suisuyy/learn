@@ -25,6 +25,20 @@ alias ddx="dd oflag=direct status=progress  bs=20M"
 
 ## common snipt
 
+```
+#while
+stime=3;
+uh=admin@47.243.80.22
+while true
+do
+ ssh -C  -D 0.0.0.0:10808 -L 0.0.0.0:10809:0.0.0.0:10809 $uh
+ echo 'ssh died,restart after ' $stime seconds
+ sleep $stime
+done
+
+
+```
+
 ## dd
 ```
 
