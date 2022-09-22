@@ -27,8 +27,7 @@ alias ddx="dd oflag=direct status=progress  bs=20M"
 
 ```
 #while
-stime=3;
-uh=admin@47.243.80.22
+STIME=3
 while true
 do
  ssh -C  -D 0.0.0.0:10808 -L 0.0.0.0:10809:0.0.0.0:10809 $uh
