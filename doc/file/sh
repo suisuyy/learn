@@ -1,4 +1,5 @@
 # common snipt
+
 #while
 SLEEP_DURATION=3
 while true
