@@ -1,6 +1,7 @@
 # common snipt
 
 #while.sh
+VARIABLE="${1:-$DEFAULTVALUE}"
 SLEEP_DURATION=3
 while true
 do
