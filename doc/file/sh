@@ -1,6 +1,6 @@
 # common snipt
 
-#while
+#while.sh
 SLEEP_DURATION=3
 while true
 do
