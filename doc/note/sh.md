@@ -23,6 +23,8 @@ alias ddx="dd oflag=direct status=progress  bs=20M"
 
 ```
 
+## common snipt
+
 ## dd
 ```
 
