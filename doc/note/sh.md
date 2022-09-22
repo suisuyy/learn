@@ -27,11 +27,11 @@ alias ddx="dd oflag=direct status=progress  bs=20M"
 
 ```
 #while
-SLEEP_=3
+SLEEP_DURATION=3
 while true
 do
- echo 'ssh died,restart after ' $SLEEP_ seconds
- sleep SLEEP_
+ echo 'ssh died,restart after ' $SLEEP_DURATION seconds
+ sleep SLEEP_DURATION
 done
 
 
