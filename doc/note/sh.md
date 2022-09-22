@@ -32,7 +32,7 @@ while true
 do
  ssh -C  -D 0.0.0.0:10808 -L 0.0.0.0:10809:0.0.0.0:10809 $uh
  echo 'ssh died,restart after ' $stime seconds
- sleep $stime
+ sleep STIME
 done
 
 
