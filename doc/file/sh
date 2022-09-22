@@ -5,6 +5,6 @@ VARIABLE="${1:-defaultarg1}"
 SLEEP_DURATION=3
 while true
 do
- echo 'restart after ' $SLEEP_DURATION seconds
+ echo 'srestart after ' $SLEEP_DURATION seconds $VARIABLE
  sleep SLEEP_DURATION
 done
