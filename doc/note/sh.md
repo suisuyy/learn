@@ -30,7 +30,6 @@ alias ddx="dd oflag=direct status=progress  bs=20M"
 STIME=3
 while true
 do
- ssh -C  -D 0.0.0.0:10808 -L 0.0.0.0:10809:0.0.0.0:10809 $uh
  echo 'ssh died,restart after ' $stime seconds
  sleep STIME
 done
