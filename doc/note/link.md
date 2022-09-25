@@ -10,7 +10,7 @@ https://www.dnsleaktest.com/results.html
 
 http://tongmengxz.com/category/picture
 
-https://github.com/banbendalao/ADgk
+https://ghproxy.com/https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt
 
 https://github.com/easylist/easylistchina
 
