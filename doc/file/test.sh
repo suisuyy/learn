@@ -27,6 +27,8 @@ amixer -D pulse sset Master mute
 sleep 1
 amixer -D pulse sset Master unmute
 
+
+
 # net up/down dispatch 
 #!/bin/bash
 
