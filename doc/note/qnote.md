@@ -289,6 +289,8 @@ REG ADD "hklm\software\policies\microsoft\windows defender" /v DisableAntiSpywar
 
 net user administrator /active:yes 
 
+XGVPP-NMH47-7TTHJ-W3FW7-8HV2C
+
 ## service
 
 docker run -e ROUNDCUBEMAIL_DEFAULT_HOST=imap.qq.com -e ROUNDCUBEMAIL_SMTP_SERVER=smtp.qq.com -p 8000:80 -d roundcube/roundcubemail
