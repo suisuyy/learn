@@ -28,3 +28,7 @@ sleep 1
 amixer -D pulse sset Master unmute
 
 #net up/down dispatch 
+
+
+
+
