@@ -1,6 +1,7 @@
 # common snipt
 
 # tricks
+i3-msg reload
 
 
 #while.sh
