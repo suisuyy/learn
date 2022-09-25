@@ -16,4 +16,4 @@ https://ghproxy.com/https://raw.githubusercontent.com/banbendalao/ADgk/master/AD
 
 https://ghproxy.com/https://raw.githubusercontent.com/easylist/easylistchina/master/easylistchina.txt
 
-halihali.icu
+http://halihali.icu
