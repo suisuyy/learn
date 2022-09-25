@@ -28,7 +28,15 @@ sleep 1
 amixer -D pulse sset Master unmute
 
 #net up/down dispatch 
+#!/bin/bash
 
+#touch /etc/NetworkManager/dispatcher.d/30-mydispatcher;chmod +x /etc/NetworkManager/dispatcher.d/30-mydispatcher
+
+
+
+if [ "$1" == "eth0" ] && [ "$2" == "up" ]; then
+    ethtool -K "$1" rx off gro off lro off
+fi
 
 
 
