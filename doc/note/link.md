@@ -23,3 +23,11 @@ http://halihali.icu
 https://45.11.45.11/dns-query?name=www.potaroo.net&type=A
 
 https://dns.google/dns-query?name=www.potaroo.net&type=A
+
+https://hk-hkg.doh.sb/dns-query
+
+https://dns.quad9.net/dns-query
+
+https://dns.cloudflare.com/dns-query
+
+https://dns.adguard-dns.com/dns-query
