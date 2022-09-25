@@ -7,6 +7,8 @@ cat /sys/class/thermal/thermal_zone*/temp
 cat /sys/module/kernel/parameters/consoleblank
 
 
+
+
 #while.sh
 VARIABLE="${1:-defaultarg1}"
 SLEEP_DURATION=3
