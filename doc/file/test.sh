@@ -27,7 +27,7 @@ amixer -D pulse sset Master mute
 sleep 1
 amixer -D pulse sset Master unmute
 
-#net up/down dispatch 
+# net up/down dispatch 
 #!/bin/bash
 
 #touch /etc/NetworkManager/dispatcher.d/30-mydispatcher;chmod +x /etc/NetworkManager/dispatcher.d/30-mydispatcher
