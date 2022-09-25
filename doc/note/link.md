@@ -12,5 +12,5 @@ http://tongmengxz.com/category/picture
 
 https://ghproxy.com/https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt
 
-https://github.com/easylist/easylistchina
+https://ghproxy.com/https://raw.githubusercontent.com/easylist/easylistchina/master/easylistchina.txt
 
