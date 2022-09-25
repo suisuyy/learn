@@ -3,6 +3,7 @@
 # tricks
 i3-msg reload
 brightnessctl -d 'backlight' set 6
+cat /sys/class/thermal/thermal_zone*/temp
 
 
 #while.sh
