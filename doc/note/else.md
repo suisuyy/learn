@@ -221,6 +221,20 @@ fig install --dotfiles
 fig _ should-figterm-launch
 figterm
 ```
+
+# qinglong
+```
+docker run -dit \
+  -v $PWD/ql/data:/ql/data \
+  -p 5700:5700 \
+  --name qinglong \
+  --hostname qinglong \
+  whyour/qinglong:latest
+
+```
+
+
+
 # route
 ## common cmd
 ```
