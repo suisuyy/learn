@@ -2,7 +2,7 @@
 
 # tricks
 i3-msg reload
-brightnessctl -d 'backlight' set 6
+brightnessctl -d 'backlight' set 0
 cat /sys/class/thermal/thermal_zone*/temp
 cat /sys/module/kernel/parameters/consoleblank
 
