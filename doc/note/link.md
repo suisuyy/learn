@@ -17,3 +17,9 @@ https://ghproxy.com/https://raw.githubusercontent.com/banbendalao/ADgk/master/AD
 https://ghproxy.com/https://raw.githubusercontent.com/easylist/easylistchina/master/easylistchina.txt
 
 http://halihali.icu
+
+
+# dns over https
+https://45.11.45.11/dns-query?name=www.potaroo.net&type=A
+
+https://dns.google/dns-query?name=www.potaroo.net&type=A
