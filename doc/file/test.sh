@@ -2,6 +2,7 @@
 
 # tricks
 i3-msg reload
+brightnessctl -d 'backlight' set 6
 
 
 #while.sh
