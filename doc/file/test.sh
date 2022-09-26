@@ -16,8 +16,9 @@ sudo systemctl set-default multi-user.target
 #script in /etc/profile /etc/profile.d/ ~/.profile will exec when login,here recommand use ~/.profile, it only affect curren user a typical .profile like this
 
 xterm &
-note & is need to push program background,or it will block desktop env to start
-autolaunch at boot
+#note & is need to push program background,or it will block desktop env to start
+
+#autolaunch at boot
 use systemd to launch program at boot
 
 a typical service like this
