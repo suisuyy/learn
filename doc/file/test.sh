@@ -7,6 +7,47 @@ cat /sys/class/thermal/thermal_zone*/temp
 cat /sys/module/kernel/parameters/consoleblank
 
 
+## autolaunch
+
+1. systemctl get-default
+2. To change boot target to the text mode:
+sudo systemctl set-default multi-user.target
+### autolanuch at login
+
+script in /etc/profile /etc/profile.d/ ~/.profile will exec when login,
+
+here recommand use ~/.profile, it only affect curren user
+
+a typical .profile like this
+
+.profile
+
+xterm &
+
+note & is need to push program background,or it will block desktop env to start
+
+autolaunch at boot
+
+use systemd to launch program at boot
+
+a typical service like this
+
+/etc/systemd/system/test.service
+
+[Unit]
+Description=test message systemd service.
+[Service]
+Type=simple
+ExecStart=/bin/bash /home/suisuy/test.sh
+[Install]
+WantedBy=multi-user.target
+
+
+systemctl enable --now test
+sudo systemctl restart test.service
+
+
+
 
 
 #while.sh
