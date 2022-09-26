@@ -189,3 +189,6 @@ bar {
 exec swayidle -w \
   	timeout 300 "brightnessctl -d 'backlight' set 2" \
   		resume "brightnessctl -d 'backlight' set 7" 
+
+bindsym Mod1+Tab workspace next
+bindsym Mod1+Shift+Tab workspace prev
