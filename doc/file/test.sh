@@ -8,7 +8,6 @@ cat /sys/module/kernel/parameters/consoleblank
 
 
 ## autolaunch
-
 1. systemctl get-default
 2. To change boot target to the text mode:
 sudo systemctl set-default multi-user.target
