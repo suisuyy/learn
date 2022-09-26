@@ -20,9 +20,7 @@ xterm &
 
 #autolaunch at boot
 use systemd to launch program at boot
-
 a typical service like this
-
 /etc/systemd/system/test.service
 
 [Unit]
