@@ -35,8 +35,6 @@ sudo systemctl restart test.service
 
 
 
-
-
 #while.sh
 VARIABLE="${1:-defaultarg1}"
 SLEEP_DURATION=3
