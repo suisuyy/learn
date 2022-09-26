@@ -30,7 +30,6 @@ ExecStart=/bin/bash /home/suisuy/test.sh
 [Install]
 WantedBy=multi-user.target
 
-
 systemctl enable --now test
 sudo systemctl restart test.service
 
