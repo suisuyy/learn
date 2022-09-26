@@ -7,7 +7,7 @@ cat /sys/class/thermal/thermal_zone*/temp
 cat /sys/module/kernel/parameters/consoleblank
 
 
-## autolaunch
+## task
 1. systemctl get-default
 2. To change boot target to the text mode:
 sudo systemctl set-default multi-user.target
@@ -32,6 +32,7 @@ WantedBy=multi-user.target
 
 systemctl enable --now test
 sudo systemctl restart test.service
+
 
 
 
