@@ -18,8 +18,7 @@ sudo systemctl set-default multi-user.target
 xterm &
 #note & is need to push program background,or it will block desktop env to start
 
-#autolaunch at boot
-use systemd to launch program at boot
+#autolaunch at boot use systemd to launch program at boot
 a typical service like this
 /etc/systemd/system/test.service
 
