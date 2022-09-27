@@ -70,7 +70,7 @@ amixer -D pulse sset Master unmute
 
 #touch /etc/NetworkManager/dispatcher.d/30-mydispatcher;chmod +x /etc/NetworkManager/dispatcher.d/30-mydispatcher
 #$1 is devicename,$2 is event up/down
-if [ "$1" == "eth0" ] && [ "$2" == "up" ]; then
+if [ "$2" == "up" ]; then
     echo $1 $2
 fi
 
