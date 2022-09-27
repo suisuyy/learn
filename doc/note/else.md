@@ -2,7 +2,9 @@
 - [android chroot](#android-chroot)
   - [net](#net)
 - [benchmark](#benchmark)
+- [net bandwidth](#net-bandwidth)
 - [fig](#fig)
+- [qinglong](#qinglong)
 - [route](#route)
   - [common cmd](#common-cmd)
   - [iptables](#iptables)
@@ -15,11 +17,14 @@
 - [rclone](#rclone-1)
   - [dipper](#dipper)
   - [ubports dipper](#ubports-dipper)
+- [windows](#windows)
 - [wired problem](#wired-problem)
 - [tmp](#tmp)
+- [upnp](#upnp)
 - [end](#end)
 - [hack](#hack)
   - [box m301h sm ciot](#box-m301h-sm-ciot)
+- [mi8 win11](#mi8-win11)
 
 test fo build
 
@@ -789,7 +794,7 @@ install
 rclone config
 rclone mount onedriver:/ /path/to/local/mount --vfs-cache-mode
 rclone mount onedriver:/ ./onedriver/ --vfs-cache-mode full   --vfs-read-ahead 10M
-
+rclone mount onedriver:/ ./onedriver/ --vfs-cache-mode full
 # dns
 dns
 ./cloudflared-linux-amd64 proxy-dns --port 53
