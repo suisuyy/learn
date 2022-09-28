@@ -816,6 +816,8 @@ touch dir1/file{1..100}
 rsync -aP dir1 dir2
 rsync -azP dir1 dir2
 
+#
+
 
 
 
