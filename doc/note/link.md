@@ -1,6 +1,6 @@
 https://527y3c-my.sharepoint.com/:f:/g/personal/suisuy_527y3c_onmicrosoft_com/EvUKZgVWah5BrBEE_bQJEaoB1yyol_usC7Nxw1LTxt8sfQ?e=vK1fFv
 
-
+[https://527y3c-my.sharepoint.com/:f:/g/personal/suisuy_527y3c_onmicrosoft_com/EqCC4a3y4WtAspmvmsoY2hgBS077prdGDGN8Em3jhWeqQQ?e=ZUwcFj](https://527y3c-my.sharepoint.com/:f:/g/personal/suisuy_527y3c_onmicrosoft_com/EqCC4a3y4WtAspmvmsoY2hgBS077prdGDGN8Em3jhWeqQQ?e=ZUwcFj)
 
 https://github.com/suisuyy/learn/blob/main/doc/note/qnote.md
 
