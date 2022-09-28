@@ -1,3 +1,7 @@
+https://527y3c-my.sharepoint.com/:f:/g/personal/suisuy_527y3c_onmicrosoft_com/EvUKZgVWah5BrBEE_bQJEaoB1yyol_usC7Nxw1LTxt8sfQ?e=vK1fFv
+
+
+
 https://github.com/suisuyy/learn/blob/main/doc/note/qnote.md
 
 https://15.152.37.220:5801/vnc.html?host=15.152.37.220&port=5901&reconnect=true&compression=3&quality=5
