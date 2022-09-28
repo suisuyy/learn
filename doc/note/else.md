@@ -792,7 +792,7 @@ named
 # rclone
 install
 rclone config
-rclone mount onedriver:/ /path/to/local/mount --vfs-cache-mode
+rclone mount onedriver:/ /path/to/local/mount --vfs-cache-mode writes
 rclone mount onedriver:/ ./onedriver/ --vfs-cache-mode full   --vfs-read-ahead 10M
 ./rclone.exe mount odb:/ o:\ --vfs-cache-mode full
 # dns
