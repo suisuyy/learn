@@ -824,7 +824,8 @@ rsync -aP ~/dir1 username@remote_host:destination_directory
 
 #--delete option will delete remote files if not exist in local. Before using this option, you can use -n, the --dry-run option, to perform a test to prevent unwanted data loss
 rm dir1/file1
-rsync -an --delete dir1 dir2
+rsync -avn --delete dir1 dir2
+rsync -av --delete dir1 dir2
 
 
 
