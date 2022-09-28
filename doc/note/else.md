@@ -819,6 +819,8 @@ rsync -azP dir1 dir2
 #note dir1 dir1/ is different, the first will cp dir1 to dir2/dir1
 rsync -azP dir1/ dir2
 
+#remote cp
+rsync -a ~/dir1 username@remote_host:destination_directory
 
 
 
