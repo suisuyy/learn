@@ -794,7 +794,7 @@ named
 #install
 rclone config
 rclone mount onedriver:/ /mnt/od --vfs-cache-mode writes
-rclone mount onedriver:/ ./onedriver/ --vfs-cache-mode full   --vfs-read-ahead 10M
+rclone mount onedriver:/ /mnt/od --vfs-cache-mode full   --vfs-read-ahead 10M
 #win mount
 ./rclone.exe mount odb:/ o:\ --vfs-cache-mode full  --cache-dir "f:\rclonetmp"
 -vv print cache dir
