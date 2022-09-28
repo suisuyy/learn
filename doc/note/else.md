@@ -816,7 +816,9 @@ touch dir1/file{1..100}
 rsync -aP dir1 dir2
 rsync -azP dir1 dir2
 
-#
+#note dir1 dir1/ is different, the first will cp dir1 to dir2/dir1
+rsync -azP dir1/ dir2
+
 
 
 
