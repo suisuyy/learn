@@ -796,7 +796,7 @@ rclone config
 rclone mount onedriver:/ /path/to/local/mount --vfs-cache-mode writes
 rclone mount onedriver:/ ./onedriver/ --vfs-cache-mode full   --vfs-read-ahead 10M
 #win mount
-./rclone.exe mount odb:/ o:\ --vfs-cache-mode full
+./rclone.exe mount odb:/ o:\ --vfs-cache-mode full  --cache-dir 
 -vv print cache dir
 --cache-dir string                   Directory rclone will use for caching.
 --vfs-cache-mode CacheMode           Cache mode off|minimal|writes|full (default off)
