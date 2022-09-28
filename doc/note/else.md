@@ -809,6 +809,9 @@ rclone mount onedriver:/ /mnt/od --vfs-cache-mode full   --vfs-read-ahead 10M
 
 # rsync
 ```
+#favorate
+rsync -aP dir1 dir2
+
 mkdir dir1 dir2
 #create 100 files ,this sytax not work in fish shell, need bash to exec
 touch dir1/file{1..100}
