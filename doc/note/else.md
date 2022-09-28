@@ -822,6 +822,9 @@ rsync -azP dir1/ dir2
 #remote cp
 rsync -aP ~/dir1 username@remote_host:destination_directory
 
+#--delete option will delete remote. Before using this option, you can use -n, the --dry-run option, to perform a test to prevent unwanted data loss:
+
+
 
 
 
