@@ -795,7 +795,12 @@ rclone config
 rclone mount onedriver:/ /path/to/local/mount --vfs-cache-mode writes
 rclone mount onedriver:/ ./onedriver/ --vfs-cache-mode full   --vfs-read-ahead 10M
 ./rclone.exe mount odb:/ o:\ --vfs-cache-mode full
-
+--cache-dir string                   Directory rclone will use for caching.
+--vfs-cache-mode CacheMode           Cache mode off|minimal|writes|full (default off)
+--vfs-cache-max-age duration         Max age of objects in the cache (default 1h0m0s)
+--vfs-cache-max-size SizeSuffix      Max total size of objects in the cache (default off)
+--vfs-cache-poll-interval duration   Interval to poll the cache for stale objects (default 1m0s)
+--vfs-write-back duration    ```
 
 # dns
 dns
