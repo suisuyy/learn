@@ -807,6 +807,11 @@ rclone mount onedriver:/ /mnt/od --vfs-cache-mode full   --vfs-read-ahead 10M
 
 ```
 
+# rsync
+```
+
+```
+
 # dns
 dns
 ./cloudflared-linux-amd64 proxy-dns --port 53
