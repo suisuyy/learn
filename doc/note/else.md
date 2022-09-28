@@ -813,7 +813,7 @@ mkdir dir1 dir2
 #create 100 files ,this sytax not work in fish shell, need bash to exec
 touch dir1/file{1..100}
 
-# compression with the -z option;The -P flag is also helpful. It combines the flags --progress and --partial. This first flag provides a progress bar for the transfers, and the second flag allows you to resume interrupted transfers:
+# compression with the -z option;The -P flag  It combines the flags --progress and --partial. This first flag provides a progress bar for the transfers, and the second flag allows you to resume interrupted transfers:
 
 rsync -azP source destination
 
