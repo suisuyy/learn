@@ -46,9 +46,9 @@ SLEEP_DURATION="${2:-3}"
 while true
 do
         $CMD;
-         echo cmd:$CMD : 'restart after ' $SLEEP_DURATION seconds
-          sleep $SLEEP_DURATION
-  done
+        echo cmd:$CMD : 'restart after ' $SLEEP_DURATION seconds
+        sleep $SLEEP_DURATION
+done
 
 
 
