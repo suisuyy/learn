@@ -37,7 +37,7 @@ sudo systemctl restart test.service
 
 
 #while.sh
-echo run cmd at case of  every n seconds
+echo run cmd at case of  every n seconds,useage: 
 
 #_last=${!#}  echo "${@: -1}"
 
