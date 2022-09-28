@@ -809,6 +809,9 @@ rclone mount onedriver:/ /mnt/od --vfs-cache-mode full   --vfs-read-ahead 10M
 
 # rsync
 ```
+mkdir dir1 dir2
+
+
 
 ```
 
