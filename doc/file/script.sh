@@ -37,13 +37,18 @@ sudo systemctl restart test.service
 
 
 #while.sh
-VARIABLE="${1:-nocmd}"
-SLEEP_DURATION=60
+echo run cmd at case of  every n seconds
+
+#_last=${!#}  echo "${@: -1}"
+
+CMD="${1:-'emptycmd'}"
+SLEEP_DURATION="${2:-3}"
 while true
 do
- echo 'srestart after ' $SLEEP_DURATION seconds $VARIABLE
- sleep SLEEP_DURATION
-done
+        $CMD;
+         echo cmd:$CMD : 'restart after ' $SLEEP_DURATION seconds
+          sleep $SLEEP_DURATION
+  done
 
 
 
