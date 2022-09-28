@@ -26,7 +26,7 @@ a typical service like this
 Description=test message systemd service.
 [Service]
 Type=simple
-ExecStart=/bin/bash /home/suisuy/test.sh
+ExecStart=/bin/bash /root/proute/init.sh
 [Install]
 WantedBy=multi-user.target
 
