@@ -820,7 +820,7 @@ rsync -azP dir1 dir2
 rsync -azP dir1/ dir2
 
 #remote cp
-rsync -a ~/dir1 username@remote_host:destination_directory
+rsync -aP ~/dir1 username@remote_host:destination_directory
 
 
 
