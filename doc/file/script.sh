@@ -38,7 +38,7 @@ sudo systemctl restart test.service
 
 #while.sh
 VARIABLE="${1:-defaultarg1}"
-SLEEP_DURATION=3
+SLEEP_DURATION=60
 while true
 do
  echo 'srestart after ' $SLEEP_DURATION seconds $VARIABLE
