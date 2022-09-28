@@ -37,7 +37,7 @@ sudo systemctl restart test.service
 
 
 #while.sh
-VARIABLE="${1:-defaultarg1}"
+VARIABLE="${1:-nocmd}"
 SLEEP_DURATION=60
 while true
 do
