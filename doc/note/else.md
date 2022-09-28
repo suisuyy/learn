@@ -812,7 +812,6 @@ rclone mount onedriver:/ /mnt/od --vfs-cache-mode full   --vfs-read-ahead 10M
 mkdir dir1 dir2
 #create 100 files ,this sytax not work in fish shell, need bash to exec
 touch dir1/file{1..100}
-
 # compression with the -z option;The -P flag  It combines the flags --progress and --partial. This first flag provides a progress bar , and the second flag allows you to resume interrupted transfers:
 rsync -aP dir1 dir2
 rsync -azP dir1 dir2
