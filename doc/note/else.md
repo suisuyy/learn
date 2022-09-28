@@ -790,7 +790,8 @@ yum install bind bind-utils -y
 named
 
 # rclone
-install
+```
+#install
 rclone config
 rclone mount onedriver:/ /path/to/local/mount --vfs-cache-mode writes
 rclone mount onedriver:/ ./onedriver/ --vfs-cache-mode full   --vfs-read-ahead 10M
