@@ -990,7 +990,7 @@ pc
 
 charging
 40 realme q3 pro pd charging
-
+0.1 not charge
 
 
 
