@@ -988,6 +988,9 @@ pc
 15-20w
 45-50  https://webglb.pages.dev/aquarium/aquarium
 
+usb socket 
+0.4  3 usb charger 
+
 charging
 40 realme q3 pro pd charging
 0.1 not charge
