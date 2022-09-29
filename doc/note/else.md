@@ -983,6 +983,9 @@ wsl --set-default-version 1
 
 
 
+
+
+
 # wired problem
 #host A
 default via 192.168.68.1 dev wlan0 
