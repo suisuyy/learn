@@ -13,11 +13,13 @@
   - [config a common linux desktop as router](#config-a-common-linux-desktop-as-router)
     - [Technical Overview](#technical-overview)
 - [rclone](#rclone)
+- [rsync](#rsync)
 - [dns](#dns)
 - [rclone](#rclone-1)
   - [dipper](#dipper)
   - [ubports dipper](#ubports-dipper)
 - [windows](#windows)
+- [](#)
 - [wired problem](#wired-problem)
 - [tmp](#tmp)
 - [upnp](#upnp)
@@ -980,6 +982,8 @@ wsl --set-default-version 1
 * Ubuntu    Running         1
 ```
 
+
+# 
 
 
 
