@@ -985,9 +985,86 @@ wsl --set-default-version 1
 
 
 # w
+```
 pc
 15-20w
 45-50  https://webglb.pages.dev/aquarium/aquarium
+mi8
+93 1236
+76  0106
+
+
+pc 
+19.5x3 60w max
+charging
+26 suspend charging
+34  36  work charging
+32  work charging offdisplay
+34-35   1080video
+55-58  7z b
+46 44  7z b -mmt1
+
+full charged
+13.7  
+11  diaplayoff
+17w 1080p
+20  4k60fps vlc
+14w displayoff 1080
+52 7z b
+25 7z b -mmt1
+
+
+
+route 
+3 after boot
+5
+8  heavy use
+
+xianfeng wifj stic
+0.7
+2.6 7zr b
+1.3  7z mmt1
+
+mi 8 win11
+
+charging 11.2w  7.6w 9wifusbdriver
+
+
+fullcharged
+3w  
+6.7  webgl aquarium  
+5  1080pvideo
+2.6  3.0  display off
+
+diplay on
+5w after fullcharge
+3.3w idle
+2.3w black screen
+
+
+
+pi
+0.7 2.2 1.8   
+7z b 4.6 4.0 4.2 4.6 4.7
+7z b -mmt1  2.6 2.7
+
+
+
+cook
+1.6
+autosock 1w
+rsq 1.5L 1560w  5minuts  0.14kwh   0.1rmb
+
+
+rsq bathroom
+2274 
+2300
+total  40L80c  42min  1.6kwh
+
+
+```
+
+
 
 # timer socket
 1 
