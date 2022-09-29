@@ -984,7 +984,8 @@ wsl --set-default-version 1
 
 
 # w
-
+nomal 15-20w
+webgl aq
 
 
 
