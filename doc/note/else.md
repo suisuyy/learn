@@ -990,7 +990,7 @@ pc
 
 usb socket 
 0.4  3 usb charger 
-
+8-9  charge u3
 charging
 40 realme q3 pro pd charging
 0.1 not charge
