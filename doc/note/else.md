@@ -1005,6 +1005,7 @@ charging
 46 44  7z b -mmt1
 
 full charged
+0.6  suspend
 13.7  
 11  diaplayoff
 17w 1080p
