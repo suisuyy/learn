@@ -984,8 +984,11 @@ wsl --set-default-version 1
 
 
 # w
-nomal 15-20w
-webgl aq
+15-20w
+45-50  https://webglb.pages.dev/aquarium/aquarium
+
+
+
 
 
 
