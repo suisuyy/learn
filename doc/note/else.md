@@ -989,7 +989,7 @@ pc
 45-50  https://webglb.pages.dev/aquarium/aquarium
 
 charging
-realme q3 pro pd charging
+40 realme q3 pro pd charging
 
 
 
