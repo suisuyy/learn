@@ -984,8 +984,12 @@ wsl --set-default-version 1
 
 
 # w
+pc
 15-20w
 45-50  https://webglb.pages.dev/aquarium/aquarium
+
+charging
+realme q3 pro pd charging
 
 
 
