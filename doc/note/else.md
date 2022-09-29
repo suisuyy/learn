@@ -20,6 +20,7 @@
   - [ubports dipper](#ubports-dipper)
 - [windows](#windows)
 - [w](#w)
+- [timer socket](#timer-socket)
 - [wired problem](#wired-problem)
 - [tmp](#tmp)
 - [upnp](#upnp)
@@ -987,6 +988,9 @@ wsl --set-default-version 1
 pc
 15-20w
 45-50  https://webglb.pages.dev/aquarium/aquarium
+
+# timer socket
+1 
 
 usb socket 
 0.4  3 usb charger 
