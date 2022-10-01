@@ -11,7 +11,7 @@ echo -e "\n bind 'set completion-ignore-case on'\n bind 'set show-all-if-ambiguo
 
 echo -e \
 "escape ^Jj \n\
-hardstatus alwayslastline \n\
+hardstatus alwayslastline\n\
 hardstatus string '%{gk}[%{wk}%?%-Lw%?%{=b kR}(%{W}%n*%f %t%?(%u)%?%{=b kR})%{=w}%?%+Lw%?%? %{g}][%{d}%l%{g}][ %{=w}%Y/%m/%d %0C:%s%a%{g} ]%{W}' \n\
 termcapinfo xterm* ti@:te@"\n\
 >~/.screenrc
