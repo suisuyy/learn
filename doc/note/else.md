@@ -155,6 +155,9 @@ pinebook 4core
 7z b
 1707 4186
 
+m301h
+700 1200
+
 raspi 3b
 
 
