@@ -162,6 +162,7 @@ raspi 3b
 
 
 
+
 haixin a5 snap439
 7z b -mmt1
 Avr:              99   1022   1010  |               99   1796   1783
