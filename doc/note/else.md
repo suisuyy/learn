@@ -1317,3 +1317,10 @@ bcdedit /store T:\efi\microsoft\boot\bcd /set {Default} nointegritychecks on
 adb是安卓开发调试工具，这里用来执行命令完成一些高级系统管理功能来远程管理手机，后面执行的命令大多都是通过adb shell在电脑上输入命令传到手机执行的，这里adb有两种工作模式，一个是直接在电脑上运行命令如adb push用来传输文件，而adb shell是登陆到手机系统里，之后输入的命令会直接在手机执行，可使用exit命令退出shell模式，要注意分别
 
 ```
+
+# kali
+```
+sudo wget http://archive.kali.org/archive-key.asc -O /etc/apt/trusted.gpg.d/kali-archive-keyring.asc
+
+
+```
