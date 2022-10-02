@@ -1347,7 +1347,7 @@ File=a;ln -s /etc/init.d/$File /etc/rc3.d/S0$File;ln -s /etc/init.d/$File /etc/r
 pacman -S zerotier-one
 zerotier-one
 zerotier-cli join 233ccaac2732bb47
-sh -c ""
+sh -c "zerotier-one;"
 
 
 ```
