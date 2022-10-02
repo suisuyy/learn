@@ -1349,7 +1349,8 @@ zerotier-one
 zerotier-cli join 233ccaac2732bb47
 sh -c "zerotier-one;"
 
-tinyproxy -c /etc/tinyproxy/tinyproxy.conf #change conf 
+tinyproxy -c /etc/tinyproxy/tinyproxy.conf #change conf user and group ,port Allow 192.168.68.0/24
+
 
 
 ```
