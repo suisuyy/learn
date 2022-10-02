@@ -1324,3 +1324,14 @@ sudo wget http://archive.kali.org/archive-key.asc -O /etc/apt/trusted.gpg.d/kali
 
 
 ```
+
+# arch chroot
+```
+usermod -a -G 3001,3002,3003,3004,3005 root
+echo "nameserver 8.8.8.8"> /etc/resolv.conf
+exit
+
+
+
+
+```
