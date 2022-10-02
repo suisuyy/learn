@@ -119,9 +119,8 @@ cat /sys/class/thermal/thermal_zone*/temp
 
 # android shell
 ```
+#You can also start adbd service by executing start adbd or setprop ctl.start adbd. But I prefer the settings way because it properly goes through Android framework.
 settings put global adb_enabled 1
-
-You can also start adbd service by executing start adbd or setprop ctl.start adbd. But I prefer the settings way because it properly goes through Android framework.
 
 
 ```
