@@ -45,7 +45,7 @@ groupadd -g 3002 aid_bt_net
 groupadd -g 3003 aid_inet
 groupadd -g 3004 aid_net_raw
 groupadd -g 3005 aid_admin
-usermod -a -G aid_bt,aid_bt_net,aid_inet,aid_net_raw,aid_admin root
+usermod -a -G 3001,3002,3003,3004,3005 root
 
 edit /etc/passwd look up "_apt", change the value of group from 65534 to 3003 enter image description here, more magic group:
 
