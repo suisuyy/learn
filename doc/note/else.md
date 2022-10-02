@@ -158,6 +158,7 @@ pinebook 4core
 m301h
 700 1200
 
+
 raspi 3b
 700 1200
 
