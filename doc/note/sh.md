@@ -127,7 +127,7 @@ setprop service.adb.tcp.port 5555 ; stop adbd; start adbd
 ```
 
 
-#init.d script put it in 
+#init.d script put it in /etc/init.d/cloudreve
 ```
 #!/bin/bash
 # chkconfig: 2345 20 80
