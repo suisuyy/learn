@@ -1344,6 +1344,7 @@ pacman -S curl wget git vim bash-completion screen htop w3m aria2 p7zip unrar rs
 mkdir init.d rc3.d rc5.d
 File=a;ln -s /etc/init.d/$File /etc/rc3.d/S0$File;ln -s /etc/init.d/$File /etc/rc5.d/S0$File
 
+pacman -S zerotier-one
 
 
 ```
