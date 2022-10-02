@@ -1345,7 +1345,7 @@ mkdir init.d rc3.d rc5.d
 File=a;ln -s /etc/init.d/$File /etc/rc3.d/S0$File;ln -s /etc/init.d/$File /etc/rc5.d/S0$File
 
 pacman -S zerotier-one
-zerotier-cli one
+zerotier-one
 zerotier-cli join 233ccaac2732bb47
 
 
