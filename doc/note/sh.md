@@ -134,16 +134,18 @@ setprop service.adb.tcp.port 5555 ; stop adbd; start adbd
 # description: Description comes here....
 
 # Source function library.
-. /etc/init.d/functions
+#. /etc/init.d/functions
 
 start() {
     # code to start app comes here 
     # example: daemon program_name &
+    /mnt/sda5/project/cloudreve/cloudreve_armv7 >/tmp/cdlog &
 }
 
 stop() {
     # code to stop app comes here 
     # example: killproc program_name
+    killall cloudreve
 }
 
 case "$1" in 
@@ -166,5 +168,6 @@ case "$1" in
 esac
 
 exit 0 
+
 
 ```
