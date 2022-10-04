@@ -20,6 +20,7 @@
 
 
 # tmp
+image.png
 
 
 
