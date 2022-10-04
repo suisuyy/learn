@@ -1336,6 +1336,7 @@ usermod -a -G 3001,3002,3003,3004,3005 root
 echo "nameserver 8.8.8.8"> /etc/resolv.conf
 exit
 sed -i "s/^SigLevel.*/SigLevel = Never/" /etc/pacman.conf
+sed '1i Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxarm/$arch/$repo'  /etc/pacman.d/mirrorlist
 nano /etc/pacman.conf
 SigLevel = Never
 
@@ -1346,7 +1347,7 @@ mkdir init.d rc3.d rc5.d
 File=a;ln -s /etc/init.d/$File /etc/rc3.d/S0$File;ln -s /etc/init.d/$File /etc/rc5.d/S0$File
 
 pacman -S zerotier-one
-zerotier-one
+zerotier-one &
 zerotier-cli join 233ccaac2732bb47
 sh -c "zerotier-one;"
 
