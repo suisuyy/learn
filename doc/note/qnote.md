@@ -22,10 +22,7 @@
 # tmp
 https://www.123pan.com/s/jKEDVv-zK4Gv
 
-提取码:0000
-image.png
-![image](https://github.com/suisuyy/learn/raw/main/images/Tue_Oct_04_2022_1664846920270.png)
-
+https://527y3c-my.sharepoint.com/:f:/g/personal/suisuy_527y3c_onmicrosoft_com/EsZ5h1ywXy1BgItNyfrWGhMBlssD7sXKNuYzA3tX8yIKkg?e=XnSnJS
 
 [links](#links)
 
