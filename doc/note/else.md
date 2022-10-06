@@ -801,7 +801,7 @@ named
 ```
 #install
 rclone config
-rclone mount od:/ /mnt/od --vfs-cache-mode writes
+rclone mount od:/ /mnt/od --vfs-cache-mode writes  --cache-dir /mnt/sda/sda3/tmp
 rclone mount onedriver:/ /mnt/od --vfs-cache-mode full   --vfs-read-ahead 10M
 #win mount
 ./rclone.exe mount odb:/ o:\ --vfs-cache-mode full  --cache-dir "f:\rclonetmp"
