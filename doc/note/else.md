@@ -33,6 +33,13 @@ test fo build
 
 
 
+# tmp
+```
+onething1/wxedge:latest
+
+
+```
+
 # android chroot
 
 /dev/shm is a public shared memory directory,
