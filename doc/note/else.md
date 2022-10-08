@@ -686,7 +686,6 @@ rsync -av --delete dir1 dir2
 
 # dns
 dig example.com @127.0.0.1
-
 use adguard-home for doh
 
 
