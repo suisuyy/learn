@@ -250,7 +250,6 @@ B  192.168.68.174
 sudo su
 iptables -t nat -A POSTROUTING -j MASQUERADE 
 echo -e "\nnet.ipv4.ip_forward=1 " >>/etc/sysctl.conf  && sysctl -p
-sysctl -p
 edge -r -z1 -c suinet -k 080797ssY -a 192.168.100.11 -f -l 15.152.42.41:7777
 
 
