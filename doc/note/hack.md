@@ -136,5 +136,5 @@ Halium is the collaborative project to unify the Hardware Abstraction Layer for 
 
 
 # box m301h sm ciot
-cpu: hi3798mv300
+cpu: hi3798mv300h  (mv300 in setting,its wrong)
 1g 8g 
