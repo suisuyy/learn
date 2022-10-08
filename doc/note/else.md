@@ -698,7 +698,7 @@ mv dnsproxy /usr/bin/dnsproxy
 #2. Connect DNS.SB DoH Server
 dnsproxy -l 127.0.0.1 -p 53 -u https://doh.dns.sb/dns-query -b 185.222.222.222:53
 Now we can open another terminal to test DNS
-root@dns ~ # dig example.com @127.0.0.1
+root@dns ~ # 
 
 ; <<>> DiG 9.16.15-Debian <<>> example.com @127.0.0.1
 ;; global options: +cmd
