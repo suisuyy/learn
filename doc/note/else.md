@@ -685,24 +685,6 @@ rsync -av --delete dir1 dir2
 ```
 
 # dns
-dns
-./cloudflared-linux-amd64 proxy-dns --port 53
-dig +short @127.0.0.1 -p5553 cloudflare.com AAAA
-dnsmasq 
-
-
-pip3 install doh-proxy
- sudo doh-proxy \
-    --upstream-resolver=::1 \
-    --certfile=./fullchain.pem \
-    --keyfile=./privkey.pem
-
-dnscrypt-proxy.toml:
-server_names = ['cloudflare', 'cloudflare-ipv6']
- sudo systemctl status dnscrypt-proxy
-
-sudo dnsproxy-adguard -u sdns://AgcAAAAAAAAABzEuMC4wLjGgENk8mGSlIfMGXMOlIlCcKvq7AVgcr
-Zxtjon911-ep0cg63Ul-I8NlFj4GplQGb_TTLiczclX57DvMV8Q-JdjgRgSZG5zLmNsb3VkZmxhcmUuY29tCi9kbnMtcXVlcnk
 
 
 
