@@ -682,11 +682,6 @@ rsync -avn --delete dir1 dir2
 rsync -av --delete dir1 dir2
 
 
-
-
-
-
-
 ```
 
 # dns
