@@ -238,11 +238,6 @@ sudo sysctl -w net.ipv4.conf.all.rp_filter=2
 
 
 
-## config mi8 lineage termux as router
-apt install n2n
-
-
-
 ## config a common linux desktop as router
 
 tried this, worked before,but not now
