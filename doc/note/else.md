@@ -379,8 +379,6 @@ Netmask: The non-unique number that defines the  network itself. This number can
 n2n router
 
 
-
-
 tproxy
 On Linux, mitmproxy integrates with the iptables redirection mechanism to achieve transparent mode.
 #1. Enable IP forwarding.
