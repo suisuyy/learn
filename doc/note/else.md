@@ -16,7 +16,6 @@
 - [power](#power)
 - [wired problem](#wired-problem)
 - [kali](#kali)
-- [arch chroot](#arch-chroot)
 - [end](#end)
 
 test fo build
