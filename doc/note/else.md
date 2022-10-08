@@ -823,10 +823,6 @@ charging
 
 
 
-
-
-
-
 # wired problem
 #host A
 default via 192.168.68.1 dev wlan0 
@@ -846,7 +842,7 @@ default via 192.168.68.1 dev wlan0 proto dhcp src 192.168.68.123 metric 303
 172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 
 192.168.68.0/24 dev wlan0 proto dhcp scope link src 192.168.68.123 metric 303 
 
-but unconnected
+but unconnected,then i fount its bc iptables not well set
 
 
 
