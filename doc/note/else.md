@@ -697,13 +697,6 @@ sudo tlp start
 pacman -S tlp tlp-rdw
 
 
-
-
-
-## dipper
-userdata can be ext2 f2fs
-
-
 ## ubports dipper
 
 https://docs.ubports.com/en/latest/userguide/dailyuse/libertine.html
