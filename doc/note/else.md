@@ -231,8 +231,6 @@ sudo iptables -A FORWARD -i $PHY_IFACE -o $ZT_IFACE -m state --state RELATED,EST
 
 
 
-
-
 sudo zerotier-cli set 233ccaac2732bb47 allowDefault=1
 sudo zerotier-cli set 233ccaac2732bb47 allowDefault=0
 
