@@ -23,6 +23,34 @@ uid=32011(phablet) gid=32011(phablet) groups=32011(phablet),4(adm),5(tty),20(dia
 
 ```
 
+
+# arch chroot
+```
+usermod -a -G 3001,3002,3003,3004,3005 root
+echo "nameserver 8.8.8.8"> /etc/resolv.conf
+exit
+sed -i "s/^SigLevel.*/SigLevel = Never/" /etc/pacman.conf
+sed '1i Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxarm/$arch/$repo'  /etc/pacman.d/mirrorlist
+nano /etc/pacman.conf
+SigLevel = Never
+
+
+pacman -S curl wget git vim bash-completion screen htop w3m aria2 p7zip unrar rsync sshfs tinyproxy 
+
+mkdir init.d rc3.d rc5.d
+File=a;ln -s /etc/init.d/$File /etc/rc3.d/S0$File;ln -s /etc/init.d/$File /etc/rc5.d/S0$File
+
+pacman -S zerotier-one
+zerotier-one &
+zerotier-cli join 233ccaac2732bb47
+sh -c "zerotier-one;"
+
+tinyproxy -c /etc/tinyproxy/tinyproxy.conf #change conf user and group to root ,port to 10801 Allow 192.168.68.0/24
+
+
+
+```
+
 # mi8 android docker test
 ```
 Android needs kernel support to run docker
