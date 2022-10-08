@@ -365,8 +365,6 @@ iptables -t nat -F
 iptables -t mangle -F
 iptables -F
 iptables -X
- 
-mitmproxy --mode transparent --showhost --listen-host 0.0.0.0
 
  
 
