@@ -289,11 +289,6 @@ This router can also provide:
 
 
 
-
-
-
-
-
 set default router
 You can remove a default route using the ip route del command:
  ip route del default via 192.168.1.1 dev enp0s3
