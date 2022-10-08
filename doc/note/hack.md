@@ -133,3 +133,8 @@ What is Halium? angle-icon
 
 Halium is the collaborative project to unify the Hardware Abstraction Layer for projects which run GNU/Linux on mobile devices with pre-installed Android. What this means is quicker development and launches of Ubuntu Touch on halium based android devices. None of our existing devices will run halium since it doesn't really make sense from a development stand point. Ubuntu Touch is being actively developed to run on vanilla Halium but isn't ready yet.
 
+
+
+# box m301h sm ciot
+cpu: hi3798mv300
+1g 8g 
