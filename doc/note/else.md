@@ -794,6 +794,15 @@ mac
 在平均的多核应用场景中，总功耗为26.5W，有效功耗约为 22W，
 在计算密集型多核应用场景中，总功耗31W，有效功耗达到了 27W
 
+
+usb socket 
+0.4  3 usb charger 
+8-9  charge u3
+charging
+40 realme q3 pro pd charging
+0.1 not charge
+
+
 ```
 
 
