@@ -1,0 +1,8 @@
+
+
+# android chroot
+```
+
+
+
+```
