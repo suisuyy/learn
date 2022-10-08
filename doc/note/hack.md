@@ -22,3 +22,82 @@ uid=32011(phablet) gid=32011(phablet) groups=32011(phablet),4(adm),5(tty),20(dia
 
 
 ```
+
+# mi8 android docker test
+```
+Android needs kernel support to run docker
+install termux  https://f-droid.org/en/packages/com.termux/
+
+Update termux
+apt update && apt upgrade -y
+pkg install root-repo
+
+Installation Dependencies
+pkg install golang make cmake ndk-multilib tsu tmux docker
+
+Compilation tini
+cd $TMPDIR/docker-build
+wget https://github.com/krallin/tini/archive/v0.19.0.tar.gz
+tar xf v0.19.0.tar.gz
+cd tini-0.19.0
+mkdir build
+cd build
+cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=$PREFIX ..
+make -j8
+make install
+ln -s $PREFIX/bin/tini-static $PREFIX/bin/docker-init
+
+
+Start up docker
+sudo mount -t tmpfs -o uid=0,gid=0,mode=0755 cgroup /sys/fs/cgroup
+
+sudo dockerd --iptables=false
+
+Is the test docker running normally?
+sudo docker run hello-world 
+
+sudo docker run --network host --name nginx nginx:latest
+Enter in the browser http://localhost:80
+
+Execute the following command to pull the latest image of Ubuntu
+sudo docker pull ubuntu
+Execution of other versions sudo docker pull ubuntu:22.10
+
+View the locally pulled mirrors with the following command
+sudo docker images
+
+Execute the following command to run an Ubuntu container.
+sudo docker run -it --net host --dns 8.8.8.8 ubuntu
+Execution of other versions sudo docker run -it --net host --dns 8.8.8.8 ubuntu:22.10
+
+There is no net in the container. Commonly found in the Debian system, executed in a container
+echo "nameserver 8.8.8.8"> /etc/resolv.conf
+groupadd -g 3003 aid_inet && usermod -G nogroup -g aid_inet _apt 
+
+apt install neofetch
+
+apt-get update   Update Source
+
+apt-get -f install   Fix Dependency
+
+apt-get upgrade    Update Installed Packages [Program]
+
+apt-get dist-upgrade   Upgrade System
+
+apt autoremove   Clean up system residues
+
+sudo docker ps -a  View containers in operation
+
+sudo docker pull    Pull the Ubuntu image from Docker Hub.
+
+sudo docker run    Create a container.
+
+sudo docker start    Runs a stopped container.
+
+sudo docker attach    Enter a running container.
+
+sudo docker stop    Stops a container in the cloud.
+
+sudo docker rm    Delete a container.
+
+```
