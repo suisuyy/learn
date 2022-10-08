@@ -821,8 +821,6 @@ charging
 0.1 not charge
 
 
-
-
 # wired problem
 #host A
 default via 192.168.68.1 dev wlan0 
