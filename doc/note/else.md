@@ -721,7 +721,7 @@ wsl --set-default-version 1
 ```
 
 
-# w
+# power 
 ```
 pc
 15-20w
