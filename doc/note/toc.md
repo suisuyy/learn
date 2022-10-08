@@ -1,5 +1,3 @@
-
-
 [qnote](./mdreader.html?md=note/qnote.md)
 
 [link](./mdreader.html?md=note/link.md)
