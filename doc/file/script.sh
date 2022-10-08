@@ -259,3 +259,34 @@ exit 0
 
 
 ```
+
+
+# startup
+
+# debian
+
+apt install -y fonts-wqy-zenhei openssh-server iputils-ping iputils-* iperf3 curl wget git vim bash-completion screen w3m aria2 p7zip unrar rsync sshfs tinyproxy ncdu
+
+apt install dbus-x11 xfce4  xfce4-terminal firefox-esr chromium 
+
+# arch
+
+#setup mirror to china
+
+sudo pacman-mirrors -c China
+
+#necessary package
+
+wqy-microhei base-devel openssh git vim bash-completion screen w3c aria2 p7zip unrar rsync sshfs tinyproxy ncdu \
+   gnome-terminal firefox chromium 
+
+
+#start up package
+
+pacstrap /mnt base linux linux-firmware intel-ucode vi grub efibootmgr bash-completion
+[wqy-microhei](https://archlinux.org/packages/?name=wqy-microhei) openssh vim man ncdu netcat xfce4-terminal
+
+arm repo
+
+Server = https://mirrors.ustc.edu.cn/archlinuxarm/$arch/$repo
+
