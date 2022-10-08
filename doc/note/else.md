@@ -403,7 +403,6 @@ If you want to persist this across reboots, you can use the iptables-persistent 
 #show redirect rules
 iptables -L -t nat
  
-
 #4. Fire up mitmproxy.
 You probably want a command like this:
 mitmproxy --mode transparent --showhost
