@@ -127,7 +127,7 @@ docker run  --name openspeedtest -d -p 3000:3000 -p 3001:3001 openspeedtest/late
 or use iper3
 
 
-# fig
+# fig failed to test
 ```
 fig doctor
 curl -SsL https://pkg.fig.io/install.sh | bash
