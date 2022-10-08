@@ -336,18 +336,8 @@ default via 172.31.32.1 dev eth0
 192.168.100.0/24 dev edge0 proto kernel scope link src 192.168.100.2 
 
 
-
-
-
 Configuring Static Routes in ifcfg files not work
 mkdir -p /etc/sysconfig/network-scripts/
-
-
-
-
-
-
-
 
 
 
