@@ -36,5 +36,3 @@ https://dns.cloudflare.com/dns-query
 
 https://dns.adguard-dns.com/dns-query
 
-
-https://main.sread.pages.dev/?epub=https%3A%2F%2Fraw.githubusercontent.com%2Fsuisuyy%2Fslibrary%2Fmain%2Fred_hat_enterprise_linux-9-configuring_basic_system_settings-zh-cn.epub&epubs=https%3A%2F%2Fraw.githubusercontent.com%2Fsuisuyy%2Fslibrary%2Fmain%2Fepub_library.opds&goto=epubcfi(/6/12!/4/2/2/2/2/2/2%5Bassembly_configuring-and-managing-network-access_configuring-basic-system-settings%5D)
