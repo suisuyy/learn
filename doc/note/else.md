@@ -208,6 +208,7 @@ Chains: A chain is a string of rules. When a packet is received, iptables finds 
 Rules: A rule is a statement that tells the system what to do with a packet. Rules can block one type of packet, or forward another type of packet. The outcome, where a packet is sent, is called a target.
 Targets: A target is a decision of what to do with a packet. Typically, this is to accept it, drop it, or reject it (which sends an error back to the sender).
 
+
 ## zerotier
 ```
 
