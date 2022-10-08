@@ -697,28 +697,7 @@ sudo tlp start
 pacman -S tlp tlp-rdw
 
 
-# rclone
-rclone mount sonedriver:/ /home/admin/onedriver --vfs-cache-max-age 10m --vfs-cache-mode full    
-rclone mount onedriver:/ /home/admin/mnt/one  --allow-non-empty --vfs-cache-max-age 10m --vfs-cache-mode full
 
-rclone ls  sonedriver:/
-rclone mount remote:path/to/files /path/to/local/mount
-fusermount -u /path/to/local/mount
-
---cache-dir string                   Directory rclone will use for caching.
---vfs-cache-mode CacheMode           Cache mode off|minimal|writes|full (default off)
---vfs-cache-max-age duration         Max age of objects in the cache (default 1h0m0s)
---vfs-cache-max-size SizeSuffix      Max total size of objects in the cache (default off)
---vfs-cache-poll-interval duration   Interval to poll the cache for stale objects (default 1m0s)
---vfs-write-back duration            Time to writeback files after last use when using cache (default 5s)
-
-If run with -vv rclone will print the location of the file cache. The files are stored in the user cache file area which is OS dependent but can be controlled with --cache-dir or setting the appropriate environment variable.
-
-#Without the use of --vfs-cache-mode this can only write files sequentially, it can only seek when reading. This means that many applications won't work with their files on an rclone mount without --vfs-cache-mode writes or --vfs-cache-mode full. See the VFS File Caching section for more info
-
-
-
-#hack
 
 
 ## dipper
