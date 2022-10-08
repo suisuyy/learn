@@ -43,21 +43,6 @@ onething1/wxedge:latest
 
 
 
-That's because Android normally adds users (i.e. apps) to these groups only when the specific app has networking permissions.
-
-Adding a user to these groups gives it permission to use socket() as described in the question:
-
-usermod -a -G aid_bt,aid_bt_net,aid_inet,aid_net_raw,aid_admin admin
-
-However, when a process uses seteuid() to switch from root to a unprivileged user (for example someuser), then it's not enough (or probably irrelevant) that this effective user has aid_* group membership. Instead, the root user must explicitly be a member of these groups:
-
-usermod -a -G aid_bt,aid_bt_net,aid_inet,aid_net_raw,aid_admin root
-
-This solved the problem for me.
-
-Note that I've also tried to play with setegid() and similar as an alternative, but none of that helped...
-
-
 
 Android needs kernel support to run docker
 install termux  https://f-droid.org/en/packages/com.termux/
