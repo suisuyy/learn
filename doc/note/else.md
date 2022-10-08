@@ -935,12 +935,6 @@ sudo docker rm    Delete a container.
 ```
 
 
-# upnp
-
-
-
-# end
-
 
 # hack
 ## box m301h sm ciot
