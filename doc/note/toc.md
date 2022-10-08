@@ -12,7 +12,7 @@
 
 [tmp](./mdreader.html?md=https://raw.githubusercontent.com/suisuyy/test/main/tmp.md)
 
-[todo](./mdreader.html?md=note/jsnote.md)
+[todo](./mdreader.html?md=note/todo.md)
 
 
 
