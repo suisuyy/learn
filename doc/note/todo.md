@@ -1,2 +1,3 @@
 a git based webnote app
-a shell with 
+
+a shell with IDE-like exp
