@@ -697,37 +697,6 @@ sudo tlp start
 pacman -S tlp tlp-rdw
 
 
-## ubports dipper
-
-https://docs.ubports.com/en/latest/userguide/dailyuse/libertine.html
-https://docs.ubports.com/en/latest/?pk_vid=62c130ed61d5dd391661311603e6432f
-https://wiki.ubuntu.com/Touch/Libertine
-http://kriscode.blogspot.com/2016/09/x-applications-on-ubuntu-phone.html
-
-  /usr/share/applications/chromium-browser.desktop   ~/.local/share/applications/ 
-
-  sudo apt-get -q -y install maliit-inputcontext-gtk3 maliit-inputcontext-gtk2
-
-
-X-Ubuntu-Touch=true
- X-Ubuntu-XMir-Enable=true
- Terminal=false
- Type=Application
-
-
-
-
-problem 
-root filesystem too small
-
-
-
-faq
-
-What is Halium? angle-icon
-
-Halium is the collaborative project to unify the Hardware Abstraction Layer for projects which run GNU/Linux on mobile devices with pre-installed Android. What this means is quicker development and launches of Ubuntu Touch on halium based android devices. None of our existing devices will run halium since it doesn't really make sense from a development stand point. Ubuntu Touch is being actively developed to run on vanilla Halium but isn't ready yet.
-
 
 
 
