@@ -24,6 +24,9 @@ test fo build
 
 # tmp
 ```
+
+aria2c --enable-rpc --rpc-listen-all
+
 xfreerdp /u:Administrator /p:a /v:192.168.68.11 +fonts    /clipboard /home-drive  /sound:latency:40
 echo 1 > /proc/sys/net/ipv4/ip_forward
 onething1/wxedge:latest
