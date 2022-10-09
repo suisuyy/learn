@@ -25,7 +25,7 @@ test fo build
 # tmp
 ```
 xfreerdp /u:Administrator /p:a /v:192.168.68.11 +fonts    /clipboard /home-drive  /sound:latency:40
-
+echo 1 > /proc/sys/net/ipv4/ip_forward
 onething1/wxedge:latest
 mkdir -p /tmp/01all/wx
 docker run  --name=wxedge --restart=always --privileged --net=host  --tmpfs /run --tmpfs /tmp -v /tmp/01all/wx:/storage:rw  onething1/wxedge
