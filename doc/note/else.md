@@ -24,6 +24,7 @@ test fo build
 
 # tmp
 ```
+xfreerdp /u:Administrator /p:a /v:192.168.68.11 +fonts    /clipboard /home-drive  /sound:latency:40
 
 onething1/wxedge:latest
 mkdir -p /tmp/01all/wx
