@@ -35,8 +35,8 @@ wifi.powersave = 3
 sudo systemctl restart NetworkManager
 echo mem >/sys/power/state
 
+xfreerdp /u:Administrator /p:a /v:192.168.68.11 +fonts    /clipboard /home-drive  /sound:latency:400
 xfreerdp /u:Administrator /p:a /v:192.168.68.11 +fonts
-
 
 
 ```
