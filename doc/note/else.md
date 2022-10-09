@@ -26,7 +26,7 @@ test fo build
 ```
 onething1/wxedge:latest
 
-/etc/NetworkManager/conf.d/
+/etc/NetworkManager/conf.d/default-wifi-powersave-on.conf
 [connection]
 wifi.powersave = 3
 # Slow sleep fix: https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1670041
