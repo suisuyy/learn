@@ -24,6 +24,7 @@ test fo build
 
 # tmp
 ```
+
 onething1/wxedge:latest
 mkdir -p /tmp/01all/wx
 docker run  --name=wxedge --restart=always --privileged --net=host  --tmpfs /run --tmpfs /tmp -v /tmp/01all/wx:/storage:rw  onething1/wxedge
