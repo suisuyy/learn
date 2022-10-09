@@ -26,6 +26,9 @@ test fo build
 ```
 onething1/wxedge:latest
 
+
+
+
 /etc/NetworkManager/conf.d/default-wifi-powersave-on.conf
 [connection]
 wifi.powersave = 3
