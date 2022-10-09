@@ -26,6 +26,8 @@ test fo build
 ```
 onething1/wxedge:latest
 
+/etc/NetworkManager/conf.d/
+
 
 ```
 
