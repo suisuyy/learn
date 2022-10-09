@@ -31,7 +31,7 @@ onething1/wxedge:latest
 wifi.powersave = 3
 # Slow sleep fix: https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1670041
 #wifi.powersave = 2
-
+建议你用sshfs，相当方便，服务端不用设置就用的ssh
 sudo systemctl restart NetworkManager
 echo mem >/sys/power/state
 
