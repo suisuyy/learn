@@ -25,7 +25,7 @@ test fo build
 # tmp
 ```
 onething1/wxedge:latest
-
+docker run  --name=wxedge --restart=always --privileged --net=host  --tmpfs /run --tmpfs /tmp -v 磁盘路径:/storage:rw  registry.hub.docker.com/onething1/wxedge
 
 
 
