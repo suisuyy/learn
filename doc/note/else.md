@@ -32,6 +32,8 @@ wifi.powersave = 3
 # Slow sleep fix: https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1670041
 #wifi.powersave = 2
 
+sudo systemctl restart NetworkManager
+
 
 ```
 
