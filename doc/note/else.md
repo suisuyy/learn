@@ -33,6 +33,7 @@ wifi.powersave = 3
 #wifi.powersave = 2
 
 sudo systemctl restart NetworkManager
+echo mem >/sys/power/state
 
 
 ```
