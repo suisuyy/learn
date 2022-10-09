@@ -30,6 +30,7 @@ docker run  --name=wxedge --restart=always --privileged --net=host  --tmpfs /run
 
 
 
+
 /etc/NetworkManager/conf.d/default-wifi-powersave-on.conf
 [connection]
 wifi.powersave = 3
