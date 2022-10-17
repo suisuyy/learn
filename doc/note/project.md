@@ -48,7 +48,8 @@ fetch('https://api.github.com/repos/suisuyy/Github-API-Testing/contents/bnewfile
   headers: {
     Accept: 'application/vnd.github+json',
     Authorization: token
-  }
+  },
+  body: JSON.stringify({"message":"my commit message","committer":{"name":"Monalisa Octocat","email":"octocat@github.com"},"content":"needbase64fromcurlbXkgbmV3IGZpbGUgY29udGVudHM="}),
 })
 .then( respond=>(respond.json()) )
 .then(respond=>( console.log(respond) ) )
