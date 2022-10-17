@@ -16,6 +16,10 @@ client_id	string	Required. The client ID you received from GitHub for your OAuth
 client_secret	string	Required. The client secret you received from GitHub for your OAuth App.
 code	string	Required. The code you received as a response to Step 1.
 redirect_uri	string	The URL in your application where users are sent after authorization.
+```javascript
+  fetch()
+
+```
 
 
 
