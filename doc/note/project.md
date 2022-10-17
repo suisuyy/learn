@@ -79,7 +79,7 @@ fetch('https://api.github.com/repos/suisuyy/Github-API-Testing/contents/', {
   method: "GET",
   headers: {
     Accept: 'application/vnd.github+json',
-    Authorization: 'Bearer ghp_aTLMOi3iqMKsUEb3DzejqG5tvqS8we6iNwN9'
+    Authorization: 'ghp_aTLMOi3iqMKsUEb3DzejqG5tvqS8we6iNwN9'
   }
 })
 
