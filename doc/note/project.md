@@ -23,6 +23,13 @@ curl \
   https://api.github.com/repos/suisuyy/Github-API-Testing/git/trees/f031db40a0c362925f638066b267690cb83479d6
 
 
+#get repo content
+curl \
+  -H "Accept: application/vnd.github+json" \
+  -H "Authorization: Bearer <YOUR-TOKEN>" \
+  
+
+
 #update
 curl \
   -X PUT \
