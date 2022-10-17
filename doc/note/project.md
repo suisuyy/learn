@@ -33,7 +33,11 @@ curl \
   -H "Authorization: Bearer ${token}" \
   https://api.github.com/repos/suisuyy/Github-API-Testing/contents/
 
-fetch()
+fetch('https://api.github.com/users/manishmshiva', {
+  method: "GET",
+  headers: {"Content-type": "application/json;charset=UTF-8"}
+})
+
 
 #update
 curl \
