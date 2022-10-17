@@ -6,7 +6,12 @@ get a token by going to https://github.com/settings/tokens and clicking on Gener
 token=youtokenhere
  curl -H "Authorization: token ${token}" -d '{"name":"Github API Testing"}' https://api.github.com/user/repos
 
-
+curl \
+  -X PUT \
+  -H "Accept: application/vnd.github+json" \
+  -H "Authorization: Bearer <YOUR-TOKEN>" \
+  https://api.github.com/repos/OWNER/REPO/contents/PATH \
+  -d '{"message":"my commit message","committer":{"name":"Monalisa Octocat","email":"octocat@github.com"},"content":"bXkgbmV3IGZpbGUgY29udGVudHM="}'
 
 # end
 
