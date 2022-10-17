@@ -1,6 +1,6 @@
 # github repo
 https://docs.github.com/en/rest/repos/contents#get-repository-content
-
+https://github.com/login/oauth/authorize?client_id=Iv1.9d7d662ea00b8481&scope=read%3Auser%2Cuser%3Aemail&state=d73d356800049911f2befc25e4ba58a5611a7af22fda1cdbc5df73af4bca75cfe41becc2181645718d37a292b6a293e94f7e94f2fdfcc8317976efdf9d6dd29251e896f999ab032ac0cd2f7147666d0f72bf78b8f0881f3909cbc6f1059f9da9739bfabc7815db06d35832cd13a1ca587eed278cd8321a7e034a8e20fb
 
 
 curl https://api.github.com/users/suisuyy
