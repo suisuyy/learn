@@ -36,7 +36,7 @@ curl \
 fetch('https://api.github.com/users/manishmshiva', {
   method: "GET",
   headers: {
-    
+    Accept: 'application/vnd.github+json'
   }
 })
 
