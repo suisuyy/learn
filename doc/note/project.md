@@ -26,8 +26,8 @@ curl \
 #get repo content
 curl \
   -H "Accept: application/vnd.github+json" \
-  -H "Authorization: Bearer <YOUR-TOKEN>" \
-  
+  -H "Authorization: Bearer ${token}" \
+  https://api.github.com/repos/suisuyy/Github-API-Testing/contents/
 
 
 #update
