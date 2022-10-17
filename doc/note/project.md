@@ -1,4 +1,6 @@
 # git auth
+creat new Oauth app at
+https://github.com/settings/developers
 
 
 
