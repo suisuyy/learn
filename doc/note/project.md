@@ -9,7 +9,7 @@ token=youtokenhere
 curl \
   -X PUT \
   -H "Accept: application/vnd.github+json" \
-  -H "Authorization: Bearer <YOUR-TOKEN>" \
+  -H "Authorization: Bearer ${token}" \
   https://api.github.com/repos/OWNER/REPO/contents/PATH \
   -d '{"message":"my commit message","committer":{"name":"Monalisa Octocat","email":"octocat@github.com"},"content":"bXkgbmV3IGZpbGUgY29udGVudHM="}'
 
