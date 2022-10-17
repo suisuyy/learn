@@ -32,6 +32,17 @@ fetch('https://corsp.suisuy.workers.dev/?https://github.com/login/oauth/access_t
 get token
 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
 
+use token
+fetch('https://api.github.com/repos/suisuyy/Github-API-Testing/contents/', {
+  method: "GET",
+  headers: {
+    Accept: 'application/vnd.github+json',
+    Authorization: 'ghp_aTLMOi3iqMKsUEb3DzejqG5tvqS8we6iNwN9'
+  }
+})
+.then( respond=>(respond.json()) )
+.then(respond=>( console.log(respond) ) )
+
 
 
 Name	Type	Description
@@ -82,6 +93,8 @@ fetch('https://api.github.com/repos/suisuyy/Github-API-Testing/contents/', {
     Authorization: 'ghp_aTLMOi3iqMKsUEb3DzejqG5tvqS8we6iNwN9'
   }
 })
+.then( respond=>(respond.json()) )
+.then(respond=>( console.log(respond) ) )
 
 
 #update
