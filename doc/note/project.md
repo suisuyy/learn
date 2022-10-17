@@ -22,6 +22,13 @@ curl \
   -H "Authorization: Bearer ${token}" \
   ${testfilePath}
 
+#delete
+curl \
+  -X DELETE \
+  -H "Accept: application/vnd.github+json" \
+  -H "Authorization: Bearer <YOUR-TOKEN>" \
+  https://api.github.com/repos/OWNER/REPO/contents/PATH \
+  -d '{"message":"my commit message","committer":{"name":"Monalisa Octocat","email":"octocat@github.com"},"sha":"329688480d39049927147c162b9d2deaf885005f"}'
 
 
 
