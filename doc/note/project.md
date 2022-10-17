@@ -4,7 +4,7 @@ curl https://api.github.com/users/suisuyy/followers
 
 get a token by going to https://github.com/settings/tokens and clicking on Generate new token.
 token=youtokenhere
-testfilePath=
+testfilePath="https://api.github.com/repos/suisuyy/Github-API-Testing/contents/anewfile"
 
  curl -H "Authorization: token ${token}" -d '{"name":"Github API Testing"}' https://api.github.com/user/repos
 
