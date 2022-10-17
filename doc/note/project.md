@@ -9,7 +9,7 @@ it will redirect you to
 https://yourapp.url/?code=94a0f6927fe10ff7d0eb
 
 now we can use code=94a0f6927fe10ff7d0eb to get github token
-
+POST https://github.com/login/oauth/access_token
 
 # github repo
 https://docs.github.com/en/rest/repos/contents#get-repository-content
