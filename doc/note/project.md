@@ -11,7 +11,7 @@ curl \
   -H "Accept: application/vnd.github+json" \
   -H "Authorization: Bearer ${token}" \
   https://api.github.com/repos/suisuyy/Github-API-Testing/contents/anewfile \
-  -d '{"message":"my commit message","committer":{"name":"Monalisa Octocat","email":"octocat@github.com"},"content":"fromcurlbXkgbmV3IGZpbGUgY29udGVudHM="}'
+  -d '{"message":"my commit message","committer":{"name":"Monalisa Octocat","email":"octocat@github.com"},"content":"needbase64fromcurlbXkgbmV3IGZpbGUgY29udGVudHM="}'
 
 # end
 
