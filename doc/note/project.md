@@ -42,6 +42,17 @@ fetch('https://api.github.com/repos/suisuyy/Github-API-Testing/contents/', {
 .then( respond=>(respond.json()) )
 .then(respond=>( console.log(respond) ) )
 
+
+fetch('https://api.github.com/repos/suisuyy/Github-API-Testing/contents/', {
+  method: "PUT",
+  headers: {
+    Accept: 'application/vnd.github+json',
+    Authorization: token
+  }
+})
+.then( respond=>(respond.json()) )
+.then(respond=>( console.log(respond) ) )
+
 curl \
   -X PUT \
   -H "Accept: application/vnd.github+json" \
