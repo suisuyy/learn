@@ -8,6 +8,16 @@ testfilePath="https://api.github.com/repos/suisuyy/Github-API-Testing/contents/a
 
  curl -H "Authorization: token ${token}" -d '{"name":"Github API Testing"}' https://api.github.com/user/repos
 
+#get file list
+curl \
+  -X POST \
+  -H "Accept: application/vnd.github+json" \
+  -H "Authorization: Bearer <YOUR-TOKEN>" \
+  https://api.github.com/repos/OWNER/REPO/git/trees \
+  -d '{"base_tree":"9fb037999f264ba9a7fc6274d15fa3ae2ab98312","tree":[{"path":"file.rb","mode":"100644","type":"blob","sha":"44b4fc6d56897b048c772eb4087f854f46256132"}]}'
+
+
+
 #update
 curl \
   -X PUT \
