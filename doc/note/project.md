@@ -17,7 +17,7 @@ client_secret	string	Required. The client secret you received from GitHub for yo
 code	string	Required. The code you received as a response to Step 1.
 redirect_uri	string	The URL in your application where users are sent after authorization.
 ```javascript
-fetch(' https://github.com/login/oauth/access_token?client_id=62bae466424e9145c0a5&client_secret=d373d9ebf716e36988e31f6687920706af76fbdd&code=39f70b72079772111233&redirect_uri', {
+fetch(' https://github.com/login/oauth/access_token?client_id=62bae466424e9145c0a5&client_secret=d373d9ebf716e36988e31f6687920706af76fbdd&code=39f70b72079772111233&redirect_uri=https://test.com', {
   method: "POST",
   headers: {
     Accept: 'application/vnd.github+json',
