@@ -8,8 +8,16 @@ https://github.com/login/oauth/authorize?client_id=62bae466424e9145c0a5&scope=us
 it will redirect you to 
 https://yourapp.url/?code=94a0f6927fe10ff7d0eb
 
-now we can use code=94a0f6927fe10ff7d0eb to get github token
+now we can use code=94a0f6927fe10ff7d0eb to get github token by post request
 POST https://github.com/login/oauth/access_token
+Parameters
+Name	Type	Description
+client_id	string	Required. The client ID you received from GitHub for your OAuth App.
+client_secret	string	Required. The client secret you received from GitHub for your OAuth App.
+code	string	Required. The code you received as a response to Step 1.
+redirect_uri	string	The URL in your application where users are sent after authorization.
+
+
 
 Name	Type	Description
 client_id	string	Required. The client ID you received from GitHub for your OAuth App.
