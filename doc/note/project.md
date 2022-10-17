@@ -28,20 +28,24 @@ fetch('https://corsp.suisuy.workers.dev/?https://github.com/login/oauth/access_t
 .then(respond=>( console.log(respond) ) )
 
 
-```
-get token
-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
+//get token
+let token=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
 
 use token
 fetch('https://api.github.com/repos/suisuyy/Github-API-Testing/contents/', {
   method: "GET",
   headers: {
     Accept: 'application/vnd.github+json',
-    Authorization: 'ghp_aTLMOi3iqMKsUEb3DzejqG5tvqS8we6iNwN9'
+    Authorization: token
   }
 })
 .then( respond=>(respond.json()) )
 .then(respond=>( console.log(respond) ) )
+
+
+
+```
+
 
 
 
