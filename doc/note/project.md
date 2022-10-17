@@ -20,7 +20,7 @@ curl \
 curl \
   -H "Accept: application/vnd.github+json" \
   -H "Authorization: Bearer ${token}" \
-  https://api.github.com/repos/OWNER/REPO/git/trees/TREE_SHA
+  https://api.github.com/repos/suisuyy/Github-API-Testing/git/trees/TREE_SHA
 
 
 #update
