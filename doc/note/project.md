@@ -2,6 +2,7 @@
 creat new Oauth app at
 https://github.com/settings/developers
 
+get client_id and client_secret
 
 
 
