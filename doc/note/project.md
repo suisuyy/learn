@@ -19,7 +19,7 @@ curl \
 #get tree
 curl \
   -H "Accept: application/vnd.github+json" \
-  -H "Authorization: Bearer <YOUR-TOKEN>" \
+  -H "Authorization: Bearer ${token}" \
   https://api.github.com/repos/OWNER/REPO/git/trees/TREE_SHA
 
 
