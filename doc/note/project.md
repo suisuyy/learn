@@ -4,7 +4,7 @@ https://github.com/settings/developers
 get client_id and client_secret
 
 auth at 
-https://github.com/login/oauth/authorize?client_id=62bae466424e9145c0a5&scope=user%20gist%20repo
+https://github.com/login/oauth/authorize?client_id=62bae466424e9145c0a5&scope=user%20gist%20repo&state=snote
 it will redirect you to 
 https://yourapp.url/?code=94a0f6927fe10ff7d0eb
 
