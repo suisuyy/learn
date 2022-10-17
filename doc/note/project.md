@@ -35,7 +35,9 @@ curl \
 
 fetch('https://api.github.com/users/manishmshiva', {
   method: "GET",
-  headers: {"Content-type": "application/json;charset=UTF-8"}
+  headers: {
+    
+  }
 })
 
 
