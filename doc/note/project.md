@@ -43,7 +43,7 @@ fetch('https://api.github.com/repos/suisuyy/Github-API-Testing/contents/', {
 .then(respond=>( console.log(respond) ) )
 
 
-fetch('https://api.github.com/repos/suisuyy/Github-API-Testing/contents/', {
+fetch('https://api.github.com/repos/suisuyy/Github-API-Testing/contents/bnewfile', {
   method: "PUT",
   headers: {
     Accept: 'application/vnd.github+json',
