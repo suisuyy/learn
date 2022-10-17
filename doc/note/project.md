@@ -23,6 +23,7 @@ fetch('https://corsp.suisuy.workers.dev/?https://github.com/login/oauth/access_t
     Accept: 'application/vnd.github+json',
   }
 })
+.then(respond=>console.log(respond))
 
 
 ```
