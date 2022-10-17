@@ -19,8 +19,8 @@ curl \
 #get
 curl \
   -H "Accept: application/vnd.github+json" \
-  -H "Authorization: Bearer <YOUR-TOKEN>" \
-  https://api.github.com/repos/OWNER/REPO/contents/PATH
+  -H "Authorization: Bearer ${token}" \
+  ${testfilePath}
 
 
 
