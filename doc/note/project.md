@@ -8,6 +8,8 @@ https://github.com/login/oauth/authorize?client_id=62bae466424e9145c0a5&scope=us
 it will redirect you to 
 https://yourapp.url/?code=94a0f6927fe10ff7d0eb
 
+now we can use code=94a0f6927fe10ff7d0eb to get github token
+
 
 # github repo
 https://docs.github.com/en/rest/repos/contents#get-repository-content
