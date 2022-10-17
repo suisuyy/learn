@@ -1,4 +1,8 @@
 # github repo
+https://docs.github.com/en/rest/repos/contents#get-repository-content
+
+
+
 curl https://api.github.com/users/suisuyy
 curl https://api.github.com/users/suisuyy/followers
 
