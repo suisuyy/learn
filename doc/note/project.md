@@ -33,11 +33,11 @@ curl \
   -H "Authorization: Bearer ${token}" \
   https://api.github.com/repos/suisuyy/Github-API-Testing/contents/
 
-fetch('https://api.github.com/users/manishmshiva', {
+fetch('', {
   method: "GET",
   headers: {
     Accept: 'application/vnd.github+json',
-    Authorization: 'Bearer '
+    Authorization: 'Bearer ghp_aTLMOi3iqMKsUEb3DzejqG5tvqS8we6iNwN9'
   }
 })
 
