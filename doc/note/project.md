@@ -18,9 +18,9 @@ client_secret	string	Required. The client secret you received from GitHub for yo
 code	string	Required. The code you received as a response to Step 1.
 redirect_uri	string	The URL in your application where users are sent after authorization.
 ```javascript
-let authcode="52c670d9b39cf29af490"
 
-fetch('https://corsp.suisuy.workers.dev/?https://github.com/login/oauth/access_token?client_id=62bae466424e9145c0a5&client_secret=d373d9ebf716e36988e31f6687920706af76fbdd&code=00d027d7d25ef36d05b4&state=snote', {
+let authcode="52c670d9b39cf29af490"
+fetch('https://corsp.suisuy.workers.dev/?https://github.com/login/oauth/access_token?client_id=62bae466424e9145c0a5&client_secret=d373d9ebf716e36988e31f6687920706af76fbdd&state=snote&code='+authcode, {
   method: "POST",
   headers: {
     Accept: 'application/vnd.github+json',
