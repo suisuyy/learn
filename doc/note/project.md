@@ -1,3 +1,8 @@
+# common url
+  https://api.github.com/users/USERNAME/repos
+  
+
+
 # git auth
 creat new Oauth app at
 https://github.com/settings/developers
