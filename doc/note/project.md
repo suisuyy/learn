@@ -1,6 +1,7 @@
 # importand note
 mvc 
-   must focus on update model,model represent view by 
+   must focus on update model,model represent view by text
+   
 
 
 # common url
