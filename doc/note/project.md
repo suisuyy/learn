@@ -1,6 +1,7 @@
 # common url
-  https://api.github.com/users/USERNAME/repos
-  
+  https://api.github.com/users/suisuyy/repos
+  https://api.github.com/repos/suisuyy/Github-API-Testing/contents/
+
 
 
 # git auth
