@@ -1,4 +1,5 @@
 # importand note
+mvc: must focus on update model:
 
 
 # common url
