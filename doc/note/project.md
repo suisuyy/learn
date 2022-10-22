@@ -1,7 +1,9 @@
 # importand note
 mvc 
    must focus on update model,model represent view by text
-   
+
+
+   test
 
 
 # common url
