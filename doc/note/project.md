@@ -1,5 +1,6 @@
 # importand note
-mvc: must focus on update model:
+mvc 
+   must focus on update model,model represent view by 
 
 
 # common url
