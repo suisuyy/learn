@@ -34,7 +34,8 @@ test.pem for cert and test.key
 then start https server:
  http-server -a -p 443 -S -C test.pem -K test.key
 
-### 
+### manual apply cert 
+
  
 
 # tmp
