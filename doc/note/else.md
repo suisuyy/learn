@@ -35,8 +35,8 @@ then start https server:
  http-server -a -p 443 -S -C test.pem -K test.key
 
 ### manual apply cert 
-1.Create a 2048-bit RSA public/private key pair.
-2.CSR Generate a certificate signing request (CSR) that embeds your public key.
+1.KEYS Create a 2048-bit RSA public/private key pair.
+2.CSR  Generate a certificate signing request (CSR) that embeds your public key.
 3.CERT Share your CSR with your Certificate Authority (CA) to receive a final certificate or a certificate chain.
 4.Install your final certificate in a non-web-accessible place such as /etc/ssl (Linux and Unix) or wherever IIS requires it (Windows).
  
