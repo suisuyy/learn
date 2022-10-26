@@ -6,6 +6,7 @@ try login first
 try to double click to run current line code
 ```javascript
 3*4 //double click me
+4
 ```
 
 # end
