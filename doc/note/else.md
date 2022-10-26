@@ -27,13 +27,14 @@ test fo build
 install http-server use npm
 npm install -g http-server
 
-###  with clouflare
+### quicker with clouflare
 go to https://dash.cloudflare.com/9a90f9962da40fb826ad9666e4ed8ef0/suisuy.eu.org/ssl-tls/origin
 get cert and key from cloudflare copy them to
 test.pem for cert and test.key
 then start https server:
  http-server -a -p 443 -S -C test.pem -K test.key
 
+### 
  
 
 # tmp
