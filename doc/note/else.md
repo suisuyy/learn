@@ -29,8 +29,8 @@ npm install -g http-server
 
 ### with clouflare
 get cert and key from cloudflare copy them to
-test.pem for  and test.key
-
+test.pem for cert and test.key
+then start https server:
  http-server -a -p 443 -S -C test.pem -K test.key
 
 # tmp
