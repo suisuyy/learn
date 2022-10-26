@@ -25,7 +25,8 @@ test fo build
 
 ## quick start
 
-### with clouf'l
+### with clouflare
+
 
 # tmp
 
