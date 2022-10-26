@@ -36,7 +36,9 @@ then start https server:
 
 ### manual apply cert 
 1.KEYS Create a 2048-bit RSA public/private key pair.
+openssl genrsa -out www.example.com.key 2048
 2.CSR  Generate a certificate signing request (CSR) that embeds your public key.
+
 3.CERT Share your CSR with your Certificate Authority (CA) to receive a final certificate or a certificate chain.
 4.Install your final certificate in a non-web-accessible place such as /etc/ssl (Linux and Unix) or wherever IIS requires it (Windows).
  
