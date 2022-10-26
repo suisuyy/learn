@@ -24,6 +24,7 @@ test fo build
 # https
 
 ## quick start
+install http
 
 ### with clouflare
 
