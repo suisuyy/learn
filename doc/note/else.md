@@ -28,7 +28,7 @@ install http-server use npm
 npm install -g http-server
 
 ### with clouflare
-
+get cert and key from cl
 
 # tmp
 
