@@ -1,1 +1,1117 @@
-⌠瑯挊ⴠ孴潣崨⍴潣⤊ⴠ孵獥慧敝⠣畳敡来⤊ⴠ孢慳桝⠣扡獨⤊ⴠ孢慣歵灝⠣扡捫異⤊ⴠ孢敮捨浡牫崨⍢敮捨浡牫⤊ⴠ孤楳歝⠣摩獫⤊††ⴠ孤搠慮搠摩獫⁳灥敤崨⍤搭慮搭摩獫⵳灥敤⤊††ⴠ孰慲瑥摝⠣灡牴敤⤊††ⴠ孲敳楺敝⠣牥獩穥⤊ⴠ孢潯瑝⠣扯潴⤊†ⴠ孧牵扝⠣杲畢⤊ⴠ孮整崨⍮整⤊†ⴠ孳瑡瑵獝⠣獴慴畳⤊†ⴠ孢扲崨⍢扲⤊†ⴠ孲潵瑥崨⍲潵瑥⤊†ⴠ孤湳崨⍤湳⤊ⴠ孄楳歝⠣摩獫ⴱ⤊ⴠ孥浡楬⁷敢崨⍥浡楬⵷敢⤊ⴠ孳瑡瑵獝⠣獴慴畳ⴱ⤊ⴠ季潮晩杝⠣捯湦楧⤊†ⴠ季潮瑲潬⁨慲摷慲搠捭摝⠣捯湴牯氭桡牤睡牤ⵣ浤⤊†ⴠ学楲敦潸崨⍦楲敦潸⤊†ⴠ孧湯浥崨⍧湯浥⤊ⴠ孤潣步牝⠣摯捫敲⤊ⴠ孬潯瀺崨⍬潯瀩ਭ⁛浯畮琠摥癩捥獝⠣浯畮琭摥癩捥猩ਭ⁛湶洠湰浝⠣湶洭湰洩ਭ⁛灲潸祝⠣灲潸礩ਭ⁛煴崨⍱琩ਠ‭⁛灩灥睩牥崨⍰楰敷楲攩ਭ⁛獣牥敮崨⍳捲敥温ਭ⁛獥捵物瑹崨⍳散畲楴礩ਭ⁛獹獴敭⁭潮楴潲崨⍳祳瑥洭浯湩瑯爩ਭ⁛獯畮摝⠣獯畮搩ਭ⁛獳桝⠣獳栩ਭ⁛䝥湥牡瑩湧⁋敹⁐慩牳崨⍧敮敲慴楮札步礭灡楲猩ਠ‭⁛獳栠偯牴⁆潲睡牤楮杝⠣獳栭灯牴ⵦ潲睡牤楮朩ਭ⁛顴慲餠獴慮摳⁦潲⁴慰攠慲捨楶敝⠣瑡爭獴慮摳ⵦ潲⵴慰攭慲捨楶攩ਭ⁛畳敲崨⍵獥爩ਭ⁛畳敲浯摝⠣畳敲浯搩ਠ†‭⁛崨〈ਭ⁛捨潷湝⠣捨潷温ਭ⁛癩浝⠣癩洩ਭ⁛癩牴崨⍶楲琩ਠ‭⁛捨牯潴崨⍣桲潯琩ਠ‭⁛摯捫敲崨⍤潣步爭ㄩਭ⁛癮捝⠣癮挩ਭ⁛癭睡牥崨⍶海慲攩ਭ⁛癩牴畡氠扯砠畳慧敝⠣癩牴畡氭扯砭畳慧攩ਠ‭⁛浯畮琠獨慲敤⁦潤敲⁯睮敤⁢礠湯牯潴崨⍭潵湴⵳桡牥搭景摥爭潷湥搭批⵮潲潯琩ਠ‭⁛畳戠捯湮散瑩潮⁰牯扬敭崨⍵獢ⵣ潮湥捴楯渭灲潢汥洩ਠ‭⁛穲慭⁵獡来崨⍺牡洭畳慧攩ਭ⁛獨潲瑝⠣獨潲琩ਊਊਊਊ⌠畳敡来੠恠੡摢੦慳瑢潯琊慤戠牥扯潴ਣ跥邯끒散潶敲秧閌ꈊ慤戠牥扯潴⁲散潶敲礊⏩融꿥袰扯潴汯慤敲賩鶢੡摢⁲敢潯琠扯潴汯慤敲੠恠ਊਊਣ⁢慳栊੠恠扡獨੥捨漠ⵥ•屮⁢楮搠❳整⁣潭灬整楯渭楧湯牥ⵣ慳攠潮❜渠扩湤‧獥琠獨潷ⵡ汬⵩昭慭扩杵潵猠潮❜渠扩湤‧屃⵰㩭敮甭捯浰汥瑥❜渢‾㹾⼮扡獨牣ਊ散桯‭攠尊≥獣慰攠幊樠屮尊桡牤獴慴畳⁡汷慹獬慳瑬楮攠屮尊桡牤獴慴畳⁳瑲楮朠✥筧歽嬥筷歽┿┭䱷┿╻㵢⁫剽⠥筗紥渪╦‥琥㼨╵⤥㼥笽戠歒紩╻㵷紥㼥⭌眥㼥㼠╻杽嵛╻摽╬╻杽嵛‥笽睽╙⼥洯╤‥ぃ㨥猥愥筧素崥筗紧⁜湜ੴ敲浣慰楮景⁸瑥牭⨠瑩䀺瑥䀢屮尊㹾⼮獣牥敮牣ਊ杩琠捬潮攠ⴭ摥灴栠ㄠ桴瑰猺⼯杩瑨畢⹣潭⽪畮敧畮港智昮杩琠縯⹦穦੾⼮智是楮獴慬氊恠怊ਣ⁢慣歵瀊恠怊瑡爠捦究⁨潭敢欮瑡爮杺‮獳栠⹢慳桲挠慰瀯扩渠⹧楴捯湦楧‮灲潸祣桡楮猠⹳捲敥湲挠⹰牯晩汥ੴ慲⁣癰橦⁢慣歵瀮瑡爮扺㈠ⴭ數捬畤攭晲潭㵥硣氠⼊恠怊ਊ⌠扥湣桭慲權੠恠獨敬氊⌷稠਷稠戠⵭浴ㄣ来琠ㄸ㘵⁦潲⁳搸㐵‬摯畢汥⁰潩湴⁦潲⁲畢礊ਣ楰敲昳੩灥牦㌠ⵣ‱㤲⸱㘸⸶㠮ㄷ㐠†ⵢ′〰洠ⵐ‴ਊ⍤搠摩獫⁷物瑥⁳灥敤ੂ商卉婅㴴き†䍏啎吽㄰※散桯⁳瑡牴⁴敳琠睲楴攠獰敥摟彟彟彟彟彟彟彟㬠獵摯⁤搠楦㴯摥瘯穥牯⁯昽ⸯ瑥獴獰敥搠扳㴤䉕䙓䥚䔠捯畮琽⑃何乔⁳瑡瑵猽灲潧牥獳†潦污朽摳祮挻ਊ੄䕖㴧⽤敶⽳摢ㄧ⁂商卉婅㴳き†䍏啎吽㐠䵆䱁䝓㴧✠䑆䱁䝓㴧✻尊獵摯⁭此楲⁴浰※獵摯⁵浯畮琠瑭瀠㭳畤漠浯畮琠⑍䙌䅇匠⑄䕖⁴浰㭥捨漠獴慲琠瑥獴⁷物瑥⁳灥敤彟彟彟彟彟彟彟弻⁳畤漠摤⁩昽⽤敶⽺敲漠潦㵴浰⽴敳瑳灥敤⁢猽⑂商卉婅†捯畮琽⑃何乔†獴慴畳㵰牯杲敳猠⑄䙌䅇医ਊ獵摯⁥捨漠㌠㸠⽰牯振獹猯癭⽤牯灟捡捨敳…☠散桯⁳瑡牴⁴敳琠牥慤⁳灥敤彟彟彟彟ੳ畤漠摤⁩昽瑭瀯瑥獴獰敥搠潦㴯摥瘯湵汬⁩晬慧㵦畬汢汯捫⁳瑡瑵猽灲潧牥獳†扳㴤筂商卉婅素捯畮琽⑻䍏啎命 獵摯⁲洠瑭瀯瑥獴獰敥搻⁳畤漠畭潵湴⁴浰ਊਊ 恠怊ਊ⌠摩獫ਣ⌣⁤搠慮搠摩獫⁳灥敤ਊ⍦潲⁮瑦猠湯琠浯畮琠楴⁵獥‭漠獹湣ਣ摤⁤楳欠睲楴攠獰敥搠浯畮琠獹湣⁤摳祮挊⁂商卉婅㴱〰䬠⁃何乔㴴⁍䙌䅇匽✭漠獹湣✠䑆䱁䝓㴧潦污朽摳祮挧㭳畤漠浫摩爠瑭瀠㭥捨漠獴慲琠瑥獴⁷物瑥⁳灥敤彟彟彟彟彟彟彟弻⁳畤漠摤⁩昽⽤敶⽺敲漠潦㵴浰⽴敳瑳灥敤⁢猽⑂商卉婅†捯畮琽⑃何乔†獴慴畳㵰牯杲敳猠⑄䙌䅇医ਊਣ⌣⁰慲瑥搊恠怊捰 獤捡牤⽰慲瑥搠⽳扩港…☠捨浯搠㜵㔠⽳扩港灡牴敤ੵ浯畮琠⽤慴愠☦⁵浯畮琠⽳摣慲搊ੳ畤漠灡牴敤‭氊灡牴敤 摥瘯扬潣欯獤愊瀠晲敥ੲ洠ㄷ‣ㄷ꽵獥牤慴懥袆뫥辷 浫灡牴⁥獰⁦慴㌲‶㔵㥍䈠㜰〰䵂੭歰慲琠灥⁦慴㌲‷〰き䈠㄰〰き䈊浫灡牴⁷楮⁮瑦猠㄰〰き䈠㜰䝂੭歰慲琠畳敲摡瑡⁥硴㐠㜰䝂‱㈵䝂ਊ獥琠ㄷ⁥獰⁯渊煵楴†⍳慶攠慮搠煵楴੮慭攠㐸†湥睬慢汥湡浥ੲ敳楺攲晳‭映⽤敶⽳摡㈳ਊ恠怊⌣⌠牥獩穥ੳ畤漠⵳੤搠楦㴯摥瘯湵汬⁯昽⽵獥牤慴愯畢畮瑵⹩浧⁢猽ㅍ⁳敥欽㘰〰⁣潵湴㴰ੲ敳楺攲晳‭映⽵獥牤慴愯畢畮瑵⹩浧††††††††††††††††††††††ੲ敢潯琊ਊ⌠扯潴ਊ⌣⁧牵戊੠恠੧牵戭浫捯湦楧‭漠⽢潯琯杲畢⽧牵戮捦朊੠恠ਊ⌠湥琊⌣⁳瑡瑵猊恠怊⍳桯眠灯牴੮整獴慴‭瑵汰渠簠杲数‱〸〱 獵摯⁬獯映⵩㨲㈊湬潡搠⵵⁍†睬慮《獵摯⁮整桯杳ੳ畤漠湭慰‭獮‱㤲⸱㘸⸶㠮〯㈴੠恠ਣ⌠扢爊੠恠灬慩渊⍳異敲畳敲⁮敥摥搊⍣桥捫ੳ祳捴氠湥琮楰瘴⹴捰彡癡楬慢汥彣潮来獴楯湟捯湴牯氊獹獣瑬⁮整⹩灶㐮瑣灟捯湧敳瑩潮彣潮瑲潬ਊ⍥湡扬攠瑥浰敲慴敬礊獹獣瑬‭眠湥琮楰瘴⹴捰彣潮来獴楯湟捯湴牯氽扢爊獹獣瑬‭眠湥琮捯牥⹤敦慵汴影摩獣㵣慫攊ਣ敮慢汥⁰敲浥湴੥捨漠ⵥ•屮湥琮楰瘴⹴捰彣潮来獴楯湟捯湴牯氽扢牜湮整⹣潲攮摥晡畬瑟煤楳挽捡步•‾㸯整振獹獣瑬⹣潮映☦⁳祳捴氠⵰ਊ恠怊ਊ⌣⁲潵瑥ਊਣ⌠摮猊晡獴⁴敭瀠獥琠摮猠獥牶敲㨊散桯‭攠≜ੳ敡牣栠污渠屮尊湡浥獥牶敲‸⸸⸸⸸屮尊∾⽥瑣⽲敳潬瘮捯湦੥捨漠ⵥ•屮屮摮猠湯眠楳㨢…♣慴 整振牥獯汶⹣潮昊ਊ⌠䑩獫੠恠ਣ畳攠灡牴敤ੰ慲瑥搠⽤敶⽢汯捫⽳摡ੲ洠㈳੭歰慲琠慢潯琠晡琳㈠㔳䝂‵㑇䈊浫灡牴⁵獥牤慴愠數琴‵㑇䈠㔹䝂ੳ整′㌠敳瀠潮 恠怊⌠敭慩氠睥戊恠怊⍳瑡牴⁡琠灯牴‸㠸㠬⁵獥⁨瑴瀺⼯汯捡汨潳琺㠸㠸㽡摭楮⁷楴栠灡獳睤‱㈳㐵⁴漠捯湦楧⁥湡扬攠煱⁭慩氬扡搠杭慩氠獥敭猠湯琠睯牫੤潣步爠牵渠ⴭ湡浥⁲慩湬潯瀠ⴭ湥琠桯獴⁨慲摷慲支牡楮汯潰ਣ瑨敮⁣慮⁲敳瑡牴⁷楴栊摯捫敲⁣潮瑡楮敲⁲敳瑡牴⁲慩湬潯瀊恠怊ਣ⁳瑡瑵猊恠怊⽳祳⽣污獳⽰潷敲彳異灬礯慸瀲へⵢ慴瑥特⽵敶敮琊⁢物杨瑮敳獣瑬‭搠❢慣歬楧桴✠獥琠《捡琠⽳祳⽣污獳⽴桥牭慬⽴桥牭慬彺潮攪⽴敭瀊捡琠⽳祳⽭潤畬支步牮敬⽰慲慭整敲猯捯湳潬敢污湫੠恠ਊ⌠捯湦楧ਣ⌠捯湴牯氠桡牤睡牤⁣浤੠恠੢物杨瑮敳獣瑬‭搠楮瑥江扡捫汩杨琠獥琠㔰┊恠怊੩㌠⹣潮晩术椳⽣潮昊੸晣攴ਯ整振硤术硦捥㐯硦捯湦⽸晣攭灥牣桡湮敬⵸浬⽸晣攴⵳敳獩潮⹸浬ਊ⌣⁦楲敦潸੠恠੥湡扬攠⨪捬楰扯慲搠慰椠慮搠慤摯渠捯汬散瑩潮⨪੯灥渠慢潵琺捯湦楧ੳ整⁤潭⹥癥湴献瑥獴楮朮慳祮捃汩灢潡牤⁴漠瑲略੥湡扬攠獳戊湥瑷潲欮捯潫楥⹳慭敓楴攮污硂祄敦慵汴⁦慬獥੠恠ਣ⌠杮潭攊畳攠摡獨⁴漠灡湥氠瑯⁭慫攠汥晴⁴慳欠扡爊⨪畳攪⩃汩灢潡牤⁉湤楣慴潲⁴漠浡湡来⁣汩灢潡牤ਊਣ⁤潣步爊੠恠灬慩渊摯捫敲⁲畮‭楴‭⵳桭⵳楺攽㔱㉭‭瘠⽤敶㨯摥瘠ⴭ湥琠桯獴‭ⵥ湴特灯楮琠⽢楮⽢慳栊ⴭ獴潲慧攭潰琠獩穥㴱〰䜠ⴭ捰畳㴲ਭ⵲敳瑡牴㵡汷慹猊⍢慳楣⁣浤ੳ畤漠摯捫敲⁣潮瑡楮敲⁬猠ⵡ੤潣步爠歩汬․⡤潣步爠灳‭焩†⍫楬氠慬氠捯湴慩湥爊摯捫敲⁣潮瑡楮敲⁲洠․⡤潣步爠灳‭煡⤠‣牭⁡汬⁣潮瑡楮敲੤潣步爠數散⁭礭瑬ⵤ敭漠瑬捦朠慤搭畳敲⁭祵獥爠浹灡獳睯牤੤潣步爠牵渠⵩琠ⴭ獨洭獩穥㴵ㄲ洠ⴭ湥琠桯獴‭ⵥ湴特灯楮琠⽢楮⽢慳栊摯捫敲⁲畮‭⵲洠‭楴‭⵳桭⵳楺攽㔱㉭‭⵮整⁨潳琠ⴭ敮瑲祰潩湴 扩港扡獨੤潣步爠捯浭楴‵愸映湥睩浡来湡浥੤潣步爠牵渠⵴椠⵶•⑐坄⽳潭敤楲∺⽳潭敤楲⁮敷業慧敮慭攠⽢楮⽢慳栊ੳ畤漠摯捫敲⁲畮‭楴‭⵳桭⵳楺攽㔱㉭‭⵮整⁨潳琠⵶ 摡瑡⽤潣步爯牵港㨯癡爯牵渠‭ⵥ湴特灯楮琠⽢楮⽢慳栠浹摥扩慮ਊ獵摯⁤潣步爠牵渠ⴭ牭†⵩琠ⴭ獨洭獩穥㴵ㄲ洠⵰‶㤰ㄺ㘹〱‭攠噎䍟偗㵰慳獷潲搠歡獭睥戯畢畮瑵ⵦ潣慬ⵤ敳歴潰㩤敶敬潰ਊ獵摯⁤潣步爠牵渠ⴭ牭†⵩琠ⴭ獨洭獩穥㴵ㄲ洠⵰‶㤰ㄺ㘹〱‭攠噎䍟偗㵰慳獷潲搠ⴭ敮瑲祰潩湴 扩港扡獨⁫慳海敢⽵扵湴甭景捡氭摥獫瑯瀺ㄮㄱ⸰ਊ⍣桥捫⁩映牵渠楮⁤潣步爊楦⁛嬠℠␨捡琠⽰牯振ㄯ獣桥搠簠桥慤‭渠ㄠ簠杲数⁩湩琩⁝崻⁴桥渠笊††散桯⁩渠摯捫敲ਠ†⁽⁥汳攠笊††散桯⁮潴⁩渠摯捫敲ਠ†⁽ 晩ਊ⍳業灬攠畳攊摯捫敲⁲畮‭⵲洠ⴭ湡浥⁯挭敶慬‭搠ⵥ⁏坎䍌何䑟䑏䵁䥎㵬潣慬桯獴㨸〸〠⵰㠰㠰㨸〸〠潷湣汯畤⽳敲癥爊摯捫敲⁰猊摯捫敲⁫楬氠潣ⵥ癡氊摯捫敲⁲洠潣ⵥ癡氊恠怊ਊ⌠汯潰㨊恠怊景爠稠楮‪⸷稻⁤漠㝺⁸•⑺∠⵰✱㌴㘧※⁤潮攊੠恠ਊ⌠浯畮琠摥癩捥猊恠怊⍍潵湴⁮晳⁯渠睩渊䵯畮琠ⵯ⁲獩穥㴲㔶‭漠睳楺攽㈵㘠ⵯ⁭瑹灥㵨慲搠屜ㄹ㈮ㄶ㠮㘸⸱㄰屭湴屳摡㐠为੍潵湴‭漠牳楺攽㈵㘠ⵯ⁷獩穥㴲㔶‭漠浴祰攽桡牤⁜就㤲⸱㘸⸶㠮ㄱぜ浮瑜獤愳⁘㨊ਣ浯畮琠慳⁮潲浡氠畳敲੭潵湴‭漠畩搽⑕䥄Ⱨ楤㴤⡩搠ⵧ⤠⽤敶⽺牡洰⁾⽲慭摩獫‣浯畮琠穲慭〠慴⁾⽲慭摩獫⁦潲⁮潲潯琠畳敲ਣ浡步⁤楲散瑯特⁭潵湴⁡猠獵楳畹੭潵湴⁤楲散瑯特‭漠獹湣‣瑵牮⁯映睲楴攠扵晦敲楮朊捨潷渠ⵒ⁳畩獵示獵楳畹⁤楲散瑯特⼊⍲敭潵湴 ⁷楴栠牥慤⁡湤⁷物瑥⁰敲浩獳楯渊浯畮琠ⵯ⁲敭潵湴Ⱳ眠⼊ਣ牡浤楳權浯畮琠⵴⁴浰晳‭漠畩搽㄰〰Ⱨ楤㴱〰〬獩穥㴴䜠瑭灦猠牡浤楳欯੭武献扴牦猠ⵌ⁤慴愠⽤敶⽳摢ㄊ浯畮琠ⵯ⁣潭灲敳猽穳瑤㨱〠⽤敶⽳摢ㄠ⽤慴愊浯畮琠ⵯ⁣潭灲敳猽決漠⽤敶⽳摢ㄠ⽤慴愊⍭潵湴⁩浧੬潳整異‭映ⵐ⁳摡⹩浧੠恠ਣ⁮癭⁮灭ਊ恠恰污楮ਯ⽵獥⁦慳瑥爠浩牲潳⁦潲⁮癭੥硰潲琠乖䵟乏䑅䩓彏則彍䥒剏刽桴瑰猺⼯湰洮瑡潢慯⹯牧⽭楲牯牳⽮潤攊⍵獥⁮癭⁢汥潷੮癭⁩湳瑡汬‱㐊恠怊⍩湳瑡汬⁣湰洊恠恰污楮੮灭⁩湳瑡汬⁣湰洠ⵧ‭⵲敧楳瑲礽桴瑰猺⼯牥杩獴特⹮灭浩牲潲⹣潭੠恠ਣ⁰牯硹ਊ恠恰污楮੥硰潲琠䡔呐彐剏塙㵨瑴瀺⼯汯捡汨潳琺㄰㠰㤠⍴桩猠潮汹⁷潲歳⁦潲⁨瑴瀠畲氬獥敭猠潤搊數灯牴⁡汬彰牯硹㵨瑴瀺⼯汯捡汨潳琺㄰㠰㤊ੰ楰㌠楮獴慬氠灲潸礮灹ੰ牯硹‭⵰潲琠㄰㠰ㄠⴭ桯獴‱㤲⸱㘸⸱〰⸲ਊ恠怊ਣⁱ琊數灯牴⁑呟䅕呏当䍒䕅也千䅌䕟䙁䍔佒㴱੥硰潲琠兔当䍒䕅也千䅌䕟䙁䍔佒匽ㄮ㔊ਣ⌠灩灥睩牥੠恠ੰ慣瑬⁬潡搭浯摵汥⁭潤畬攭湡瑩癥⵰牯瑯捯氭瑣瀠汩獴敮㴰⸰⸰⸰੐啌卅当䕒噅刽瑣瀺汯捡汨潳琺㐷ㄳ⁰慣瑬⁩湦漊數灯牴⁐啌卅当䕒噅刽瑣瀺ㄲ㜮〮〮ㄺ㐷ㄳ੠恠ਊ灵獨搠景汤敲ㄠ⌊੤楲猠⍤楳灬慹⁔桥⁬楳琠潦⁤楲散瑯物敳⁩猠摩獰污祥搠睩瑨⁴桥⁤楲猠捯浭慮搮ਊ灯灤‣獥湤⁹潵⁢慣欠瑯⁴桯獥⁤楲散瑯物敳ਊਣ⁳捲敥渊獣牥敮ⴾ獥獳楯渭㹷楮摯眊恠怊⍾⼮獣牥敮牣ਣ捨慮来⁫敹扩湤⁴漠捴牬‫⁪੥獣慰攠幊樊桡牤獴慴畳⁡汷慹獬慳瑬楮攠੨慲摳瑡瑵猠獴物湧‧╻杫絛╻睫紥㼥ⵌ眥㼥笽戠歒紨╻坽╮⨥映╴┿⠥甩┿╻㵢⁫剽⤥笽睽┿┫䱷┿┿‥筧絝嬥筤紥氥筧絝嬠╻㴊睽╙⼥洯╤‥ぃ㨥猥愥筧素崥筗紧ੴ敲浣慰楮景⁸瑥牭⨠瑩䀺瑥䀊⍣桡湧攠捴氠愠瑯⁣瑬⁪ⱥ湡汥⁳瑡瑵猠扡爠慴⁢潴瑯測⁭慫攠獣牯潬慢汥ਊ⍳瑡牴⁳敳獩潮ੳ捲敥渠ⵓ⁦潯猠⍦潯猠楳⁳敳獩潮⁮慭攊獣牥敮‭匠㠸㤰⹦潯‭堠獥獳楯湮慭攠扡爠⍲敮慭攠愠獥獳楯渊獣牥敮‭汳ਣ睨敮⁩渠瑨攠獥獳楯渊䍴牬⭡⁣⁃牥慴攠愠湥眠睩湤潷 睩瑨⁳桥汬⤮੃瑲氫愠∠䱩獴⁡汬⁷楮摯睳⸊䍴牬⭡‰⁓睩瑣栠瑯⁷楮摯眠〠⡢礠湵浢敲⤮੃瑲氫愠䄠剥湡浥⁴桥⁣畲牥湴⁷楮摯眮੃瑲氫愠匠印汩琠捵牲敮琠牥杩潮⁨潲楺潮瑡汬礠楮瑯⁴睯⁲敧楯湳⸊䍴牬⭡⁼⁓灬楴⁣畲牥湴⁲敧楯渠癥牴楣慬汹⁩湴漠瑷漠牥杩潮献੃瑲氫愠瑡戠卷楴捨⁴桥⁩湰畴⁦潣畳⁴漠瑨攠湥硴⁲敧楯渮੃瑲氫愠䍴牬⭡⁔潧杬攠扥瑷敥渠瑨攠捵牲敮琠慮搠灲敶楯畳⁷楮摯睳੃瑲氫愠儠䍬潳攠慬氠牥杩潮猠扵琠瑨攠捵牲敮琠潮攮੃瑲氫愠堠䍬潳攠瑨攠捵牲敮琠牥杩潮⸊䍴牬⭁㩳敳獩潮湡浥⁢慲猠⍲敮慭攠捵牲敮琠獥獳楯渠瑯⁢慲猊䍴牬⭡⁫⁫楬氠瑨攠睩湤潷੃瑲氠愬敳挠敮慢汥⁣潰礠浯摥⁦潲⁳捲潬氊恠怊ਣ⁳散畲楴礊獥汩湵砊⍣桥捫⁳攠獴慴畳੧整敮景牣攊恠恰污楮ਣ畳攠灥牭楳獩癥⁭潤攊獥瑥湦潲捥⁐敲浩獳楶攊獥瑥湦潲捥⁅湦潲捩湧੠恠ਣ晩牥睡汬搊獹獴敭捴氠獴慴畳⁦楲敷慬汤ੳ祳瑥浣瑬⁤楳慢汥⁦楲敷慬汤ੳ祳瑥浣瑬⁳瑯瀠晩牥睡汬搊⌠獹獴敭⁭潮楴潲ਊ⍤楳權獵摯⁡灴ⵧ整⁩湳瑡汬⁳祳獴慴⁮捤甊楯獴慴‭洠ㄠ⍤楳欠浯湩瑯爠⵭⁭敡湳⁍䈯猬‱⁭敡渠異摡瑥‱ 猊湣摵 ‣敡獹⁧整⁤楳欠畳慧攊⍮整睯牫੮汯慤‭甠䴠⵴‱〰〠⌠湥琠浯湩瑯爠⵴‱〰〠浥慮獥‱⽳⁵獥⁤潷渠瑯⁣桡湧攠摥癩捥猊⍰牯捥獳⁰潲琊汳潦‭椠㨳〰ㄠ⍳桯眠灲潣敳猠畳攠灯牴ੴ潰‭瀠〠ⵥ⁭‣獨潷⁡⁰牯捥獳⁰楤‰⁭敭⁵獡来ਊਊ⌠獯畮搊ਊ੠恠灬慩渊剅協㴰⸵ਣ浡步⁳畲攠䅵摩漠慬睡祳⁡捴楶敤ੳ畤漠獨‭挠❥捨漠ㄠ㸯獹猯扵猯灣椯牥獣慮✊獬敥瀠⑒䕓吊䑅噉䍅彉䐽␨汳灣椠ⵄ⁼⁧牥瀠䅵摩漠簠慷欠❻灲楮琠␱紧⤊獬敥瀠⑒䕓吊獵摯⁳栠ⵣ‧散桯‱‾⽳祳⽢畳⽰捩⽤敶楣敳⼰〰〺〰㨱昮㌯牥浯癥✊獬敥瀠⑒䕓吊獵摯⁳栠ⵣ‧散桯‱‾⽳祳⽢畳⽰捩⽲敳捡渧ੳ汥数․剅協ਣ浵瑥⁴桥渠畮浵瑥⁴漠牥獴慲琠慵摩漊慭楸敲‭䐠灵汳攠獳整⁍慳瑥爠浵瑥ੳ汥数․剅協੡浩硥爠ⵄ⁰畬獥⁳獥琠䵡獴敲⁵湭畴攊恠怊ੳ潵牣攠潲‮ਊ獯畲捥뷤뮤裤뮎⁃⁓桥汬⃨肌ꗯ벉꽢慳栠獨敬泧骄藧붮뷤뮤苧芹뷤뮤賥낱꿤뢀ꫧ芹ꛥ辷賯번蹂潵牮攊卨敬注肌ꗯ벉꽳潵牣旧骄ꛤ뢀跧Ʞ苨뾙ꓤ뢪뷤뮤뷤뮥胤뢪髦鲬뫥辂냯벌ꗨ蒚곥낆鳤뢺鏥覍獨敬泧骄꿥ꊃ꟨ꆌ賥足跤벚꿥誨胤뢪냧骄部뾛诣肂胦鲉꣨蒚곤뢭뻧붮蓥辘迥낆郤뢺鏥覍卨敬泧骄胩莨蛣肂ਊਊ⌠獳栊੣桭潤‰㘰〠⹳獨⼪ਊ縯⹳獨⽣潮晩朊੠恠灬慩渊卥牶敲䅬楶敉湴敲癡氠ㄊ卥牶敲䅬楶敃潵湴䵡砠㈊恠怊牥獴慲琠獳桤ਯ畳爯扩港獳桤‭瀠㈲㈲ਊ潲ਊ獹獴敭捴氠牥獴慲琠獳桤ਊ步数⁳獨⁲畮楮朊੠恠灬慩渊獴業攽㌻੷桩汥⁴牵攊摯ੳ獨‭䌠ⵄ‱〸〸‭䰠〮〮〮〺㄰㠰㤺〮〮〮〺㄰㠰㤠牯潴䀷㈮㔮㌴⸲㔊散桯‧獳栠摩敤Ⱳ敳瑡牴⁡晴敲‧․獴業攠獥捯湤猊獬敥瀠⑳瑩浥੤潮攊੠恠ਊਣ⁇敮敲慴楮朠䭥礠偡楲猊ੳ獨⵫敹来渠⵴⁲獡ਊ⍔漠捯灹⁴桥⁰畢汩挠步礠瑯⁡⁲敭潴攠浡捨楮攠ㄊੳ獨ⵣ潰礭楤⁳畩獵祀㐷⸲㐳⸸〮㈲ਊ⍮潷⁬潧杩湧⁩湴漠瑨攠浡捨楮攬⁷楴桯畴⁰慳獷搠湥敤敤㨊ੳ獨⁡摭楮䁳畩獵礮瑯瀊੤整慩氺ਊㄺ周楳⁷楬氠捯灹⡡灰敮搩⁴桥⁣潮瑥湴⁯映恾⼮獳栯楤彲獡⹰畢怠楮瑯⁴桥⁠縯⹳獨⽡畴桯物穥摟步祳怠晩汥⁯渠瑨攠牥浯瑥੭慣桩湥⸊ੳ捰㨊਴㌮ㄵ㐮㌹⸱㔲ਊ⌣⁳獨⁐潲琠䙯牷慲摩湧ਊ景牷慲搠堠獥牶敲ਊ獳栠ⵘਊ楮獴慬氠潮⁲敭潴攊੸潲札硡畴栠硯牧⵸桯獴ਊ楮獴慬氠硯牧⵸慵瑨⁯渠捬楥湴ਊ⨠楮⁠⽥瑣⽳獨⽳獨摟捯湦楧怺ਪ⁳整⁠報ㅆ潲睡牤楮杠⁴漠⩹敳⨊⨠癥物晹⁴桡琠恁汬潷呣灆潲睡牤楮杠⁡湤⁠報ㅕ獥䱯捡汨潳瑠⁯灴楯湳⁡牥⁳整⁴漠⩹敳⨬⁡湤⁴桡琠恘ㄱ䑩獰污祏晦獥瑠⁩猠獥琊瑯‪㄰⨠⡴桯獥⁡牥⁴桥⁤敦慵汴⁶慬略猠楦⁮潴桩湧⁨慳⁢敥渠捨慮来搬ੳ敥⁛獳桤彣潮晩木㔩崨桴瑰猺⼯浡渮慲捨汩湵砮潲术浡港獳桤彣潮晩朮㔩⤊獹獴敭捴氠牥獴慲琠獳桤ਊ瑨敮⁵獥⁳獨‭堠牯潴䁨潳琠ⱡ湤⁳整⁲敭潴攠䑉卐䱁夽㨱《ਊ獳栠ⵌ⁬潣慬⵰潲琺牥浯瑥⵨潳瑮慭攺牥浯瑥⵰潲琠畳敲湡浥䁨潳瑮慭攊ੳ獨‭䍄‱〸〹⁛牯潴䀷㈮㔮㌴⸲㕝⡭慩汴漺牯潴䀷㈮㔮㌴⸲㔩ਊ獳栠ⵃ‭䐠㄰㠰㠠ⵌ‰⸰⸰⸰㨱〸〹㨰⸰⸰⸰㨱〸〹⁲潯瑀㜲⸵⸳㐮㈵ਊ獳桦猠ⵃ⁛牯潴䀷㈮㔮㌴⸲㕝⡭慩汴漺牯潴䀷㈮㔮㌴⸲㔩㨯⁴浰ਊ晵獥牭潵湴‭甠⽴敭瀯畳敲⽨慲摤物癥ਊ獳桤⁮漠桯獴步祳⁡癡楬慢汥ਊ獳栭步祧敮‭䄊ਊ獴敡洊੨潭支獵楳畹⼮汯捡氯獨慲支却敡洯獴敡浡灰猯捯浰慴摡瑡ਊ⌠顴慲餠獴慮摳⁦潲⁴慰攠慲捨楶攊੠恠灬慩渊瑡爠捶穦⁦楬攮瑡爮杺⁦楬敳‣捲敡瑥⁶敲扯猠杺楰⁦楬敮慭攊ੴ慲⁸穦†瑥獴⹴慲⹧稠‭䌠瑭瀯†‣數瑲捴⁴漠瑭瀊瑡爠硶映晩汥⹴慲⹧稠†‣䕸瑲慣琠瑯⁣畲牥湴⁤楲ਊ瑡爠瑦⁦楬攮瑡爮杺‣汩獴⁣潮瑥湴⁩渠瑡爊ਊ恠怊ਊ⌠畳敲ੵ獥牡摤‭洠⵳ 扩港扡獨‭䜠獵摯⁴敳瑳桥汬ਊ散桯•慤浩渠䅌䰽⡁䱌⤠䅌䰢‾ 整振獵摯敲猊╳畤漠⁁䱌㴨䅌䰩⁎佐䅓南䐺⁁䱌ਊ⌠畳敲浯搊ੳ畤漠畳敲浯搠ⵡ䜠杲潵瀱Ⱨ㈬朳⁵獥牮慭攊੠恠灬慩渊獵摯⁵獥牭潤‭朠湥睟摥晡畬瑟杲潵灟湡浥⁵獥牮慭攊獵摯⁵獥牭潤‭猠⽢楮⽺獨⁵獥牮慭攊獵摯⁵獥牭潤‭搠湥睟桯浥彤楲⁵獥牟湡浥੠恠ਊ恠恰污楮ੳ畤漠畳敲浯搠⵬⁮敷彵獥牮慭攠潬摟畳敲湡浥੠恠ਖ਼潵⁣慮⁛汯捫⁡⁵獥爠慣捯畮琠楮⁌楮畸崨桴瑰猺⼯汩湵硨慮摢潯欮捯洯汯捫⵵湬潣欭畳敲⼩⁷楴栠畳敲浯搠捯浭慮搠潰瑩潮‭䰮⁁੬潣步搠畳敲⁣慮湯琠汯朠楮⁴漠瑨攠獹獴敭⸊恠恰污楮ੳ畤漠畳敲浯搠ⵌ⁵獥牮慭攊恠怊奯甠捡渠慬獯⁵湬潣欠瑨攠畳敲⁷楴栠潰瑩潮‭唺੠恠灬慩渊獵摯⁵獥牭潤‭唠畳敲湡浥੠恠ਊ⌣⌊呯⁳整⁡渠數灩特⁤慴攠瑯⁡渠畳敲⁡捣潵湴Ⱐ祯甠捡渠畳攠瑨攠潰瑩潮‭攠睩瑨⁤慴攠楮⁙奙夭䵍ⵄ䐠景牭慴⸊੠恠灬慩渊獵摯⁵獥牭潤‭攠㈰㈰ⴰ㐭〱⁵獥牮慭攊恠怊奯甠捡渠捨慮来⁴桥⁛啉䐠⡵獥爠䥄⥝⡨瑴灳㨯⽬楮畸桡湤扯潫⹣潭⽵楤⵬楮畸⼩⁯映愠畳敲⁷楴栠瑨攠潰瑩潮‭町੠恠灬慩渊獵摯⁵獥牭潤‭甠啉䐠畳敲湡浥੠恠ਊ⌠捨潷渊੔漠牥捵牳楶敬礠捨慮来⁴桥⁯睮敲⁡湤⁧牯異⁯映愠摩牥捴潲礠慮搠慬氠楴猠捯湴敮琬⁵獥⁴桥⁣桯睮⁣潭浡湤⁬楫攠瑨楳㨊੠恠灬慩渊捨潷渠ⵒ⁵獥牟湡浥㩧牯異彮慭攠摩牥捴潲祟湡浥੠恠ਖ਼潵⁣慮⁵獥⁴桥⁳慭攠景爠捨慮杩湧⁴桥⁯睮敲獨楰⁯映浵汴楰汥⁦潬摥牳㨊恠恰污楮੣桯睮‭删畳敲彮慭攺杲潵灟湡浥⁤楲ㄠ摩爲੠恠ਊਊਊ⌠癩洊੣潭浡湤ਊ䍯捃潭浡湤ਊ瑡扮楮攊੃潣䍯湦楧ਊ敤楴⁦楬攠楮‮癩洯捯挭獥瑴楮杳⹪獯渊ਣ⁶楲琊⌣⁣桲潯琊੥硰潲琠䵃䡒䵉剒佒㵨瑴瀺⼯摥戮摥扩慮⹯牧⽤敢楡渊數灯牴⁍䍈剁剃䠽慲洶㐊數灯牴⁍䍈剒䕌㵢畳瑥爊數灯牴⁍䍈剄䥒㴯獲瘯捨牯潴⼤筍䍈剒䕌紭⑻䵃䡒䅒䍈紊散桯⁍礠捨牯潴⁤楲⁩猠⑻䵃䡒䑉剽ਊ䙲潭⁨敲攠瑨攠晵牴桥爠捯灹⁡湤⁰慳瑥⁳瑵晦Ⱐ灲敦敲慢汥⁣慲敦畬⸊੭此楲‭瀠⑻䵃䡒䑉剽ਣ湥硴⁳瑥瀠瑡步猠浵捨⁭潲攠瑩浥੤敢潯瑳瑲慰‭⵶慲楡湴㵢畩汤搠ⴭ慲捨㴤筍䍈剁剃䡽․筍䍈剒䕌素⑻䵃䡒䑉剽․筍䍈前䥒剏剽ਊ⍰牥癥湴⁴桡琠摰歧⁳瑡牴猠摥慭潮猠楮⁴桥⁣桲潯琠敮癩牯湭敮琊捡琠㸠⑻䵃䡒䑉剽⽵獲⽳扩港灯汩捹⵲挮搠㰼䕏䘊⌡⽢楮⽳栊數楴‱〱੅但੣桭潤⁡⭸․筍䍈剄䥒累畳爯獢楮⽰潬楣礭牣⹤ਊ⍩渠瑨攠捨牯潴•桡牤⁣潤攢⁩獣桲潯琠瑯⁴牵攊捰†⑻䵃䡒䑉剽⽢楮⽴牵攠⑻䵃䡒䑉剽⽵獲⽢楮⽩獣桲潯琊੣瀠⽥瑣⽨潳瑳․筍䍈剄䥒累整振桯獴猊捰 整振牥獯汶⹣潮映⑻䵃䡒䑉剽⽥瑣⽲敳潬瘮捯湦ਊ⍴桡琠睡猠睨慴⁮敥摳⁢攠摯湥⁯湬礠潮捥ਊ⍭潵湴⁳瑵晦Ⱐ祯甠睩汬⁮敥搠浯牥⁯晴敮੭潵湴‭ⵢ楮搠⽤敶․筍䍈剄䥒累摥瘊浯畮琠ⴭ扩湤 摥瘯灴猠⑻䵃䡒䑉剽⽤敶⽰瑳੭潵湴‭ⵢ楮搠⽰牯挠․筍䍈剄䥒累灲潣ਊ⍹潵⁭慹⁡汳漠湥敤 攮朮⁩渠剥獣略⁭潤攠潦⁄敢楡湉湳瑡汬敲⤊浯畮琠ⴭ扩湤 獹猠․筍䍈剄䥒累獹猊浯畮琠ⴭ扩湤 牵渠․筍䍈剄䥒累牵渊ਣ佫慹ਊ⍅湴敲楮朠瑨攠捨牯潴Ⱐ汥慶攠楴⁷楴栠數楴ਊ捨牯潴․筍䍈剄䥒紊⍥湪潹⁹潵爠湥眠敮癩牯湭敮琊⍡灴⁩湳瑡汬⁷桡琠祯甠湥敤ਣ摯⁴桥⁴桩湧⁹潵⁨慶攠楮⁭楮搊੕湭潵湴ਊ嬠℠⵺․筍䍈剄䥒素崠☦⁥捨漠浹⁣桲潯琠摩爠楳․筍䍈剄䥒紊嬠℠⵺․筍䍈剄䥒素崠☦⁵浯畮琠⑻䵃䡒䑉剽⽰牯挊嬠℠⵺․筍䍈剄䥒素崠☦⁵浯畮琠⑻䵃䡒䑉剽⽤敶⽰瑳ਜ਼‡‭稠⑻䵃䡒䑉剽⁝…☠畭潵湴․筍䍈剄䥒累摥瘊ਣ楦⁹潵⁭潵湴敤⁴桥獥⁡扯癥ਜ਼‡‭稠⑻䵃䡒䑉剽⁝…☠畭潵湴․筍䍈剄䥒累獹猊嬠℠⵺․筍䍈剄䥒素崠☦⁵浯畮琠⑻䵃䡒䑉剽⽲畮ਊ⌣⁤潣步爊恠怊摯捫敲⁲畮†⵩琠ⴭ湥琠桯獴‭瘠⽭湴㨯浮琠ⴭ敮瑲祰潩湴⁢慳栠㱩浡来⵮慭攭潲⵩搾੤潣步爠牵渠⵲洠‭楴‭⵮整⁨潳琠⵶ 浮琺⽭湴‭ⵥ湴特灯楮琠扡獨‼業慧攭湡浥ⵯ爭楤㸊ਊ摯捫敲⁲畮‭⵲洠⵩琠ⴭ敮瑲祰潩湴⁢慳栠㱩浡来⵮慭攭潲⵩搾ਊ摯捫敲⁥硥挠⵩琠㱣潮瑡楮敲⵮慭攭潲⵩搾⁢慳栊摯捫敲⁣潮瑡楮敲⁬猠ⵡ੠恠ਊਣ⁶湣੮潶湣⁡湤⁴畲扯癮挊桴瑰㨯⼱㤲⸱㘸⸶㠮㈰㈺㔸〱⽶湣⹨瑭氿桯獴㴱㤲⸱㘸⸶㠮㈰㈦灯牴㴵㤰ㄦ灡獳睯牤㴰㠰㜹㝳獙♡畴潣潮湥捴㵴牵攦牥捯湮散琽瑲略♣潭灲敳獩潮㴹♱畡汩瑹㴹ਊ癮捳敲癥爠⵮潶湣⁮潶湣摩爊ਣ⁶海慲攊੃潵汤⁮潴⁯灥渠⽤敶⽶浭潮㨠乯⁳畣栠晩汥⁯爠摩牥捴潲礮ਊ恠恰污楮ੳ畤漠癭睡牥⵭潤捯湦楧‭ⵣ潮獯汥‭⵩湳瑡汬ⵡ汬੠恠ਊਣ⁶楲瑵慬⁢潸⁵獡来ਊ楮獴慬氠瑨敮ਊ浯摰牯扥⁶扯硤牶ੳ畤漠⽳扩港癢潸捯湦楧 癩牴畡汢潸⵨潳琭摫浳ਊ੣潭浵湩瑹⽶楲瑵慬扯砭桯獴ⵤ歭猊⌣⁭潵湴⁳桡牥搠景摥爠潷湥搠批⁮潲潯琊ੳ畤漠浯畮琠⵴⁶扯硳映ⵯ⁵楤㴤啉䐬杩搽␨楤‭朩⁨栠縯桯獴桯浥⼊ਊਣ⌠畳戠捯湮散瑩潮⁰牯扬敭ਊㄮ晩牳琠摯睮汯慤⁡湤⁩湳瑡汬⁶楲瑵慬扯砠數瑥湳楯渠灡捫 癥特⁥慳礬癩牴畡汢潸⁷楬氠楮獴慬氠楴⁷桥渠甠摯畢汥⁣汩捫⁴桥ੰ慣欩ਊ㈮瑨敮⁡摤⁴桥⁵獥爠瑯⁧牯異⁶扯硵獥牳ਊ獵摯⁵獥牭潤‭䜠癢潸畳敲猠ⵡ⁹潵牵獥牮慭攊ਲ਼⹦楮慬汹⁲敢潯琊਴⹯灥渠癩牴畡氠獹獴敭ⱷ桥渠湥敤Ɒ汵朠楮⁵獢⁤敶Ᵽ汩捫⁵灬敦琠捯湮敲⁯映瑨攠牵湮楮朠扯砬捨潯獥⁤敶楣敳ⱴ桥渠捨潯獥ੵ獢ⱴ桥⁵獢⁤敶⁷楬氠慰敡爠桥牥Ᵽ桯潳攠楴ਊ慮摲潩摸㠶ਊ捯湦楧ਊ楮⁧敮敲慬㨠瑹灥⁡湤⁶敲獩潮⁳桯畬搠扥⁯瑨敲ਊ楮⁤楳灬慹㨠捯湴牯汥爠獨畬搠扥⁶扯硶条⁡湤⁥湡扬攠㍤ਊ⌣⁺牡洠畳慧攊੠恠灬慩渊浯摰牯扥⁺牡洠湵浟摥癩捥猽ㄊ散桯‸䜠㸠⽳祳⽢汯捫⽺牡洰⽤楳歳楺攊散桯‸䜠㸠⽳祳⽢汯捫⽺牡洰⽭敭彬業楴ਣ散桯‰‾ 獹猯扬潣欯穲慭〯浥浟汩浩琊浫晳⹥硴㐠⽤敶⽺牡洰ਊਊ捡琠⽳祳⽣污獳⽺牡洭捯湴牯氯桯瑟慤搊ㄊ散桯‰‾ 獹猯捬慳猯穲慭ⵣ潮瑲潬⽨潴彲敭潶攊捡琠⽳祳⽢汯捫⽺牡洰⽭慸彣潭灟獴牥慭猊穲慭捴氊恠怊ਊㄩ⁌潡搠䵯摵汥ਊ恠恰污楮੭潤灲潢攠穲慭⁮畭彤敶楣敳㴱ਊਊ恠怊ਊਊ周楳⁣牥慴敳‱⁤敶楣敳㨠⽤敶⽺牡浻ぽਊ㈩⁓整⁭慸⁮畭扥爠潦⁣潭灲敳獩潮⁳瑲敡浳ਊ剥条牤汥獳⁯映瑨攠癡汵攠灡獳敤⁴漠瑨楳⁡瑴物扵瑥Ⱐ婒䅍⁷楬氠慬睡祳⁡汬潣慴攠浵汴楰汥⁣潭灲敳獩潮⁳瑲敡浳‭⁯湥⁰敲੯湬楮攠䍐唠ⴠ瑨畳⁡汬潷楮朠獥癥牡氠捯湣畲牥湴⁣潭灲敳獩潮⁯灥牡瑩潮献ਊ呯⁦楮搠潵琠桯眠浡湹⁳瑲敡浳⁡牥⁣畲牥湴汹⁡癡楬慢汥㨊੠恠灬慩渊捡琠⽳祳⽢汯捫⽺牡洰⽭慸彣潭灟獴牥慭猊恠怊㌩⁓敬散琠捯浰牥獳楯渠慬杯物瑨洊恠恰污楮ਣ獨潷⁳異灯牴敤⁣潭灲敳獩潮⁡汧潲楴桭猊捡琠⽳祳⽢汯捫⽺牡洰⽣潭灟慬杯物瑨洊決漠孬稴崊ਣ獥汥捴⁬穯⁣潭灲敳獩潮⁡汧潲楴桭⁺獴搠獥敭猠扥獴੥捨漠決漠㸠⽳祳⽢汯捫⽺牡洰⽣潭灟慬杯物瑨洊恠怊㐩⁓整⁄楳歳楺攊恠恰污楮ਣ⁉湩瑩慬楺攠⽤敶⽺牡洰⁷楴栠㔰䵂⁤楳歳楺攊散桯․⠨㔰⨱〲㐪㄰㈴⤩‾ 獹猯扬潣欯穲慭〯摩獫獩穥ਊ⌠啳楮朠浥洠獵晦楸敳੥捨漠㈵㙋‾ 獹猯扬潣欯穲慭〯摩獫獩穥੥捨漠㔱㉍‾ 獹猯扬潣欯穲慭〯摩獫獩穥੥捨漠ㅇ‾ 獹猯扬潣欯穲慭〯摩獫獩穥੠恠੎潴攺⁔桥牥⁩猠汩瑴汥⁰潩湴⁣牥慴楮朠愠穲慭⁯映杲敡瑥爠瑨慮⁴睩捥⁴桥⁳楺攠潦⁭敭潲礠獩湣攠睥⁥硰散琠愠㈺ㄠ捯浰牥獳楯渊牡瑩漮⁎潴攠瑨慴⁺牡洠畳敳⁡扯畴‰⸱┠潦⁴桥⁳楺攠潦⁴桥⁤楳欠睨敮⁮潴⁩渠畳攠獯⁡⁨畧攠穲慭⁩猠睡獴敦畬⸊㔩⁓整⁭敭潲礠汩浩琺⁏灴楯湡氊੠恠灬慩渊⌠汩浩琠⽤敶⽺牡洰⁷楴栠㔰䵂⁭敭潲礊散桯․⠨㔰⨱〲㐪㄰㈴⤩‾ 獹猯扬潣欯穲慭〯浥浟汩浩琊ਣ⁕獩湧⁭敭⁳畦晩硥猊散桯′㔶䬠㸠⽳祳⽢汯捫⽺牡洰⽭敭彬業楴੥捨漠㔱㉍‾ 獹猯扬潣欯穲慭〯浥浟汩浩琊散桯‱䜠㸠⽳祳⽢汯捫⽺牡洰⽭敭彬業楴ਊ⌠呯⁤楳慢汥⁭敭潲礠汩浩琊散桯‰‾ 獹猯扬潣欯穲慭〯浥浟汩浩琊恠怊ਸ਼⤠䅣瑩癡瑥ਊ恠恰污楮੭歳睡瀠⽤敶⽺牡洰ੳ睡灯渠⽤敶⽺牡洰ਊ浫晳⹥硴㐠⽤敶⽺牡洱੭潵湴 摥瘯穲慭ㄠ⽴浰੠恠਷⤠䅤搯牥浯癥⁺牡洠摥癩捥猊䥮⁯牤敲⁴漠慤搠愠湥眠⽤敶⽺牡浘⁤敶楣攬⁰敲景牭⁡⁲敡搠潰敲慴楯渠潮⁴桥⁨潴彡摤⁡瑴物扵瑥⸠周楳⁷楬氠牥瑵牮⁥楴桥爠瑨攊湥眠摥癩捥饳⁤敶楣攠楤 浥慮楮朠瑨慴⁹潵⁣慮⁵獥 摥瘯穲慭㱩搾⤠潲⁡渠敲牯爠捯摥⸊ਠ†⁅硡浰汥㨊ਠ†⁠恠灬慩渊††捡琠⽳祳⽣污獳⽺牡洭捯湴牯氯桯瑟慤搊††ㄊ††恠怊††呯⁲敭潶攠瑨攠數楳瑩湧 摥瘯穲慭堠摥癩捥 睨敲攠堠楳⁡⁤敶楣攠楤⤠數散畴攺ਠ†⁠恠灬慩渊††散桯⁘‾ 獹猯捬慳猯穲慭ⵣ潮瑲潬⽨潴彲敭潶攊††恠怊††㠩⁳瑡琊††䙩汥 獹猯扬潣欯穲慭㱩搾⽭浟獴慴ਊ††††周攠浭彳瑡琠晩汥⁲数牥獥湴猠瑨攠摥癩捥饳⁭洠獴慴楳瑩捳⸠䥴⁣潮獩獴猠潦⁡⁳楮杬攠汩湥⁯映瑥硴⁡湤⁣潮瑡楮猠瑨攊††††景汬潷楮朠獴慴猠獥灡牡瑥搠批⁷桩瑥獰慣攺ਊ††††籯物束摡瑡彳楺敼畮捯浰牥獳敤⁳楺攠潦⁤慴愠獴潲敤⁩渠瑨楳⁤楳欮⁕湩琺⁢祴敳簊††††簺ⴭⴭ簺ⴭⴭ簊††††籣潭灲彤慴慟獩穥籣潭灲敳獥搠獩穥⁯映摡瑡⁳瑯牥搠楮⁴桩猠摩獫簊††††籭敭彵獥摟瑯瑡汼瑨攠慭潵湴⁯映浥浯特⁡汬潣慴敤⁦潲⁴桩猠摩獫⸠周楳⁩湣汵摥猠慬汯捡瑯爠晲慧浥湴慴楯渠慮搠浥瑡摡瑡ਠ†††⁯癥牨敡搬⁡汬潣慴敤⁦潲⁴桩猠摩獫⸠卯Ⱐ慬汯捡瑯爠獰慣攠敦晩捩敮捹⁣慮⁢攠捡汣畬慴敤⁵獩湧⁣潭灲彤慴慟獩穥⁡湤ਠ†††⁴桩猠獴慴楳瑩挮⁕湩琺⁢祴敳簊††††籭敭彬業楴籴桥⁭慸業畭⁡浯畮琠潦⁭敭潲礠婒䅍⁣慮⁵獥⁴漠獴潲攠瑨攠捯浰牥獳敤⁤慴慼ਠ†††⁼浥浟畳敤彭慸籴桥⁭慸業畭⁡浯畮琠潦⁭敭潲礠穲慭⁨慳⁣潮獵浥搠瑯⁳瑯牥⁴桥⁤慴慼ਠ†††⁼獡浥彰慧敳籴桥⁮畭扥爠潦⁳慭攠敬敭敮琠晩汬敤⁰慧敳⁷物瑴敮⁴漠瑨楳⁤楳欮⁎漠浥浯特⁩猠慬汯捡瑥搠景爠獵捨ਠ†††⁰慧敳⹼ਠ†††⁼灡来獟捯浰慣瑥摼瑨攠湵浢敲⁯映灡来猠晲敥搠摵物湧⁣潭灡捴楯湼ਠ†††⁼桵来彰慧敳籴桥⁮畭扥爠潦⁩湣潭灲敳獩扬攠灡来獼ਠ†††⁼桵来彰慧敳彳楮捥籴桥⁮畭扥爠潦⁩湣潭灲敳獩扬攠灡来猠獩湣攠穲慭⁳整⁵灼ਊ††††⌠慲捨⁣桲潯琊ਠ†††⁠恠灬慩渊††††浯畮琠ⴭ扩湤‮⽲潯琮砸㙟㘴‮⽲潯琮砸㙟㘴ਠ†††⁠恠ਠ†††⁴桥渠畳攊††††慲捨ⵣ桲潯琊ਠ†††⁯爠畳攊ਊ††††牯潴⁥硥挊ਠ†††‱ਊ††††恠恰污楮ਠ†††⁴慲⁸穦‼灡瑨⵴漭扯潴獴牡瀭業慧放⽡牣桬楮畸ⵢ潯瑳瑲慰⴪⵸㠶弶㐮瑡爮杺‭⵮畭敲楣ⵯ睮敲ਠ†††††⁠恠ਠ†††††′ਠ†††††⁠恠灬慩渊††††††浯畮琠ⴭ扩湤⁤楲散瑯特⵴漭汩癥捤ⵯ爭扯潴獴牡瀠摩牥捴潲礭瑯⵬楶散搭潲ⵢ潯瑳瑲慰ਠ†††††⁠恠ਊ††††††ⸯ牯潴⹸㠶弶㐯扩港慲捨ⵣ桲潯琠牯潴⹸㠶弶㐯ਊ††††††潲ਊ††††††恠恰污楮ਠ†††††‣⁭潵湴‭ⵢ楮搠⽴浰⽲潯琮砸㙟㘴 瑭瀯牯潴⹸㠶弶㐊††††††⌠捤 瑭瀯牯潴⹸㠶弶㐊††††††⌠捰 整振牥獯汶⹣潮映整挊††††††⌠浯畮琠⵴⁰牯挠⽰牯挠灲潣ਠ†††††‣⁭潵湴‭⵭慫攭牳污癥‭⵲扩湤 獹猠獹猊††††††⌠浯畮琠ⴭ浡步⵲獬慶攠ⴭ牢楮搠⽤敶⁤敶ਠ†††††‣⁭潵湴‭⵭慫攭牳污癥‭⵲扩湤 牵渠牵渠⌠⡡獳畭楮朠⽲畮⁥硩獴猠潮⁴桥⁳祳瑥洩ਠ†††††‣⁣桲潯琠⽴浰⽲潯琮砸㙟㘴 扩港扡獨ਠ†††††⁠恠ਊ††††††㌠楮⁣桲潯琊ਠ†††††⁠恠灬慩渊††††††⌠灡捭慮⵫敹‭⵩湩琊††††††⌠灡捭慮⵫敹‭⵰潰畬慴攠慲捨汩湵砊††††††恠怊ਊ††††††⌠獨敬氊ਠ†††††‣捨慮来⁤敦慵汴⁳栊ਠ†††††⁣桳栠⵳․⡷桩捨⁺獨⤊ਠ†††††⁠恠灬慩渊††††††⍵獥慧攺⁲畮昮獨″⁥捨漠獴物湧ਠ†††††‣睩汬⁲畮⁥捨漠慮搠牥牵渠散桯⁡晴敲″⁳散潮摳⁡条楮⁡湤⁡杩渊††††††獬敥灟摵牡瑩潮㴱㬊††††††睨楬攠瑲略ਠ†††††⁤漊††††††␲․㌠␴․㔠␶․㔠␶․㜠␸․㤊††††††散桯․㈠∠數楴⁷楴栠⑻㽽Ⱳ敳瑡牴⁡晴敲•․ㄠ獥捯湤猊††††††獬敥瀠␱ਠ†††††⁤潮攊††††††恠怊ਠ†††††‾ਠ†††††⁺獨⁯桭祺獨ਊ††††††獨‭挠∤⡣畲氠ⵦ獓䰊††††††孨瑴灳㨯⽲慷⹧楴桵扵獥牣潮瑥湴⹣潭⽯桭祺獨⽯桭祺獨⽭慳瑥爯瑯潬猯楮獴慬氮獨崨桴瑰猺⼯牡眮杩瑨畢畳敲捯湴敮琮捯洯潨浹穳栯潨浹穳栯浡獴敲⽴潯汳⽩湳瑡汬⹳栩⤢ਊ††††††獨‭挠∤⡷来琠ⵏⴊ††††††孨瑴灳㨯⽲慷⹧楴桵扵獥牣潮瑥湴⹣潭⽯桭祺獨⽯桭祺獨⽭慳瑥爯瑯潬猯楮獴慬氮獨崨桴瑰猺⼯牡眮杩瑨畢畳敲捯湴敮琮捯洯潨浹穳栯潨浹穳栯浡獴敲⽴潯汳⽩湳瑡汬⹳栩⤢ਊ††††††獨‭挠∤⡦整捨‭漠ⴊ††††††孨瑴灳㨯⽲慷⹧楴桵扵獥牣潮瑥湴⹣潭⽯桭祺獨⽯桭祺獨⽭慳瑥爯瑯潬猯楮獴慬氮獨崨桴瑰猺⼯牡眮杩瑨畢畳敲捯湴敮琮捯洯潨浹穳栯潨浹穳栯浡獴敲⽴潯汳⽩湳瑡汬⹳栩⤢ਊ††††††⌠睡祬慮搊ਠ†††††⁘䑇当䕓卉低彔奐䔽睡祬慮搠杮潭攭瑥牭楮慬ਊ††††††穳栠⍲敬潡搠穳栬湯琠畳攠獯畲捥‮穳桲挊ਠ†††††⁼浤籭此楲‭灼ਠ†††††⁼㨭ⴭ⵼㨭ⴭ⵼ਠ†††††⁼牤籲浤楲簊††††††籣搠⼠繼捤⁴漠祯畲⁨潭攠摩牥捴潲祼ਠ†††††⁼⸮籣搠⸮簊††††††簮⸮籣搠⸮⼮⹼ਠ†††††⁼⸮⸮籣搠⸮⼮ⸯ⸮簊††††††簮⸮⸮籣搠⸮⼮ⸯ⸮⼮⹼ਠ†††††⁼⽼捤 簊††††††籤籤楲猠⵶ 汩獴猠污獴⁶楳楴敤⁤楲散瑯物敳⥼ਠ†††††⁼捤‫湼卷楴捨⁴漠摩牥捴潲礠湵浢敲⁮簊††††††簭籣搠瑯⁬慳琠癩獩瑥搠摩牥捴潲祼ਠ†††††⁼ㅼ捤‭ㅼਠ†††††⁼㉼捤‭㉼ਠ†††††⁼㍼捤‭㍼ਠ†††††⁼㑼捤‭㑼ਠ†††††⁼㕼捤‭㕼ਠ†††††⁼㙼捤‭㙼ਠ†††††⁼㝼捤‭㝼ਠ†††††⁼㡼捤‭㡼ਠ†††††⁼㥼捤‭㤼扲㹼ਊ††††††⌠卥瑵瀠汩湵砊ਠ†††††‣湥捥獳慲礠灡捫慧攊ਠ†††††⁢慳攭摥癥氠睱礭浩捲潨敩⁯灥湳獨⁧楴⁶業⁢慳栭捯浰汥瑩潮⁦楳栠獣牥敮⁷㍭⁰㝺楰⁵湲慲⁲獹湣⁳獨晳⁡物愲ਠ†††††⁰牯硹捨慩湳⁴楮祰牯硹⁦楲敦潸⁣桲潭極洠硴敲洠瑥牭楮慴潲ਊ††††††恠恰污楮ਠ†††††‣獩浰汥⁣潮晩朠扡獨⁳捲敥測整挠景爠敡獹⁵獡来ਠ†††††⁥捨漠ⵥ•屮⁢楮搠❳整⁣潭灬整楯渭楧湯牥ⵣ慳攠潮❜渠扩湤‧獥琠獨潷ⵡ汬⵩昭慭扩杵潵猠潮❜渠扩湤ਠ†††††‧屃⵰㩭敮甭捯浰汥瑥❜渢‾㸠縯⹢慳桲挊††††††散桯‭攠尊††††††≥獣慰攠幊樠屮尊††††††桡牤獴慴畳⁡汷慹獬慳瑬楮攠屮尊††††††桡牤獴慴畳⁳瑲楮朠✥筧歽嬥筷歽┿┭䱷┿╻㵢⁫剽⠥筗紥渪╦‥琥㼨╵⤥㼥笽戠歒紩╻㵷紥㼥⭌眥㼥㼊††††††╻杽嵛╻摽╬╻杽嵛‥笽⁷紥夯╭⼥搠┰䌺╳╡╻杽⁝╻坽✠屮尊††††††瑥牭捡灩湦漠硴敲洪⁴楀㩴敀≜湜ਠ†††††‾縯⹳捲敥湲挊††††††杩琠捬潮攠ⴭ摥灴栠ㄠ桴瑰猺⼯杩瑨畢⹣潭⽪畮敧畮港智昮杩琠縯⹦穦ਠ†††††⁾⼮智是楮獴慬氊††††††恠怊ਠ†††††⁥捨漠ⵥ•屮湥琮楰瘴⹴捰彣潮来獴楯湟捯湴牯氽扢牜湮整⹣潲攮摥晡畬瑟煤楳挽捡步⁜湮整⹩灶㐮楰彦潲睡牤㴱屮∊††††††㸾⽥瑣⽳祳捴氮捯湦…☠獹獣瑬‭瀊ਊਊਊਠ†††††⁠恠灬慩渊††††††⍢慳楣⁰慣歡来猊††††††獵摯⁰慣浡渠ⵓਠ†††††⁳畤漠慰琠楮獴慬氠潰敮獳栠杩琠湡湯⁳捲敥渠眳洠瀷穩瀠畮穩瀠畮牡爠牳祮挠獳桦猠扡獨ⵣ潭灬整楯渊††††††獵摯⁤湦⁩湳瑡汬ਠ†††††⁢慳攭摥癥氠睱礭浩捲潨敩ਠ†††††⁯灥湳獨⁧楴⁮慮漠獣牥敮⁷㍭⁰㝺楰⁵湲慲⁲獹湣⁳獨晳⁢慳栭捯浰汥瑩潮⁦楳栊ਠ†††††‣杵椠慰瀊††††††硦捥㐭瑥牭楮慬⁸瑥牭⁤潬灨楮⁫潮獯汥⁣潰祱⁣桲潭極洠晩牥景砊ਠ†††††‣敬獥ਠ†††††⁩灵瑩汳⵰楮朊††††††恠怊ਊਊਊ††††††⌠捯浭潮⁡灰ਊ††††††杷楮癩敷ਊਣ⁳桯牴ਊ恠恰污楮ਊ慲楡㉣‭ⵥ湡扬攭牰挠ⴭ牰挭汩獴敮ⵡ汬ਊ硦牥敲摰 町䅤浩湩獴牡瑯爠⽰㩡 瘺ㄹ㈮ㄶ㠮㘸⸱ㄠ⭦潮瑳††⽣汩灢潡牤 桯浥ⵤ物癥†⽳潵湤㩬慴敮捹㨴《散桯‱‾ 灲潣⽳祳⽮整⽩灶㐯楰彦潲睡牤ਊ⽨潭支獵楳畹⼮汯捡氯獨慲支慰灬楣慴楯湳⼊ਯ畳爯獨慲支慰灬楣慴楯湳⼊ਯ桯浥⽳畩獵礯⹬潣慬⽳桡牥⽡灰汩捡瑩潮猯睩湥⽐牯杲慭猯㜭婩瀊ਊ⽥瑣⽸摧⽸晣攴⽸晣潮是硦捥⵰敲捨慮湥氭硭氯硦捥㐭獥獳楯渮硭氊⁾⽁湤牯楤⽓摫⽥浵污瑯爠ⵡ癤⁇慬慸祟乥硵獟䅐䥟ㄹੳ畤漠捨潷渠␨睨潡浩⤠ⵒ 摥瘯歶洊ਣℯ摡瑡⽤慴愯捯洮瑥牭畸⽦楬敳⽵獲⽢楮⽳栊ੵ湳整⁌䑟䱉䉒䅒奟偁呈⁌䑟偒䕌佁䐊੐䅔䠽⑐䅔䠺⽳祳瑥洯扩渠數散 獹獴敭⽢楮⽰楮朠∤䀢ਊ捡琠⽥瑣⽎整睯牫䵡湡来爯獹獴敭ⵣ潮湥捴楯湳⽳畩睩晩㈮湭捯湮散瑩潮 ੬渠⵳⁦楬攱⁬楮欱੣桯睮⁳畩獵示獵楳畹⁦楬攱ੳ捰⁶業扫⁳畩獵祀㐳⸱㔴⸳㤮ㄵ㈺縯癩浢欮瑡爮杺ਣ慤戠慮搠獣牣灹੡摢⁴捰楰‵㔵㔠⍥湡扬攠瑣瀠摥扵朊獣牣灹‭卷‭⵳桯牴捵琭浯搽牳異敲‭ⵤ楳慢汥⵳捲敥湳慶敲‭⵴捰楰㵲焳ੳ捲捰礠ⵓ䭷‭⵴捰楰㴱㤲⸱㘸⸱〰⸴‭⵳桯牴捵琭浯搽牳異敲‭ⵤ楳慢汥⵳捲敥湳慶敲‭ⵢ楴⵲慴攠ㅍ‭⵭慸⵳楺攠ㄲ㠰ਊ獥瑸止浡瀠⵬慹潵琠畳‭潰瑩潮ੳ整硫扭慰‭潰瑩潮⁣慰猺獷慰敳捡灥ੳ整硫扭慰‭潰瑩潮⁣慰猺瑡戊散桯⁦牥敺攠㸠⽳祳⽰潷敲⽳瑡瑥ੳ桯睫敹‭⵳捡湣潤敳ੳ畤漠硩湰畴⁲敡瑴慣栠ㄸ″ੳ畤漠硩湰畴⁦汯慴‱㠊硩湰畴⁬楳琊浫火朠ⴭ獫楰灧灣桥捫‭獲椊灡捭慮‭卹甠火朱‣楮獴慬氊灡捭慮‭即⁳瑲楮朱‣獥慲捨⁢潴栠湡浥⁡湤⁤敳捲楰瑩潮ੰ慣浡渠ⵑ椠⍬楳琠慬氠楮獴慬汥搠睩瑨⁥硴牡⁩湦漊灡捭慮‭关⁳瑲楮朱⁳瑲楮朲‣獥慲捨⁩湳瑡汬敤Ⱐ畳攠慢潶攠楮獴敡搊灡捭慮‭剳⍲敭潶攠愠灡捫慧攠慮搠楴猠摥灥湤敮捩敳ੰ慣浡渠ⵒ獣⁰慣歡来彮慭攠⍤数敮摥湣楥猠慮搠慬氠瑨攠灡捫慧敳⁴桡琠摥灥湤⁯渠瑨攠瑡牧整⁰慣歡来㨊灡捭慮‭唠祯畲晩汥⹺獴ੳ畤漠灡捭慮⵭楲牯牳‭椠ⵣ⁃桩湡‭洠牡湫੥硰慣•╮‥洢‭氧屮✠ⵑ․⡰慣浡渠ⵑ焩⁼⁳潲琠⵲桫′⁼⁬敳猊ੲ獹湣‭⵰牯杲敳猠污牧敦楬攮杺⁳潭敷桥牥⽥汳支‣捰⁷楴栠獰敥搠摩獰污礊歩汬‭㤠ⴱ‣汯杯甠摥੣桲潭極洠ⴭ灲潸礭獥牶敲㴢⼯牵批⹬㨱〸〸∊獵摯⁶楲獨⁮整⵳瑡牴⁤敦慵汴ੲ獹湣‭慨‭⵰牯杲敳猠獯畲捥⁤敳瑩湡瑩潮੸穣慴⁴敳琮業朮硺⁼⁤搠潦㴯摥瘯浭换汫㈠扳㴱䴠獴慴畳㵰牯杲敳猠潦污朽摳祮挊汯獥瑵瀠ⵦ‭倠獤愮業朠⍭潵湴⁩浧⁦楬攊獥瑸止浡瀠ⵯ灴楯渠≣慰猺獷慰敳捡灥∊ਊ੥摧攠⵲‭稱‭挠獵楮整‭欠〸〷㤷獳夠ⵡ‱㤲⸱㘸⸱〰⸱㄰‭映⵬‱㔮ㄵ㈮㌷⸲㈰㨷㜷㜠੨瑴瀭獥牶敲‭愠㨺‣汩獴敮⁯渠扯瑨⁩灶㐠慮搠楰瘶⁡摤爊ਊ硲慮摲‭⵬楳瑰牯癩摥牳੘癦戠㨰‭獣牥敮‰‱㘰へ㤰へ㈴…੥硰潲琠䑉卐䱁夽㨰ਊ汳灣椠⵮湶ੰ物浥⵲畮⁧汸獰桥牥猶㐠੧汸楮景⁼⁧牥瀠佰敮䝌੶扬慮歟浯摥㴰⁄剉彐剉䵅㴱⁧汸来慲猠ⵦ畬汳捲敥渠⵩湦漠簠杲数•䝌归䕎䑅剜籆偓∠੄䥓偌䅙㴺ㄠ兔彑偁彐䱁呆佒䴽睡祬慮搠歷物瑥ੑ呟児䅟偌䅔䙏前㵸换 畳爯扩港武潮瑶楥眊ੳ畤漠慰琭来琠楮獴慬氠硦捥㐠ⴭ湯⵩湳瑡汬⵲散潭浥湤猠景湴猭慲灨楣⵵浩湧⁦潮瑳ⵡ牰桩挭畫慩ਊ恠怊
+# toc
+- [toc](#toc)
+- [useage](#useage)
+- [bash](#bash)
+- [backup](#backup)
+- [benchmark](#benchmark)
+- [disk](#disk)
+    - [dd and disk speed](#dd-and-disk-speed)
+    - [parted](#parted)
+    - [resize](#resize)
+- [boot](#boot)
+  - [grub](#grub)
+- [net](#net)
+  - [status](#status)
+  - [bbr](#bbr)
+  - [route](#route)
+  - [dns](#dns)
+- [Disk](#disk-1)
+- [email web](#email-web)
+- [status](#status-1)
+- [config](#config)
+  - [control hardward cmd](#control-hardward-cmd)
+  - [firefox](#firefox)
+  - [gnome](#gnome)
+- [docker](#docker)
+- [loop:](#loop)
+- [mount devices](#mount-devices)
+- [nvm npm](#nvm-npm)
+- [proxy](#proxy)
+- [qt](#qt)
+  - [pipewire](#pipewire)
+- [screen](#screen)
+- [security](#security)
+- [system monitor](#system-monitor)
+- [sound](#sound)
+- [ssh](#ssh)
+- [Generating Key Pairs](#generating-key-pairs)
+  - [ssh Port Forwarding](#ssh-port-forwarding)
+- [‘tar’ stands for tape archive](#tar-stands-for-tape-archive)
+- [user](#user)
+- [usermod](#usermod)
+    - [](#)
+- [chown](#chown)
+- [vim](#vim)
+- [virt](#virt)
+  - [chroot](#chroot)
+  - [docker](#docker-1)
+- [vnc](#vnc)
+- [vmware](#vmware)
+- [virtual box usage](#virtual-box-usage)
+  - [mount shared foder owned by noroot](#mount-shared-foder-owned-by-noroot)
+  - [usb connection problem](#usb-connection-problem)
+  - [zram usage](#zram-usage)
+- [short](#short)
+
+
+
+
+
+
+
+# useage
+```
+adb
+fastboot
+adb reboot
+#重启到Recovery界面
+adb reboot recovery
+#重启到bootloader界面
+adb reboot bootloader
+```
+
+
+
+
+# bash
+
+```bash
+echo -e "\n bind 'set completion-ignore-case on'\n bind 'set show-all-if-ambiguous on'\n bind '\C-p:menu-complete'\n" >>~/.bashrc
+
+echo -e \
+"escape ^Jj \n\
+hardstatus alwayslastline \n\
+hardstatus string '%{gk}[%{wk}%?%-Lw%?%{=b kR}(%{W}%n*%f %t%?(%u)%?%{=b kR})%{=w}%?%+Lw%?%? %{g}][%{d}%l%{g}][ %{=w}%Y/%m/%d %0C:%s%a%{g} ]%{W}' \n\
+termcapinfo xterm* ti@:te@"\n\
+>~/.screenrc
+
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+```
+
+# backup
+```
+tar cfzv homebk.tar.gz .ssh .bashrc app/bin .gitconfig .proxychains .screenrc .profile
+tar cvpjf backup.tar.bz2 --exclude-from=excl /
+```
+
+
+# benchmark
+
+```shell
+#7z 
+7z b -mmt1#get 1865 for sd845 ,double point for ruby
+
+#iperf3
+iperf3 -c 192.168.68.174   -b 200m -P 4
+
+#dd disk write speed
+BUFSIZE=40M  COUNT=10 ;echo start test write speed_______________; sudo dd if=/dev/zero of=./testspeed bs=$BUFSIZE count=$COUNT status=progress  oflag=dsync;
+
+
+DEV='/dev/sdb1' BUFSIZE=30M  COUNT=4 MFLAGS='' DFLAGS='';\
+sudo mkdir tmp ;sudo umount tmp ;sudo mount $MFLAGS $DEV tmp;echo start test write speed_______________; sudo dd if=/dev/zero of=tmp/testspeed bs=$BUFSIZE  count=$COUNT  status=progress $DFLAGS;
+
+sudo echo 3 > /proc/sys/vm/drop_caches && echo start test read speed________
+sudo dd if=tmp/testspeed of=/dev/null iflag=fullblock status=progress  bs=${BUFSIZE} count=${COUNT} 
+sudo rm tmp/testspeed; sudo umount tmp
+
+
+
+ 
+```
+
+
+# disk
+### dd and disk speed
+
+#for ntfs not mount it use -o sync
+#dd disk write speed mount sync ddsync
+ BUFSIZE=100K  COUNT=4 MFLAGS='-o sync' DFLAGS='oflag=dsync';sudo mkdir tmp ;echo start test write speed_______________; sudo dd if=/dev/zero of=tmp/testspeed bs=$BUFSIZE  count=$COUNT  status=progress $DFLAGS;
+
+
+### parted
+```
+cp /sdcard/parted /sbin/ && chmod 755 /sbin/parted
+umount /data && umount /sdcard
+
+sudo parted -l
+parted /dev/block/sda
+p free
+rm 17 #17是userdata分区号 
+mkpart esp fat32 6559MB 7000MB
+mkpart pe fat32 7000MB 10000MB
+mkpart win ntfs 10000MB 70GB
+mkpart userdata ext4 70GB 125GB
+
+set 17 esp on
+quit  #save and quit
+name 48  newlablename
+resize2fs -f /dev/sda23
+
+```
+### resize
+sudo -s
+dd if=/dev/null of=/userdata/ubuntu.img bs=1M seek=6000 count=0
+resize2fs -f /userdata/ubuntu.img                                            
+reboot
+
+
+# boot
+
+## grub
+
+```
+grub-mkconfig -o /boot/grub/grub.cfg
+
+```
+
+# net
+## status
+```
+#show port
+netstat -tulpn | grep 10801 
+sudo lsof -i:22
+nload -u M  wlan0
+sudo nethogs
+sudo nmap -sn 192.168.68.0/24
+```
+## bbr
+
+```plain
+#superuser needed
+#check
+sysctl net.ipv4.tcp_available_congestion_control
+sysctl net.ipv4.tcp_congestion_control
+
+#enable temperately
+sysctl -w net.ipv4.tcp_congestion_control=bbr
+sysctl -w net.core.default_qdisc=cake
+
+#enable perment
+echo -e "\nnet.ipv4.tcp_congestion_control=bbr\nnet.core.default_qdisc=cake " >>/etc/sysctl.conf && sysctl -p
+
+```
+
+
+## route
+
+
+## dns
+fast temp set dns server:
+echo -e "\
+search lan \n\
+nameserver 8.8.8.8\n\
+">/etc/resolv.conf
+echo -e "\n\ndns now is:" &&cat /etc/resolv.conf
+
+
+# Disk
+```
+#use parted
+parted /dev/block/sda
+rm 23
+mkpart aboot fat32 53GB 54GB
+mkpart userdata ext4 54GB 59GB
+set 23 esp on 
+```
+# email web
+```
+#start at port 8888, use http://localhost:8888?admin with passwd 12345 to config enable qq mail,bad gmail seems not work
+docker run --name rainloop --net host hardware/rainloop
+#then can restart with
+docker container restart rainloop
+```
+
+# status
+```
+/sys/class/power_supply/axp20x-battery/uevent
+ brightnessctl -d 'backlight' set 0
+cat /sys/class/thermal/thermal_zone*/temp
+cat /sys/module/kernel/parameters/consoleblank
+```
+
+# config
+## control hardward cmd
+```
+brightnessctl -d intel_backlight set 50%
+```
+
+i3 .config/i3/conf
+
+xfce4
+/etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
+
+## firefox
+```
+enable **clipboard api and addon collection**
+open about:config
+set dom.events.testing.asyncClipboard to true
+enable ssb
+network.cookie.sameSite.laxByDefault false
+```
+## gnome
+use dash to panel to make left task bar
+**use**Clipboard Indicator to manage clipboard
+
+
+# docker
+
+```plain
+docker run -it --shm-size=512m -v /dev:/dev --net host --entrypoint /bin/bash
+--storage-opt size=100G --cpus=2
+--restart=always
+#basic cmd
+sudo docker container ls -a
+docker kill $(docker ps -q)  #kill all container
+docker container rm  $(docker ps -qa)  #rm all container
+docker exec my-tl-demo tlcfg add-user myuser mypassword
+docker run -it --shm-size=512m --net host --entrypoint /bin/bash
+docker run --rm  -it --shm-size=512m --net host --entrypoint /bin/bash
+docker commit 5a8f newimagename
+docker run -ti -v "$PWD/somedir":/somedir newimagename /bin/bash
+
+sudo docker run -it --shm-size=512m --net host -v /data/docker/run/:/var/run  --entrypoint /bin/bash mydebian
+
+sudo docker run --rm  -it --shm-size=512m -p 6901:6901 -e VNC_PW=password kasmweb/ubuntu-focal-desktop:develop
+
+sudo docker run --rm  -it --shm-size=512m -p 6901:6901 -e VNC_PW=password --entrypoint /bin/bash kasmweb/ubuntu-focal-desktop:1.11.0
+
+#check if run in docker
+if [[ ! $(cat /proc/1/sched | head -n 1 | grep init) ]]; then {
+    echo in docker
+    } else {
+    echo not in docker
+    } 
+fi
+
+#simple use
+docker run --rm --name oc-eval -d -e OWNCLOUD_DOMAIN=localhost:8080 -p8080:8080 owncloud/server
+docker ps
+docker kill oc-eval
+docker rm oc-eval
+```
+
+
+# loop:
+```
+for z in *.7z; do 7z x "$z" -p'1346' ; done
+
+```
+
+# mount devices
+```
+#Mount nfs on win
+Mount -o rsize=256 -o wsize=256 -o mtype=hard \\192.168.68.110\mnt\sda4 N:
+Mount -o rsize=256 -o wsize=256 -o mtype=hard \\192.168.68.110\mnt\sda3 X:
+
+#mount as normal user
+mount -o uid=$UID,gid=$(id -g) /dev/zram0 ~/ramdisk #mount zram0 at ~/ramdisk for noroot user
+#make directory mount as suisuy
+mount directory -o sync #turn of write buffering
+chown -R suisuy:suisuy directory/
+#remount / with read and write permission
+mount -o remount,rw /
+
+#ramdisk
+mount -t tmpfs -o uid=1000,gid=1000,size=4G tmpfs ramdisk/
+mkfs.btrfs -L data /dev/sdb1
+mount -o compress=zstd:10 /dev/sdb1 /data
+mount -o compress=lzo /dev/sdb1 /data
+#mount img
+losetup -f -P sda.img
+```
+# nvm npm
+
+```plain
+//use faster mirros for nvm
+export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node
+#use nvm bleow
+nvm install 14
+```
+#install cnpm
+```plain
+npm install cnpm -g --registry=https://registry.npmmirror.com
+```
+# proxy
+
+```plain
+export HTTP_PROXY=http://localhost:10809 #this only works for http url,seems odd
+export all_proxy=http://localhost:10809
+
+pip3 install proxy.py
+proxy --port 10801 --host 192.168.100.2
+
+```
+
+# qt
+export QT_AUTO_SCREEN_SCALE_FACTOR=1
+export QT_SCREEN_SCALE_FACTORS=1.5
+
+## pipewire
+```
+pactl load-module module-native-protocol-tcp listen=0.0.0.0
+PULSE_SERVER=tcp:localhost:4713 pactl info
+export PULSE_SERVER=tcp:127.0.0.1:4713
+```
+
+pushd folder1 #
+
+dirs #display The list of directories is displayed with the dirs command.
+
+popd #send you back to those directories
+
+
+# screen
+screen->session->window
+```
+#~/.screenrc
+#change keybind to ctrl + j
+escape ^Jj
+hardstatus alwayslastline 
+hardstatus string '%{gk}[%{wk}%?%-Lw%?%{=b kR}(%{W}%n*%f %t%?(%u)%?%{=b kR})%{=w}%?%+Lw%?%? %{g}][%{d}%l%{g}][ %{=
+w}%Y/%m/%d %0C:%s%a%{g} ]%{W}'
+termcapinfo xterm* ti@:te@
+#change ctl a to ctl j,enale status bar at botton, make scroolable
+
+#start session
+screen -S foos #foos is session name
+screen -S 8890.foo -X sessionname bar #rename a session
+screen -ls
+#when in the session
+Ctrl+a c Create a new window (with shell).
+Ctrl+a " List all windows.
+Ctrl+a 0 Switch to window 0 (by number).
+Ctrl+a A Rename the current window.
+Ctrl+a S Split current region horizontally into two regions.
+Ctrl+a | Split current region vertically into two regions.
+Ctrl+a tab Switch the input focus to the next region.
+Ctrl+a Ctrl+a Toggle between the current and previous windows
+Ctrl+a Q Close all regions but the current one.
+Ctrl+a X Close the current region.
+Ctrl+A:sessionname bars #rename current session to bars
+Ctrl+a k kill the window
+Ctrl a,esc enable copy mode for scroll
+```
+
+# security
+selinux
+#check se status
+getenforce
+```plain
+#use permissive mode
+setenforce Permissive
+setenforce Enforcing
+```
+#firewalld
+systemctl status firewalld
+systemctl disable firewalld
+systemctl stop firewalld
+# system monitor
+
+#disk
+sudo apt-get install sysstat ncdu
+iostat -m 1 #disk monitor -m means MB/s, 1 mean update 1 /s
+ncdu / #easy get disk usage
+#network
+nload -u M -t 1000 # net monitor -t 1000 meanse 1/s use down to change devices
+#process port
+lsof -i :3001 #show process use port
+top -p 0 -e m #show a process pid 0 mem usage
+
+
+
+# sound
+
+
+
+```plain
+REST=0.5
+#make sure Audio always actived
+sudo sh -c 'echo 1 >/sys/bus/pci/rescan'
+sleep $REST
+DEVICE_ID=$(lspci -D | grep Audio | awk '{print $1}')
+sleep $REST
+sudo sh -c 'echo 1 >/sys/bus/pci/devices/0000:00:1f.3/remove'
+sleep $REST
+sudo sh -c 'echo 1 >/sys/bus/pci/rescan'
+sleep $REST
+#mute then unmute to restart audio
+amixer -D pulse sset Master mute
+sleep $REST
+amixer -D pulse sset Master unmute
+```
+
+source or .
+
+source命令（从 C Shell 而来）是bash shell的内置命令。点命令，就是一个点符号，（从Bourne
+Shell而来）是source的另一名称。这两个命令都以一个脚本为参数，该脚本将作为当前shell的环境执行，即不会启动一个新的子进程。所有在脚本中设置的变量将成为当前Shell的一部分。
+
+
+
+# ssh
+
+chmod 0600 .ssh/*
+
+~/.ssh/config
+
+```plain
+ServerAliveInterval 1
+ServerAliveCountMax 2
+```
+restart sshd
+/usr/bin/sshd -p 2222
+
+or
+
+systemctl restart sshd
+
+keep ssh runing
+
+```plain
+stime=3;
+while true
+do
+ssh -C -D 10808 -L 0.0.0.0:10809:0.0.0.0:10809 root@72.5.34.25
+echo 'ssh died,restart after ' $stime seconds
+sleep $stime
+done
+
+```
+
+
+# Generating Key Pairs
+
+ssh-keygen -t rsa
+
+#To copy the public key to a remote machine 1
+
+ssh-copy-id suisuy@47.243.80.22
+
+#now logging into the machine, without passwd needed:
+
+ssh admin@suisuy.top
+
+detail:
+
+1:This will copy(append) the content of `~/.ssh/id_rsa.pub` into the `~/.ssh/authorized_keys` file on the remote
+machine.
+
+scp:
+
+43.154.39.152
+
+## ssh Port Forwarding
+
+forward X server
+
+ssh -X
+
+install on remote
+
+xorg-xauth xorg-xhost
+
+install xorg-xauth on client
+
+* in `/etc/ssh/sshd_config`:
+* set `X11Forwarding` to *yes*
+* verify that `AllowTcpForwarding` and `X11UseLocalhost` options are set to *yes*, and that `X11DisplayOffset` is set
+to *10* (those are the default values if nothing has been changed,
+see [sshd_config(5)](https://man.archlinux.org/man/sshd_config.5))
+systemctl restart sshd
+
+then use ssh -X root@host ,and set remote DISPLAY=:10
+
+
+ssh -L local-port:remote-hostname:remote-port username@hostname
+
+ssh -CD 10809 [root@72.5.34.25](mailto:root@72.5.34.25)
+
+ssh -C -D 10808 -L 0.0.0.0:10809:0.0.0.0:10809 root@72.5.34.25
+
+sshfs -C [root@72.5.34.25](mailto:root@72.5.34.25):/ tmp
+
+fusermount -u /temp/user/harddrive
+
+sshd no hostkeys available
+
+ssh-keygen -A
+
+
+steam
+
+home/suisuy/.local/share/Steam/steamapps/compatdata
+
+# ‘tar’ stands for tape archive
+
+```plain
+tar cvzf file.tar.gz files #create verbos gzip filename
+
+tar xzf  test.tar.gz  -C tmp/   #extrct to tmp
+tar xvf file.tar.gz    #Extract to current dir
+
+tar tf file.tar.gz #list content in tar
+
+
+```
+
+
+# user
+useradd -m -s /bin/bash -G sudo testshell
+
+echo "admin ALL=(ALL) ALL" > /etc/sudoers
+%sudo  ALL=(ALL) NOPASSWD: ALL
+
+# usermod
+
+sudo usermod -aG group1,g2,g3 username
+
+```plain
+sudo usermod -g new_default_group_name username
+sudo usermod -s /bin/zsh username
+sudo usermod -d new_home_dir user_name
+```
+
+```plain
+sudo usermod -l new_username old_username
+```
+You can [lock a user account in Linux](https://linuxhandbook.com/lock-unlock-user/) with usermod command option -L. A
+locked user cannot log in to the system.
+```plain
+sudo usermod -L username
+```
+You can also unlock the user with option -U:
+```plain
+sudo usermod -U username
+```
+
+###
+To set an expiry date to an user account, you can use the option -e with date in YYYY-MM-DD format.
+
+```plain
+sudo usermod -e 2020-04-01 username
+```
+You can change the [UID (user ID)](https://linuxhandbook.com/uid-linux/) of a user with the option -u:
+```plain
+sudo usermod -u UID username
+```
+
+# chown
+
+To recursively change the owner and group of a directory and all its content, use the chown command like this:
+
+```plain
+chown -R user_name:group_name directory_name
+```
+You can use the same for changing the ownership of multiple folders:
+```plain
+chown -R user_name:group_name dir1 dir2
+```
+
+
+
+
+
+# vim
+
+command
+
+CocCommand
+
+tabnine
+
+CocConfig
+
+edit file in .vim/coc-settings.json
+
+# virt
+## chroot
+
+export MCHRMIRROR=http://deb.debian.org/debian
+export MCHRARCH=arm64
+export MCHRREL=buster
+export MCHRDIR=/srv/chroot/${MCHRREL}-${MCHRARCH}
+echo My chroot dir is ${MCHRDIR}
+
+From here the further copy and paste stuff, preferable careful.
+
+mkdir -p ${MCHRDIR}
+#next step takes much more time
+debootstrap --variant=buildd --arch=${MCHRARCH} ${MCHRREL} ${MCHRDIR} ${MCHRMIRROR}
+
+#prevent that dpkg starts deamons in the chroot environment
+cat > ${MCHRDIR}/usr/sbin/policy-rc.d <<EOF
+#!/bin/sh
+exit 101
+EOF
+chmod a+x ${MCHRDIR}/usr/sbin/policy-rc.d
+
+#in the chroot "hard code" ischroot to true
+cp  ${MCHRDIR}/bin/true ${MCHRDIR}/usr/bin/ischroot
+
+cp /etc/hosts ${MCHRDIR}/etc/hosts
+cp /etc/resolv.conf ${MCHRDIR}/etc/resolv.conf
+
+#that was what needs be done only once
+
+#mount stuff, you will need more often
+mount --bind /dev ${MCHRDIR}/dev
+mount --bind /dev/pts ${MCHRDIR}/dev/pts
+mount --bind /proc  ${MCHRDIR}/proc
+
+#you may also need (e.g. in Rescue mode of DebianInstaller)
+mount --bind /sys  ${MCHRDIR}/sys
+mount --bind /run  ${MCHRDIR}/run
+
+#Okay
+
+#Entering the chroot, leave it with exit
+
+chroot ${MCHRDIR}
+#enjoy your new environment
+#apt install what you need
+#do the thing you have in mind
+
+Unmount
+
+[ ! -z ${MCHRDIR} ] && echo my chroot dir is ${MCHRDIR}
+[ ! -z ${MCHRDIR} ] && umount ${MCHRDIR}/proc
+[ ! -z ${MCHRDIR} ] && umount ${MCHRDIR}/dev/pts
+[ ! -z ${MCHRDIR} ] && umount ${MCHRDIR}/dev
+
+#if you mounted these above
+[ ! -z ${MCHRDIR} ] && umount ${MCHRDIR}/sys
+[ ! -z ${MCHRDIR} ] && umount ${MCHRDIR}/run
+
+## docker
+```
+docker run  -it --net host -v /mnt:/mnt --entrypoint bash <image-name-or-id>
+docker run -rm  -it --net host -v /mnt:/mnt --entrypoint bash <image-name-or-id>
+
+
+docker run --rm -it --entrypoint bash <image-name-or-id>
+
+docker exec -it <container-name-or-id> bash
+docker container ls -a
+```
+
+
+# vnc
+novnc and turbovnc
+http://192.168.68.202:5801/vnc.html?host=192.168.68.202&port=5901&password=080797ssY&autoconnect=true&reconnect=true&compression=9&quality=9
+
+vncserver -novnc novncdir
+
+# vmware
+
+Could not open /dev/vmmon: No such file or directory.
+
+```plain
+sudo vmware-modconfig --console --install-all
+```
+
+
+# virtual box usage
+
+install then
+
+modprobe vboxdrv
+sudo /sbin/vboxconfig 
+virtualbox-host-dkms
+
+
+community/virtualbox-host-dkms
+## mount shared foder owned by noroot
+
+sudo mount -t vboxsf -o uid=$UID,gid=$(id -g) hh ~/hosthome/
+
+
+
+## usb connection problem
+
+1.first download and install virtualbox extension pack (very easy,virtualbox will install it when u double click the
+pack)
+
+2.then add the user to group vboxusers
+
+sudo usermod -G vboxusers -a yourusername
+
+3.finally reboot
+
+4.open virtual system,when need,plug in usb dev,click upleft conner of the running box,choose devices,then choose
+usb,the usb dev will apear here,choose it
+
+androidx86
+
+config
+
+in general: type and version should be other
+
+in display: controler shuld be vboxvga and enable 3d
+
+## zram usage
+
+```plain
+modprobe zram num_devices=1
+echo 8G > /sys/block/zram0/disksize
+echo 8G > /sys/block/zram0/mem_limit
+#echo 0 > /sys/block/zram0/mem_limit
+mkfs.ext4 /dev/zram0
+
+
+
+cat /sys/class/zram-control/hot_add
+1
+echo 0 > /sys/class/zram-control/hot_remove
+cat /sys/block/zram0/max_comp_streams
+zramctl
+```
+
+
+1) Load Module
+
+```plain
+modprobe zram num_devices=1
+
+
+
+```
+
+
+
+
+This creates 1 devices: /dev/zram{0}
+
+2) Set max number of compression streams
+
+Regardless of the value passed to this attribute, ZRAM will always allocate multiple compression streams - one per
+online CPU - thus allowing several concurrent compression operations.
+
+To find out how many streams are currently available:
+
+```plain
+cat /sys/block/zram0/max_comp_streams
+```
+3) Select compression algorithm
+```plain
+#show supported compression algorithms
+cat /sys/block/zram0/comp_algorithm
+lzo [lz4]
+
+#select lzo compression algorithm zstd seems best
+echo lzo > /sys/block/zram0/comp_algorithm
+```
+4) Set Disksize
+```plain
+# Initialize /dev/zram0 with 50MB disksize
+echo $((50*1024*1024)) > /sys/block/zram0/disksize
+
+# Using mem suffixes
+echo 256K > /sys/block/zram0/disksize
+echo 512M > /sys/block/zram0/disksize
+echo 1G > /sys/block/zram0/disksize
+```
+Note: There is little point creating a zram of greater than twice the size of memory since we expect a 2:1 compression
+ratio. Note that zram uses about 0.1% of the size of the disk when not in use so a huge zram is wasteful.
+5) Set memory limit: Optional
+
+```plain
+# limit /dev/zram0 with 50MB memory
+echo $((50*1024*1024)) > /sys/block/zram0/mem_limit
+
+# Using mem suffixes
+echo 256K > /sys/block/zram0/mem_limit
+echo 512M > /sys/block/zram0/mem_limit
+echo 1G > /sys/block/zram0/mem_limit
+
+# To disable memory limit
+echo 0 > /sys/block/zram0/mem_limit
+```
+
+6) Activate
+
+```plain
+mkswap /dev/zram0
+swapon /dev/zram0
+
+mkfs.ext4 /dev/zram1
+mount /dev/zram1 /tmp
+```
+7) Add/remove zram devices
+In order to add a new /dev/zramX device, perform a read operation on the hot_add attribute. This will return either the
+new device’s device id (meaning that you can use /dev/zram<id>) or an error code.
+
+    Example:
+
+    ```plain
+    cat /sys/class/zram-control/hot_add
+    1
+    ```
+    To remove the existing /dev/zramX device (where X is a device id) execute:
+    ```plain
+    echo X > /sys/class/zram-control/hot_remove
+    ```
+    8) stat
+    File /sys/block/zram<id>/mm_stat
+
+        The mm_stat file represents the device’s mm statistics. It consists of a single line of text and contains the
+        following stats separated by whitespace:
+
+        |orig_data_size|uncompressed size of data stored in this disk. Unit: bytes|
+        |:----|:----|
+        |compr_data_size|compressed size of data stored in this disk|
+        |mem_used_total|the amount of memory allocated for this disk. This includes allocator fragmentation and metadata
+        overhead, allocated for this disk. So, allocator space efficiency can be calculated using compr_data_size and
+        this statistic. Unit: bytes|
+        |mem_limit|the maximum amount of memory ZRAM can use to store the compressed data|
+        |mem_used_max|the maximum amount of memory zram has consumed to store the data|
+        |same_pages|the number of same element filled pages written to this disk. No memory is allocated for such
+        pages.|
+        |pages_compacted|the number of pages freed during compaction|
+        |huge_pages|the number of incompressible pages|
+        |huge_pages_since|the number of incompressible pages since zram set up|
+
+        # arch chroot
+
+        ```plain
+        mount --bind ./root.x86_64 ./root.x86_64
+        ```
+        then use
+        arch-chroot
+
+        or use
+
+
+        root exec
+
+        1
+
+        ```plain
+        tar xzf <path-to-bootstrap-image>/archlinux-bootstrap-*-x86_64.tar.gz --numeric-owner
+            ```
+            2
+            ```plain
+            mount --bind directory-to-livecd-or-bootstrap directory-to-livecd-or-bootstrap
+            ```
+
+            ./root.x86_64/bin/arch-chroot root.x86_64/
+
+            or
+
+            ```plain
+            # mount --bind /tmp/root.x86_64 /tmp/root.x86_64
+            # cd /tmp/root.x86_64
+            # cp /etc/resolv.conf etc
+            # mount -t proc /proc proc
+            # mount --make-rslave --rbind /sys sys
+            # mount --make-rslave --rbind /dev dev
+            # mount --make-rslave --rbind /run run # (assuming /run exists on the system)
+            # chroot /tmp/root.x86_64 /bin/bash
+            ```
+
+            3 in chroot
+
+            ```plain
+            # pacman-key --init
+            # pacman-key --populate archlinux
+            ```
+
+
+            # shell
+
+            #change default sh
+
+            chsh -s $(which zsh)
+
+            ```plain
+            #useage: runf.sh 3 echo string
+            #will run echo and rerun echo after 3 seconds again and agin
+            sleep_duration=1;
+            while true
+            do
+            $2 $3 $4 $5 $6 $5 $6 $7 $8 $9
+            echo $2 " exit with ${?},restart after " $1 seconds
+            sleep $1
+            done
+            ```
+
+            >
+            zsh ohmyzsh
+
+            sh -c "$(curl -fsSL
+            [https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh](https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh))"
+
+            sh -c "$(wget -O-
+            [https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh](https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh))"
+
+            sh -c "$(fetch -o -
+            [https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh](https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh))"
+
+            # wayland
+
+            XDG_SESSION_TYPE=wayland gnome-terminal
+
+            zsh #reload zsh,not use source .zshrc
+
+            |md|mkdir -p|
+            |:----|:----|
+            |rd|rmdir|
+            |cd / ~|cd to your home directory|
+            |..|cd ..|
+            |...|cd ../..|
+            |....|cd ../../..|
+            |.....|cd ../../../..|
+            |/|cd /|
+            |d|dirs -v (lists last visited directories)|
+            |cd +n|Switch to directory number n|
+            |-|cd to last visited directory|
+            |1|cd -1|
+            |2|cd -2|
+            |3|cd -3|
+            |4|cd -4|
+            |5|cd -5|
+            |6|cd -6|
+            |7|cd -7|
+            |8|cd -8|
+            |9|cd -9<br>|
+
+            # Setup linux
+
+            #necessary package
+
+            base-devel wqy-microhei openssh git vim bash-completion fish screen w3m p7zip unrar rsync sshfs aria2
+            proxychains tinyproxy firefox chromium xterm terminator
+
+            ```plain
+            #simple config bash screen,etc for easy usage
+            echo -e "\n bind 'set completion-ignore-case on'\n bind 'set show-all-if-ambiguous on'\n bind
+            '\C-p:menu-complete'\n" >> ~/.bashrc
+            echo -e \
+            "escape ^Jj \n\
+            hardstatus alwayslastline \n\
+            hardstatus string '%{gk}[%{wk}%?%-Lw%?%{=b kR}(%{W}%n*%f %t%?(%u)%?%{=b kR})%{=w}%?%+Lw%?%?
+            %{g}][%{d}%l%{g}][ %{= w}%Y/%m/%d %0C:%s%a%{g} ]%{W}' \n\
+            termcapinfo xterm* ti@:te@"\n\
+            >~/.screenrc
+            git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+            ~/.fzf/install
+            ```
+
+            echo -e "\nnet.ipv4.tcp_congestion_control=bbr\nnet.core.default_qdisc=cake \nnet.ipv4.ip_forward=1\n"
+            >>/etc/sysctl.conf && sysctl -p
+
+
+
+
+
+
+
+            ```plain
+            #basic packages
+            sudo pacman -S
+            sudo apt install openssh git nano screen w3m p7zip unzip unrar rsync sshfs bash-completion
+            sudo dnf install
+            base-devel wqy-microhei
+            openssh git nano screen w3m p7zip unrar rsync sshfs bash-completion fish
+
+            #gui app
+            xfce4-terminal xterm dolphin konsole copyq chromium firefox
+
+            #else
+            iputils-ping
+            ```
+
+
+
+
+
+
+            # common app
+
+            gwinview
+
+
+# short
+
+```plain
+
+aria2c --enable-rpc --rpc-listen-all
+
+xfreerdp /u:Administrator /p:a /v:192.168.68.11 +fonts    /clipboard /home-drive  /sound:latency:40
+echo 1 > /proc/sys/net/ipv4/ip_forward
+
+/home/suisuy/.local/share/applications/
+
+/usr/share/applications/
+
+/home/suisuy/.local/share/applications/wine/Programs/7-Zip
+
+
+/etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
+ ~/Android/Sdk/emulator -avd Galaxy_Nexus_API_19
+sudo chown $(whoami) -R /dev/kvm
+
+#!/data/data/com.termux/files/usr/bin/sh
+
+unset LD_LIBRARY_PATH LD_PRELOAD
+
+PATH=$PATH:/system/bin exec /system/bin/ping "$@"
+
+cat /etc/NetworkManager/system-connections/suiwifi2.nmconnection 
+
+ln -s file1 link1
+chown suisuy:suisuy file1
+scp vimbk suisuy@43.154.39.152:~/vimbk.tar.gz
+#adb and scrcpy
+adb tcpip 5555 #enable tcp debug
+scrcpy -Sw --shortcut-mod=rsuper --disable-screensaver --tcpip=rq3
+scrcpy -SKw --tcpip=192.168.100.4 --shortcut-mod=rsuper --disable-screensaver --bit-rate 1M --max-size 1280
+
+setxkbmap -layout us -option
+setxkbmap -option caps:swapescape
+setxkbmap -option caps:tab
+echo freeze > /sys/power/state
+showkey --scancodes
+sudo xinput reattach 18 3
+sudo xinput float 18
+xinput list
+mkpkg --skippgpcheck -sri
+pacman -Syu pkg1 #install
+pacman -Ss string1 #search both name and description
+pacman -Qi #list all installed with extra info
+pacman -Qs string1 string2 #search installed, use above instead
+pacman -Rs#remove a package and its dependencies
+pacman -Rsc package_name #dependencies and all the packages that depend on the target package:
+pacman -U yourfile.zst
+sudo pacman-mirrors -i -c China -m rank
+expac "%n %m" -l'\n' -Q $(pacman -Qq) | sort -rhk 2 | less
+
+rsync --progress largefile.gz somewhere/else/ #cp with speed display
+kill -9 -1 #logou de
+chromium --proxy-server="//ruby.l:10808"
+sudo virsh net-start default
+rsync -ah --progress source destination
+xzcat test.img.xz | dd of=/dev/mmcblk2 bs=1M status=progress oflag=dsync
+losetup -f -P sda.img #mount img file
+setxkbmap -option "caps:swapescape"
+
+
+
+edge -r -z1 -c suinet -k 080797ssY -a 192.168.100.110 -f -l 15.152.37.220:7777 
+http-server -a :: #listen on both ipv4 and ipv6 addr
+
+
+xrandr --listproviders
+Xvfb :0 -screen 0 1600x900x24 &
+export DISPLAY=:0
+
+lspci -nnv
+prime-run glxspheres64 
+glxinfo | grep OpenGL
+vblank_mode=0 DRI_PRIME=1 glxgears -fullscreen -info | grep "GL_RENDER\|FPS" 
+DISPLAY=:1 QT_QPA_PLATFORM=wayland kwrite
+QT_QPA_PLATFORM=xcb /usr/bin/kfontview
+
+sudo apt-get install xfce4 --no-install-recommends fonts-arphic-uming fonts-arphic-ukai
+
+```
