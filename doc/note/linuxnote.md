@@ -36,7 +36,7 @@
 - [ssh](#ssh)
 - [Generating Key Pairs](#generating-key-pairs)
   - [ssh Port Forwarding](#ssh-port-forwarding)
-- [¡®tar¡¯ stands for tape archive](#tar-stands-for-tape-archive)
+- [ï¿½ï¿½tarï¿½ï¿½ stands for tape archive](#tar-stands-for-tape-archive)
 - [user](#user)
 - [usermod](#usermod)
     - [](#)
@@ -55,8 +55,7 @@
 
 
 
-
-
+æµ‹è¯•
 
 
 # useage
@@ -64,9 +63,9 @@
 adb
 fastboot
 adb reboot
-#ÖØÆôµ½Recovery½çÃæ
+#ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Recoveryï¿½ï¿½ï¿½ï¿½
 adb reboot recovery
-#ÖØÆôµ½bootloader½çÃæ
+#ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½bootloaderï¿½ï¿½ï¿½ï¿½
 adb reboot bootloader
 ```
 
@@ -138,7 +137,7 @@ umount /data && umount /sdcard
 sudo parted -l
 parted /dev/block/sda
 p free
-rm 17 #17ÊÇuserdata·ÖÇøºÅ 
+rm 17 #17ï¿½ï¿½userdataï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 
 mkpart esp fat32 6559MB 7000MB
 mkpart pe fat32 7000MB 10000MB
 mkpart win ntfs 10000MB 70GB
@@ -444,8 +443,8 @@ amixer -D pulse sset Master unmute
 
 source or .
 
-sourceÃüÁî£¨´Ó C Shell ¶øÀ´£©ÊÇbash shellµÄÄÚÖÃÃüÁî¡£µãÃüÁî£¬¾ÍÊÇÒ»¸öµã·ûºÅ£¬£¨´ÓBourne
-Shell¶øÀ´£©ÊÇsourceµÄÁíÒ»Ãû³Æ¡£ÕâÁ½¸öÃüÁî¶¼ÒÔÒ»¸ö½Å±¾Îª²ÎÊý£¬¸Ã½Å±¾½«×÷Îªµ±Ç°shellµÄ»·¾³Ö´ÐÐ£¬¼´²»»áÆô¶¯Ò»¸öÐÂµÄ×Ó½ø³Ì¡£ËùÓÐÔÚ½Å±¾ÖÐÉèÖÃµÄ±äÁ¿½«³ÉÎªµ±Ç°ShellµÄÒ»²¿·Ö¡£
+sourceï¿½ï¿½ï¿½î£¨ï¿½ï¿½ C Shell ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½bash shellï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½î¡£ï¿½ï¿½ï¿½ï¿½ï¿½î£¬ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å£ï¿½ï¿½ï¿½ï¿½ï¿½Bourne
+Shellï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sourceï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Æ¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½î¶¼ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Å±ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã½Å±ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½Ç°shellï¿½Ä»ï¿½ï¿½ï¿½Ö´ï¿½Ð£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Âµï¿½ï¿½Ó½ï¿½ï¿½Ì¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú½Å±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÃµÄ±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½Ç°Shellï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ö¡ï¿½
 
 
 
@@ -542,7 +541,7 @@ steam
 
 home/suisuy/.local/share/Steam/steamapps/compatdata
 
-# ¡®tar¡¯ stands for tape archive
+# ï¿½ï¿½tarï¿½ï¿½ stands for tape archive
 
 ```plain
 tar cvzf file.tar.gz files #create verbos gzip filename
@@ -839,7 +838,7 @@ mount /dev/zram1 /tmp
 ```
 7) Add/remove zram devices
 In order to add a new /dev/zramX device, perform a read operation on the hot_add attribute. This will return either the
-new device¡¯s device id (meaning that you can use /dev/zram<id>) or an error code.
+new deviceï¿½ï¿½s device id (meaning that you can use /dev/zram<id>) or an error code.
 
     Example:
 
@@ -854,7 +853,7 @@ new device¡¯s device id (meaning that you can use /dev/zram<id>) or an error cod
     8) stat
     File /sys/block/zram<id>/mm_stat
 
-        The mm_stat file represents the device¡¯s mm statistics. It consists of a single line of text and contains the
+        The mm_stat file represents the deviceï¿½ï¿½s mm statistics. It consists of a single line of text and contains the
         following stats separated by whitespace:
 
         |orig_data_size|uncompressed size of data stored in this disk. Unit: bytes|
