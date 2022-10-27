@@ -23,6 +23,9 @@ test fo build
 
 # ssl
 
+## cert
+An SSL certificate is like an ID card or a badge that proves someone is who they say they are.
+
 
 # https
 
