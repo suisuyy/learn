@@ -30,8 +30,8 @@ One of the most important pieces of information in an SSL certificate is the web
  the private key decrypts data encrypted with the public key.
 
 ### type:
-Single-domain: A single-domain SSL certificate applies to only one domain (a "domain" is the name of a website, like www.cloudflare.com).
-Wildcard: Like a single-domain certificate, a wildcard SSL certificate applies to only one domain. However, it also includes that domain's subdomains. For example, a wildcard certificate could cover www.cloudflare.com, blog.cloudflare.com, and developers.cloudflare.com, while a single-domain certificate could only cover the first.
+Single-domain
+Wildcard: includes that domain's subdomains.
 Multi-domain: As the name indicates, multi-domain SSL certificates can apply to multiple unrelated domains.
 
 ### ssl validation levels.
