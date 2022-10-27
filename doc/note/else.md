@@ -25,6 +25,8 @@ test fo build
 
 ## cert
 An SSL certificate is like an ID card or a badge that proves someone is who they say they are.
+SSL certificates are stored and displayed on the Web by a website's or application's server.
+
 
 
 # https
