@@ -35,8 +35,8 @@ Wildcard: Like a single-domain certificate, a wildcard SSL certificate applies t
 Multi-domain: As the name indicates, multi-domain SSL certificates can apply to multiple unrelated domains.
 
 ### ssl validation levels.
-Domain Validation: This is the least-stringent level of validation, and the cheapest. All a business has to do is prove they control the domain.
-Organization Validation: This is a more hands-on process: The CA directly contacts the person or business requesting the certificate. These certificates are more trustworthy for users.
+Domain Validation:  prove they control the domain.
+Organization Validation:  The CA directly contacts the person or business requesting the certificate. 
 Extended Validation: This requires a full background check of an organization before the SSL certificate can be issued.
  
 
