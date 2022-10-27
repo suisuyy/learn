@@ -32,7 +32,7 @@ One of the most important pieces of information in an SSL certificate is the web
 ### type:
 Single-domain
 Wildcard: includes that domain's subdomains.
-Multi-domain: As the name indicates, multi-domain SSL certificates can apply to multiple unrelated domains.
+Multi-domain: can apply to multiple unrelated domains.
 
 ### ssl validation levels.
 Domain Validation:  prove they control the domain.
