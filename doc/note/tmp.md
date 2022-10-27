@@ -1,15 +1,1 @@
-# Hello this Snote by Suisuy
-here are some basic usage
-try login first
-
- write you js code like this,
-try to double click to run current line code
-```javascript
-3*4 //double click me
-4
-```
-t11
-
-t1\3
-
-# end
+%23%20Hello%20this%20Snote%20by%20Suisuy%0Ahere%20are%20some%20basic%20usage%0Atry%20login%20first%0A%0A%20write%20you%20js%20code%20like%20this%2C%0Atry%20to%20double%20click%20to%20run%20current%20line%20code%0A%60%60%60javascript%0A3*4%20%2F%2Fdouble%20click%20me%0A4%0A%60%60%60%0At11%0A%0At1%5C3%0A%0A%E6%B5%8B%E8%AF%95%0A%0A%23%20end
