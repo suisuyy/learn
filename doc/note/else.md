@@ -22,6 +22,16 @@ test fo build
 
 
 # ssl
+## keys
+A website's SSL/TLS certificate, which is shared publicly, contains the public key, and the private key is installed on the origin server — it's "owned" by the website.
+#generate a private key with the correct length
+openssl genrsa -out private-key.pem 2048
+
+#generate corresponding public key
+openssl rsa -in private-key.pem -pubout -out public-key.pem
+
+#optional: create a self-signed certificate
+openssl req -new -x509 -key private-key.pem -out cert.pem -days 360
 
 ## cert
 An SSL certificate is like an ID card or a badge that proves someone is who they say they are.
