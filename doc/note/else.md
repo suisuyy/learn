@@ -38,8 +38,9 @@ Multi-domain: can apply to multiple unrelated domains.
 Domain Validation:  prove they control the domain.
 Organization Validation:  The CA directly contacts the person or business requesting the certificate. 
 Extended Validation: This requires a full background check of an organization before the SSL certificate can be issued.
- 
 
+## handshakes
+TLS handshakes occur after a TCP connection has been opened via a TCP handshake.
 
 # https
 
