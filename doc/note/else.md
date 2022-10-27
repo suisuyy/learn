@@ -42,8 +42,6 @@ openssl req -new -sha256 -key suisuy.eu.org.key -out suisuy.eu.org.csr
 3.CERT Share your CSR with your Certificate Authority (CA) to receive a final certificate or a certificate chain. then run
 http-server -a -p 443 -S -C certificate.crt -K suisuy.eu.org.key
 
-4.Install your final certificate in a non-web-accessible place such as /etc/ssl (Linux and Unix) or wherever IIS requires it (Windows).
- 
 
 # tmp
 
