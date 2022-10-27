@@ -27,6 +27,8 @@ test fo build
 An SSL certificate is like an ID card or a badge that proves someone is who they say they are.
 SSL certificates are stored and displayed on the Web by a website's or application's server.
 One of the most important pieces of information in an SSL certificate is the website's public key.
+ the private key decrypts data encrypted with the public key.
+ 
 
 
 # https
