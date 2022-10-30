@@ -41,8 +41,8 @@ adb shell pm disable-user com.android.hmct.bmct
 adb shell pm disable-user com.android.traceur
 adb shell pm disable-user com.hmct.einklauncher
 adb shell pm disable-user com.hmct.updater
-adb shell pm com.hmct.ota.appinstall
-adb shell pm com.juphoon.service
+adb shell pm disable com.hmct.ota.appinstall
+adb shell pm disable com.juphoon.service
 adb shell pm disable com.android.backupreceiver
 adb shell pm disable com.tencent.android.location
 adb shell pm disable com.hmct.semantic.analysis
