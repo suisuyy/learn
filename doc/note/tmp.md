@@ -43,15 +43,15 @@ adb shell pm disable-user com.hmct.einklauncher
 adb shell pm disable-user com.hmct.updater
 adb shell pm com.hmct.ota.appinstall
 adb shell pm com.juphoon.service
-adb shell com.android.backupreceiver
-adb shell com.tencent.android.location
-adb shell com.hmct.semantic.analysis
-adb shell com.android.location.fused
-adb shell com.hmct.floatwindow
-adb shell com.hmct.payguard
-adb shell com.android.stk
-adb shell com.hmct.hmctmanual
-adb shell com.hmct.HmctService
-adb shell com.hmct.ftmode
+adb shell pm disable com.android.backupreceiver
+adb shell pm disable com.tencent.android.location
+adb shell pm disable com.hmct.semantic.analysis
+adb shell pm disable com.android.location.fused
+adb shell pm disable com.hmct.floatwindow
+adb shell pm disable com.hmct.payguard
+adb shell pm disable com.android.stk
+adb shell pm disable com.hmct.hmctmanual
+adb shell pm disable com.hmct.HmctService
+adb shell pm disable com.hmct.ftmode
 
 
