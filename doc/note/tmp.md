@@ -32,4 +32,26 @@ https://www.edx.org/school/chalmersx
 
 Norway
 
+adb shell pm disable-user com.android.internal.display.cutout.emulation.tall
+adb shell pm disable-user com.android.internal.display.cutout.emulation.double
+adb shell pm disable-user com.qualcomm.qti.modemtestmode
+adb shell pm disable-user com.android.logsettings
+adb shell pm disable-user com.hmct.userexperienceprogram
+adb shell pm disable-user com.android.hmct.bmct
+adb shell pm disable-user com.android.traceur
+adb shell pm disable-user com.hmct.einklauncher
+adb shell pm disable-user com.hmct.updater
+adb shell pm com.hmct.ota.appinstall
+adb shell pm com.juphoon.service
+adb shell com.android.backupreceiver
+adb shell com.tencent.android.location
+adb shell com.hmct.semantic.analysis
+adb shell com.android.location.fused
+adb shell com.hmct.floatwindow
+adb shell com.hmct.payguard
+adb shell com.android.stk
+adb shell com.hmct.hmctmanual
+adb shell com.hmct.HmctService
+adb shell com.hmct.ftmode
+
 
