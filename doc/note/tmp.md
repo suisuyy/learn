@@ -41,18 +41,18 @@ adb shell pm disable-user com.android.hmct.bmct
 adb shell pm disable-user com.android.traceur
 adb shell pm disable-user com.hmct.einklauncher
 adb shell pm disable-user com.hmct.updater
-adb shell pm disable com.hmct.ota.appinstall
-adb shell pm disable com.juphoon.service
-adb shell pm disable com.android.backupreceiver
-adb shell pm disable com.tencent.android.location
-adb shell pm disable com.hmct.semantic.analysis
-adb shell pm disable com.android.location.fused
-adb shell pm disable com.hmct.floatwindow
-adb shell pm disable com.hmct.payguard
-adb shell pm disable com.android.stk
-adb shell pm disable com.hmct.hmctmanual
-adb shell pm disable com.hmct.HmctService
-adb shell pm disable com.hmct.ftmode
+adb shell pm disable-user com.hmct.ota.appinstall
+adb shell pm disable-user com.juphoon.service
+adb shell pm disable-user com.android.backupreceiver
+adb shell pm disable-user com.tencent.android.location
+adb shell pm disable-user com.hmct.semantic.analysis
+adb shell pm disable-user com.android.location.fused
+adb shell pm disable-user com.hmct.floatwindow
+adb shell pm disable-user com.hmct.payguard
+adb shell pm disable-user com.android.stk
+adb shell pm disable-user com.hmct.hmctmanual
+adb shell pm disable-user com.hmct.HmctService
+adb shell pm disable-user com.hmct.ftmode
 以上命令 去除负一屏，去除系统更新（老版本更流畅），刘海屏，智慧识别，体验计划，日志，支付保护，MBN测试，悬浮球 等，运行测试完美。
 
 
