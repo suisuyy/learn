@@ -1,13 +1,35 @@
-他
-
-t1
-t4
-
-
+Germany
+platform
+https://open.hpi.de/courses
+openHPI is the educational Internet platform of the German Hasso  Plattner Institute, Potsdam. On openHPI you take part in a worldwide  social learning network based on interactive online courses covering  different subjects in Information and Communications Technology (ICT).
 
 
 
 
+Technical University of Munich
+https://www.edx.org/course/software-engineering-essentials?source=aw&awc=6798_1659695716_ce686607f0c01f8de6a2e407c5d1e12a&utm_source=aw&utm_medium=affiliate_partner&utm_content=text-link&utm_term=301045_https%3A%2F%2Fwww.class-central.com%2F
 
+https://www.edx.org/course/ilabx-the-internet-masterclass
+
+
+Switzerland
+https://www.coursera.org/learn/introductiontoprobability
+https://www.coursera.org/learn/particle-physics
+https://www.coursera.org/unige
+Finland
+
+https://www.mooc.fi/en/#courses
+https://wsd.cs.aalto.fi/
+https://course.elementsofai.com/
+https://wsd.cs.aalto.fi/2-internet-and-http/1-introduction-to-the-internet/
+https://course.elementsofai.com/
+https://tdd.mooc.fi/
+https://fitech.io/en/
+Sweden
+
+https://www.coursera.org/lunduniversity
+https://www.edx.org/school/chalmersx
+
+Norway
 
 
