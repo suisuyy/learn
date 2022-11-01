@@ -55,7 +55,7 @@ adb shell pm disable-user com.hmct.HmctService
 adb shell pm disable-user com.hmct.ftmode
 以上命令 去除负一屏，去除系统更新（老版本更流畅），刘海屏，智慧识别，体验计划，日志，支付保护，MBN测试，悬浮球 等，运行测试完美。
 
-
+50/8
 
 
 
