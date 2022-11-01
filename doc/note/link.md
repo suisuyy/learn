@@ -46,4 +46,6 @@ https://dns.adguard-dns.com/dns-query
 
 # else
 
+https://codeberg.org/retronav/ixora
+
 
