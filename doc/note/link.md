@@ -43,3 +43,7 @@ https://dns.cloudflare.com/dns-query
 
 https://dns.adguard-dns.com/dns-query
 
+
+# else
+
+
