@@ -18,6 +18,7 @@ https://www.dnsleaktest.com/results.html
 
 http://tongmengxz.com/category/picture
 
+https://learn.microsoft.com/en-us/training/modules/plan-config-global-address-book-finance-operations/4-exercise
 
 
 # ad filter
