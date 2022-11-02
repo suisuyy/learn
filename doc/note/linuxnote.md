@@ -698,7 +698,7 @@ docker run --rm -it --entrypoint bash <image-name-or-id>
 docker exec -it <container-name-or-id> bash
 docker container ls -a
 ```
-
+-it instructs Docker to allocate a pseudo-TTY connected to the container’s stdin; creating an interactive bash shell in the container
 
 # vnc
 novnc and turbovnc
