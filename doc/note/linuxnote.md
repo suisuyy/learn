@@ -457,16 +457,17 @@ chmod 0600 .ssh/*
 
 ~/.ssh/config
 
-```plain
+```
 ServerAliveInterval 1
 ServerAliveCountMax 2
 ```
-restart sshd
-/usr/bin/sshd -p 2222
 
-or
-
+#restart sshd
 systemctl restart sshd
+
+#/usr/bin/sshd -p 2222
+
+
 
 keep ssh runing
 
