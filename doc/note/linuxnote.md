@@ -692,6 +692,7 @@ docker run  -it --net host -v /mnt:/mnt --entrypoint bash <image-name-or-id>
 docker run -rm  -it --net host -v /mnt:/mnt --entrypoint bash <image-name-or-id>
 
 
+
 docker run --rm -it --entrypoint bash <image-name-or-id>
 
 docker exec -it <container-name-or-id> bash
