@@ -461,7 +461,7 @@ chmod 0600 .ssh/*
 ServerAliveInterval 1
 ServerAliveCountMax 2
 ```
-echo -e ""
+echo -e "ServerAliveInterval 1\nServerAliveCountMax 2" >>
 #restart sshd
 systemctl restart sshd
 
