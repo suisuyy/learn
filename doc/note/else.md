@@ -20,6 +20,8 @@
 
 test fo build
 
+sudo docker run --rm -it --shm-size=512m -p 6901:6901 -e VNC_PW=password kasmweb/terminal:1.11.0
+
 
 # ssl
 ## keys
