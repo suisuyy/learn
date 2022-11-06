@@ -19,6 +19,7 @@
 - [end](#end)
 
 test fo build
+exec su --preserve-environment -c "LD_LIBRARY_PATH=$PREFIX/lib $ROOT_SHELL"
 
 sudo docker run --rm -it --shm-size=512m -p 6901:6901 -e VNC_PW=password kasmweb/terminal:1.11.0
  cat /proc/swaps
