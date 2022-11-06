@@ -22,7 +22,7 @@
 # tmp
 8.32
 0.001*3600*24  //86
-
+86*3/8
 https://www.123pan.com/s/jKEDVv-zK4Gv
 
 https://527y3c-my.sharepoint.com/:f:/g/personal/suisuy_527y3c_onmicrosoft_com/EsZ5h1ywXy1BgItNyfrWGhMBlssD7sXKNuYzA3tX8yIKkg?e=XnSnJS
