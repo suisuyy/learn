@@ -21,7 +21,7 @@
 
 # tmp
 8.32
-1*
+1*3600*24
 
 https://www.123pan.com/s/jKEDVv-zK4Gv
 
