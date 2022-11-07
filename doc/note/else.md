@@ -28,6 +28,9 @@ sudo pacman -S openssh git nano screen w3m wget p7zip unzip unrar rsync sshfs ba
 TERM=linux screen -S app
 ttyd -p 8080 bash
 
+mkdir /vv;
+
+
 
 #install codeserver
 wget https://github.com/coder/code-server/releases/download/v4.8.2/code-server-4.8.2-linux-amd64.tar.gz
