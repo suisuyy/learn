@@ -50,6 +50,9 @@ https://dns.adguard-dns.com/dns-query
 
 https://codeberg.org/retronav/ixora
 
+https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/latest-virtio/virtio-win-guest-tools.exe
+
+
 
 
 
