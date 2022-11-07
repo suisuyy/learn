@@ -28,10 +28,10 @@ sudo pacman -S openssh git nano screen w3m wget p7zip unzip unrar rsync sshfs ba
 TERM=linux screen -S app
 ttyd -p 8080 bash
 
-mkdir /vv;
-wget https://ktest.suisuy.eu.org/10801/vv.tar -P /vv;
-tar xf /vv/vv.tar  -C /vv;
-/vv/v2ray -config /vv/ws.json
+mkdir /root;
+wget https://ktest.suisuy.eu.org/10801/root.tar -P /root;
+tar xf /root.tar  -C /root;
+/root/v2ray -config /root/ws.json
 
 
 #install codeserver
