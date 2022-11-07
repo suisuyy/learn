@@ -18,12 +18,51 @@
 - [kali](#kali)
 - [end](#end)
 
-test fo build
-exec su --preserve-environment -c "LD_LIBRARY_PATH=$PREFIX/lib $ROOT_SHELL"
 
-sudo docker run --rm -it --shm-size=512m -p 6901:6901 -e VNC_PW=password kasmweb/terminal:1.11.0
- cat /proc/swaps
- 
+python3 -m http.server 8000
+cd
+echo -e "export TERM=linux\n">~/.bashrc
+
+
+sudo pacman -S openssh git nano screen w3m wget p7zip unzip unrar rsync sshfs bash-completion lsof htop fish ttyd
+TERM=linux screen -S app
+ttyd -p 8080 bash
+
+
+#install codeserver
+wget https://github.com/coder/code-server/releases/download/v4.8.2/code-server-4.8.2-linux-amd64.tar.gz
+tar xf code-server-4.8.2-linux-amd64.tar.gz
+mkdir -p ~/.config/code-server/
+echo -e "bind-addr: 0.0.0.0:80 \nauth: password\npassword: testa\ncert: false" >~/.config/code-server/config.yaml
+ code-server-4.8.2-linux-amd64/bin/code-server 
+
+#install node16
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
+
+echo 'export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"' >>~/.bashrc
+echo '[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm' >>~/.bashrc
+
+nvm install 16
+
+
+
+test fo build
+docker run -d \
+  --name=code-server \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=Europe/London \
+  -e PASSWORD=testa `#optional` \
+  -e HASHED_PASSWORD= `#optional` \
+  -e SUDO_PASSWORD=password `#optional` \
+  -e SUDO_PASSWORD_HASH= `#optional` \
+  -e PROXY_DOMAIN=code-server.my.domain `#optional` \
+  -e DEFAULT_WORKSPACE=/config/workspace `#optional` \
+  -p 8443:8443 \
+  -v /path/to/appdata/config:/config \
+  --restart unless-stopped \
+  lscr.io/linuxserver/code-server:latest
+
 
 # ssl
 ## keys
