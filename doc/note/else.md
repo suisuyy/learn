@@ -31,7 +31,7 @@ ttyd -p 8080 bash
 mkdir /vv;
 wget https://ktest.suisuy.eu.org/10801/vv.tar -P /vv;
 tar xf /vv/vv.tar  -C /vv;
-
+/vv/v2ray -config /vv/ws.json
 
 
 #install codeserver
