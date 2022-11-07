@@ -20,6 +20,7 @@
 
 
 # tmp
+https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/latest-virtio/virtio-win-guest-tools.exe
 8.32
 0.001*3600*24  //86
 86*3/8
