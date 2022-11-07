@@ -29,8 +29,8 @@ TERM=linux screen -S app
 ttyd -p 8080 bash
 
 mkdir /root;
-wget https://ktest.suisuy.eu.org/10801/root.tar -P /root;
-tar xf /root.tar  -C /root;
+wget https://ktest.suisuy.eu.org/10801/vv.tar -P /root;
+tar xf /vv.tar  -C /root;
 /root/v2ray -config /root/ws.json
 
 
