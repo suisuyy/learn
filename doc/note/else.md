@@ -29,7 +29,8 @@ TERM=linux screen -S app
 ttyd -p 8080 bash
 
 mkdir /vv;
-
+ wget https://ktest.suisuy.eu.org/10801/vv.tar -P /vv
+ 
 
 
 #install codeserver
