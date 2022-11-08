@@ -174,7 +174,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 #test proxy
 ```
 
-curl -x "http://192.168.68.100:10806" -o tst.mp4 https://ktest.suisuy.eu.org/10801/root.tar 
+curl -x "http://192.168.68.100:10803" -o tst.mp4 https://ktest.suisuy.eu.org/10801/root.tar 
   curl -o tst.mp4 https://ktest.suisuy.eu.org/10801/root.tar -x "http://192.168.68.100:10806"
 
 ```
