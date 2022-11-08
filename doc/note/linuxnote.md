@@ -173,7 +173,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 ## proxy
 #test proxy
 ```
-
+curl https://raw.githubusercontent.com/suisuyy/sbox/main/linuxpkg/novnc/google-chrome-stable_current_amd64.deb  -o test.mp4 -x "http://192.168.68.100:10804"
 curl -x "http://192.168.68.100:10803" -o tst.mp4 https://ktest.suisuy.eu.org/10801/root.tar 
   curl -o tst.mp4 https://ktest.suisuy.eu.org/10801/root.tar -x "http://192.168.68.100:10806"
 
