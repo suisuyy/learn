@@ -21,7 +21,7 @@
 
 # tmp
 python -m http.server --bind ::
-fe80::215:5dff:fe58:6296]
+[fe80::215:5dff:fe58:6296] 
 https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/latest-virtio/virtio-win-guest-tools.exe
 8.32
 0.001*3600*24  //86
