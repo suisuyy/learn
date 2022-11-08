@@ -169,6 +169,10 @@ grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
 # net
+
+## proxy
+test proxy
+
 ## status
 ```
 #show port
