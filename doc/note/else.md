@@ -236,7 +236,7 @@ sdm845  400
 680  400
 870 1000
 i58250u 850 2617
-aliyun 750 2800  GenuineIntel Family 6 Model 85 Stepping 7 
+aliyun 750 2800  GenuineIntel Family 6 Model 85 Stepping 7 Intel(R) Xeon(R) Processor
 
 # net bandwidth
 docker run  --name openspeedtest -d -p 3000:3000 -p 3001:3001 openspeedtest/latest
