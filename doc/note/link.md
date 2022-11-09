@@ -19,6 +19,8 @@ http://tongmengxz.com/category/picture
 
 https://learn.microsoft.com/en-us/training/modules/plan-config-global-address-book-finance-operations/4-exercise
 
+http://laomoe.gitee.io/db2/
+
 
 # ad filter
 
