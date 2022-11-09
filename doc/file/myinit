@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # chkconfig: 2345 20 80
 # description: simple init script 
 
