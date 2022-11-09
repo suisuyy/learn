@@ -9,7 +9,7 @@ start() {
     # code to start app comes here 
     # example: python3 -m http.server 8080 &
     echo 'myinit executed' >/tmp/myinit.log
-     python3 -m http.server 8080 -bind :: &
+     python3 -m http.server 8081 --bind 0.0.0.0 &
 }
 
 stop() {
