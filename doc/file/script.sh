@@ -227,7 +227,7 @@ sudo vim /etc/init.d/myinit
 ```
 #!/bin/bash
 # chkconfig: 2345 20 80
-# description: Description comes here....
+# description: simple init script 
 
 # Source function library.
 #. /etc/init.d/functions
