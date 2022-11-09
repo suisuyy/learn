@@ -223,7 +223,7 @@ sudo ln -s /etc/init.d/myinit /etc/rc3.d/S0myinit
 sudo ln -s /etc/init.d/myinit /etc/rc5.d/S0myinit 
 
 sudo vim /etc/init.d/myinit
-#service "service name" start/stop/status/restart
+#useage service "service name" start/stop/status/restart
 ```
 #!/bin/bash
 # chkconfig: 2345 20 80
