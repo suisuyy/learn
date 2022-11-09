@@ -222,6 +222,8 @@ sudo chmod 777 /etc/init.d/myinit
 sudo ln -s /etc/init.d/myinit /etc/rc3.d/S0myinit 
 sudo ln -s /etc/init.d/myinit /etc/rc5.d/S0myinit 
 
+
+
 sudo vim /etc/init.d/myinit
 #useage service "service name" start/stop/status/restart
 ```
