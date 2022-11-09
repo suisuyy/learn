@@ -173,7 +173,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 ## proxy
 #test proxy
 ```
-curl https://raw.githubusercontent.com/suisuyy/sbox/main/linuxpkg/novnc/google-chrome-stable_current_amd64.deb  -o chrome.deb -x "http://192.168.68.100:10804"
+curl https://raw.githubusercontent.com/suisuyy/sbox/main/test/google-chrome-stable_current_amd64.deb  -o chrome.deb -x "http://192.168.68.100:10804"
 
 
 ```
