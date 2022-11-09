@@ -6,6 +6,7 @@
 #. /etc/init.d/functions
 
 
+
 start() {
     # code to start app comes here 
     # example: python3 -m http.server 8080 &
