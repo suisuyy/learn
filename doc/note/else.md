@@ -236,7 +236,7 @@ sdm845  400
 680  400
 870 1000
 i58250u 850 2617
-aliyun
+aliyun 750 2800  
 
 # net bandwidth
 docker run  --name openspeedtest -d -p 3000:3000 -p 3001:3001 openspeedtest/latest
