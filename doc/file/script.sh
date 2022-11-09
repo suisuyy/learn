@@ -216,9 +216,9 @@ setprop service.adb.tcp.port 5555 ; stop adbd; start adbd
 ```
 
 
-#init.d script put it in /etc/init.d/cloudreve,
-#sudo ln -s /etc/init.d/cloudreve /etc/rc3.d/S0cloudreve # rc3.d may be changed to rc5.d..
-#sudo ln -s /etc/init.d/cloudreve /etc/rc5.d/S0cloudreve # rc3.d may be changed to rc5.d..
+#init.d script put it in /etc/init.d/myinit,
+#sudo ln -s /etc/init.d/myinit /etc/rc3.d/S0myinit # rc3.d may be changed to rc5.d..
+#sudo ln -s /etc/init.d/myinit /etc/rc5.d/S0myinit # rc3.d may be changed to rc5.d..
 
 #service "service name" start/stop/status/restart
 ```
@@ -232,13 +232,13 @@ setprop service.adb.tcp.port 5555 ; stop adbd; start adbd
 start() {
     # code to start app comes here 
     # example: daemon program_name &
-    /mnt/sda5/project/cloudreve/cloudreve_armv7 >/tmp/cdlog &
+    /mnt/sda5/project/myinit/myinit_armv7 >/tmp/cdlog &
 }
 
 stop() {
     # code to stop app comes here 
     # example: killproc program_name
-    killall cloudreve
+    killall myinit
 }
 
 case "$1" in 
