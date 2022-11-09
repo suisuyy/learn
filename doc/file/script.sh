@@ -234,8 +234,9 @@ sudo vim /etc/init.d/myinit
 
 start() {
     # code to start app comes here 
-    # example: daemon program_name &
-    /mnt/sda5/project/myinit/myinit_armv7 >/tmp/cdlog &
+    # example: python3 -m http.server 8080 &
+    echo 'myinit executed' >/tmp/myinit.log
+     python3 -m http.server 8080 &
 }
 
 stop() {
