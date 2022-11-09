@@ -217,7 +217,7 @@ setprop service.adb.tcp.port 5555 ; stop adbd; start adbd
 
 
 #init.d script put it in 
-sudo curl -o /etc/init.d/myinit 
+sudo curl -o /etc/init.d/myinit https://raw.githubusercontent.com/suisuyy/learn/main/doc/file/myinit
 sudo chmod 777 /etc/init.d/myinit
 sudo ln -s /etc/init.d/myinit /etc/rc3.d/S0myinit 
 sudo ln -s /etc/init.d/myinit /etc/rc5.d/S0myinit 
