@@ -3,8 +3,7 @@
 macOS Ventura	13.0.1
 macOS Monterey	12.6.1
 macOS Big Sur	11.7.1
-macOS Catalina
-10.15.7
+macOS Catalina  10.15.7
 macOS Mojave	10.14.6
 macOS High Sierra	10.13.6
 macOS Sierra	10.12.6
