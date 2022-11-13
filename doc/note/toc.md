@@ -8,10 +8,13 @@
 
 [jsnote](./mdreader.html?md=note/jsnote.md)
 
-[tmp](./mdreader.html?md=https://raw.githubusercontent.com/suisuyy/test/main/tmp.md)
 
 [todo](./mdreader.html?md=note/todo.md)
 
+[benchmark](./mdreader.html?md=note/bm.md)
+
+
+[tmp](./mdreader.html?md=https://raw.githubusercontent.com/suisuyy/test/main/tmp.md)
 
 
 
