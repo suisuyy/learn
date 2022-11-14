@@ -9,3 +9,6 @@ mac 12.6 low power mode
 Single-Core Score
 1829
 Multi-Core Score
+
+
+    
