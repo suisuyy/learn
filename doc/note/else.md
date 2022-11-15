@@ -19,8 +19,12 @@
 - [end](#end)
 
 
+# install arch on pd
+
   
-python3 -m http.server 8000
+
+python3 -m http.server --bind :: 8000
+
 cd
 echo -e "export TERM=linux\n">~/.bashrc
 
