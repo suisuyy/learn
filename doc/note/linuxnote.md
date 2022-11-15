@@ -63,8 +63,7 @@ aria2c --enable-rpc --rpc-listen-all
 
 # useage
 ```
-adb
-fastboot
+# adb fastboot
 adb reboot
 #������Recovery����
 adb reboot recovery
@@ -72,6 +71,13 @@ adb reboot recovery
 adb reboot bootloader
 ```
 
+# auto task
+#cron
+```
+
+CRON_TZ=Asia/Shanghai 0 5 0 * * *
+
+```
 
 
 
