@@ -257,6 +257,9 @@ fig _ should-figterm-launch
 figterm
 ```
 
+# net
+### ddns-go
+#install 
 
 
 
