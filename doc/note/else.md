@@ -19,6 +19,16 @@
 - [end](#end)
 
 
+
+# install proxy server ubuntu
+curl -s https://install.zerotier.com | sudo bash
+zerotier-cli status
+zerotier-cli join 233ccaac2732bb47
+sudo ip addr add 192.168.192.1/24 brd 192.168.192.255 scope global dev ztr4n7qf3a
+
+
+
+
 # install arch on pd
 
   
