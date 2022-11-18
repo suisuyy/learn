@@ -16,3 +16,5 @@ hardstatus string '%{gk}[%{wk}%?%-Lw%?%{=b kR}(%{W}%n*%f %t%?(%u)%?%{=b kR})%{=w
 termcapinfo xterm* ti@:te@"\n\
 >~/.screenrc
 
+echo -e "ServerAliveInterval 1\nServerAliveCountMax 2" >>~/.ssh/config
+
