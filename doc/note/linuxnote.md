@@ -1016,8 +1016,7 @@ new device��s device id (meaning that you can use /dev/zram<id>) or an error
             ~/.fzf/install
             ```
 
-            echo -e "\nnet.ipv4.tcp_congestion_control=bbr\nnet.core.default_qdisc=cake \nnet.ipv4.ip_forward=1\n"
-            >>/etc/sysctl.conf && sysctl -p
+            echo -e "\nnet.ipv4.tcp_congestion_control=bbr\nnet.core.default_qdisc=cake \nnet.ipv4.ip_forward=1\n">>/etc/sysctl.conf && sysctl -p
 
 
 
