@@ -1,0 +1,14 @@
+#/usr/lib/systemd/system/sample.service
+
+[Unit]
+Description=simple service demo
+After=network.target
+ 
+[Service]
+Type=simple
+WorkingDirectory=/abspathdir
+ExecStart=/abspath
+Restart=on-failure
+ 
+[Install]
+WantedBy=multi-user.target
