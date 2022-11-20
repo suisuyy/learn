@@ -1,13 +1,11 @@
-#/usr/lib/systemd/system/sample.service
-
 [Unit]
 Description=simple service demo
 After=network.target
  
 [Service]
 Type=simple
-WorkingDirectory=/abspathdir
-ExecStart=/abspath
+WorkingDirectory=/home/suisuy/kbmaindata/project/alist
+ExecStart=/root/sinit
 Restart=on-failure
  
 [Install]
