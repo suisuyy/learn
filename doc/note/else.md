@@ -22,6 +22,25 @@
 
 # network manage linux
  sudo pacman -S networkmanager
+After installation, you should start/enable NetworkManager.service. Once the NetworkManager daemon is started, it will automatically connect to any available "system connections" that have already been configured. Any "user connections" or unconfigured connections will need nmcli or an applet to configure and connect.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # install proxy server ubuntu
 curl -s https://install.zerotier.com | sudo bash
