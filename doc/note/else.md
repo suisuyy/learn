@@ -20,6 +20,9 @@
 
 
 
+# network manage linux
+
+
 # install proxy server ubuntu
 curl -s https://install.zerotier.com | sudo bash
 zerotier-cli status
