@@ -21,7 +21,7 @@
 
 
 # network manage linux
-
+ sudo pacman -S networkmanager
 
 # install proxy server ubuntu
 curl -s https://install.zerotier.com | sudo bash
