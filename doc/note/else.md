@@ -19,6 +19,11 @@
 - [end](#end)
 
 
+# kvm ubuntu
+sudo apt -y install bridge-utils cpu-checker libvirt-clients libvirt-daemon qemu qemu-kvm
+
+
+
 # kasm 
 
 cd /tmp
