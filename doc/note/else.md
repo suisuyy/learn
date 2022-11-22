@@ -26,7 +26,9 @@ curl -O https://kasm-static-content.s3.amazonaws.com/kasm_release_1.11.0.18142e.
 tar -xf kasm_release*.tar.gz
 sudo bash kasm_release/install.sh
 
+# thinlinc
 
+1010 port
 	
 kasmweb/desktop:1.11.0
 
