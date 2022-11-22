@@ -23,7 +23,6 @@
 
 
 
-# then cd to /autofs/kbmain
 
 
 # network manage linux
