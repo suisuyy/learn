@@ -23,6 +23,12 @@
 
 # autofs
 sudo apt install autofs
+# /etc/auto.master add this 
+/autofs   /etc/auto.ext --timeout=10,defaults,user,exec,uid=1000
+#/etc/auto.ext add this
+kbmain   -fstype=auto    :/dev/nvme0n1p3 
+
+# then cd to /autofs/kbmain
 
 
 # network manage linux
