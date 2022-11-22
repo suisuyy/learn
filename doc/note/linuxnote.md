@@ -318,6 +318,20 @@ for z in *.7z; do 7z x "$z" -p'1346' ; done
 
 # mount devices
 ```
+# autofs
+# autofs
+sudo apt install autofs
+#/etc/auto.master add this 
+/autofs   /etc/auto.ext --timeout=10,defaults,user,exec,uid=1000
+
+#/etc/auto.ext add this
+kbmain   -fstype=auto    :/dev/nvme0n1p3 
+
+# then
+ cd  /autofs/kbmain
+
+
+
 #Mount nfs on win
 Mount -o rsize=256 -o wsize=256 -o mtype=hard \\192.168.68.110\mnt\sda4 N:
 Mount -o rsize=256 -o wsize=256 -o mtype=hard \\192.168.68.110\mnt\sda3 X:
