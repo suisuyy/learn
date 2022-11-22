@@ -29,6 +29,12 @@ sudo bash kasm_release/install.sh
 # thinlinc
 
 1010 port
+9000
+300
+
+ sudo systemctl status vsmserver
+sudo systemctl status vsmagent
+ sudo systemctl restart  tlwebaccess
 	
 kasmweb/desktop:1.11.0
 
