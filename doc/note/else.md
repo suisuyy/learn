@@ -21,6 +21,8 @@
 
 # docker arch
 
+# autofs
+sudo apt install autofs
 
 
 # network manage linux
