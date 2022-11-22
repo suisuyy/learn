@@ -276,7 +276,7 @@ use dash to panel to make left task bar
 
 ```plain
 docker run -it --shm-size=512m -v /dev:/dev --net host --entrypoint /bin/bash
---storage-opt size=100G --cpus=2
+--storage-opt size=100G --cpus=4
 --restart=always
 #basic cmd
 sudo docker container ls -a
