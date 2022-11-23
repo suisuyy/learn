@@ -20,8 +20,13 @@
 
 
 #  vnc novnc tigervnc
+#install dependencies
+sudo apt install build-essential libssl-dev
+
+
 vncserver -localhost no  -geometry 1600x900  -xstartup  ~/.vnc/xstartup
 
+python3 -m http.serve
 
 
 
