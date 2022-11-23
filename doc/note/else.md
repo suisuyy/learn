@@ -19,6 +19,10 @@
 - [end](#end)
 
 
+#  vnc novnc tigervnc
+vncserver -localhost no  -geometry 1600x900  -xstartup  ~/.vnc/xstartup
+
+
 # kvm ubuntu
 sudo apt -y install bridge-utils cpu-checker libvirt-clients libvirt-daemon qemu qemu-kvm virt-manager
 kvm-ok
