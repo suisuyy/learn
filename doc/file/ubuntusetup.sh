@@ -1,1 +1,1 @@
-sudo apt -y install python3 htop tinyproxy build-essential git vim 
+sudo apt -y install python3 htop tinyproxy build-essential git vim unzip unrar 
