@@ -27,7 +27,7 @@ https://github.com/suisuyy/sbox.git
 sudo ./caddy reverse-proxy --from awsg.suisuy.eu.org:443 --to :80
 
 #vv
-
+sudo ./v2ray -config wsserver.json 
 
 
 #  vnc novnc tigervnc
