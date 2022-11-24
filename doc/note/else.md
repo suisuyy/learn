@@ -20,10 +20,14 @@
 
 
 # vv ws tls
-#caddy
-
-
 https://github.com/suisuyy/sbox.git
+
+
+#caddy
+sudo ./caddy reverse-proxy --from awsg.suisuy.eu.org:443 --to :80
+
+#vv
+
 
 
 #  vnc novnc tigervnc
