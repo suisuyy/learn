@@ -6,8 +6,10 @@ sudo apt install -y fonts-wqy-zenhei openssh-server ntfs-3g iputils-ping iperf3 
 #sudo apt  install  -y dbus-x11 xfce4  xfce4-terminal
 
 
-#config bash and screen
+#config bash and ssh and screen
 echo -e "\n bind 'set completion-ignore-case on'\n bind 'set show-all-if-ambiguous on'\n bind '\C-p:menu-complete'\n" >>~/.bashrc
+echo -e "ServerAliveInterval 1\nServerAliveCountMax 2" >>~/.ssh/config
+
 
 echo -e \
 "escape ^Jj \n\
@@ -16,5 +18,4 @@ hardstatus string '%{gk}[%{wk}%?%-Lw%?%{=b kR}(%{W}%n*%f %t%?(%u)%?%{=b kR})%{=w
 termcapinfo xterm* ti@:te@"\n\
 >~/.screenrc
 
-echo -e "ServerAliveInterval 1\nServerAliveCountMax 2" >>~/.ssh/config
 
