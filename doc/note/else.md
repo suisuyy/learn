@@ -22,7 +22,7 @@
 sudo apt-get install cifs-utils
 
 sudo mount -t cifs -o rw,guest,vers=1.0 //192.168.1.1/Fab-EXT4 /media/MichelNAS/
-sudo mount -t cifs -o rw,guest,vers=1.0 //172.22.22.1/sda2 /mnt/jdsmb
+sudo mount -t cifs -o rw,guest,vers=2.0 //172.22.22.1/sda2 /mnt/jdsmb
 
 
 # vv ws tls
