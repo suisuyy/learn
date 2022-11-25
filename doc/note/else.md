@@ -18,6 +18,9 @@
 - [kali](#kali)
 - [end](#end)
 
+# mount samba
+sudo mount -t cifs -o rw,guest,vers=1.0 //192.168.1.1/Fab-EXT4 /media/MichelNAS/
+
 
 # vv ws tls
 https://github.com/suisuyy/sbox.git
