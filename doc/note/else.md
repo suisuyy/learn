@@ -21,14 +21,12 @@
 # autofs
 #/etc/auto.master
 /autofs   /etc/auto.ext --timeout=10,defaults,user,exec,uid=1000
-/autofs   /etc/auto.mysmb --timeout=10,defaults,user,exec,uid=1000,guest,vers=1.0
-
-
 #/etc/auto.ext
 kbmain   -fstype=auto    :/dev/nvme0n1p3
 
-#/etc/mysmb
-jdsmb   -fstype=auto    : //172.22.22.1/sda2
+
+
+
 
 
 
