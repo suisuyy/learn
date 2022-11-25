@@ -1,4 +1,4 @@
-sudo apt -y install python3 htop tinyproxy build-essential git vim unzip unrar screen fish aria2
+sudo apt -y install python3 htop tinyproxy build-essential git vim unzip unrar screen fish aria2 cifs-utils
 
 
 #config bash and ssh and screen
@@ -13,3 +13,10 @@ termcapinfo xterm* ti@:te@"\n\
 >~/.screenrc
 
 
+
+sudo bash -c "echo blacklist nouveau > /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
+sudo bash -c "echo options nouveau modeset=0 >> /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
+
+cat /etc/modprobe.d/blacklist-nvidia-nouveau.conf
+
+ sudo update-initramfs -u
