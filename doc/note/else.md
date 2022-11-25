@@ -19,6 +19,9 @@
 - [end](#end)
 
 # mount samba
+mkdir /mnt/jdsmb
+sudo chown suisuy jdsmb/
+
 sudo apt-get install cifs-utils
 
 sudo mount -t cifs -o rw,guest,vers=1.0 //192.168.1.1/Fab-EXT4 /media/MichelNAS/
