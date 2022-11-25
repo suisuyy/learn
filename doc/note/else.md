@@ -18,6 +18,9 @@
 - [kali](#kali)
 - [end](#end)
 
+# autofs
+
+
 # mount samba
 mkdir /mnt/jdsmb
 sudo chown suisuy jdsmb/
