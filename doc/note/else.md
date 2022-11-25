@@ -19,6 +19,13 @@
 - [end](#end)
 
 # autofs
+#/etc/auto.master
+/autofs   /etc/auto.ext --timeout=10,defaults,user,exec,uid=1000
+
+#/etc/auto.ext
+kbmain   -fstype=auto    :/dev/nvme0n1p3
+
+
 
 
 # mount samba
