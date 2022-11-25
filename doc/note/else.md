@@ -46,6 +46,11 @@ https://github.com/suisuyy/sbox.git
 
 #caddy
 sudo ./caddy reverse-proxy --from awsg.suisuy.eu.org:443 --to :80
+#Caddyfile
+example.com {
+  reverse_proxy 127.0.0.1:5244
+}
+
 
 #vv
 sudo ./v2ray -config wsserver.json 
