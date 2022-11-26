@@ -1,4 +1,10 @@
 sudo apt -y install python3 htop tinyproxy build-essential git vim unzip unrar screen fish aria2 cifs-utils
+#install nodelts
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
+bash
+nvm install --lts
+
+
 
 
 #config bash and ssh and screen
