@@ -3,6 +3,9 @@ sudo apt -y install python3 htop tinyproxy build-essential git vim unzip unrar s
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
 bash
 nvm install --lts
+npm config set registry http://registry.npmmirror.com
+#--registry=http://registry.npmmirror.com
+
 
 
 
