@@ -55,7 +55,7 @@ function getFirstWordOfString(str) {
 
 start();
 
-document.addEventListener('select', (ev) => {
+document.addEventListener('selectionchange', (ev) => {
     console.log(window.getSelection().toString())
     dictionaryWebsites.youdao.iframe.src = dictionaryWebsites.youdao.url + window.getSelection();
 })

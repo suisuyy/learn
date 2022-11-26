@@ -1,0 +1,334 @@
+.block_ {
+    display: block;
+    font-size: 0.58333em;
+    margin: 0;
+    padding: 0
+    }
+.block_1 {
+    display: block;
+    font-size: 0.58333em;
+    text-indent: 0;
+    margin: 4pt 0 0;
+    padding: 0
+    }
+.block_2 {
+    display: block;
+    font-size: 0.58333em;
+    text-indent: 0;
+    margin: 10pt 0 0;
+    padding: 0
+    }
+.block_3 {
+    display: block;
+    font-size: 0.58333em;
+    text-indent: 0;
+    margin: 3pt 0 0 18pt;
+    padding: 0
+    }
+.block_4 {
+    display: block;
+    font-size: 0.58333em;
+    text-indent: 0;
+    margin: 3pt 0 0 36pt;
+    padding: 0
+    }
+.block_5 {
+    display: block;
+    font-size: 0.58333em;
+    text-indent: 0;
+    margin: 3pt 0 4pt 18pt;
+    padding: 0
+    }
+.block_6 {
+    display: block;
+    font-size: 0.58333em;
+    line-height: 1.15;
+    margin: 0;
+    padding: 0
+    }
+.block_7 {
+    color: #494949;
+    display: block;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0
+    }
+.block_8 {
+    display: block;
+    font-family: serif;
+    font-size: 0.58333em;
+    margin: 24pt 0 3pt;
+    padding: 0
+    }
+.block_9 {
+    color: #494949;
+    display: block;
+    font-family: "Arial Unicode MS", serif;
+    font-size: 1.66667em;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 24pt 0 6pt;
+    padding: 0
+    }
+.block_10 {
+    color: #494949;
+    display: block;
+    font-family: serif;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0
+    }
+.block_11 {
+    color: #494949;
+    display: block;
+    font-family: "Arial Unicode MS", serif;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0
+    }
+.block_12 {
+    color: #494949;
+    display: block;
+    font-family: "Arial Unicode MS", serif;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0
+    }
+.block_13 {
+    color: #494949;
+    display: block;
+    font-family: "Arial Unicode MS", serif;
+    line-height: 1.2;
+    text-indent: 0;
+    margin: 0 0 0 20pt;
+    padding: 0
+    }
+.block_14 {
+    display: block;
+    font-size: 0.58333em;
+    text-indent: 0;
+    margin: 0 0 0 20pt;
+    padding: 0
+    }
+.block_15 {
+    display: block;
+    font-family: serif;
+    line-height: 1.2;
+    text-indent: 0;
+    margin: 0 0 0 20pt;
+    padding: 0
+    }
+.block_16 {
+    color: #494949;
+    display: block;
+    font-family: "Arial Unicode MS", serif;
+    font-size: 1.41667em;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 18pt 0 4pt;
+    padding: 0
+    }
+.block_17 {
+    color: #494949;
+    display: block;
+    font-size: 1.41667em;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 18pt 0 4pt;
+    padding: 0
+    }
+.block_18 {
+    color: #494949;
+    display: block;
+    font-family: "Arial Unicode MS", serif;
+    font-size: 1.125em;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 14pt 0 4pt;
+    padding: 0
+    }
+.block_19 {
+    display: block;
+    font-family: serif;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0
+    }
+.block_20 {
+    display: block;
+    font-size: 2em;
+    line-height: 1.2;
+    margin: 24pt 0 3pt;
+    padding: 0
+    }
+.block_21 {
+    display: block;
+    font-family: serif;
+    font-size: 0.58333em;
+    font-weight: normal;
+    margin: 24pt 0 6pt;
+    padding: 0
+    }
+.block_22 {
+    display: block;
+    font-family: serif;
+    font-size: 0.58333em;
+    margin: 0;
+    padding: 0
+    }
+.block_23 {
+    display: block;
+    font-family: serif;
+    font-size: 0.58333em;
+    text-indent: 0;
+    margin: 0 0 0 20pt;
+    padding: 0
+    }
+.block_24 {
+    display: block;
+    font-family: serif;
+    font-size: 0.58333em;
+    font-weight: normal;
+    margin: 18pt 0 4pt;
+    padding: 0
+    }
+.block_25 {
+    display: block;
+    font-family: serif;
+    font-size: 0.58333em;
+    font-weight: normal;
+    margin: 14pt 0 4pt;
+    padding: 0
+    }
+.calibre {
+    display: block;
+    font-family: "Arial", serif;
+    font-size: 1em;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 5pt
+    }
+.calibre1 {
+    font-weight: bold;
+    line-height: 1.2
+    }
+.text_ {
+    color: #15c;
+    font-size: 1.92857em;
+    line-height: 1.2;
+    text-decoration: underline
+    }
+.text_1 {
+    color: #15c;
+    font-size: 1.71429em;
+    text-decoration: underline
+    }
+.text_2 {
+    font-family: "Arial Unicode MS", serif;
+    font-size: 3.42857em;
+    line-height: 1.2
+    }
+.text_3 {
+    font-family: "Arial", serif;
+    font-weight: bold;
+    line-height: 1.2
+    }
+.text_4 {
+    font-family: "Arial Unicode MS", serif;
+    line-height: 1.2
+    }
+.text_5 {
+    font-family: "Arial Unicode MS", serif;
+    font-weight: bold;
+    line-height: 1.2
+    }
+.text_6 {
+    color: #70b1e7;
+    font-size: 1.71429em;
+    text-decoration: underline
+    }
+.text_7 {
+    color: #494949;
+    font-family: "Arial Unicode MS", serif;
+    line-height: 1.2
+    }
+.text_8 {
+    color: #70b1e7;
+    font-family: "Arial", serif;
+    line-height: 1.2;
+    text-decoration: underline
+    }
+.text_9 {
+    font-family: "Arial", serif;
+    line-height: 1.2
+    }
+.text_10 {
+    color: #70b1e7;
+    font-size: 1em;
+    text-decoration: underline
+    }
+.text_11 {
+    color: #494949;
+    font-family: "Arial", serif;
+    line-height: 1.2
+    }
+.text_12 {
+    color: #494949;
+    font-family: "Arimo", serif;
+    font-size: 2.85714em;
+    font-weight: bold;
+    line-height: 1.2
+    }
+.text_13 {
+    color: #494949;
+    font-family: "Arial", serif;
+    font-size: 1.71429em;
+    font-weight: bold
+    }
+.text_14 {
+    color: #494949;
+    font-family: "Arimo", serif;
+    font-size: 1.71429em
+    }
+.text_15 {
+    color: #494949;
+    font-family: "Arimo", serif;
+    font-size: 1.71429em;
+    font-weight: bold
+    }
+.text_16 {
+    color: #70b1e7;
+    font-family: "Arial", serif;
+    font-size: 1.71429em;
+    text-decoration: underline
+    }
+.text_17 {
+    color: #494949;
+    font-family: "Arimo", serif;
+    font-size: 2.42857em;
+    font-weight: bold;
+    line-height: 1.2
+    }
+.text_18 {
+    font-family: "Arimo", serif;
+    font-weight: bold;
+    line-height: 1.2
+    }
+.text_19 {
+    color: #494949;
+    font-family: "Arimo", serif;
+    font-size: 1.92857em;
+    font-weight: bold;
+    line-height: 1.2
+    }
+.text_20 {
+    color: #494949;
+    font-family: "Arimo", serif;
+    line-height: 1.2
+    }
+.text_21 {
+    color: #494949;
+    font-family: "Arimo", serif;
+    font-size: 1em
+    }

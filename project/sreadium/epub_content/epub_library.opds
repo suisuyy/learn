@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:odl="http://opds-spec.org/odl" xml:lang="en" xmlns:dcterms="http://purl.org/dc/terms/" xmlns="http://www.w3.org/2005/Atom" xmlns:app="http://www.w3.org/2007/app" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:thr="http://purl.org/syndication/thread/1.0" xmlns:opds="http://opds-spec.org/2010/catalog">
+
+<id>READIUM_OPDS_0123456789</id>
+<updated>2016-02-12T00:00:00Z</updated>
+<title>Readium CloudReader OPDS feed</title>
+<link rel="self" href="epub_library.opds" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+<link rel="start" href="epub_library.opds" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+
+
+<entry>
+  <title>README/使用说明</title>
+  <author>
+    <name>sreadium</name>
+  </author>
+  <link type="application/epub" href="./readme_sreadium"/>
+ 
+</entry>
+
+
+
+<entry>
+  <title>Debain/linux 手册</title>
+  <author>
+    <name>unknow</name>
+  </author>
+  <link type="application/epub" href="./debian-handbook-cn.epub"/>
+ 
+</entry>
+
+
+
+<entry>
+  <title>A Practical Approach To Understanding Music Theory</title>
+  <author>
+    <name>unknow</name>
+  </author>
+  <link type="application/epub" href="./A-Practical-Approach-To-Understanding-Music-Theory.epub"/>
+ 
+</entry>
+
+
+
+<entry>
+  <title>slibrary</title>
+  <author>
+    <name>sreadium</name>
+  </author>
+  <!-- <link type="image/png" href="epub_tests_a11y.png" rel="http://opds-spec.org/image/thumbnail"/> -->
+  <link type="application/atom+xml;profile=opds-catalog;kind=navigation" href="https://raw.githubusercontent.com/suisuyy/slibrary/main/epub_library.opds"/>  
+  <updated>2016-02-12T00:00:00Z</updated>
+  <id>READIUM_OPDS_0123456789_14</id>
+<link type="application/noop" href="DUMMY_ACQUISITION" rel="http://opds-spec.org/acquisition"/>
+</entry>
+
+
+
+
+<entry>
+  <title>Readium's lib</title>
+  <author>
+    <name>readium.org</name>
+  </author>
+  <!-- <link type="image/png" href="epub_tests_a11y.png" rel="http://opds-spec.org/image/thumbnail"/> -->
+  <link type="application/atom+xml;profile=opds-catalog;kind=navigation" href="https://readium.firebaseapp.com/epub_content/epub_library.opds"/>  
+  <updated>2016-02-12T00:00:00Z</updated>
+  <id>READIUM_OPDS_0123456789_14</id>
+<link type="application/noop" href="DUMMY_ACQUISITION" rel="http://opds-spec.org/acquisition"/>
+
+</entry>
+
+
+
+</feed>

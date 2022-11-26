@@ -1,0 +1,15 @@
+{
+    "name": "sread",
+    "short_name": "sread",
+    "lang": "en-US",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "theme_color": "#FF9800",
+    "background_color": "#FF9800",
+    "icons": [
+        {
+            "src": "./sreadiumhack/icon/icon192.png",
+            "sizes": "192x192"
+        }
+    ]
+}
