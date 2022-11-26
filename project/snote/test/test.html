@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snote</title>
+
+    <link rel="stylesheet" href="./pure.css">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <script defer src="./test.js" type="module"></script>
+</head>
+
+<body>
+    test
+    <div id="app">
+        <div id="editor"></div>
+        <div id="fm"></div>
+    </div>
+</body>
+
+<script>
+
+    setObjToStorage('test', { name: 'suisuy' })
+
+    function getObjFromStorage(name) {
+        return (
+            JSON.parse(window.localStorage.getItem(name)) ||
+            {}
+        );
+    }
+
+    function setObjToStorage(name, obj) {
+        window.localStorage.setItem(name, JSON.stringify(obj));
+    }
+
+    function updateLabelInStrogeLabel(name, label) {
+        let labels = getObjFromStorage(name);
+        labels[label.id] = label;
+        setObjToStorage(name, labels);
+    }
+</script>
+
+</html>
