@@ -22,6 +22,8 @@ https://learn.microsoft.com/en-us/training/modules/plan-config-global-address-bo
 
 http://laomoe.gitee.io/db2/
 
+https://webglb.suisuy.eu.org/aquarium/aquarium
+
 
 # ad filter
 
