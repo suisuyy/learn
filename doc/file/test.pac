@@ -1,16 +1,11 @@
 function FindProxyForURL(url, host) {
-  if (isInNet(host,
-    "198.95.0.0",
-    "255.255.0.0")
-
-  ) {
+  if (isPlainHostName(host) || dnsDomainIs(host, ".mydomain.com")) {
     return "DIRECT";
+  } else if (shExpMatch(host, "*.com")) {
+    return "PROXY proxy1.mydomain.com:8080; PROXY proxy4.mydomain.com:8080";
+  } else if (shExpMatch(host, "*.edu")) {
+    return "PROXY proxy2.mydomain.com:8080; PROXY proxy4.mydomain.com:8080";
+  } else {
+    return "PROXY proxy3.mydomain.com:8080; PROXY proxy4.mydomain.com:8080";
   }
-
-  if (shExpMatch(url, "*/ari/*")) {
-    return "DIRECT";
-  }
-
-
-  return "PROXY proxy.mydomain.com:8080";
 }
