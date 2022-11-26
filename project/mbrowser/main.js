@@ -1,4 +1,6 @@
-const WIDTH_PERCENTAGE = 40;
+const WIDTH_PERCENTAGE = 100;
+const HEIGHT_PERCENTAGE = 80;
+
 let activeWindow = null;
 let windowsContainer = document.querySelector('#windowsContainer');
 
@@ -10,7 +12,7 @@ let model = {
 let controller = {
     addWindow: function (position, size, src, name) {
         position = position || { x: 50 + model.windowsAmount * 30, y: 150 + model.windowsAmount * 50 };
-        size = size || { width: window.innerWidth * WIDTH_PERCENTAGE / 100, height: window.innerWidth * WIDTH_PERCENTAGE / 100 };
+        size = size || { width: window.innerWidth * WIDTH_PERCENTAGE / 100, height: window.innerHeight * HEIGHT_PERCENTAGE / 100 };
         let newWindow = {
             position: position,
             size: size,
@@ -63,7 +65,7 @@ let controller = {
     }
 }
 
-controller.addWindow()
+
 
 function createWindowDiv(name, id, src, position, size = [window.innerWidth * 0.9, window.innerWidth * 1]) {
     let windowDiv = document.createElement('div');
@@ -71,7 +73,7 @@ function createWindowDiv(name, id, src, position, size = [window.innerWidth * 0.
     windowDiv.classList = ['WindowDiv']
     windowDiv.innerHTML = `
     <div class="TopBar">
-        <input type="text" class="WindowName" value=${name}>
+        <input type="text" class="WindowName" value=${name} disabled>
         <input class="WindowSrc" value=${src}>
         <button class="newBtn ActionBtn"><i class="icofont-plus"></i></button>
         <button class="reloadBtn ActionBtn"><i class="icofont-refresh"></i></button>
@@ -86,7 +88,7 @@ function createWindowDiv(name, id, src, position, size = [window.innerWidth * 0.
     windowDiv.style.left = position.x + 'px';
     windowDiv.style.width = size.width + 'px';
     windowDiv.style.height = size.height + 'px';
-    windowDiv.style.zIndex = '1';
+    windowDiv.style.zIndex = model.windowsAmount;
 
     let newBtn = windowDiv.querySelector('.newBtn');
     let reloadBtn = windowDiv.querySelector('.reloadBtn');
@@ -108,7 +110,7 @@ function createWindowDiv(name, id, src, position, size = [window.innerWidth * 0.
             activeWindow.style.zIndex = '1';
         }
         activeWindow = windowDiv;
-        windowDiv.style.zIndex = '10';
+        windowDiv.style.zIndex = '100';
     })
 
     srcInput.addEventListener('change', e => {
@@ -158,45 +160,6 @@ function createWindowDiv(name, id, src, position, size = [window.innerWidth * 0.
 
 
 
-// let mainWindowDiv = document.querySelector('#mainWindowDiv');
-// let mainMoveBtn = document.querySelector('#mainMoveBtn');
-
-// let isDown = false;
-// offset = [0, 0];
-// moveBtn.addEventListener('pointerdown', function (e) {
-//     isDown = true;
-//     offset = [
-//         mainWindowDiv.offsetLeft - e.clientX,
-//         mainWindowDiv.offsetTop - e.clientY
-//     ];
-
-// }, true);
-
-// document.addEventListener('pointerup', function () {
-//     isDown = false;
-// }, true);
-
-// document.addEventListener('pointermove', function (event) {
-//     event.preventDefault();
-//     if (isDown) {
-//         mousePosition = {
-
-//             x: event.clientX,
-//             y: event.clientY
-
-//         };
-
-//         windowDiv.style.left = (mousePosition.x + offset[0]) + 'px';
-//         windowDiv.style.top = (mousePosition.y + offset[1]) + 'px';
-//     }
-// }, true);
-
-
-
-
-
-
-
 
 
 const swURL = "./service-worker.js"
@@ -231,3 +194,5 @@ if (window.location.protocol === 'http:') {
     linkAchor.href = window.location.href.replace('http://', 'https://');
     requireHTTPSDiv.classList.remove('hidden');
 }
+
+controller.addWindow()

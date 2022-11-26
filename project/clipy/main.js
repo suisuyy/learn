@@ -1,4 +1,3 @@
-import './style.css'
 
 let dictionaryWebsites = {
     youdao: { url: 'https://mobile.youdao.com/dict?le=eng&q=', iframe: null },
