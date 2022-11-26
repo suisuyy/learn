@@ -6,5 +6,11 @@ function FindProxyForURL(url, host) {
   ) {
     return "DIRECT";
   }
+
+  if (shExpMatch(url, "*/ari/*")) {
+    return "DIRECT";
+  }
+
+
   return "PROXY proxy.mydomain.com:8080";
 }
