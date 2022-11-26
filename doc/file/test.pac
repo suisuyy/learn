@@ -2,7 +2,7 @@ function FindProxyForURL(url, host) {
   if (isPlainHostName(host) || dnsDomainIs(host, ".localhost")) {
     return "DIRECT";
   }
-  else if (isInNet(host, "198.95.0.0", "255.255.0.0", "172.22.0.0")) {
+  else if (isInNet(host, "198.95.0.0", "255.255.0.0", "172.22.22.0")) {
     return "DIRECT";
   }
   else if (shExpMatch(host, "*.cn")) {
