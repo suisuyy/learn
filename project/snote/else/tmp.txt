@@ -1,0 +1,7 @@
+github: {
+        currentRepo: '',
+        token: CONSTANT.ENV.github_app.test_token,
+        client_id: CONSTANT.ENV.github_app.client_id,
+        client_secret: CONSTANT.ENV.github_app.client_secret,
+        repo_path: CONSTANT.ENV.github_app.repo_path,
+    },

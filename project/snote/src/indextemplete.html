@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snote</title>
+
+    <link rel="stylesheet" href="./pure.css">
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <span class="spiner">
+        <img src="./spiner.gif" alt="spiner">
+        <br>
+        <span></span>
+    </span>
+    <div class="pure-menu pure-menu-horizontal">
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item  pure-menu-allow-hover">
+                <span href="" class="pure-menu-link">File</span>
+                <ul class="pure-menu-children">
+                    <li class="pure-menu-item" id="fileOpenButton">
+                        <span href="" class="pure-menu-link">open</span>
+                    </li>
+                    <li class="pure-menu-item" id="fileSaveButton">
+                        <span href="" class="pure-menu-link">save</span>
+                    </li>
+
+                </ul>
+            </li>
+            <li class="pure-menu-item  pure-menu-allow-hover">
+                <a href="https://github.com/login/oauth/authorize?client_id=62bae466424e9145c0a5&scope=user%20gist%20repo&state=snote"
+                    class="pure-menu-link" id="loginBar">Login</a>
+            </li>
+            <li class="pure-menu-item  pure-menu-allow-hover">
+                <span href="" id="menuLink1" class="pure-menu-link">Else</span>
+                <ul class="pure-menu-children">
+                    <li class="pure-menu-item">
+                        <spaspan href="" class="pure-menu-link">Email</spaspan>
+                    </li>
+                    <li class="pure-menu-item" id="debugToggler">
+                        <spaspan href="" class="pure-menu-link">Debug</spaspan>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div id="debug" class="hidden">
+        <button id="debugButton">test</button><br>
+        <pre name="objdisplayer" id="objDisplayer" rows="20"></pre>
+    </div>
+    <div id="app">
+        <div id="editor"></div>
+        <div id="fm" class="rightAligned"></div>
+    </div>
+</body>
+
+</html>

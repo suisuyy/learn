@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+.clipboard-textarea {
+    width: 100%;
+    height: 30vh;
+}
+
+.dictionary-displayer {
+    width: 100%;
+    height: 68vh;
+}

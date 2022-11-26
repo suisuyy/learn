@@ -1,0 +1,72 @@
+html{
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #546E7A;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  height: 100%;
+}
+
+
+.hidden{
+  display: none;
+}
+.WindowDiv{
+  width: 99%;
+  height: 48%;
+  padding: 0;
+  position:absolute;
+  background-color: lightpink;
+  border-width: thick;
+  border-style: solid;
+  border-color: lightpink;
+  overflow: hidden;
+  touch-action: none;
+  
+
+}
+.TopBar{
+  width: 100%;
+  height: auto;
+  color: black;
+  padding: 3px;
+ 
+}
+
+.WindowName{
+  border-width: 0;
+  width:10%;
+}
+.WindowSrc{
+  border-width: 0;
+  width: 40%;
+}
+
+.MoveBtn{
+  touch-action: none;
+}
+.WindowContent{
+  width: 99%;
+  height: 93%;
+
+  background-color: white;
+}
+
+.WindowWidthInput{
+  width:20px;
+}
+.WindowHeightInput{
+  width:20px;
+}
+
+.nothingclass{
+  background-color: #ffffff;
+}
+
+.ActionBtn:{
+  border: none;
+}

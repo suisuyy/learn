@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>mbrowser</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Manifest -->
+    <link rel="manifest" href="./manifest.json">
+    <link rel="icon" type="image/png" href="./bear58.png" />
+
+    <link rel="stylesheet" href="./icofont/icofont.min.css">
+
+</head>
+
+<body>
+    <div>
+        <button id="saveAllWindowsBtn">save session</button>
+        <button id="fsBtn">fullscreen</button>
+    </div>
+    <p>saved sessions</p>
+    <ol class='SessionList'>
+    </ol>
+
+    <div id='windowsContainer'></div>
+    <!-- <div class='WindowDiv' id="mainWindowDiv">
+        <div class="TopBar">
+            <input type="text" class="WindowTitle">
+            <input class="WindowSrc">
+            <button class="MoveBtn" id="mainMoveBtn">move</button>
+        </div>
+        <iframe class="WindowContent" src="https://test.suisuy.top/html/clipdict/dict/"></iframe>
+    </div> -->
+    <br>
+    <!-- <div class='WindowDiv' id="secondWindowDiv">
+        <div class="TopBar">
+            <input type="text" class="WindowTitle">
+            <input class="WindowSrc">
+        </div>
+        <iframe class="WindowContent" src="https://test.suisuy.top/html/clipdict/dict/"></iframe>
+    </div> -->
+
+
+
+
+    <p id="requireHTTPS" class="hidden">
+        <b>STOP!</b> This page <b>must</b> be served over HTTPS.
+        Please <a>reload this page via HTTPS</a>.
+    </p>
+
+    <!-- import the webpage's javascript file -->
+    <script src="./main.js" defer></script>
+    <script src="./settings.js" defer></script>
+
+</body>
+
+</html>
