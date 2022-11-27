@@ -62,7 +62,9 @@ https://coredump.ws/index.php?dir=code&post=NoVNC_with_audio
 
 4713
 
-
+step:
+ ./audio 0.0.0.0 5801
+./websockify 0.0.0.0:8080 0.0.0.0:5801 --cer ./cert.pem --key key.pem 
 
 #install dependencies
 sudo apt install build-essential libssl-dev
