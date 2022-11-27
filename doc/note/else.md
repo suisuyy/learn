@@ -60,7 +60,9 @@ sudo ./v2ray -config wsserver.json
 https://coredump.ws/index.php?dir=code&post=NoVNC_with_audio
 
 
-4713
+4713 pulseaudio default port
+8080 websocketfy port  //seem must be 8080, or chrome will deny to connect
+ 
 
 step:
  ./audio 0.0.0.0 5801
