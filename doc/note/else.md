@@ -60,13 +60,16 @@ sudo ./v2ray -config wsserver.json
 https://coredump.ws/index.php?dir=code&post=NoVNC_with_audio
 
 
-4713 pulseaudio default port
+4713 pulseaudio default port,
+10101  tcpulse listening port  //audio redirect server port 
 8080 websocketfy port  //seem must be 8080, or chrome will deny to connect
- 
 
-step:
- ./audio 0.0.0.0 5801
-./websockify 0.0.0.0:8080 0.0.0.0:5801 --cer ./cert.pem --key key.pem 
+
+only stream audio step:
+ ./audio 0.0.0.0 10101
+./websockify 0.0.0.0:8080 0.0.0.0:10101 --cer ./cert.pem --key key.pem 
+open saudio/test.html and click start 
+
 
 #install dependencies
 sudo apt install build-essential libssl-dev
