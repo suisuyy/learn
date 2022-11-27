@@ -60,9 +60,10 @@ sudo ./v2ray -config wsserver.json
 https://coredump.ws/index.php?dir=code&post=NoVNC_with_audio
 
 
+
 #install dependencies
 sudo apt install build-essential libssl-dev
-
+sudo apt install gstreamer1.0-plugins-bad
 
 vncserver -localhost no  -geometry 1600x900  -xstartup  ~/.vnc/xstartup
 
