@@ -60,6 +60,9 @@ sudo ./v2ray -config wsserver.json
 https://coredump.ws/index.php?dir=code&post=NoVNC_with_audio
 
 
+4713
+
+
 
 #install dependencies
 sudo apt install build-essential libssl-dev
