@@ -189,6 +189,8 @@ curl https://raw.githubusercontent.com/suisuyy/sbox/main/test/google-chrome-stab
 #show port
 netstat -tulpn | grep 10801 
 sudo lsof -i:22
+kill $(lsof -t -i:8080) #kill that
+
 nload -u M  wlan0
 sudo nethogs
 sudo nmap -sn 192.168.68.0/24
