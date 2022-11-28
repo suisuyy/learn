@@ -1,12 +1,11 @@
 [Unit]
 Description=simple service demo
-After=network.target
+After=autofs.target
  
 [Service]
 Type=simple
-WorkingDirectory=/home/suisuy/kbmaindata/project/alist
-ExecStart=/root/sinit
-Restart=on-failure
+ExecStart=/bin/bash -c 'sleep 10;/root/sinit'
+Restart=always
  
 [Install]
 WantedBy=multi-user.target
