@@ -4,7 +4,7 @@
 
 [linuxnote](./mdreader.html?md=note/linuxnote.md)
 
-[else](./mdreader.html?md=note/else.md)
+[else](./mdreader.html?md=../../else.md)
 
 [jsnote](./mdreader.html?md=note/jsnote.md)
 
