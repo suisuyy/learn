@@ -18,6 +18,28 @@
 - [kali](#kali)
 - [end](#end)
 
+
+
+# grub boot iso
+ #下载镜像至根目录
+ cd /
+ wget https://mirrors.tuna.tsinghua.edu.cn/archlinux/iso/latest/archlinux-2020.02.01-x86_64.iso
+ #重命名为 arch.iso
+ mv arch* arch.iso
+ #编辑GRUB配置文件，加入 arch.iso 启动项（部分系统的该文件路径为 /boot/grub2/grub.cfg ）
+ #编辑 /boot/grub/grub.cfg，在与下面结构类似的第一个 menuentry 前，添加下面的内容。（搜索“menuentry（空格）”的第一个匹配项）
+ vim /boot/grub/grub.cfg
+ #配置600秒的GRUB等待时长，“vda1”项根据主机“fdisk -l”命令查看，视情况更改
+ #花括号内的缩进为一个Tab键
+ set timeout=600
+ menuentry "Archlinux Live (x86_64)" {
+     insmod iso9660
+     set isofile=/arch.iso
+     loopback lo0 ${isofile}
+     linux (lo0)/arch/boot/x86_64/vmlinuz archisolabel=ARCH_202002 img_dev=/dev/vda1 img_loop=${isofile} earlymodules=loop
+     initrd (lo0)/arch/boot/x86_64/archiso.img
+ }
+
 # autofs
 #/etc/auto.master
 /autofs   /etc/auto.ext --timeout=10,defaults,user,exec,uid=1000
