@@ -114,8 +114,7 @@ tar cvpjf backup.tar.bz2 --exclude-from=excl /
 iperf3 -c 192.168.68.174   -b 200m -P 4
 
 #dd disk write speed
-BUFSIZE=40M  COUNT=10 ;echo start test write speed_______________; sudo dd if=/dev/zero of=./testspeed bs=$BUFSIZE count=$COUNT status=progress  oflag=dsync;
-BUFSIZE=40M  COUNT=10 ;echo start test read speed_______________; sudo dd if=./testspeed of=/dev/null bs=$BUFSIZE count=$COUNT status=progress  oflag=dsync;
+DIR='.'BUFSIZE=40M  COUNT=2 ;echo start test write speed_______________; sudo dd if=/dev/zero of=$(DIR)/testspeed bs=$BUFSIZE count=$COUNT status=progress  oflag=dsync;echo start test read speed_______________; sudo dd if=$($DIR)/testspeed of=/dev/null bs=$BUFSIZE count=$COUNT status=progress  oflag=dsync;
 
 
 
