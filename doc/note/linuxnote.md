@@ -115,7 +115,7 @@ iperf3 -c 192.168.68.174   -b 200m -P 4
 
 #dd disk write speed
 BUFSIZE=40M  COUNT=10 ;echo start test write speed_______________; sudo dd if=/dev/zero of=./testspeed bs=$BUFSIZE count=$COUNT status=progress  oflag=dsync;
-BUFSIZE=40M  COUNT=10 ;echo start test read speed_______________; sudo dd if=/ of=./testspeed bs=$BUFSIZE count=$COUNT status=progress  oflag=dsync;
+BUFSIZE=40M  COUNT=10 ;echo start test read speed_______________; sudo dd if=./testspeed of=/dev/null bs=$BUFSIZE count=$COUNT status=progress  oflag=dsync;
 
 
 
