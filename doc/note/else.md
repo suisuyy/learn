@@ -19,6 +19,8 @@
 - [end](#end)
 
 
+SigLevel = Never
+
 
 # grub boot iso
  #下载镜像至根目录
