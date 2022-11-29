@@ -40,7 +40,7 @@
      initrd (lo0)/arch/boot/x86_64/archiso.img
  }
 
-# autofs
+# autofs not used ,too hard to config,use script instead
 #/etc/auto.master
 /autofs   /etc/auto.ext --timeout=10,defaults,user,exec,uid=1000
 #/etc/auto.ext
