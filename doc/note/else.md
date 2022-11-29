@@ -20,6 +20,7 @@
 
 
 SigLevel = Never
+TrustAll
 
 
 # grub boot iso
