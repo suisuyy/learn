@@ -21,6 +21,8 @@
 
 # lxc
 sudo apt install lxc
+lxc-create -n playtime -t download -- --dist archlinux --release current --arch amd64
+#lxc-create -n playtime -t download
 
 
 
