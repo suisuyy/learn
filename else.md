@@ -21,7 +21,7 @@
 
 SigLevel = Never
 TrustAll
-pacman-key --populate
+pacman-key --init;pacman-key --populate
 
 # grub boot iso
  #下载镜像至根目录
