@@ -73,7 +73,10 @@ adb reboot bootloader
 
 # auto task
 ## auto at gui login
-vim ~/.xprofile # note dont put sleep there ,it will stuck gui startup
+vim ~/.xprofile # note dont put sleep there ,it will stuck gui startup, use something like this
+bash -c "sleep 4; bash ~/.autostart" &
+
+them edit .autostart file
 
 
 
