@@ -19,6 +19,15 @@
 - [end](#end)
 
 
+# Autologin
+SDDM supports automatic login through its configuration file, for example:
+
+/etc/sddm.conf.d/autologin.conf
+[Autologin]
+User=john
+Session=plasma
+
+
 # lxc
 sudo apt install lxc
 lxc-create -n playtime -t download -- --dist archlinux --release current --arch amd64
