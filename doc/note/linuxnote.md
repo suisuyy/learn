@@ -72,6 +72,11 @@ adb reboot bootloader
 ```
 
 # auto task
+## auto at gui login
+vim ~/.xprofile # note dont put sleep there ,it will stuck gui startup
+
+
+
 #cron
 ```
 
