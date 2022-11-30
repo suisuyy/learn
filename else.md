@@ -25,6 +25,8 @@ lsmod | grep 'vf'
 uuidgen
 c14cab13-1b82-45b4-80fa-e0897e4d4463
 
+test
+20fps at 20k,50% cpu usage
 https://cetteup.com/216/how-to-use-an-intel-vgpu-for-plexs-hardware-accelerated-streaming-in-a-proxmox-vm/
 
 BOOT_IMAGE=/boot/vmlinuz-5.15.0-53-generic root=UUID=1f5fc5d2-abcf-4090-a20d-670beff95cfc ro quiet splash intel_iommu=on iommu=pt i915.enable_gvt=1 vt.handoff=7
