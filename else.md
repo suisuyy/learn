@@ -71,10 +71,10 @@ echo "$GVT_GUID" > "/sys/devices/pci${GVT_DOM}/$GVT_PCI/mdev_supported_types/$GV
       </source>
     </hostdev>
 
-    <graphics type='vnc' autoport='yes'>
-      <listen type='address'/>
+   <graphics type='spice'>
+      <listen type='none'/>
+      <gl enable='yes'/>
     </graphics>
-    <graphics type='egl-headless'/>
     <video>
       <model type='none'/>
     </video>
