@@ -84,7 +84,8 @@ them edit .autostart file
 ```
 #cron file format
  min h d m dw  cmd
- * * * * *   will run for every minute
+ * * * * * echo testcron >>~/test  
+  will run for every minute
 
 CRON_TZ=Asia/Shanghai 0 5 0 * * *
 
