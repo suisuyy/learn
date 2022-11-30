@@ -54,7 +54,7 @@ lspci -D -nn | grep VGA
 export GVT_DOM='0000:00'
 export GVT_PCI='0000:00:02.0'
 export GVT_GUID=c14cab13-1b82-45b4-80fa-e0897e4d4463
-export GVT_TYPE= i915-GVTg_V5_4
+export GVT_TYPE=i915-GVTg_V5_4
 
 /sys/devices/pci0000\:00/0000\:00\:02.0
 #video memory  123 512 1900x1200
