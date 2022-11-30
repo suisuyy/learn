@@ -25,6 +25,21 @@ https://cetteup.com/216/how-to-use-an-intel-vgpu-for-plexs-hardware-accelerated-
  cat /proc/cmdline
 BOOT_IMAGE=/boot/vmlinuz-5.15.0-53-generic root=UUID=1f5fc5d2-abcf-4090-a20d-670beff95cfc ro quiet splash intel_iommu=on iommu=pt i915.enable_gvt=1 vt.handoff=7
 
+#/etc/module
+/etc/modules.
+
+# Modules required for PCI passthrough
+vfio
+vfio_iommu_type1
+vfio_pci
+vfio_virqfd
+
+# Modules required for Intel GVT
+kvmgt
+exngt
+vfio-mdev
+
+update-initramfs -u -k all
 
 
 
