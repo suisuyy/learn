@@ -2,8 +2,11 @@
 
 #install packages
 sudo apt update
-sudo apt install -y fonts-wqy-zenhei openssh-server ntfs-3g iputils-ping iperf3 curl wget git vim bash-completion screen htop w3m aria2 p7zip unrar rsync sshfs tinyproxy 
+sudo apt install -y fonts-wqy-zenhei openssh-server ntfs-3g iputils-ping iperf3 curl wget git vim bash-completion screen htop w3m aria2 p7zip unrar rsync sshfs tinyproxy
 #sudo apt  install  -y dbus-x11 xfce4  xfce4-terminal
+
+#config user ,sudo without passwd
+echo "%${USER}  ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers
 
 
 #config bash and ssh and screen
@@ -12,7 +15,7 @@ echo -e "ServerAliveInterval 1\nServerAliveCountMax 2" >>~/.ssh/config
 
 
 echo -e \
-"escape ^Jj \n\
+"escape ^eE \n\
 hardstatus alwayslastline\n\
 hardstatus string '%{gk}[%{wk}%?%-Lw%?%{=b kR}(%{W}%n*%f %t%?(%u)%?%{=b kR})%{=w}%?%+Lw%?%? %{g}][%{d}%l%{g}][ %{=w}%Y/%m/%d %0C:%s%a%{g} ]%{W}' \n\
 termcapinfo xterm* ti@:te@"\n\
