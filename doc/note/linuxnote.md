@@ -87,6 +87,9 @@ them edit .autostart file
  * * * * * echo testcron >>~/test  
   will run for every minute
 
+@reboot [path to command] [argument1] [argument2] … [argument n]
+@reboot [part to shell script]
+
 CRON_TZ=Asia/Shanghai 0 5 0 * * *
 
 crontab -l  
