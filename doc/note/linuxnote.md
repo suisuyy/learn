@@ -604,6 +604,8 @@ useradd -m -s /bin/bash -G sudo testshell
 
 echo "admin ALL=(ALL) ALL" > /etc/sudoers
 echo "%suisuy  ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers
+echo "%${USER}  ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers
+
 
 
 
