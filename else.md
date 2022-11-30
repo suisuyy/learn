@@ -22,6 +22,8 @@
 # intel vgpu
  cat /proc/cmdline
 lsmod | grep 'vf'
+uuidgen
+c14cab13-1b82-45b4-80fa-e0897e4d4463
 
 https://cetteup.com/216/how-to-use-an-intel-vgpu-for-plexs-hardware-accelerated-streaming-in-a-proxmox-vm/
 
@@ -47,6 +49,8 @@ update-initramfs -u -k all
 00:02.0 VGA compatible controller [0300]: Intel Corporation UHD Graphics 620 [8086:5917] (rev 07) (prog-if 00 [VGA controller])
 00:02.0
 
+export GVT_PCI=0000:00:02.0
+export GVT_GUID=c14cab13-1b82-45b4-80fa-e0897e4d4463
 
 
 # Autologin
