@@ -20,6 +20,9 @@
 
 
 # intel vgpu
+https://cetteup.com/216/how-to-use-an-intel-vgpu-for-plexs-hardware-accelerated-streaming-in-a-proxmox-vm/
+
+
 
 # Autologin
 SDDM supports automatic login through its configuration file, for example:
