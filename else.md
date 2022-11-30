@@ -19,9 +19,11 @@
 - [end](#end)
 
 
+# intel vgpu
+
 # Autologin
 SDDM supports automatic login through its configuration file, for example:
-
+seems only work for plasma
 /etc/sddm.conf.d/autologin.conf
 [Autologin]
 User=john
