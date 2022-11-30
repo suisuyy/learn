@@ -603,7 +603,9 @@ tar tf file.tar.gz #list content in tar
 useradd -m -s /bin/bash -G sudo testshell
 
 echo "admin ALL=(ALL) ALL" > /etc/sudoers
-%sudo  ALL=(ALL) NOPASSWD: ALL
+echo "%suisuy  ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers
+
+
 
 # usermod
 
