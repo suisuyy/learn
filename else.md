@@ -51,8 +51,8 @@ update-initramfs -u -k all
 lspci -D -nn | grep VGA
 0000:00:02.0 VGA compatible controller [0300]: Intel Corporation UHD Graphics 620 [8086:5917] (rev 07)
 
-export GVT_DOM=0000
-export GVT_PCI=0000:00:02.0
+export GVT_DOM='0000:00'
+export GVT_PCI='0000:00:02.0'
 export GVT_GUID=c14cab13-1b82-45b4-80fa-e0897e4d4463
 export GVT_TYPE= i915-GVTg_V5_4
 
