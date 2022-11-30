@@ -26,7 +26,7 @@ uuidgen
 c14cab13-1b82-45b4-80fa-e0897e4d4463
 
 test
-webgl 20fps at 20k,50% cpu usage
+webgl 20fps at 20k,50% cpu usage  vs 40fps 30%
 1080p 50% 30 cpu
 https://cetteup.com/216/how-to-use-an-intel-vgpu-for-plexs-hardware-accelerated-streaming-in-a-proxmox-vm/
 
