@@ -20,7 +20,7 @@
 
 
 # intel vgpu
- cat /proc/cmdline
+cat /proc/cmdline
 lsmod | grep 'vf'
 uuidgen
 c14cab13-1b82-45b4-80fa-e0897e4d4463
