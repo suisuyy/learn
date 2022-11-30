@@ -43,6 +43,10 @@ vfio-mdev
 
 update-initramfs -u -k all
 
+ lspci -nnv | grep VGA
+00:02.0 VGA compatible controller [0300]: Intel Corporation UHD Graphics 620 [8086:5917] (rev 07) (prog-if 00 [VGA controller])
+00:02.0
+
 
 
 # Autologin
