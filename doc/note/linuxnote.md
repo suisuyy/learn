@@ -85,8 +85,8 @@ them edit .autostart file
 
 CRON_TZ=Asia/Shanghai 0 5 0 * * *
 
-crontab -e 'cmd'
-crontab -l
+crontab -l  
+crontab -e 'min h d m dw  cmd'
 crontab -r rmtask
 
 ```
