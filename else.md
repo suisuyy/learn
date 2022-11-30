@@ -70,6 +70,14 @@ echo "$GVT_GUID" > "/sys/devices/pci${GVT_DOM}/$GVT_PCI/mdev_supported_types/$GV
         <address uuid='c14cab13-1b82-45b4-80fa-e0897e4d4463'/>
       </source>
     </hostdev>
+
+    <graphics type='vnc' autoport='yes'>
+      <listen type='address'/>
+    </graphics>
+    <graphics type='egl-headless'/>
+    <video>
+      <model type='none'/>
+    </video>
 ```
 
 # Autologin
