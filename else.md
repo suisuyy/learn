@@ -60,6 +60,11 @@ export GVT_TYPE=i915-GVTg_V5_4
 #video memory  123 512 1900x1200
 i915-GVTg_V5_4
 
+echo "$GVT_GUID" > "/sys/devices/pci${GVT_DOM}/$GVT_PCI/mdev_supported_types/$GVT_TYPE/create"
+
+ ls /sys/bus/pci/devices/$GVT_PCI/$GVT_GUID/
+
+
 
 # Autologin
 SDDM supports automatic login through its configuration file, for example:
