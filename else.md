@@ -22,6 +22,10 @@
 # intel vgpu
 https://cetteup.com/216/how-to-use-an-intel-vgpu-for-plexs-hardware-accelerated-streaming-in-a-proxmox-vm/
 
+ cat /proc/cmdline
+BOOT_IMAGE=/boot/vmlinuz-5.15.0-53-generic root=UUID=1f5fc5d2-abcf-4090-a20d-670beff95cfc ro quiet splash intel_iommu=on iommu=pt i915.enable_gvt=1 vt.handoff=7
+
+
 
 
 # Autologin
