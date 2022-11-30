@@ -65,7 +65,7 @@ echo "$GVT_GUID" > "/sys/devices/pci${GVT_DOM}/$GVT_PCI/mdev_supported_types/$GV
  ls /sys/bus/pci/devices/$GVT_PCI/$GVT_GUID/
 
 ```
- <hostdev mode='subsystem' type='mdev' managed='no' model='vfio-pci' display='off'>
+ <hostdev mode='subsystem' type='mdev' managed='no' model='vfio-pci' display='on'>
       <source>
         <address uuid='c14cab13-1b82-45b4-80fa-e0897e4d4463'/>
       </source>
