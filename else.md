@@ -112,7 +112,10 @@ open saudio/test.html and click start
 sudo apt install build-essential libssl-dev
 sudo apt install gstreamer1.0-plugins-bad
 
+#start vncserver
+x0vncserver -localhost no   :0 
 vncserver -localhost no  -geometry 1600x900  -xstartup  ~/.vnc/xstartup
+
 
 python3 -m http.serve
 
