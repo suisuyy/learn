@@ -82,11 +82,14 @@ them edit .autostart file
 
 #cron
 ```
+#cron file format
+ min h d m dw  cmd
+ * * * * *   will run for every minute
 
 CRON_TZ=Asia/Shanghai 0 5 0 * * *
 
 crontab -l  
-crontab -e 'min h d m dw  cmd'
+crontab -e
 crontab -r rmtask
 
 ```
