@@ -156,7 +156,7 @@ sudo ./v2ray -config wsserver.json
 
 #  vnc novnc tigervnc
 https://coredump.ws/index.php?dir=code&post=NoVNC_with_audio
-
+x0vncserver -display :0 -PasswordFile ~/.vnc/passwd
 
 4713 pulseaudio default port,
 10101  tcpulse listening port  //audio redirect server port 
