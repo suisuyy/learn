@@ -6,9 +6,11 @@ https://527y3c-my.sharepoint.com/:f:/g/personal/suisuy_527y3c_onmicrosoft_com/Eq
 
 https://github.com/suisuyy/learn/blob/main/doc/note/qnote.md
 
-https://hosturl/vnc.html?host=h&port=5801&reconnect=true&compression=3&quality=5&password=
+
 
 # tools 
+
+https://hosturl/vnc.html?host=h&port=5801&reconnect=true&compression=3&quality=5&password=
 
 https://webcamera.io/
 
