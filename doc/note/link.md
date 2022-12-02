@@ -6,7 +6,7 @@ https://527y3c-my.sharepoint.com/:f:/g/personal/suisuy_527y3c_onmicrosoft_com/Eq
 
 https://github.com/suisuyy/learn/blob/main/doc/note/qnote.md
 
-https://hosturl/vnc.html?host=15.152.37.220&port=5901&reconnect=true&compression=3&quality=5
+https://hosturl/vnc.html?host=&port=5901&reconnect=true&compression=3&quality=5
 
 # tools 
 
