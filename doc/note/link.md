@@ -20,6 +20,8 @@ http://tongmengxz.com/category/picture
 
 https://learn.microsoft.com/en-us/training/modules/plan-config-global-address-book-finance-operations/4-exercise
 
+https://527y3c-my.sharepoint.com/:o:/g/personal/suisuy_527y3c_onmicrosoft_com/EhpJoxH5fD1BkLmMtBawAwkB8ImZxEsicjxvJvAwwnpHKQ?e=oA6Af9
+
 http://laomoe.gitee.io/db2/
 
 https://webglb.suisuy.eu.org/aquarium/aquarium
