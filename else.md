@@ -29,7 +29,7 @@ keyboard name use label
             <meta-data android:name="android.view.im" android:resource="@xml/method" />
         </service>
 
-
+root
 # intel vgpu
 cat /proc/cmdline
 lsmod | grep 'vf'
