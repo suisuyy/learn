@@ -18,10 +18,10 @@
 - [kali](#kali)
 - [end](#end)
 
+android
 
 
-
-
+ ime
 
 # intel vgpu
 cat /proc/cmdline
