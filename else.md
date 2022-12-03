@@ -19,6 +19,15 @@
 - [end](#end)
 
 android  ime
+       <service android:name="SpcSoftBoard"
+            android:label="@string/sime_name"
+            android:permission="android.permission.BIND_INPUT_METHOD">
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+            <meta-data android:name="android.view.im" android:resource="@xml/method" />
+        </service>
+
 
 # intel vgpu
 cat /proc/cmdline
