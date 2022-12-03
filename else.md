@@ -29,6 +29,14 @@ keyboard name use label
             <meta-data android:name="android.view.im" android:resource="@xml/method" />
         </service>
 
+   @Override
+    public void onComputeInsets(Insets outInsets) {
+
+        outInsets.contentTopInsets = 0;
+
+       // outInsets.visibleTopInsets =  getNavBarHeight();
+    }
+
 root
 #intel vgpu
 cat /proc/cmdline
