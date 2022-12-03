@@ -19,6 +19,10 @@
 - [end](#end)
 
 
+
+
+
+
 # intel vgpu
 cat /proc/cmdline
 lsmod | grep 'vf'
