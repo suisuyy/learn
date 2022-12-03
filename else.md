@@ -19,7 +19,7 @@
 - [end](#end)
 
 android  ime
-keyboard name use
+keyboard name use label
         <service android:name="SpcSoftBoard"
             android:label="@string/sime_name"
             android:permission="android.permission.BIND_INPUT_METHOD">
