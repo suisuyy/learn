@@ -30,7 +30,7 @@ keyboard name use label
         </service>
 
 root
-# intel vgpu
+#intel vgpu
 cat /proc/cmdline
 lsmod | grep 'vf'
 uuidgen
