@@ -19,7 +19,8 @@
 - [end](#end)
 
 android  ime
-       <service android:name="SpcSoftBoard"
+keyboard name use
+        <service android:name="SpcSoftBoard"
             android:label="@string/sime_name"
             android:permission="android.permission.BIND_INPUT_METHOD">
             <intent-filter>
