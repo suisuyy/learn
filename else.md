@@ -20,7 +20,11 @@
 
 android  ime
 not use
-k keycodeeyboard name use label
+
+tyyy
+
+ 
+k keycodeeybo ard name use label
         <service android:name="SpcSoftBoard"
             android:label="@string/sime_name"
             android:permission="android.permission.BIND_INPUT_METHOD">
