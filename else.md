@@ -55,6 +55,26 @@ keyboard name use label
     android:orientation="vertical"
     android:background="@color/colorAccent">
 
+       @Override
+    public View onCreateInputView() {
+        final LinearLayout keyboardParent = (LinearLayout) getLayoutInflater().inflate(
+                R.layout.input, null);
+
+        Button handle = keyboardParent.findViewById(R.id.handle);
+        handle.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                return keyboardDragDelegate.onTouch(view, motionEvent);
+            }
+        });
+        mInputView = (LatinKeyboardView) keyboardParent.findViewById(R.id.keyboard);
+
+        mInputView.setOnKeyboardActionListener(this);
+        mInputView.setPreviewEnabled(false);
+        setLatinKeyboard(mQwertyKeyboard);
+        return keyboardParent;
+    }
+
 root
 #intel vgpu
 cat /proc/cmdline
