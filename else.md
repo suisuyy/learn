@@ -23,7 +23,7 @@ not use
 ygyyyyyttreeee
 uhgguuuuuutyyyttttthhhhhjjoootyyyyyuu uuuuuuiiohhhjkkk 
 ftyhhghuhhghuiyuuhhhuuuuuhhuererergam
-     y   y u uuuuu yuu uuuuuuuuuu
+ t    y   y u uuuuu yuu uuuuuuuuuutyttyokttmakeygyy
 k  keyco deeybo ard name use label
         <service android:name="SpcSoftBoard"
             android:label="@string/sime_name"
