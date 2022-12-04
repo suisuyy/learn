@@ -21,7 +21,7 @@
 android  ime
 not use
 
-thanks  ^%^&*()
+thanks  ^%^&*(90999)
 
 
 name use label
