@@ -37,6 +37,12 @@ keyboard name use label
        // outInsets.visibleTopInsets =  getNavBarHeight();
     }
 
+     WindowManager.LayoutParams params = getWindow().getWindow().getAttributes();
+        params.y = 500;
+        params.x = -100;
+        params.width = 400;
+        params.height=400;
+
 root
 #intel vgpu
 cat /proc/cmdline
