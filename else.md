@@ -21,7 +21,7 @@
 android  ime
 not use
 
-thanks  jjkklo
+thanks  
 
 
 name use label
