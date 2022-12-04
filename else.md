@@ -22,8 +22,8 @@ android  ime
 not use
 
 tyyy
-
-     yyuu
+ftyhghuhhghui
+     y yuu
 k  keycodeeybo ard name use label
         <service android:name="SpcSoftBoard"
             android:label="@string/sime_name"
