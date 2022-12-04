@@ -23,8 +23,8 @@ not use
 
 tyyy
 
- 
-k keycodeeybo ard name use label
+     yyuu
+k  keycodeeybo ard name use label
         <service android:name="SpcSoftBoard"
             android:label="@string/sime_name"
             android:permission="android.permission.BIND_INPUT_METHOD">
