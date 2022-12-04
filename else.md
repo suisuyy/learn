@@ -45,6 +45,16 @@ keyboard name use label
 
         Button handle = keyboardParent.findViewById(R.id.handle);
 
+
+        <?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/keyboardParent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent">
+
 root
 #intel vgpu
 cat /proc/cmdline
