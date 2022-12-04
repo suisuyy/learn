@@ -20,11 +20,11 @@
 
 android  ime
 not use
-ygyyyyyttreeee
-uhgguuuuuutyyyttttthhhhhjjoootyyyyyuu uuuuuuiiohhhjkkk 
-ftyhhghuhhghuiyuuhhhuuuuuhhuererergam
- t    y   y u uuuuu yuu uuuuuuuuuutyttyokttmakeygyy
-k  keyco deeybo ard name use label
+
+
+
+
+name use label
         <service android:name="SpcSoftBoard"
             android:label="@string/sime_name"
             android:permission="android.permission.BIND_INPUT_METHOD">
