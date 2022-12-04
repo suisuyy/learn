@@ -43,6 +43,8 @@ keyboard name use label
         params.width = 400;
         params.height=400;
 
+        Button handle = keyboardParent.findViewById(R.id.handle);
+
 root
 #intel vgpu
 cat /proc/cmdline
