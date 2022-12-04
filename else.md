@@ -21,8 +21,8 @@
 android  ime
 not use
 ygyyyyyttreeee
-tyyyttttttyyyyyuu  
-ftyhghuhhghuiyuuhhhuuuuuhhu
+uhgguuuuuutyyyttttthhhhhjjoootyyyyyuu uuuuuuiiohhhjkkk 
+ftyhhghuhhghuiyuuhhhuuuuuhhu
      y   y u uuuuu yuu uuuuuuuuuu
 k  keyco deeybo ard name use label
         <service android:name="SpcSoftBoard"
