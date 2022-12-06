@@ -1,5 +1,23 @@
 # hack
 
+#fatboot adb
+Your bootloader supports the following oem commands in FastBoot mode:
+
+oem unlock
+oem lock
+oem edl
+oem device-info
+oem enable-charger-screen
+oem disable-charger-screen
+oem off-mode-charge
+oem poweroff
+oem select-display-panel
+
+So "oem edl" should switch the phone to EDL mode (any fastboot.exe will support that).
+
+Additionally, "oem poweroff" should power the phone off.
+
+
 # android chroot
 ```
 
