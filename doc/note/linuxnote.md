@@ -654,7 +654,8 @@ You can use the same for changing the ownership of multiple folders:
 ```plain
 chown -R user_name:group_name dir1 dir2
 ```
-
+mount UUID=2b9637d0-6db5-4464-899d-7cab1d9b9ca5 /mnt/felse/
+chown -R suisuy:suisuy /mnt/felse/
 
 
 
