@@ -30,6 +30,7 @@ Additionally, "oem poweroff" should power the phone off.
 
 
 
+
 # android chroot
 ```
 
