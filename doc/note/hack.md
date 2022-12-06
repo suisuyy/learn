@@ -1,6 +1,8 @@
 # hack
 
 #fatboot adb
+
+# fastboot cmd
 Your bootloader supports the following oem commands in FastBoot mode:
 
 oem unlock
@@ -16,6 +18,16 @@ oem select-display-panel
 So "oem edl" should switch the phone to EDL mode (any fastboot.exe will support that).
 
 Additionally, "oem poweroff" should power the phone off.
+
+##  adb verify
+1. 我们如果在PC端使用过adb命令，则会在当前用户目录生成一对密钥，密钥存放在.android目录，其中adbkey为私钥，adbkey.pub为公钥。
+
+2. adb会把公钥（adbkey.pub）发送给android设备来获取认证，建立adb连接。
+
+3. android 会根据属性ro.adb.secure来判断，是否进行认证，如果为0，则不需要认证，允许建立adb连接。如果为1，则需要进行密钥认证。
+
+4. 如果需要进行adb密钥认证，则把接收到的adbkey.pub与本地的/data/misc/adb/adb_keys进行对比，如果相同，则表明是允许此设备进行adb连接，如果不相同，则弹出对话框，提示用户是否允许打开usb调试功能
+
 
 
 # android chroot
