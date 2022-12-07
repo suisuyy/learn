@@ -20,6 +20,8 @@
 
 android  ime
 https://inputtools.google.com/request?text=%7C%E6%88%91%E6%88%91%E4%BB%AC%E7%9A%84%E6%95%85%E4%BA%8B%2Ch&itc=zh-t-i0-pinyin&num=11&cp=0&cs=1&ie=utf-8&oe=utf-8&app=demopage
+
+https://inputtools.google.com/request?text=%7C%E6%88%91%E6%88%91%E4%BB%AC%E7%9A%84%E6%95%85%E4%BA%8B%2Ch&itc=zh-t-i0-pinyin&num=11&cp=0&cs=1&ie=utf-8&oe=utf-8&app=demopagehttps://inputtools.google.com/request?text=%7C%E6%88%91%E6%88%91%E4%BB%AC%E7%9A%84%E6%95%85%E4%BA%8B%2Ch&itc=zh-t-i0-pinyin&num=11&cp=0&cs=1&ie=utf-8&oe=utf-8&app=demopage
 not use"hjhhjiioookkjjkkk
 
 thanks  ^%^&*(90999weartyuiop   yuiopghjklyuiopu+jjjjjjjjjjgggghhhhjjjjkkkkjjjiiiiooooppppppptyuiopjhggg)
