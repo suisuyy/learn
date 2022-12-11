@@ -18,7 +18,7 @@
 - [kali](#kali)
 - [end](#end)
 
-26^4
+26*26*26*26
 
 
 SigLevel = Never
