@@ -9,4 +9,5 @@ apt install -y tinyproxy
 echo 'ReversePath "/"	"http://localhost:81" ' >>/etc/tinyproxy/tinyproxy.conf
 echo 'Port 8081'>> /etc/tinyproxy/tinyproxy.conf
 
+echo 'Listen 0.0.0.0'>> /etc/tinyproxy/tinyproxy.conf
 systemctl enable --now tinyproxy
