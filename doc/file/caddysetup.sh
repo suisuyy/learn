@@ -5,5 +5,5 @@ echo 'deb [trusted=true] https://dl.cloudsmith.io/public/caddy/stable/deb/debian
 apt update;apt install caddy
 
 
-ReversePath "/"	"http://localhost:81"
-Port 8081>> /etc/tinyproxy/tinyproxy.conf
+echo 'ReversePath "/"	"http://localhost:81" ' >>/etc/tinyproxy/tinyproxy.conf
+echo 'Port 8081'>> /etc/tinyproxy/tinyproxy.conf
