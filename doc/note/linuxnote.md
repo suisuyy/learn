@@ -68,7 +68,7 @@ aria2c --enable-rpc --rpc-listen-all
 ## trick
 
 setxkbmap -option keypad:pointerkeys
-#Shift+NumLock to toggle the use of the numeric pad
+#then use Shift+NumLock to toggle the use of the numeric pad
 
 # adb fastboot
 adb reboot
