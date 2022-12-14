@@ -11,3 +11,17 @@ echo 'Port 8081'>> /etc/tinyproxy/tinyproxy.conf
 
 echo 'Listen 0.0.0.0'>> /etc/tinyproxy/tinyproxy.conf
 systemctl enable --now tinyproxy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
