@@ -196,4 +196,5 @@ for_window [class="copyq"] floating enable
 #Mod1 for alt key in i3
 bindsym Control+Mod1+Left  workspace prev
 bindsym Control+Mod1+Right  workspace next
+bindsym Mod1+Tab focus right
 
