@@ -18,6 +18,8 @@
 - [kali](#kali)
 - [end](#end)
 
+https://post.smzdm.com/p/a83dor2l/
+
 
 gnome keyring
 sudo apt install seahorse
