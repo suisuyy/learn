@@ -4,9 +4,13 @@ echo 'deb [trusted=true] https://dl.cloudsmith.io/public/caddy/stable/deb/debian
 
 apt update;apt install caddy
 
-http://example.com/info {
+
+
+http://0.0.0.0:8081 {
     # http config
+    reverse_proxy localhost:81
 }
+
 
 
 
