@@ -3,10 +3,11 @@ sudo apt install curl wget
 echo 'deb [trusted=true] https://dl.cloudsmith.io/public/caddy/stable/deb/debian any-version main' >>/etc/apt/source.list
 
 apt update;apt install caddy
-caddy run
+caddy reverse-proxy --from http://127.0.0.1:8081 --to http://localhost:81
+
+
+caddy run  --config Caddyfile
 caddy start
-
-
 
 http://0.0.0.0:8081 {
     # http config
