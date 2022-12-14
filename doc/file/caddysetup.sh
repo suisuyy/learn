@@ -4,6 +4,11 @@ echo 'deb [trusted=true] https://dl.cloudsmith.io/public/caddy/stable/deb/debian
 
 apt update;apt install caddy
 
+http://example.com/info {
+    # http config
+}
+
+
 
 
 
