@@ -27,10 +27,13 @@ nvm install --lts
 npm config set registry http://registry.npmmirror.com
 npm i -g pnpm
 
+
+
 git clone https://github.com/whyour/qinglong.git
 cd qinglong
-
+cp .env.example .env
 pnpm install
+
 pnpm start
 
 
