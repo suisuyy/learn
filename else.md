@@ -30,6 +30,8 @@ npm i -g pnpm
 git clone https://github.com/whyour/qinglong.git
 cd qinglong
 
+pnpm install
+pnpm start
 
 
 
