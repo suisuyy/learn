@@ -20,6 +20,19 @@
 
 
 
+#install nodelts
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
+bash
+nvm install --lts
+npm config set registry http://registry.npmmirror.com
+npm i -g pnpm
+
+git clone https://github.com/whyour/qinglong.git
+cd qinglong
+
+
+
+
 https://post.smzdm.com/p/a83dor2l/
 
 
