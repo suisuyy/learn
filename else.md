@@ -19,33 +19,17 @@
 - [end](#end)
 
 
-
-#install nodelts
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
-bash
-nvm install --lts
-npm config set registry http://registry.npmmirror.com
-npm i -g pnpm pm2
-
-
-
-git clone https://github.com/whyour/qinglong.git
-cd qinglong
-cp .env.example .env
-pnpm install
-
-pnpm start
-
-
-
-https://post.smzdm.com/p/a83dor2l/
-
-
 gnome keyring
 sudo apt install seahorse
 change passwd to blank
 
 android  ime
+getResources().getColor(R.color.candidate_background
+
+
+http://olime.baidu.com/py?rn=0&pn=20&py=tamendeshenhuo
+{"0":[[["他们的生活",15,{"pinyin":"ta'men'de'sheng'huo","type":"IMEDICT"}]]],"1":"ta'men'de'sheng'huo","result":[null]}
+
 https://corsp.suisuy.eu.org/?https://inputtools.google.com/request?itc=zh-t-i0-pinyin&num=100&cp=0&cs=1&ie=utf-8&oe=utf-8&app=demopage&text=t
 
 ["SUCCESS",[["t",["他","她","同","它","天","太","听","头","图","挺","条","台","特","谈","T","t","提","贴","通","退","套","体","团","痛","跳","汤","土","推","题","疼","调","唐","投","铁","田","挑","停","填","腿","拖","偷","塔","堂","托","糖","吐","脱","踢","替","甜","弹","逃","透","帖","泰","厅","涂","添","铜","趟","涛","躺","陶","童","烫","兔","贪","谭","胎","亭","桶","庭","探","舔","抬","淘","桃","腾","婷","讨","吞","态","坛","统","塘","摊","藤","痰","叹","掏","踏","廷","筒","突","徒","碳","屯","捅","途","坦"],[],{"annotation":["ta","ta","tong","ta","tian","tai","ting","tou","tu","ting","tiao","tai","te","tan","t","t","ti","tie","tong","tui","tao","ti","tuan","tong","tiao","tang","tu","tui","ti","teng","tiao","tang","tou","tie","tian","tiao","ting","tian","tui","tuo","tou","ta","tang","tuo","tang","tu","tuo","ti","ti","tian","tan","tao","tou","tie","tai","ting","tu","tian","tong","tang","tao","tang","tao","tong","tang","tu","tan","tan","tai","ting","tong","ting","tan","tian","tai","tao","tao","teng","ting","tao","tun","tai","tan","tong","tang","tan","teng","tan","tan","tao","ta","ting","tong","tu","tu","tan","tun","tong","tu","tan"],"candidate_type":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"lc":["16","16","16","16","16","16","16","16","16","16","16","16","16","16","0","0","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16","16"]}]]]
@@ -56,9 +40,11 @@ https://inputtools.google.com/request?text=%7C%E6%88%91%E6%88%91%E4%BB%AC%E7%9A%
 
 
 https://inputtools.google.com/request?text=%7C%E6%88%91%E6%88%91%E4%BB%AC%E7%9A%84%E6%95%85%E4%BA%8B%2Ch&itc=zh-t-i0-pinyin&num=11&cp=0&cs=1&ie=utf-8&oe=utf-8&app=demopagehttps://inputtools.google.com/request?text=%7C%E6%88%91%E6%88%91%E4%BB%AC%E7%9A%84%E6%95%85%E4%BA%8B%2Ch&itc=zh-t-i0-pinyin&num=11&cp=0&cs=1&ie=utf-8&oe=utf-8&app=demopage
-not use"hjhhjiioookkjjkkk
 
-thanks  ^%^&*(90999weartyuiop   yuiopghjklyuiopu+jjjjjjjjjjgggghhhhjjjjkkkkjjjiiiiooooppppppptyuiopjhggg)
+
+
+
+
 
 
 name use label
