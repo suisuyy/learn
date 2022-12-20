@@ -304,7 +304,7 @@ export DISK=/dev/nvme0n1
 export EFIP=/dev/nvme0n1p1
 
 
-mount ${DISK}p1 /boot/efi
+mount ${EFIP} /boot/efi
 
 grub-install --target=x86_64-efi --bootloader-id=GRUB --efi-directory=/boot/efi
 #One last step:
