@@ -365,6 +365,8 @@ ls /sys/firmware/efi/efivars
 
 fdisk -l
 
+mkfs.fat -F32 /dev/sda1
+
 
 
 
