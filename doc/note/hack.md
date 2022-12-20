@@ -335,6 +335,32 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 
 
+Solved it after finding a few similar posts in this forum. Here is what I did:
+
+From my rescue flash drive:
+
+mount -L arch_p /mnt
+mount -L SYSTEM_DRV /mnt/boot
+swapon -L swap_p
+pacstrap /mnt base base-devel linux linux-firmware dhcpcd nano intel-ucode wpa_supplicant netctl dialog 
+genfstab -Lp /mnt > /mnt/etc/fstab
+arch-chroot /mnt
+Now comes the critical part: I added module "vmd" as follows:
+Created file /etc/modules-load.d/customload.conf with content
+
+vmd
+and in /etc/mkinitcpio.conf edited the line
+
+MODULES=()
+to look like
+
+MODULES=(vmd)
+then did
+
+mkinitcpio -p linux
+grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=Arch-Linux-grub
+grub-mkconfig -o /boot/grub/grub.cfg
+Then exit chroot, umount everything, shutown, power up and Grub starts and is able to load linux as well as windows
 
 
 
