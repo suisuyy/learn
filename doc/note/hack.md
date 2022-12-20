@@ -356,6 +356,7 @@ cpu: hi3798mv300h  (mv300 in setting,its wrong)
 
 
 
+# arch install
 
 
 
