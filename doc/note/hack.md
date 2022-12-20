@@ -298,7 +298,7 @@ echo -e "127.0.0.1    localhost \n::1         localhost" >> /etc/hosts
 #Now, mount the ESP partition you had created
 
 #Install grub like this:
-export DISK=
+export DISK=/dev/nvme0n1p3
 
 mount /dev/sda1 /boot/efi
 
