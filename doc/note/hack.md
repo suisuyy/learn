@@ -301,7 +301,7 @@ mkdir newroot;mount ${ROOTP} newroot
 arch-chroot newroot
 #Install grub like this:
 export DISK=/dev/nvme0n1
-export EFIP=/dev/nvme0n1
+export EFIP=/dev/nvme0n1p1
 
 
 mount ${DISK}p1 /boot/efi
