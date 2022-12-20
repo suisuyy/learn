@@ -87,6 +87,7 @@ done
 
 
 
+#no sound after sleep
 #make sure Audio always actived
 sudo sh -c 'echo 1 >/sys/bus/pci/rescan'
 sleep 1
