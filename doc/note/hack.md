@@ -363,7 +363,48 @@ grub-mkconfig -o /boot/grub/grub.cfg
 Then exit chroot, umount everything, shutown, power up and Grub starts and is able to load linux as well as windows
 
 
+Discover what is your interface with the follow command: iwconfig
 
+Normally, your wifi interface is like this construct: wlp2s0. I'll put <interface name> where you need to put your interface
+
+Put the interface up:
+
+ip link set <interface name> up
+Scan your interface to see if it is enabled:
+
+iwlist <interface name> scan | less
+If it is in the list, down the interface:
+
+ip link set interface down
+Go the netctl examples Directory:
+
+cd /etc/netctl/examples
+Copy the wireless-wpa to netctl Directory with the name you want:
+
+cp /etc/netctl/examples/wireless-wpa /etc/netctl/wifi_name
+Open the wireless-wpa file to edit with your preferred editor (e.g. nano):
+
+sudo nano /etc/netctl/wifi_name
+Change the following settings:
+
+Interface: <Interface name>
+ESSID: <your internet name>
+key: <your internet password>
+Save and exit
+
+Run the netctl with the following commands:
+
+cd /etc/netctl
+netctl start wifi_name
+If an error message appears, try this commad:
+
+ip link set dev <interface name> down
+try run your internet connectivity:
+
+ping -c 3 www.google.com
+If working, enable your internet to run permanently:
+
+netctl enable wifi_name
 
 
 
