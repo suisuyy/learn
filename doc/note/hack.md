@@ -275,6 +275,62 @@ fdisk -l
 mkfs.fat -F32 /dev/sda1
 mkfs.ext4 /dev/sda4
 mount /dev/sda4 /mnt
+pacstrap /mnt base linux linux-firmware  networkmanager   vim nano  
+genfstab -U /mnt >> /mnt/etc/fstab
+
+
+
+# in chroot
+echo 'Server = http://mirrors.aliyun.com/archlinux/$repo/os/$arch' > /etc/pacman
+pacman -S grub efibootmgr
+
+useradd -m -s /bin/bash suisuy
+usermod -aG wheel,audio,video,storage suisuy
+
+#timedatectl list-timezones
+echo myarch > /etc/hostname
+echo -e "127.0.0.1	localhost \n::1		localhost"
+echo -e "127.0.0.1    localhost \n::1         localhost" >> /etc/hosts
+
+
+
+
+#Now, mount the ESP partition you had created
+
+#Install grub like this:
+mount /dev/sda1 /boot/efi
+
+grub-install --target=x86_64-efi --bootloader-id=GRUB --efi-directory=/boot/efi
+#One last step:
+
+grub-mkconfig -o /boot/grub/grub.cfg
+
+
+
+
+
+
+
+
+
+
+
+
+Install grub on Non-UEFI systems
+Install grub package first:
+
+pacman -S grub
+And then install grub like this (don’t put the disk number sda1, just the disk name sda):
+
+grub-install /dev/sda
+Last step:
+
+grub-mkconfig -o /boot/grub/grub.cfg
+
+
+
+
+
 
 
 
