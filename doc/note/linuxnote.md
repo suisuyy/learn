@@ -258,7 +258,7 @@ echo -e "\n\ndns now is:" &&cat /etc/resolv.conf
 
 ```
 # use fdisk
-# resize a partition
+# resize a partition for ext4
 # delete sdc first then recreate a greater partion,no worry,data will be reserved
 e2fsck -f /dev/sdc1
 resize2fs /dev/sdc1
