@@ -298,6 +298,7 @@ echo -e "127.0.0.1    localhost \n::1         localhost" >> /etc/hosts
 #Now, mount the ESP partition you had created
 
 #Install grub like this:
+
 mount /dev/sda1 /boot/efi
 
 grub-install --target=x86_64-efi --bootloader-id=GRUB --efi-directory=/boot/efi
