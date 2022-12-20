@@ -361,6 +361,7 @@ pacman -S ttyd
 ttyd -p 2222 /bin/bash
 
 open the machineip:2222 on local computer browser
+fdisk -l
 
 
 
