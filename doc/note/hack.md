@@ -300,7 +300,7 @@ echo -e "127.0.0.1    localhost \n::1         localhost" >> /etc/hosts
 #Install grub like this:
 export DISK=/dev/nvme0n1
 
-mount /dev/sda1 /boot/efi
+mount ${DISK}p1 /boot/efi
 
 grub-install --target=x86_64-efi --bootloader-id=GRUB --efi-directory=/boot/efi
 #One last step:
