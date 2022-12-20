@@ -257,6 +257,11 @@ echo -e "\n\ndns now is:" &&cat /etc/resolv.conf
 
 
 ```
+#show disk
+blkid  #show uuid
+fdisk -l
+
+
 # use fdisk
 # resize a partition for ext4
 # delete sdc first then recreate a greater partion,no worry,data will be reserved
