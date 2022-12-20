@@ -299,6 +299,8 @@ echo -e "127.0.0.1    localhost \n::1         localhost" >> /etc/hosts
 
 #Install grub like this:
 export DISK=/dev/nvme0n1
+export DISK=/dev/nvme0n1
+
 
 mount ${DISK}p1 /boot/efi
 
