@@ -94,11 +94,9 @@ DEVICE_ID=$(lspci -D | grep Audio | awk '{print $1}')
 sleep 1
 sudo sh -c "echo 1 >/sys/bus/pci/devices/${DEVICE_ID}/remove"
 #sudo sh -c "echo 1 >/sys/bus/pci/devices/0000:00:1f.3/remove"
-
 sleep 1
 sudo sh -c 'echo 1 >/sys/bus/pci/rescan'
 sleep 1
-
 amixer -D pulse sset Master mute
 sleep 1
 amixer -D pulse sset Master unmute
