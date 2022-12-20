@@ -254,7 +254,15 @@ echo -e "\n\ndns now is:" &&cat /etc/resolv.conf
 
 
 # Disk
+
+
 ```
+# use fdisk
+# resize a partition
+e2fsck -f /dev/sdc1
+
+
+
 #use parted
 parted /dev/block/sda
 rm 23
