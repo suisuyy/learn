@@ -18,6 +18,10 @@
 - [kali](#kali)
 - [end](#end)
 
+# blender
+https://www.youtube.com/watch?v=g2U0MiZSV9A&ab_channel=ChamferZone
+Learning Blender: A Hands-On Guide to Creating 3D Animated Characters
+
 
 gnome keyring
 sudo apt install seahorse
