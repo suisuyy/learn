@@ -306,7 +306,7 @@ export EFIP=/dev/nvme0n1p1
 
 mount ${EFIP} /boot/efi
 
-grub-install --target=x86_64-efi --bootloader-id=GRUB --efi-directory=/boot/efi
+grub-install --target=x86_64-efi --bootloader-id=GRUBfx --efi-directory=/boot/efi
 #One last step:
 
 grub-mkconfig -o /boot/grub/grub.cfg
