@@ -471,6 +471,13 @@ setenforce Enforcing
 systemctl status firewalld
 systemctl disable firewalld
 systemctl stop firewalld
+
+# system and kernel
+```
+# show module load 
+
+```
+
 # system monitor
 
 #disk
