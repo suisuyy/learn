@@ -54,8 +54,12 @@
 - [short](#short)
 
 
+# nice file path
+```
+/boot/initramfs-linux-lts.img
 
 
+```
 xfreerdp /u:Administrator /p:a /v:192.168.68.11 +fonts    /clipboard /home-drive  /sound:latency:400
 
 aria2c --enable-rpc --rpc-listen-all
