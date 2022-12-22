@@ -56,6 +56,7 @@
 
 # nice file path
 ```
+#pacman -Sy linux-lts linux-lts-headers
 /boot/initramfs-linux-lts.img
 grub-mkconfig -o /boot/grub/grub.cfg
 
