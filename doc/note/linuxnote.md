@@ -475,6 +475,10 @@ systemctl stop firewalld
 # system and kernel
 ```
 # show module load 
+sudo modprobe tun
+ lsmod | grep tun
+#tun                    61440  0
+
 
 ```
 
