@@ -57,7 +57,7 @@
 # nice file path
 ```
 /boot/initramfs-linux-lts.img
-
+grub-mkconfig -o /boot/grub/grub.cfg
 
 ```
 xfreerdp /u:Administrator /p:a /v:192.168.68.11 +fonts    /clipboard /home-drive  /sound:latency:400
