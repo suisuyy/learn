@@ -20,7 +20,7 @@
 
 # module
 /etc/modprobe.d/black.conf
-
+mkinitcpio -v will list all modules pulled in by the various hooks (e.g. filesystems hook, block hook, etc.). Remember to add that .conf file to the FILES array in /etc/mkinitcpio.conf
 
 
 # blender
