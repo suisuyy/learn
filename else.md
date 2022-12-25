@@ -18,7 +18,9 @@
 - [kali](#kali)
 - [end](#end)
 
-#nvme boot 
+# nvme boot 
+/etc/mkinitcpio.conf
+MODULES=(vmd)
 
 
 # module
