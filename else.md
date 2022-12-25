@@ -18,6 +18,9 @@
 - [kali](#kali)
 - [end](#end)
 
+#nvme boot 
+
+
 # module
 
 /etc/modprobe.d/black.conf
