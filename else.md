@@ -19,9 +19,12 @@
 - [end](#end)
 
 # module
-If any of the affected modules is loaded from the initramfs, then you will need to add the appropriate .conf file to FILES in mkinitcpio.conf or use the modconf hook, then regenerate the initramfs to include the .conf file. To see the contents of the default initramfs use lsinitcpio.
+
+/etc/modprobe.d/black.conf
 /etc/modprobe.d/enable.conf
 /etc/modules-load.d/ for systemd to load
+
+If any of the affected modules is loaded from the initramfs, then you will need to add the appropriate .conf file to FILES in mkinitcpio.conf or use the modconf hook, then regenerate the initramfs to include the .conf file. To see the contents of the default initramfs use lsinitcpio.
 modprobe module_name
 To load a module by filename (i.e. one that is not installed in /usr/lib/modules/$(uname -r)/):
 
@@ -34,7 +37,6 @@ Or, alternatively:
 rmmod module_name
 
 
-/etc/modprobe.d/black.conf
 mkinitcpio -v will list all modules pulled in by the various hooks (e.g. filesystems hook, block hook, etc.). Remember to add that .conf file to the FILES array in /etc/mkinitcpio.conf
 
 
