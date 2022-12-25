@@ -18,6 +18,11 @@
 - [kali](#kali)
 - [end](#end)
 
+# module
+/etc/modprobe.d/black.conf
+
+
+
 # blender
 https://www.youtube.com/watch?v=g2U0MiZSV9A&ab_channel=ChamferZone
 Learning Blender: A Hands-On Guide to Creating 3D Animated Characters
