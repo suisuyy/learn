@@ -1,3 +1,7 @@
+sudo pacman -S wqy-microhei base-devel sudo alsa-utils openssh git vim bash-completion screen w3m aria2 p7zip unrar rsync sshfs tinyproxy ncdu \
+   gnome-terminal firefox chromium 
+
+
 #config bash and ssh and screen
 echo -e "\n bind 'set completion-ignore-case on'\n bind 'set show-all-if-ambiguous on'\n bind '\C-p:menu-complete'\n" >>~/.bashrc
 echo -e "ServerAliveInterval 1\nServerAliveCountMax 2" >>~/.ssh/config
