@@ -18,6 +18,11 @@
 - [kali](#kali)
 - [end](#end)
 
+# grub boot win
+os-prober
+
+
+
 # nvme boot 
 /etc/mkinitcpio.conf
 MODULES=(vmd)
