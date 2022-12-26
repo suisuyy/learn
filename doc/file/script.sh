@@ -294,7 +294,7 @@ wqy-microhei base-devel alsa-utils openssh git vim bash-completion screen w3m ar
 #start up package
 
 pacstrap /mnt base linux linux-firmware intel-ucode vi grub efibootmgr bash-completion
-[wqy-microhei](https://archlinux.org/packages/?name=wqy-microhei) openssh vim man ncdu netcat xfce4-terminal
+wqy-microhei openssh vim man ncdu netcat xfce4-terminal
 
 arm repo
 
