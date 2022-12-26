@@ -1,5 +1,4 @@
-sudo pacman -S wqy-microhei base-devel sudo alsa-utils openssh git vim bash-completion screen w3m aria2 p7zip unrar rsync sshfs tinyproxy ncdu \
-   gnome-terminal firefox chromium 
+sudo pacman -S wqy-microhei base-devel sudo alsa-utils openssh git vim bash-completion screen w3m aria2 p7zip unrar rsync sshfs tinyproxy ncdu 
 
 
 #config bash and ssh and screen
