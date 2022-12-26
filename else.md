@@ -19,6 +19,10 @@
 - [end](#end)
 
 # grub boot win
+#edit /etc/default/grub and add/uncomment:
+
+GRUB_DISABLE_OS_PROBER=false
+
 #make sure win bootloader efi at same efi partition
 os-prober
 grub-mkconfig -o /boot/grub/grub.cfg
