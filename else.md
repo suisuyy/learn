@@ -19,7 +19,7 @@
 - [end](#end)
 
 # grub boot win
-#make sure win bootloader efi 
+#make sure win bootloader efi at same efi partition
 os-prober
 grub-mkconfig -o /boot/grub/grub.cfg
 
