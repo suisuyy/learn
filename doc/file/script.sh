@@ -287,7 +287,7 @@ sudo pacman-mirrors -c China
 
 #necessary package
 
-wqy-microhei base-devel alsa-utils openssh git vim bash-completion screen w3m aria2 p7zip unrar rsync sshfs tinyproxy ncdu \
+wqy-microhei base-devel sudo alsa-utils openssh git vim bash-completion screen w3m aria2 p7zip unrar rsync sshfs tinyproxy ncdu \
    gnome-terminal firefox chromium 
 
 
