@@ -22,7 +22,7 @@
 home/ubuntu/.local/var/pmbootstrap
 pip3 install pmbootstrap
 pmbootstrap init
-
+pmbootstrap install
 
 # grub boot win
 #edit /etc/default/grub and add/uncomment:
