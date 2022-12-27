@@ -18,6 +18,12 @@
 - [kali](#kali)
 - [end](#end)
 
+
+home/ubuntu/.local/var/pmbootstrap
+pip3 install pmbootstrap
+pmbootstrap init
+
+
 # grub boot win
 #edit /etc/default/grub and add/uncomment:
 
@@ -29,7 +35,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 
 
-# nvme boot 
+# nvme boot
 /etc/mkinitcpio.conf
 MODULES=(vmd)
 
@@ -282,7 +288,7 @@ example.com {
 
 
 #vv
-sudo ./v2ray -config wsserver.json 
+sudo ./v2ray -config wsserver.json
 
 
 #  vnc novnc tigervnc
@@ -290,14 +296,14 @@ https://coredump.ws/index.php?dir=code&post=NoVNC_with_audio
 x0vncserver -display :0 -PasswordFile ~/.vnc/passwd
 
 4713 pulseaudio default port,
-10101  tcpulse listening port  //audio redirect server port 
+10101  tcpulse listening port  //audio redirect server port
 8080 websocketfy port  //seem must be 8080, or chrome will deny to connect
 
 
 only stream audio step:
  ./audio 0.0.0.0 10101
-./websockify 0.0.0.0:8080 0.0.0.0:10101 --cer ./cert.pem --key key.pem 
-open saudio/test.html and click start 
+./websockify 0.0.0.0:8080 0.0.0.0:10101 --cer ./cert.pem --key key.pem
+open saudio/test.html and click start
 
 
 #install dependencies
@@ -305,7 +311,7 @@ sudo apt install build-essential libssl-dev
 sudo apt install gstreamer1.0-plugins-bad
 
 #start vncserver
-x0vncserver -localhost no   :0 
+x0vncserver -localhost no   :0
 vncserver -localhost no  -geometry 1600x900  -xstartup  ~/.vnc/xstartup
 
 
@@ -323,7 +329,7 @@ sudo virt-install --name ubuntu-guest --os-variant ubuntu20.04 --vcpus 2 --ram 2
 sudo systemctl enable --now libvirtd.service libvirt-guests.service libvirtd-admin.socket libvirtd.socket libvirtd-tcp.socket libvirtd-tls.socket libvirtd-ro.socket
 
 
-# kasm 
+# kasm
 
 cd /tmp
 curl -O https://kasm-static-content.s3.amazonaws.com/kasm_release_1.11.0.18142e.tar.gz
@@ -339,7 +345,7 @@ sudo bash kasm_release/install.sh
  sudo systemctl status vsmserver
 sudo systemctl status vsmagent
  sudo systemctl restart  tlwebaccess
-	
+
 kasmweb/desktop:1.11.0
 
 Kasm UI Login Credentials
@@ -409,7 +415,7 @@ sudo ip addr add 192.168.192.1/24 brd 192.168.192.255 scope global dev ztr4n7qf3
 
 # install arch on pd
 
-  
+
 
 python3 -m http.server --bind :: 8000
 
@@ -432,7 +438,7 @@ wget https://github.com/coder/code-server/releases/download/v4.8.2/code-server-4
 tar xf code-server-4.8.2-linux-amd64.tar.gz
 mkdir -p ~/.config/code-server/
 echo -e "bind-addr: 0.0.0.0:80 \nauth: password\npassword: testa\ncert: false" >~/.config/code-server/config.yaml
- code-server-4.8.2-linux-amd64/bin/code-server 
+ code-server-4.8.2-linux-amd64/bin/code-server
 
 #install node16
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
@@ -487,7 +493,7 @@ Multi-domain: can apply to multiple unrelated domains.
 
 ### ssl validation levels.
 Domain Validation:  prove they control the domain.
-Organization Validation:  The CA directly contacts the person or business requesting the certificate. 
+Organization Validation:  The CA directly contacts the person or business requesting the certificate.
 Extended Validation: This requires a full background check of an organization before the SSL certificate can be issued.
 
 ## handshakes
@@ -506,7 +512,7 @@ test.pem for cert and test.key
 then start https server:
  http-server -a -p 443 -S -C test.pem -K test.key
 
-### manual apply cert 
+### manual apply cert
 1.KEYS Create a 2048-bit RSA public/private key pair.
 openssl genrsa -out suisuy.eu.org.key 2048
 2.CSR  Generate a certificate signing request (CSR) that embeds your public key.
@@ -605,7 +611,7 @@ Avr:             714   1293   9239  |              713   1999  14345
 Tot:             713   1646  11792
 
 
-pc ruby Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz  
+pc ruby Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
 2 times as sd845
 7z b -mmt
 Avr:             100   3307   3302  |              100   3236   3233
@@ -647,7 +653,7 @@ figterm
 
 # net
 ### ddns-go
-#install 
+#install
 
 
 
@@ -755,21 +761,21 @@ tried this, worked before,but not now
 
 ```
 A
-default via 192.168.68.174 dev wlan0 
+default via 192.168.68.174 dev wlan0
 
 B  192.168.68.174
 sudo su
-iptables -t nat -A POSTROUTING -j MASQUERADE 
+iptables -t nat -A POSTROUTING -j MASQUERADE
 echo -e "\nnet.ipv4.ip_forward=1 " >>/etc/sysctl.conf  && sysctl -p
 edge -r -z1 -c suinet -k 080797ssY -a 192.168.100.11 -f -l 15.152.42.41:7777
 
-default via 192.168.100.2 dev edge0 
-default via 192.168.68.1 dev wlan0 proto dhcp src 192.168.68.174 metric 600 
-15.152.42.41 via 192.168.68.1 dev wlan0 
-172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 linkdown 
-172.31.32.0/20 via 192.168.100.2 dev edge0 
-192.168.68.0/24 dev wlan0 proto kernel scope link src 192.168.68.174 metric 600 
-192.168.100.0/24 dev edge0 proto kernel scope link src 192.168.100.3 
+default via 192.168.100.2 dev edge0
+default via 192.168.68.1 dev wlan0 proto dhcp src 192.168.68.174 metric 600
+15.152.42.41 via 192.168.68.1 dev wlan0
+172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 linkdown
+172.31.32.0/20 via 192.168.100.2 dev edge0
+192.168.68.0/24 dev wlan0 proto kernel scope link src 192.168.68.174 metric 600
+192.168.100.0/24 dev edge0 proto kernel scope link src 192.168.100.3
 
 C  13.208.182.227
 sudo su
@@ -791,12 +797,12 @@ The essential components are:
 
     routing of packets from your local networks to the internet, with IP_masquerading
     handling DNS requests
-    providing IP addresses to devices on your local networks (DHCP) 
+    providing IP addresses to devices on your local networks (DHCP)
 
 This router can also provide:
 
     A firewall
-    port forwarding 
+    port forwarding
 
 
 
@@ -807,30 +813,30 @@ To set a new default route, the following command is used in CentOS/RHEL Linux:
  ip route add default via 192.168.1.2 (a route via gateway IP address)
  ip route add default via enp0s3 (a route using a device name)
 To change the default route settings, this command is used:
- ip route replace default via 192.168.1.2  
+ ip route replace default via 192.168.1.2
 
 
 A route to B,B route C with n2n
 
 A
-default via 192.168.68.174 dev wlan0 
+default via 192.168.68.174 dev wlan0
 
 B  192.168.68.174
 sudo su
-iptables -t nat -A POSTROUTING -j MASQUERADE 
+iptables -t nat -A POSTROUTING -j MASQUERADE
 echo -e "\nnet.ipv4.ip_forward=1 " >>/etc/sysctl.conf  && sysctl -p
 sysctl -p
 edge -r -z1 -c suinet -k 080797ssY -a 192.168.100.11 -f -l 15.152.42.41:7777
 
 
 
-default via 192.168.100.2 dev edge0 
-default via 192.168.68.1 dev wlan0 proto dhcp src 192.168.68.174 metric 600 
-15.152.42.41 via 192.168.68.1 dev wlan0 
-172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 linkdown 
-172.31.32.0/20 via 192.168.100.2 dev edge0 
-192.168.68.0/24 dev wlan0 proto kernel scope link src 192.168.68.174 metric 600 
-192.168.100.0/24 dev edge0 proto kernel scope link src 192.168.100.3 
+default via 192.168.100.2 dev edge0
+default via 192.168.68.1 dev wlan0 proto dhcp src 192.168.68.174 metric 600
+15.152.42.41 via 192.168.68.1 dev wlan0
+172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 linkdown
+172.31.32.0/20 via 192.168.100.2 dev edge0
+192.168.68.0/24 dev wlan0 proto kernel scope link src 192.168.68.174 metric 600
+192.168.100.0/24 dev edge0 proto kernel scope link src 192.168.100.3
 
 C  13.208.182.227
 sudo su
@@ -840,11 +846,11 @@ supernode /etc/n2n/supernode.conf
  edge -c suinet -k 080797ssY -a 192.168.100.200 -f -l 15.152.37.220:7777 -r -z1
 
 
-default via 172.31.32.1 dev eth0  
-169.254.169.254 dev eth0  
-172.31.32.0/20 dev eth0 proto kernel scope link src 172.31.39.101  
-192.168.68.0/24 via 192.168.100.3 dev edge0  
-192.168.100.0/24 dev edge0 proto kernel scope link src 192.168.100.2 
+default via 172.31.32.1 dev eth0
+169.254.169.254 dev eth0
+172.31.32.0/20 dev eth0 proto kernel scope link src 172.31.39.101
+192.168.68.0/24 via 192.168.100.3 dev edge0
+192.168.100.0/24 dev edge0 proto kernel scope link src 192.168.100.2
 
 
 Configuring Static Routes in ifcfg files not work
@@ -857,7 +863,7 @@ mkdir -p /etc/sysconfig/network-scripts/
 iptables -t nat -A PREROUTING -s 192.168.68.0/24 -p tcp --dport 80 -m comment --comment "http tproxy"  -j DNAT --to-destination 192.168.68.162:8080
 root@vbarch /h/suisuy# iptables -L -t nat
 Chain PREROUTING (policy ACCEPT)
-target     prot opt source               destination         
+target     prot opt source               destination
 DNAT       tcp  --  192.168.68.0/24      anywhere             tcp dpt:http /* http tproxy */ to:192.168.68.162:8080
 
 
@@ -877,13 +883,13 @@ iptables -t mangle -F
 iptables -F
 iptables -X
 
- 
+
 
 
 
 IP Address: The unique number defining the access  point to your network interface. It has the form: xxx.xxx.xxx.xxx, where  “xxx” are three, or fewer, numbers between 0 and 255. It’s possible for  this number to be purely made up, but normally it takes a form that  works with the other three numbers. If you are using a home router with  DHCP, which is the typical default configuration, the router will  “assign” the IP address to your network interface. You won’t have to  enter the number at all.
 Gateway: The unique number assigned to the network  interface at the "other end of the wire" that your computer must  communicate through. Again, it has the general xxx.xxx.xxx.xxx format  and takes a form that also works with the other two numbers. If you are  using a home router, your home router generates this number because it  is the gateway through which you communicate with the wider world.
-Netmask: The non-unique number that defines the  network itself. This number can be automatically generated but is  sometimes requested by the method you use to configure the interface.  It, too, has the format xxx.xxx.xxx.xxx. 
+Netmask: The non-unique number that defines the  network itself. This number can be automatically generated but is  sometimes requested by the method you use to configure the interface.  It, too, has the format xxx.xxx.xxx.xxx.
 
 
 
@@ -913,7 +919,7 @@ ip6tables -t nat -A PREROUTING -i enp0s3 -p tcp --dport 443 -j REDIRECT --to-por
 If you want to persist this across reboots, you can use the iptables-persistent package (see here).
 #show redirect rules
 iptables -L -t nat
- 
+
 #4. Fire up mitmproxy.
 You probably want a command like this:
 mitmproxy --mode transparent --showhost
@@ -932,7 +938,7 @@ ip6tables -t nat -A OUTPUT -p tcp -m owner ! --uid-owner mitmproxyuser --dport 8
 ip6tables -t nat -A OUTPUT -p tcp -m owner ! --uid-owner mitmproxyuser --dport 443 -j REDIRECT --to-port 8080
 This will redirect the packets from all users other than mitmproxyuser on the machine to mitmproxy. To avoid circularity, run mitmproxy as the user mitmproxyuser. Hence step 4 should look like:
 sudo -u mitmproxyuser -H bash -c '$HOME/.local/bin/mitmproxy --mode transparent --showhost --set block_global=false'
- 
+
 
 
 
@@ -941,7 +947,7 @@ lab
 iptables -t nat -A PREROUTING -i enp0s3 -p tcp --dport 80 -j DNAT --to-destination 0.0.0.0:8080
 iptables -L --line-numbers -t nat
 Chain PREROUTING (policy ACCEPT)
-num  target     prot opt source               destination         
+num  target     prot opt source               destination
 1    DNAT       tcp  --  anywhere             anywhere             tcp dpt:http to:0.0.0.0:8080
 not work
 
@@ -958,10 +964,10 @@ then close mitproxy ,use port forward
 
 iptables -t nat -F
 iptables -t nat -N V2RAY # 新建一个名为 V2RAY 的链
-iptables -t nat -A V2RAY -d 192.168.0.0/16 -j RETURN # 直连 192.168.0.0/16 
+iptables -t nat -A V2RAY -d 192.168.0.0/16 -j RETURN # 直连 192.168.0.0/16
 iptables -t nat -A V2RAY -p tcp -j RETURN -m mark --mark 0xff # 直连 SO_MARK 为 0xff 的流量(0xff 是 16 进制数，数值上等同与上面配置的 255)，此规则目的是避免代理本机(网关)流量出现回环问题
 iptables -t nat -A V2RAY -p tcp -j REDIRECT --to-ports 8080 # 其余流量转发到 12345 端口（即 V2Ray）
-iptables -t nat -A PREROUTING -p tcp -j V2RAY # 对局域网其他设备进行透明代理 
+iptables -t nat -A PREROUTING -p tcp -j V2RAY # 对局域网其他设备进行透明代理
 iptables -t nat -A OUTPUT -p tcp -j V2RAY # 对本机进行透明代理
 然后设定 UDP 流量透明代理的 iptables 规则，命令如下
 ip rule add fwmark 1 table 100
@@ -970,15 +976,15 @@ iptables -t mangle -N V2RAY_MASK
 iptables -t mangle -A V2RAY_MASK -d 192.168.0.0/16 -j RETURN
 iptables -t mangle -A V2RAY_MASK -p udp -j TPROXY --on-port 12345 --tproxy-mark 1
 iptables -t mangle -A PREROUTING -p udp -j V2RAY_MASK
- 
+
 
 
 iptables -t nat -F
 iptables -t nat -N V2RAY # 新建一个名为 V2RAY 的链
-iptables -t nat -A V2RAY -d 192.168.0.0/16 -j RETURN # 直连 192.168.0.0/16 
+iptables -t nat -A V2RAY -d 192.168.0.0/16 -j RETURN # 直连 192.168.0.0/16
 iptables -t nat -A V2RAY -p tcp -j RETURN -m mark --mark 0xff # 直连 SO_MARK 为 0xff 的流量(0xff 是 16 进制数，数值上等同与上面配置的 255)，此规则目的是避免代理本机(网关)流量出现回环问题
 iptables -t nat -A V2RAY -p tcp -j DNAT --to-destination 192.168.68.162:8080 # 其余流量转发到 ip: 8080 端口（即 V2Ray）
-iptables -t nat -A PREROUTING -p tcp -j V2RAY # 对局域网其他设备进行透明代理 
+iptables -t nat -A PREROUTING -p tcp -j V2RAY # 对局域网其他设备进行透明代理
 iptables -t nat -A OUTPUT -p tcp -j V2RAY # 对本机进行透明代理
 
 config router with n2n
@@ -993,10 +999,10 @@ enp0s3:  192.168.68.185/24 brd 192.168.68.255
 
 
 B
-enp0s3   192.168.68.104/24 
-edge0    192.168.100.201/24 
+enp0s3   192.168.68.104/24
+edge0    192.168.100.201/24
 
-C 
+C
 13.208.182.227
 eth0     172.31.39.101/20
 edge0  192.168.100.2/24
@@ -1013,13 +1019,13 @@ sysctl -w net.ipv4.ip_forward=1
 
 set A default router to B
 ip route show
-default via 192.168.68.1 dev enp0s3 proto dhcp src 192.168.68.185 metric 100 
-192.168.68.0/24 dev enp0s3 proto kernel scope link src 192.168.68.185 metric 100 
-192.168.68.104 dev enp0s3 scope link 
+default via 192.168.68.1 dev enp0s3 proto dhcp src 192.168.68.185 metric 100
+192.168.68.0/24 dev enp0s3 proto kernel scope link src 192.168.68.185 metric 100
+192.168.68.104 dev enp0s3 scope link
 
-ip route del default via 192.168.68.1 dev enp0s3 proto dhcp src 192.168.68.185 metric 100 
+ip route del default via 192.168.68.1 dev enp0s3 proto dhcp src 192.168.68.185 metric 100
  #on A,now you cant access internet ,ping baidu.com will failed
-ip route add default via 192.168.68.104 
+ip route add default via 192.168.68.104
 #on A,now you can connet to internet again,try ping baidu.com
 #on A,and we can connect B use 192.168.100.201,but not C by192.168.100.2, but we will oon
  ping 192.168.100.2
@@ -1035,11 +1041,11 @@ PING 192.168.100.201 (192.168.100.201) 56(84) bytes of data.
 
 
 on B
- ip route show 
-default via 192.168.68.1 dev enp0s3 proto dhcp src 192.168.68.104 metric 100  
-192.168.68.0/24 dev enp0s3 proto kernel scope link src 192.168.68.104 metric 100  
-192.168.68.1 dev enp0s3 proto dhcp scope link src 192.168.68.104 metric 100  
-192.168.100.0/24 dev edge0 proto kernel scope link src 192.168.100.201 
+ ip route show
+default via 192.168.68.1 dev enp0s3 proto dhcp src 192.168.68.104 metric 100
+192.168.68.0/24 dev enp0s3 proto kernel scope link src 192.168.68.104 metric 100
+192.168.68.1 dev enp0s3 proto dhcp scope link src 192.168.68.104 metric 100
+192.168.100.0/24 dev edge0 proto kernel scope link src 192.168.100.201
 
 ip route add 172.31.32.0/20 via 192.168.100.2 dev edge0 src 192.168.68.104
 ip route add 192.168.68.104 via 192.168.100.201 dev edge0 src 172.31.39.101
@@ -1048,43 +1054,43 @@ ip route add 192.168.68.104 via 192.168.100.201 dev edge0 src 172.31.39.101
 
 A connect to C
 A:
-default via 192.168.68.104 dev enp0s3 proto dhcp src 192.168.68.185 metric 100 
+default via 192.168.68.104 dev enp0s3 proto dhcp src 192.168.68.185 metric 100
 
 B:
-default via 192.168.68.1 dev enp0s3 proto dhcp src 192.168.68.104 metric 100  
-172.31.32.0/20 via 192.168.100.2 dev edge0  
-192.168.68.0/24 dev enp0s3 scope link  
-192.168.100.0/24 dev edge0 proto kernel scope link src 192.168.100.201 
- 
+default via 192.168.68.1 dev enp0s3 proto dhcp src 192.168.68.104 metric 100
+172.31.32.0/20 via 192.168.100.2 dev edge0
+192.168.68.0/24 dev enp0s3 scope link
+192.168.100.0/24 dev edge0 proto kernel scope link src 192.168.100.201
+
 C:
-default via 172.31.32.1 dev eth0  
-169.254.169.254 dev eth0  
-172.31.32.0/20 dev eth0 proto kernel scope link src 172.31.39.101  
-192.168.68.0/24 via 192.168.100.201 dev edge0  
+default via 172.31.32.1 dev eth0
+169.254.169.254 dev eth0
+172.31.32.0/20 dev eth0 proto kernel scope link src 172.31.39.101
+192.168.68.0/24 via 192.168.100.201 dev edge0
 192.168.100.0/24 dev edge0 proto kernel scope link src 192.168.100.2
 
 
 A route to B,B route C
 
 A
-default via 192.168.68.174 dev wlan0 
+default via 192.168.68.174 dev wlan0
 
 B  192.168.68.174
-default via 192.168.100.2 dev edge0 
-default via 192.168.68.1 dev wlan0 proto dhcp src 192.168.68.174 metric 600 
-13.208.182.227 via 192.168.68.1 dev wlan0 
-172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 linkdown 
-172.31.32.0/20 via 192.168.100.2 dev edge0 
-192.168.68.0/24 dev wlan0 proto kernel scope link src 192.168.68.174 metric 600 
-192.168.100.0/24 dev edge0 proto kernel scope link src 192.168.100.3 
+default via 192.168.100.2 dev edge0
+default via 192.168.68.1 dev wlan0 proto dhcp src 192.168.68.174 metric 600
+13.208.182.227 via 192.168.68.1 dev wlan0
+172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 linkdown
+172.31.32.0/20 via 192.168.100.2 dev edge0
+192.168.68.0/24 dev wlan0 proto kernel scope link src 192.168.68.174 metric 600
+192.168.100.0/24 dev edge0 proto kernel scope link src 192.168.100.3
 
 C  13.208.182.227
-default via 172.31.32.1 dev eth0  
-169.254.169.254 dev eth0  
-172.31.32.0/20 dev eth0 proto kernel scope link src 172.31.39.101  
-192.168.68.0/24 via 192.168.100.3 dev edge0  
-192.168.100.0/24 dev edge0 proto kernel scope link src 192.168.100.2 
- 
+default via 172.31.32.1 dev eth0
+169.254.169.254 dev eth0
+172.31.32.0/20 dev eth0 proto kernel scope link src 172.31.39.101
+192.168.68.0/24 via 192.168.100.3 dev edge0
+192.168.100.0/24 dev edge0 proto kernel scope link src 192.168.100.2
+
 
 
 
@@ -1096,31 +1102,31 @@ default via 172.31.32.1 dev eth0
 error  A ping C faild
 A  ip:192.168.68.185
 ip route show
-default via 192.168.68.104 dev enp0s3 proto dhcp src 192.168.68.185 metric 100 
-192.168.68.0/24 dev enp0s3 proto kernel scope link src 192.168.68.185 metric 100 
+default via 192.168.68.104 dev enp0s3 proto dhcp src 192.168.68.185 metric 100
+192.168.68.0/24 dev enp0s3 proto kernel scope link src 192.168.68.185 metric 100
 192.168.68.104 dev enp0s3 scope link
 
 B  ip:192.168.68.104
- ip route show 
-default via 192.168.68.1 dev enp0s3 proto dhcp src 192.168.68.104 metric 100  
-172.31.32.0/20 via 192.168.100.2 dev edge0  
-192.168.68.0/24 dev enp0s3 proto kernel scope link src 192.168.68.104 metric 100  
-192.168.68.1 dev enp0s3 proto dhcp scope link src 192.168.68.104 metric 100  
+ ip route show
+default via 192.168.68.1 dev enp0s3 proto dhcp src 192.168.68.104 metric 100
+172.31.32.0/20 via 192.168.100.2 dev edge0
+192.168.68.0/24 dev enp0s3 proto kernel scope link src 192.168.68.104 metric 100
+192.168.68.1 dev enp0s3 proto dhcp scope link src 192.168.68.104 metric 100
 192.168.100.0/24 dev edge0 proto kernel scope link src 192.168.100.201
 
 C ip:
-ip route show 
-default via 172.31.32.1 dev eth0  
-169.254.169.254 dev eth0  
-172.31.32.0/20 dev eth0 proto kernel scope link src 172.31.39.101  
-192.168.68.104 via 192.168.100.201 dev edge0  
-192.168.100.0/24 dev edge0 proto kernel scope link src 192.168.100.2 
+ip route show
+default via 172.31.32.1 dev eth0
+169.254.169.254 dev eth0
+172.31.32.0/20 dev eth0 proto kernel scope link src 172.31.39.101
+192.168.68.104 via 192.168.100.201 dev edge0
+192.168.100.0/24 dev edge0 proto kernel scope link src 192.168.100.2
 
 
 
 pi router
 C:13.208.182.227
-remote n2n edge 192.168.100.2  enable route 
+remote n2n edge 192.168.100.2  enable route
 13.208.182.227
 eth0     172.31.39.101/20
 edge0  192.168.100.2/24
@@ -1128,7 +1134,7 @@ edge0  192.168.100.2/24
 B pi   192.168.68.111
 eth0
     192.168.68.111/24
-edge0: 
+edge0:
  192.168.100.1/24
 
 
@@ -1138,14 +1144,14 @@ A:
 
 initial route state pi
 ip route show
-default via 192.168.68.1 dev eth0 proto dhcp src 192.168.68.110 metric 202 
-default via 192.168.68.1 dev wlan0 proto dhcp src 192.168.68.123 metric 303 
-192.168.68.0/24 dev eth0 proto dhcp scope link src 192.168.68.110 metric 202 
-192.168.68.0/24 dev wlan0 proto dhcp scope link src 192.168.68.123 metric 303 
-192.168.100.0/24 dev edge0 proto kernel scope link src 192.168.100.1 
+default via 192.168.68.1 dev eth0 proto dhcp src 192.168.68.110 metric 202
+default via 192.168.68.1 dev wlan0 proto dhcp src 192.168.68.123 metric 303
+192.168.68.0/24 dev eth0 proto dhcp scope link src 192.168.68.110 metric 202
+192.168.68.0/24 dev wlan0 proto dhcp scope link src 192.168.68.123 metric 303
+192.168.100.0/24 dev edge0 proto kernel scope link src 192.168.100.1
 
 sysctl -w net.ipv4.ip_forward=1
- 
+
 
 enable named on remote 192.168.100.2
 yum install bind bind-utils -y
@@ -1165,7 +1171,7 @@ rclone mount onedriver:/ /mnt/od --vfs-cache-mode full   --vfs-read-ahead 10M
 --vfs-cache-max-age duration         Max age of objects in the cache (default 1h0m0s)
 --vfs-cache-max-size SizeSuffix      Max total size of objects in the cache (default off)
 --vfs-cache-poll-interval duration   Interval to poll the cache for stale objects (default 1m0s)
---vfs-write-back duration    
+--vfs-write-back duration
 
 ```
 
@@ -1231,7 +1237,7 @@ wsl --set-default-version 1
 ```
 
 
-# power 
+# power
 ```
 pc
 15-20w
@@ -1241,7 +1247,7 @@ mi8
 76  0106
 
 
-pc 
+pc
 19.5x3 60w max
 charging
 26 suspend charging
@@ -1253,7 +1259,7 @@ charging
 
 full charged
 0.6  suspend
-13.7  
+13.7
 11  diaplayoff
 17w 1080p
 20  4k60fps vlc
@@ -1263,7 +1269,7 @@ full charged
 
 
 
-route 
+route
 3 after boot
 5
 8  heavy use
@@ -1279,8 +1285,8 @@ charging 11.2w  7.6w 9wifusbdriver
 
 
 fullcharged
-3w  
-6.7  webgl aquarium  
+3w
+6.7  webgl aquarium
 5  1080pvideo
 2.6  3.0  display off
 
@@ -1292,7 +1298,7 @@ diplay on
 
 
 pi
-0.7 2.2 1.8   
+0.7 2.2 1.8
 7z b 4.6 4.0 4.2 4.6 4.7
 7z b -mmt1  2.6 2.7
 
@@ -1305,7 +1311,7 @@ rsq 1.5L 1560w  5minuts  0.14kwh   0.1rmb
 
 
 rsq bathroom
-2274 
+2274
 2300
 total  40L80c  42min  1.6kwh
 
@@ -1316,8 +1322,8 @@ mac
 在计算密集型多核应用场景中，总功耗31W，有效功耗达到了 27W
 
 
-usb socket 
-0.4  3 usb charger 
+usb socket
+0.4  3 usb charger
 8-9  charge u3
 charging
 40 realme q3 pro pd charging
@@ -1334,22 +1340,22 @@ charging
 
 # wired problem
 #host A
-default via 192.168.68.1 dev wlan0 
-1.1.1.1 via 192.168.100.2 dev edge0 
-8.8.8.8 via 192.168.100.2 dev edge0 
-13.208.182.227 via 192.168.68.1 dev wlan0 proto static metric 600 
-15.152.37.220 via 192.168.68.1 dev wlan0 metric 600 
-172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 linkdown 
-192.168.68.0/24 dev wlan0 proto kernel scope link src 192.168.68.174 metric 600 
-192.168.100.0/24 dev edge0 proto kernel scope link src 192.168.100.3 
-192.168.122.0/24 dev virbr0 proto kernel scope link src 192.168.122.1 linkdown 
+default via 192.168.68.1 dev wlan0
+1.1.1.1 via 192.168.100.2 dev edge0
+8.8.8.8 via 192.168.100.2 dev edge0
+13.208.182.227 via 192.168.68.1 dev wlan0 proto static metric 600
+15.152.37.220 via 192.168.68.1 dev wlan0 metric 600
+172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 linkdown
+192.168.68.0/24 dev wlan0 proto kernel scope link src 192.168.68.174 metric 600
+192.168.100.0/24 dev edge0 proto kernel scope link src 192.168.100.3
+192.168.122.0/24 dev virbr0 proto kernel scope link src 192.168.122.1 linkdown
 
 #B
-default via 192.168.68.174 dev wlan0 proto dhcp src 192.168.68.123 metric 301 
-default via 192.168.68.1 dev wlan0 proto dhcp src 192.168.68.123 metric 303 
-169.254.0.0/16 dev veth752d926 scope link src 169.254.201.87 metric 206 
-172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 
-192.168.68.0/24 dev wlan0 proto dhcp scope link src 192.168.68.123 metric 303 
+default via 192.168.68.174 dev wlan0 proto dhcp src 192.168.68.123 metric 301
+default via 192.168.68.1 dev wlan0 proto dhcp src 192.168.68.123 metric 303
+169.254.0.0/16 dev veth752d926 scope link src 169.254.201.87 metric 206
+172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1
+192.168.68.0/24 dev wlan0 proto dhcp scope link src 192.168.68.123 metric 303
 
 but unconnected,then i fount its bc iptables not well set
 
