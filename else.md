@@ -743,7 +743,8 @@ sudo zerotier-cli set 233ccaac2732bb47 allowDefault=0
 
 
 
-PHY_IFACE=wlan0
+#on router
+PHY_IFACE=eth0
 ZT_IFACE=ztr4n7qf3a
 
 sudo iptables -t nat -A POSTROUTING -o $PHY_IFACE -j MASQUERADE
