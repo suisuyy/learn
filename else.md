@@ -751,7 +751,7 @@ sudo iptables -t nat -A POSTROUTING -o $PHY_IFACE -j MASQUERADE
 sudo iptables -A FORWARD -i $ZT_IFACE -o $PHY_IFACE -j ACCEPT
 sudo iptables -A FORWARD -i $PHY_IFACE -o $ZT_IFACE -m state --state RELATED,ESTABLISHED -j ACCEPT
 sudo iptables -A FORWARD -i zt+ -s 192.168.192.0/24 -d 0.0.0.0/0 -j ACCEPT
-sudo iptables -A FORWARD -i eth0 -s 0.0.0.0/0 -d 10.6.4.0/0 -j ACCEPT
+sudo iptables -A FORWARD -i eth0 -s 0.0.0.0/0 -d 192.168.192.0/24 -j ACCEPT
 
 
 sudo zerotier-cli set 233ccaac2732bb47 allowDefault=1
