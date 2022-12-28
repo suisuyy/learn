@@ -24,6 +24,7 @@ home/ubuntu/.local/var/pmbootstrap
 pip3 install pmbootstrap
 pmbootstrap init
 pmbootstrap install
+pmbootstrap bootimg_analyze
 
 
 
