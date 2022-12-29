@@ -1,4 +1,4 @@
-sudo pacman -S wqy-microhei base-devel sudo alsa-utils openssh git vim bash-completion screen nmap w3m aria2 p7zip unrar rsync sshfs tinyproxy ncdu 
+sudo pacman -S wqy-microhei base-devel sudo bash-completion alsa-utils openssh git vim  screen bc nmap w3m aria2 p7zip unrar rsync sshfs tinyproxy ncdu 
 
 
 #config bash and ssh and screen sudo
