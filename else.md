@@ -730,6 +730,9 @@ Rules: A rule is a statement that tells the system what to do with a packet. Rul
 Targets: A target is a decision of what to do with a packet. Typically, this is to accept it, drop it, or reject it (which sends an error back to the sender).
 
 
+# build kernel
+0626
+
 ## zerotier
 ```
 
