@@ -209,7 +209,14 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 # cron
 sudo systemctl enable --now cronie.service
+minute hour day_of_month month day_of_week command
 
+@reboot	at startup
+@yearly	once a year
+@annually	identical to @yearly
+@monthly	once a month
+@weekly	once a week
+@daily	once a day
 
 # net
 
