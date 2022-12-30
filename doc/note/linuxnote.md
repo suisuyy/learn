@@ -225,7 +225,7 @@ minute hour day_of_month month day_of_week command
 ```
 sudo ip addr add 192.168.68.3/24 brd 192.168.68.1 dev eth0
 
-
+ 
 
 ```
 
