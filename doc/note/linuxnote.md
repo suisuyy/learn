@@ -208,6 +208,9 @@ grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
 # cron
+crontab  -e
+@reboot	bash test.sh
+
 sudo systemctl enable --now cronie.service
 minute hour day_of_month month day_of_week command
 
