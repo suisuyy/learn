@@ -207,6 +207,10 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 ```
 
+# cron
+sudo systemctl enable --now cronie.service
+
+
 # net
 
 ## proxy
