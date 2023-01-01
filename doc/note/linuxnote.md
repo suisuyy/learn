@@ -134,7 +134,7 @@ tar cfzv homebk.tar.gz .ssh .bashrc app/bin .gitconfig .proxychains .screenrc .p
 tar cvpjf backup.tar.bz2 --exclude-from=excl /
 bsdtar --acls --xattrs -cpvf $backupfile /
 bsdtar --acls --xattrs -xpf backupfile
-
+bsdtar -cvf /path/to/chosen/directory/etc-backup.tar.bz2 -I pbzip2
 ```
 
 
