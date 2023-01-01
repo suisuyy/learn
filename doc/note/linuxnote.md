@@ -132,6 +132,9 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ```
 tar cfzv homebk.tar.gz .ssh .bashrc app/bin .gitconfig .proxychains .screenrc .profile
 tar cvpjf backup.tar.bz2 --exclude-from=excl /
+bsdtar --acls --xattrs -cpvf $backupfile /
+bsdtar --acls --xattrs -xpf backupfile
+
 ```
 
 
