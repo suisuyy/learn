@@ -720,9 +720,11 @@ mount UUID=2b9637d0-6db5-4464-899d-7cab1d9b9ca5 /mnt/felse/
 chown -R suisuy:suisuy /mnt/felse/
 # chmod
 sudo chmod u+s /bin/su
+chmod -R 555 /bin
 chmod go-w /home/suisuy
 chmod 700 /home/suisuy/.ssh
 chmod 600 /home/suisuy/.ssh/id_rsa*
+
 
 
 
