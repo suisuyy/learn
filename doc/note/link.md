@@ -4,6 +4,8 @@ https://lnote.suisuy.eu.org/doc/file/test.pac
 
 https://527y3c-my.sharepoint.com/:f:/g/personal/suisuy_527y3c_onmicrosoft_com/EqCC4a3y4WtAspmvmsoY2hgBS077prdGDGN8Em3jhWeqQQ?e=ZUwcFj
 
+https://527y3c-my.sharepoint.com/:w:/g/personal/suisuy_527y3c_onmicrosoft_com/EVotANE7cRJPpgMKnNqGjAsBVzJqzUleLNalhlErMb5PtQ?e=O8cwLv
+
 https://527y3c-my.sharepoint.com/:o:/g/personal/suisuy_527y3c_onmicrosoft_com/EiBOFWmna6xOi2a2BTtuRfIBEFXpHJp3Qz-v-W6mMCpNSA?e=HoRy54
 
 https://github.com/suisuyy/learn/blob/main/doc/note/qnote.md
