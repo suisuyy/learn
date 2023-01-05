@@ -3,7 +3,7 @@ sudo pacman -S wqy-microhei base-devel sudo bash-completion alsa-utils openssh g
 
 #config bash and ssh and screen sudo
 echo "%suisuy  ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
-echo -e "\n bind 'set completion-ignore-case on'\n bind 'set show-all-if-ambiguous on'\n bind '\C-p:menu-complete'\n" >>~/.bashrc
+echo -e "\n bind 'set completion-ignore-case on'\n bind 'set show-all-if-ambiguous on'\n bind '\C-j:menu-complete'\n" >>~/.bashrc
 echo -e "ServerAliveInterval 1\nServerAliveCountMax 2" >>~/.ssh/config
 
 
