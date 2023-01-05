@@ -387,6 +387,8 @@ docker rm oc-eval
 # loop:
 ```
 for z in *.7z; do 7z x "$z" -p'1346' ; done
+for z in *.tar.gz; do tar xf "$z"  ; done
+
 
 ```
 
