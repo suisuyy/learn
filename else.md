@@ -18,7 +18,7 @@
 - [kali](#kali)
 - [end](#end)
 
-
+84/34
 # pmos
 home/ubuntu/.local/var/pmbootstrap
 pip3 install pmbootstrap
