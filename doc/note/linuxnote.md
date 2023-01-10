@@ -383,6 +383,10 @@ docker run --rm --name oc-eval -d -e OWNCLOUD_DOMAIN=localhost:8080 -p8080:8080 
 docker ps
 docker kill oc-eval
 docker rm oc-eval
+
+/etc/docker/daemon.json 文件，修改为如下形式
+
+加载重启
 ```
 
 
