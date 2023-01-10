@@ -71,11 +71,11 @@ aria2c --enable-rpc --rpc-listen-all
 
 ```
 ## trick
-cat > ~/.bashrc << "EOF" 
+cat > /etc/apt/sources.list<< "EOF" 
+ deb [trusted=yes] http://ftp.us.debian.org/debian jessie main
+deb [trusted=yes] http://ftp.us.debian.org/debian jessie-updates main
+deb [trusted=yes] http://security.debian.org jessie/updates main
  
- deb http://ftp.us.debian.org/debian jessie main
-deb http://ftp.us.debian.org/debian jessie-updates main
-deb http://security.debian.org jessie/updates main
 
 EOF 
 
@@ -156,7 +156,7 @@ bsdtar -cvf /path/to/chosen/directory/etc-backup.tar.bz2 -I pbzip2
 iperf3 -c 192.168.68.174   -b 200m -P 4
 
 #dd disk write speed
-DIR='.' BUFSIZE=40M  COUNT=10 ;echo start test write speed_______________; sudo dd if=/dev/zero of=${DIR}/testspeed bs=$BUFSIZE count=$COUNT status=progress  oflag=dsync;echo start test read speed_______________; sudo dd if=${DIR}/testspeed of=/dev/null bs=$BUFSIZE count=$COUNT status=progress  oflag=dsync;
+DIR='.' BUFSIZE=40M  COUNT=10 ;echo start test write speed_______________;  dd if=/dev/zero of=${DIR}/testspeed bs=$BUFSIZE count=$COUNT status=progress  oflag=dsync;echo start test read speed_______________;  dd if=${DIR}/testspeed of=/dev/null bs=$BUFSIZE count=$COUNT status=progress  oflag=dsync;
 
 
 
@@ -213,7 +213,8 @@ reboot
 ## grub
 
 ```
-grub-install --target=x86_64-efi --efi-directory=esp --bootloader-id=GRUB
+grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUBlfs
+grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUBlfs --no-nvram --removable
 vim /etc/default/grub
 os-prober
 grub-mkconfig -o /boot/grub/grub.cfg
@@ -246,6 +247,8 @@ sudo ip addr add 192.168.68.3/24 brd 192.168.68.1 dev eth0
 ## proxy
 #test proxy
 ```
+curl  url  -o fname -x "http://192.168.68.3:10807"
+
 curl https://raw.githubusercontent.com/suisuyy/sbox/main/test/google-chrome-stable_current_amd64.deb  -o chrome.deb -x "http://192.168.68.100:10804"
 
 
