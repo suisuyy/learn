@@ -824,6 +824,10 @@ docker run --rm -it --entrypoint bash <image-name-or-id>
 
 docker exec -it <container-name-or-id> bash
 docker container ls -a
+
+docker pull mipsle/debian:jessie
+docker tag dockerproxy.com/mipsle/debian:jessie mipsle/debian:jessie
+docker rmi dockerproxy.com/mipsle/debian:jessie
 ```
 #-it instructs Docker to allocate a pseudo-TTY connected to the container’s stdin; creating an interactive bash shell in the container
 
