@@ -71,7 +71,13 @@ aria2c --enable-rpc --rpc-listen-all
 
 ```
 ## trick
+cat > ~/.bashrc << "EOF" 
+ 
+ deb http://ftp.us.debian.org/debian jessie main
+deb http://ftp.us.debian.org/debian jessie-updates main
+deb http://security.debian.org jessie/updates main
 
+EOF 
 
 
 setxkbmap -option keypad:pointerkeys
