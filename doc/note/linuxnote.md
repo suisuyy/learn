@@ -385,7 +385,12 @@ docker kill oc-eval
 docker rm oc-eval
 
 /etc/docker/daemon.json 文件，修改为如下形式
-
+{
+  "registry-mirrors": [
+    "https://hub-mirror.c.163.com",
+    "https://mirror.baidubce.com"
+  ]
+}
 加载重启
 ```
 
