@@ -558,6 +558,7 @@ Shell��������source����һ���ơ�������
 
 
 # ssh
+ssh -oHostKeyAlgorithms=+ssh-rsa root@172.22.22.1
 
 chmod 0600 .ssh/*
 
