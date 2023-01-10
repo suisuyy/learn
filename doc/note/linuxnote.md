@@ -72,6 +72,8 @@ aria2c --enable-rpc --rpc-listen-all
 ```
 ## trick
 
+
+
 setxkbmap -option keypad:pointerkeys
 #then use Shift+NumLock to toggle the use of the numeric pad
 
