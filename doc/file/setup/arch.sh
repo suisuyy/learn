@@ -1,3 +1,6 @@
+
+
+
 sudo pacman -S wqy-microhei base-devel sudo usbutils automake autoconf mlocate  alsa-utils openssh git vim  screen bc nmap w3m aria2 p7zip unrar rsync sshfs tinyproxy ncdu bash-completion
 
 
