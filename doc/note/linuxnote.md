@@ -177,7 +177,7 @@ sudo rm tmp/testspeed; sudo umount tmp
 ```
 crontab -e
 @reboot screen -S sinit  -dm bash /root/sinit.sh
-@reboot screen -dm bash -c 'echo test;read;  bash'
+@reboot screen -dm bash -c 'df;read;  bash'
 
 #/root/sinit.sh
 /snap/bin/ttyd -p 2222 /bin/bash& 
