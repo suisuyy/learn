@@ -10,7 +10,7 @@ sudo pacman -Syu sublime-text
 
 
 #gdm
-export gdm_CONF= /etc/gdm3/custom.conf 
+export gdm_CONF='/etc/gdm3/custom.conf' 
 mkdir ~/bk
 cp $gdm_CONF ~/bk
 mv 
