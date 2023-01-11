@@ -10,3 +10,7 @@ sudo pacman -Syu sublime-text
 
 
 #gdm
+cat > /etc/<< "EOF"
+
+
+EOF
