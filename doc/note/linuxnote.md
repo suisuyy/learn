@@ -769,6 +769,14 @@ CocConfig
 edit file in .vim/coc-settings.json
 
 # virt
+
+## virt-manager
+```
+spice-vdagent and verify that spice-vdagentd is launched (ps -lef|grep spice-vdagentd will return you the process if its running)
+
+
+```
+
 ## chroot
 
 export MCHRMIRROR=http://deb.debian.org/debian
