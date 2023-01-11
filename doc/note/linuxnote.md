@@ -182,7 +182,7 @@ crontab -e
 #/root/sinit.sh
 /snap/bin/ttyd -p 2222 /bin/bash& 
 python3 -m http.server 8080&
-read
+bash  #need or screen will terminate
 
 
 
