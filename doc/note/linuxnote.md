@@ -485,6 +485,9 @@ popd #send you back to those directories
 # screen
 screen->session->window
 ```
+screen -S ttyd  -m ttyd -p 2222 /bin/bash
+screen -S ttyd  -dm ttyd -p 2222 /bin/bash
+
 #~/.screenrc
 #change keybind to ctrl + j
 escape ^Jj
