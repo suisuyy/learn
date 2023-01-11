@@ -3,9 +3,9 @@
 
 sudo pacman -S wqy-microhei base-devel sudo usbutils automake autoconf mlocate  alsa-utils openssh git vim  screen bc nmap w3m aria2 p7zip unrar rsync sshfs tinyproxy ncdu bash-completion
 
-
-#config bash and ssh and screen sudo
+#sudo no passwd need
 echo "%suisuy  ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+#config bash and ssh and screen 
 echo -e "\n bind 'set completion-ignore-case on'\n bind 'set show-all-if-ambiguous on'\n bind '\C-j:menu-complete'\n" >>~/.bashrc
 echo -e "ServerAliveInterval 1\nServerAliveCountMax 2" >>~/.ssh/config
 
