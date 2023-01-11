@@ -177,6 +177,10 @@ sudo rm tmp/testspeed; sudo umount tmp
 ```
 crontab -e
 @reboot screen -S sinit  -dm bash /root/sinit.sh
+#/root/sinit.sh
+/snap/bin/ttyd -p 2222 /bin/bash& 
+python3 -m http.server 8080&
+read
 
 
 
