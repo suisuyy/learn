@@ -173,6 +173,15 @@ sudo rm tmp/testspeed; sudo umount tmp
 ```
 
 
+# cron
+```
+crontab -e
+@reboot screen -S sinit  -dm bash /root/sinit.sh
+
+
+
+```
+
 # disk
 ### dd and disk speed
 
