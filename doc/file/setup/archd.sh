@@ -7,3 +7,6 @@ sudo pacman -Syu sublime-text
 
 #echo 'setxkbmap -option caps:swapescape' >>~/.xprofile
 
+
+
+#gdm
