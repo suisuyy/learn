@@ -10,6 +10,9 @@ sudo pacman -Syu sublime-text
 
 
 #gdm
+export gdm_CONF= /etc/gdm3/custom.conf 
+mkdir ~/bk
+mv 
 cat >  /etc/gdm3/custom.conf << "EOF"
 # GDM configuration storage
 #
@@ -20,8 +23,8 @@ cat >  /etc/gdm3/custom.conf << "EOF"
 #WaylandEnable=false
 
 # Enabling automatic login
-#  AutomaticLoginEnable = true
-#  AutomaticLogin = user1
+ AutomaticLoginEnable = true
+  AutomaticLogin = suisuy
 
 # Enabling timed login
 #  TimedLoginEnable = true
