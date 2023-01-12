@@ -172,6 +172,12 @@ sudo rm tmp/testspeed; sudo umount tmp
  
 ```
 
+# cat and heredoc
+```
+
+
+```
+
 
 # cron
 ```
