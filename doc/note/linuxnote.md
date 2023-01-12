@@ -174,7 +174,10 @@ sudo rm tmp/testspeed; sudo umount tmp
 
 # cat and heredoc
 ```
-
+cat > file << "EOF"
+somtetext
+line2
+EOF
 
 ```
 
