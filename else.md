@@ -672,7 +672,7 @@ export idev=enp0s20f0u2
 export odev=wlan0
 iptables -A FORWARD -i $idev -o $odev -j ACCEPT
 iptables -t nat -A POSTROUTING -o $odev -j MASQUERADE
-iptables -A FORWARD -i idev -o $idev-j ACCEPT
+iptables -A FORWARD -i $idev -o $idev-j ACCEPT
 
 
 ```
