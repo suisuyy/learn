@@ -481,7 +481,7 @@ npm install cnpm -g --registry=https://registry.npmmirror.com
 
 ```plain
 export HTTP_PROXY=http://localhost:10809 #this only works for http url,seems odd
-export all_proxy=http://localhost:10809
+export all_proxy=http://192.168.68.3:10807
 
 pip3 install proxy.py
 proxy --port 10801 --host 192.168.100.2
