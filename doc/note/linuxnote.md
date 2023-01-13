@@ -77,7 +77,7 @@ deb [trusted=yes] http://ftp.us.debian.org/debian jessie-updates main
 deb [trusted=yes] http://security.debian.org jessie/updates main
  
 
-EOF 
+EOF
 
 
 setxkbmap -option keypad:pointerkeys
