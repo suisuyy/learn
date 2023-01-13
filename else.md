@@ -617,7 +617,7 @@ Tot:             713   1646  11792
 
 pc ruby Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
 2 times as sd845
-7z b -mmt
+7z b -mmt1
 Avr:             100   3307   3302  |              100   3236   3233
 Tot:             100   3271   3267
 
