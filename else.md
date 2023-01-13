@@ -668,11 +668,11 @@ figterm
 echo -e "\nnet.ipv4.ip_forward=1 " >>/etc/sysctl.conf  && sysctl -p
 
 
-export idev=
-export odev=
-iptables -A FORWARD -i wlan0 -o edge0 -j ACCEPT
-iptables -t nat -A POSTROUTING -o enp0s3 -j MASQUERADE
-iptables -A FORWARD -i edge0 -o wlan0 -j ACCEPT
+export idev=enp0s20f0u2
+export odev=wlan0
+iptables -A FORWARD -i $idev -o $odev -j ACCEPT
+iptables -t nat -A POSTROUTING -o $odev -j MASQUERADE
+iptables -A FORWARD -i idev -o $idev-j ACCEPT
 
 
 ```
