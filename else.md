@@ -664,6 +664,18 @@ figterm
 
 
 # route
+```
+echo -e "\nnet.ipv4.ip_forward=1 " >>/etc/sysctl.conf  && sysctl -p
+
+iptables -A FORWARD -i wlan0 -o edge0 -j ACCEPT
+iptables -t nat -A POSTROUTING -o edge0 -j MASQUERADE
+iptables -A FORWARD -i edge0 -o wlan0 -j ACCEPT
+
+
+```
+
+
+
 ## common cmd
 ```
 ip addr show wlan0
