@@ -792,6 +792,7 @@ default via 192.168.68.1 dev wlan0 proto dhcp src 192.168.68.174 metric 600
 
 C  13.208.182.227
 sudo su
+echo -e "\nnet.ipv4.ip_forward=1 " >>/etc/sysctl.conf  && sysctl -p
 iptables -t nat -A POSTROUTING -j MASQUERADE
 sysctl -p
 supernode /etc/n2n/supernode.conf
