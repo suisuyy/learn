@@ -667,7 +667,7 @@ figterm
 ```
 echo -e "\nnet.ipv4.ip_forward=1 " >>/etc/sysctl.conf  && sysctl -p
 
-
+iptables -t nat -A POSTROUTING -j MASQUERADE
 export idev=enp0s20f0u2
 export odev=wlan0
 iptables -A FORWARD -i $idev -o $odev -j ACCEPT
