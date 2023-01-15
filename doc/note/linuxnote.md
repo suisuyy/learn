@@ -1273,7 +1273,7 @@ expac "%n %m" -l'\n' -Q $(pacman -Qq) | sort -rhk 2 | less
 
 rsync --progress largefile.gz somewhere/else/ #cp with speed display
 kill -9 -1 #logou de
-chromium --proxy-server="//ruby.l:10808"
+chromium  --no-sandbox --proxy-server="http://192.168.68.3:10807"
 sudo virsh net-start default
 rsync -ah --progress source destination
 xzcat test.img.xz | dd of=/dev/mmcblk2 bs=1M status=progress oflag=dsync
