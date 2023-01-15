@@ -686,11 +686,6 @@ net.ipv6.conf.all.forwarding = 1
 net.ipv4.ip_forward=1
 
 
-
-echo -e "\nnet.ipv4.ip_forward=1 " >>/etc/sysctl.conf  
-
-sysctl -p
-
 cat >> /etc/sysctl.conf << "EOF" 
 
 net.ipv4.ip_forward=1
