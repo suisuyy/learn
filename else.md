@@ -668,7 +668,9 @@ figterm
 
 
 
-echo -e "\nnet.ipv4.ip_forward=1 " >>/etc/sysctl.conf  && sysctl -p
+echo -e "\nnet.ipv4.ip_forward=1 " >>/etc/sysctl.conf  
+
+sysctl -p
 
 net.ipv6.conf.all.forwarding = 1
 net.ipv4.ip_forward=1
