@@ -674,13 +674,34 @@ echo -e "\nnet.ipv4.ip_forward=1 " >>/etc/sysctl.conf
 
 sysctl -p
 
+cat >> /etc/sysctl.conf << "EOF" 
+
+net.ipv4.ip_forward=1
+net.ipv6.conf.all.forwarding = 1
+
+EOF
+
+sysctl -p
+
+sysctl net.ipv4.ip_forward
+sysctl net.ipv6.conf.all.forwarding 
+
+
+iptables -F
+iptables -X
+iptables -t nat -F
+iptables -t nat -X
+iptables -t mangle -F
+iptables -t mangle -X
+iptables -P INPUT ACCEPT
+iptables -P OUTPUT ACCEPT
+iptables -P FORWARD ACCEPT
+
+
+iptables -A FORWARD -j ACCEPT
 
 iptables -t nat -A POSTROUTING -j MASQUERADE
-export idev=enp0s20f0u2
-export odev=wlan0
-iptables -A FORWARD -i $idev -o $odev -j ACCEPT
-iptables -t nat -A POSTROUTING -o $odev -j MASQUERADE
-iptables -A FORWARD -i $idev -o $idev -j ACCEPT
+
 
 
 ```
