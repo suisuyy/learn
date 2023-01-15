@@ -665,6 +665,8 @@ figterm
 
 # route
 ```
+net.ipv6.conf.all.forwarding = 1
+net.ipv4.ip_forward=1
 
 
 
@@ -672,8 +674,6 @@ echo -e "\nnet.ipv4.ip_forward=1 " >>/etc/sysctl.conf
 
 sysctl -p
 
-net.ipv6.conf.all.forwarding = 1
-net.ipv4.ip_forward=1
 
 iptables -t nat -A POSTROUTING -j MASQUERADE
 export idev=enp0s20f0u2
