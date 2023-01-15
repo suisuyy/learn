@@ -18,6 +18,23 @@
 - [kali](#kali)
 - [end](#end)
 
+
+# auto login
+Edit your /etc/systemd/logind.conf , change #NAutoVTs=6 to NAutoVTs=1
+
+Create a /etc/systemd/system/getty@tty1.service.d/override.conf through ;
+
+systemctl edit getty@tty1
+Paste the following lines
+
+[Service]
+ExecStart=
+ExecStart=-/sbin/agetty --autologin root --noclear %I 38400 linux
+enable the getty@tty1.service then reboot
+
+systemctl enable getty@tty1.service
+reboot
+
 84/34
 # pmos
 home/ubuntu/.local/var/pmbootstrap
