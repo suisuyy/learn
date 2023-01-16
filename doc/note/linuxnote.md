@@ -79,7 +79,7 @@ deb [trusted=yes] http://security.debian.org jessie/updates main
 
 EOF
 
-
+sudo journalctl -xeu caddy.service
 setxkbmap -option keypad:pointerkeys
 #then use Shift+NumLock to toggle the use of the numeric pad
 
