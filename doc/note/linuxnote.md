@@ -869,7 +869,7 @@ Unmount
 docker pull docker.io/ubuntu:latest
 
 docker run  -it --net host -v /mnt:/mnt --entrypoint bash <image-name-or-id>
-docker run  -it --net host -v /mnt:/mnt --entrypoint bash <image-name-or-id>
+docker run  -it -d --restart always --net host -v /mnt:/mnt --entrypoint bash <image-name-or-id>
 
 docker run -rm  -it --net host -v /mnt:/mnt --entrypoint bash <image-name-or-id>
 
