@@ -440,6 +440,14 @@ docker rm oc-eval
 for z in *.7z; do 7z x "$z" -p'1346' ; done
 for z in *.tar.gz; do tar xf "$z"  ; done
 
+CMD="${1:-'emptycmd'}"
+SLEEP_DURATION=2
+while true
+do
+        $CMD;
+        echo cmd:$CMD : 'restart after ' $SLEEP_DURATION seconds
+        sleep $SLEEP_DURATION
+done
 
 ```
 
