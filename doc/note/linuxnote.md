@@ -245,7 +245,9 @@ reboot
 
 # dm
 ## lightdm
- /usr/share/lightdm/lightdm.conf.d/64-autologin.conf
+
+#autologin add this to
+   /usr/share/lightdm/lightdm.conf.d/64-autologin.conf
 ```
  [Seat:*]
 autologin-user=suisuy
