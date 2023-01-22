@@ -245,7 +245,14 @@ reboot
 
 # dm
 ## lightdm
-/usr/share/lightdm/lightdm.conf.d/
+ /usr/share/lightdm/lightdm.conf.d/64-autologin.conf
+```
+ [Seat:*]
+autologin-user=suisuy
+autologin-user-timeout=0
+autologin-session=xfce
+
+```
 
 
 # boot
