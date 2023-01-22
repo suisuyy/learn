@@ -255,6 +255,7 @@ autologin-user-timeout=0
 autologin-session=xfce
 
 ```
+sudo /usr/lib/lightdm/lightdm-set-defaults --autologin "$USER"
 
 
 # boot
