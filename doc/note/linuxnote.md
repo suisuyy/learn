@@ -13,6 +13,8 @@
     - [dd and disk speed](#dd-and-disk-speed)
     - [parted](#parted)
     - [resize](#resize)
+- [dm](#dm)
+  - [lightdm](#lightdm)
 - [boot](#boot)
   - [grub](#grub)
 - [cron](#cron-1)
@@ -240,6 +242,10 @@ sudo -s
 dd if=/dev/null of=/userdata/ubuntu.img bs=1M seek=6000 count=0
 resize2fs -f /userdata/ubuntu.img                                            
 reboot
+
+# dm
+## lightdm
+/usr/share/lightdm/lightdm.conf.d/
 
 
 # boot
