@@ -68,6 +68,7 @@
 #pacman -Sy linux-lts linux-lts-headers
 /boot/initramfs-linux-lts.img
 grub-mkconfig -o /boot/grub/grub.cfg
+~/.local/share/themes
 
 ```
 xfreerdp /u:Administrator /p:a /v:192.168.68.11 +fonts    /clipboard /home-drive  /sound:latency:400
