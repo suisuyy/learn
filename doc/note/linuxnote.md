@@ -751,7 +751,13 @@ tar tf file.tar.gz #list content in tar
 
 ```
 
+tftp
+```
+uftpd -n  -l info /srv/tftp/
 
+
+
+```
 
 
 # user
