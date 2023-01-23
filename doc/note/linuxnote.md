@@ -752,6 +752,8 @@ tar tf file.tar.gz #list content in tar
 ```
 
 
+
+
 # user
 useradd -m -s /bin/bash -G sudo testshell
 
