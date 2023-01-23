@@ -755,6 +755,7 @@ tftp
 ```
 uftpd -n  -l info /srv/tftp/
 
+curl -o testdlfile tftp://172.22.22.174/JDCOS.bin
 
 
 ```
