@@ -753,9 +753,11 @@ tar tf file.tar.gz #list content in tar
 
 tftp
 ```
+mkdir /srv/tftp
+echo testtftp txt > /srv/tftp/test
 uftpd -n  -l info /srv/tftp/
 
-curl -o testdlfile tftp://172.22.22.174/JDCOS.bin
+curl -o testdlfile tftp://172.22.22.174/test
 
 
 ```
