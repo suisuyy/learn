@@ -2,6 +2,12 @@
 
 https://lnote.suisuy.eu.org/doc/file/test.pac
 
+onedrive share readonly
+https://527y3c-my.sharepoint.com/:f:/g/personal/suisuy_527y3c_onmicrosoft_com/EqCC4a3y4WtAspmvmsoY2hgBANJOfk3-0ry5Rz9TkX3hog?e=vbT3nd
+
+
+
+
 https://527y3c-my.sharepoint.com/:f:/g/personal/suisuy_527y3c_onmicrosoft_com/EqCC4a3y4WtAspmvmsoY2hgBS077prdGDGN8Em3jhWeqQQ?e=ZUwcFj
 
 https://527y3c-my.sharepoint.com/:w:/g/personal/suisuy_527y3c_onmicrosoft_com/EVotANE7cRJPpgMKnNqGjAsBVzJqzUleLNalhlErMb5PtQ?e=O8cwLv
