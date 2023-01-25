@@ -241,7 +241,6 @@ fastboot boot boot.img
 为efi系统分区设定盘符以便对其进行修改
 diskpart  
 select disk 7
-list part
 select part 21
 assign letter=T
 exit
