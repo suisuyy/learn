@@ -242,7 +242,7 @@ fastboot boot boot.img
 diskpart  
 select disk 7
 list part
-select part 21 #21为你的esp分区号
+select part 27
 assign letter=T
 exit
 第二行的 select disk 7 中的数字7 可能要根据实际情况修改
