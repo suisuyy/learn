@@ -11,7 +11,7 @@ function FindProxyForURL(url, host) {
   else if (shExpMatch(host, "ruby.suisuy.eu.org")) {
     return "DIRECT";
   }
-  else if (shExpMatch(host, "*.cn")) {
+  else if (shExpMatch(host, "*.cn") || ) {
     return "DIRECT";
   }
 
