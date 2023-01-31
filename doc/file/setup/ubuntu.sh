@@ -2,8 +2,8 @@
 
 #install packages
 sudo apt update
-sudo apt install -y fonts-wqy-zenhei openssh-server ntfs-3g iputils-ping iperf3 curl wget git vim bash-completion screen htop w3m aria2 p7zip unrar rsync sshfs tinyproxy
-#sudo apt  install  -y dbus-x11 xfce4  xfce4-terminal
+sudo apt install -y fonts-wqy-zenhei openssh-server  iputils-ping iperf3 curl wget git vim bash-completion screen htop w3m aria2 p7zip unrar rsync sshfs tinyproxy
+#sudo apt  install  -y dbus-x11 xfce4  xfce4-terminal ntfs-3g
 
 #config user ,sudo without passwd
 echo "%${USER}  ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers
