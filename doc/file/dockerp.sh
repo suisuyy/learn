@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e # stop if error
 
-echo $0 $1 $2 $3  #echo whole command
+echo $0 $1 $2 $3  #try echo whole command
 echo usage: bash dockerp.sh imagename
 
 
