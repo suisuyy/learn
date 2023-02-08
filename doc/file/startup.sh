@@ -2,7 +2,7 @@
 
 #install packages
 sudo apt update
-sudo apt install -y fonts-wqy-zenhei openssh-server ntfs-3g iputils-ping iperf3 curl wget git vim bash-completion screen htop w3m aria2 p7zip unrar-free rsync sshfs tinyproxy 
+sudo apt install -y fonts-wqy-zenhei iproute2 openssh-server ntfs-3g iputils-ping iperf3 curl wget git vim bash-completion screen htop w3m aria2 p7zip unrar-free rsync sshfs tinyproxy 
 #sudo apt  install  -y dbus-x11 xfce4  xfce4-terminal ttyd
 
 #config user ,sudo without passwd
