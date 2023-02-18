@@ -21,6 +21,8 @@ Mac OS X Puma	10.1.5
 Mac OS X Cheetah	10.0.4
 
 # mi8 android docker test
+
+
 ```
 Android needs kernel support to run docker
 install termux  https://f-droid.org/en/packages/com.termux/
