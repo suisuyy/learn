@@ -63,6 +63,8 @@ Is the test docker running normally?
 sudo docker run hello-world 
 
 sudo docker run --network host --name nginx nginx:latest
+
+
 Enter in the browser http://localhost:80
 Execute the following command to pull the latest image of Ubuntu
 sudo docker pull ubuntu
