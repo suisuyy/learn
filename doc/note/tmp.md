@@ -55,7 +55,9 @@ ln -s $PREFIX/bin/tini-static $PREFIX/bin/docker-init
 
 Start up docker
 sudo mount -t tmpfs -o uid=0,gid=0,mode=0755 cgroup /sys/fs/cgroup
+
 sudo dockerd --iptables=false
+
 Is the test docker running normally?
 sudo docker run hello-world 
 sudo docker run --network host --name nginx nginx:latest
