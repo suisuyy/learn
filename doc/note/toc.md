@@ -14,7 +14,7 @@
 [benchmark](./mdreader.html?md=note/bm.md)
 
 
-[tmp](./mdreader.html?md=https://raw.githubusercontent.com/suisuyy/test/main/tmp.md)
+[tmp](./mdreader.html?md/tmp.md)
 
 
 
