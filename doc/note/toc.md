@@ -13,7 +13,7 @@
 
 [benchmark](./mdreader.html?md=note/bm.md)
 
-[benchmark](./mdreader.html?md=note/hack.md)
+[hack](./mdreader.html?md=note/hack.md)
 
 
 [tmp](./mdreader.html?md=note/tmp.md)
