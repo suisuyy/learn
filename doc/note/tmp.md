@@ -32,8 +32,9 @@ Installation Dependencies
 pkg install golang make cmake ndk-multilib tsu tmux docker
 
 Compilation tini
+
 cd $TMPDIR/docker-build
-wget https://github.com/krallin/tini/archive/v0.19.0.tar.gz
+wget https://ghproxyhttps://github.com/krallin/tini/archive/v0.19.0.tar.gz
 tar xf v0.19.0.tar.gz
 cd tini-0.19.0
 mkdir build
