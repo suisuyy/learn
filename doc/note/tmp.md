@@ -50,6 +50,7 @@ cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=$PREFIX ..
 make -j8
 
 make install
+
 ln -s $PREFIX/bin/tini-static $PREFIX/bin/docker-init
 Start up docker
 sudo mount -t tmpfs -o uid=0,gid=0,mode=0755 cgroup /sys/fs/cgroup
