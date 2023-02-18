@@ -46,6 +46,7 @@ mkdir build
 cd build
 
 cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=$PREFIX ..
+
 make -j8
 make install
 ln -s $PREFIX/bin/tini-static $PREFIX/bin/docker-init
