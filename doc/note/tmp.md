@@ -40,8 +40,11 @@ wget https://ghproxy.com/https://github.com/krallin/tini/archive/v0.19.0.tar.gz
 tar xf v0.19.0.tar.gz
 
 cd tini-0.19.0
+
 mkdir build
+
 cd build
+
 cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=$PREFIX ..
 make -j8
 make install
