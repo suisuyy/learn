@@ -2,8 +2,6 @@
 set -x
 cd $(dirname $0)
 
-export DNAME=d6.suisuy.eu.org
-
 
 
 
