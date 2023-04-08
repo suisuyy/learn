@@ -8,7 +8,7 @@ cd $(dirname $0)
 SLEEP_DURATION=20
 while true
 do
-	for f in *.sh; do bash $f  ; done
+	for f in *.sh; do bash $f &  ; done
         echo all sh finished and will exec again $SLEEP_DURATION seconds
         sleep $SLEEP_DURATION
 done
