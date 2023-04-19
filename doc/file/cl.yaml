@@ -48,7 +48,7 @@ proxy-groups:
 proxy-providers:
   provider1:
     type: http
-    url: "https://lnote.suisuy.eu.org/doc/file/clt.yaml"
+    url: "https://"
     interval: 3600
     path: ./neednthere.yaml
     health-check:
