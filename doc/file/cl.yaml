@@ -36,7 +36,6 @@ proxy-groups:
       - Proxies
       - DIRECT
       - http
-
      - name: UseProvider
     type: select
     use:
