@@ -50,7 +50,7 @@ proxy-providers:
     type: http
     url: "http://xn--4gqu8thxjfje.com/api/v1/client/subscribe?token=d941366e0c5ad36f6de92795864dcb5a"
     interval: 3600
-    path: ./provider1.yaml
+    path: ./neednthere.yaml
     health-check:
       enable: true
       interval: 36000
