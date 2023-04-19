@@ -27,8 +27,8 @@ proxy-groups:
   - name: Proxies
     type: select
     proxies:
-      - http
       - httpz
+      - http
   - name: Domestic
     type: select
     proxies:
