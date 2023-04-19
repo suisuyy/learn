@@ -23,6 +23,7 @@ proxy-groups:
     proxies:
       - http
       - httpz
+      - vmess
   - name: Domestic
     type: select
     proxies:
