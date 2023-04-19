@@ -48,7 +48,7 @@ proxy-groups:
 proxy-providers:
   provider1:
     type: http
-    url: "url"
+    url: "http://xn--4gqu8thxjfje.com/api/v1/client/subscribe?token=d941366e0c5ad36f6de92795864dcb5a"
     interval: 3600
     path: ./provider1.yaml
     health-check:
