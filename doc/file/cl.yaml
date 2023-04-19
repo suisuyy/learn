@@ -29,6 +29,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - Proxies
+      - http
   - name: Others
     type: select
     proxies:
