@@ -53,9 +53,9 @@ proxy-providers:
     path: ./provider1.yaml
     health-check:
       enable: true
-      interval: 600
+      interval: 36000
       # lazy: true
-      url: 
+      url: http://www.gstatic.com/generate_204
   test:
     type: file
     path: /test.yaml
