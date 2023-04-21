@@ -9,5 +9,5 @@ while true
 do
 	for f in *.sh; do bash $f &  ; done
   echo all sh finished and will exec again $SLEEP_DURATION seconds
-        sleep $SLEEP_DURATION
+  sleep $SLEEP_DURATION
 done
