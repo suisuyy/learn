@@ -14,7 +14,7 @@ experimental: {ignore-resolve-fail: true, interface-name: en0}
 
 proxies:
   - {name: httpz, server: 192.168.192.1, port: 11111, type: http, udp: true}
-  - {name: httpz, server: 192.168.192.1, port: 11111, type: http, udp: true}
+  - {name: httpz, server: 192.168.192.2, port: 11111, type: http, udp: true}
   - {name: http, server: 192.168.23.4, port: 11111, type: http, udp: true}
   - {name: vmess, server: lin.musekidan.com, port: 443, type: vmess, uuid: c93335a2-3f75-4c2b-825c-1e0a062efa4c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: lin.musekidan.com, network: ws, ws-opts: {path: /lin, headers: {Host: lin.untilmu.com}}, udp: true}
 
