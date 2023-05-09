@@ -5,7 +5,7 @@ sudo pacman -S wqy-microhei base-devel sudo openssh usbutils automake autoconf m
 #sudo no passwd need
 echo "%suisuy  ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 #config bash and ssh and screen 
-echo -e "\n bind 'set completion-ignore-case on'\n bind 'set show-all-if-ambiguous on'\n bind '\C-:menu-complete'\n" >>~/.bashrc
+echo -e "\n bind 'set completion-ignore-case on'\n bind 'set show-all-if-ambiguous on'\n bind '\C-p:menu-complete'\n" >>~/.bashrc
 echo -e "ServerAliveInterval 1\nServerAliveCountMax 2" >>~/.ssh/config
 
 echo -e \
