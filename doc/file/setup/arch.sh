@@ -7,7 +7,7 @@ echo "%suisuy  ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 #config bash and ssh and screen 
 echo -e "\n bind 'set completion-ignore-case on'\n bind 'set show-all-if-ambiguous on'\n bind '\C-p:menu-complete'\n" >>~/.bashrc
 echo -e "ServerAliveInterval 1\nServerAliveCountMax 2" >>~/.ssh/config
-
+#screen
 echo -e \
 "escape ^aA \n\
 hardstatus alwayslastline\n\
