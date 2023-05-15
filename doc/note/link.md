@@ -2,21 +2,15 @@
 
 https://lnote.suisuy.eu.org/doc/file/test.pac
 
-https://gadgetversus.com/processor/intel-celeron-j1900-vs-intel-pentium-silver-n6000/
 
-onedrive share readonly suisuy@527y3c.onmicrosoft.com
+suisuy@527y3c.onmicrosoft.com
+
+onedrive share readonly 
 https://527y3c-my.sharepoint.com/:f:/g/personal/suisuy_527y3c_onmicrosoft_com/EqCC4a3y4WtAspmvmsoY2hgBANJOfk3-0ry5Rz9TkX3hog?e=vbT3nd
 
 onedriver tmp rw
 https://527y3c-my.sharepoint.com/:f:/g/personal/suisuy_527y3c_onmicrosoft_com/EqfqKSGGIU1NjZaibDlAc2sBLDPFxC0XbBiVQn1TxhozkA?e=DbxikP
 
-
-
-https://527y3c-my.sharepoint.com/:f:/g/personal/suisuy_527y3c_onmicrosoft_com/EqCC4a3y4WtAspmvmsoY2hgBS077prdGDGN8Em3jhWeqQQ?e=ZUwcFj
-
-https://527y3c-my.sharepoint.com/:w:/g/personal/suisuy_527y3c_onmicrosoft_com/EVotANE7cRJPpgMKnNqGjAsBVzJqzUleLNalhlErMb5PtQ?e=O8cwLv
-
-https://527y3c-my.sharepoint.com/:o:/g/personal/suisuy_527y3c_onmicrosoft_com/EiBOFWmna6xOi2a2BTtuRfIBEFXpHJp3Qz-v-W6mMCpNSA?e=HoRy54
 
 https://github.com/suisuyy/learn/blob/main/doc/note/qnote.md
 
@@ -36,8 +30,7 @@ http://tongmengxz.com/category/picture
 
 https://learn.microsoft.com/en-us/training/modules/plan-config-global-address-book-finance-operations/4-exercise
 
-https://527y3c-my.sharepoint.com/:o:/g/personal/suisuy_527y3c_onmicrosoft_com/EhpJoxH5fD1BkLmMtBawAwkB8ImZxEsicjxvJvAwwnpHKQ?e=oA6Af9
-
+https://gadgetversus.com/processor/intel-celeron-j1900-vs-intel-pentium-silver-n6000/
 
 https://webglb.suisuy.eu.org/aquarium/aquarium
 
