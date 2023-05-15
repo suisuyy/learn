@@ -2,6 +2,8 @@
 
 https://lnote.suisuy.eu.org/doc/file/test.pac
 
+https://gadgetversus.com/processor/intel-celeron-j1900-vs-intel-pentium-silver-n6000/
+
 onedrive share readonly suisuy@527y3c.onmicrosoft.com
 https://527y3c-my.sharepoint.com/:f:/g/personal/suisuy_527y3c_onmicrosoft_com/EqCC4a3y4WtAspmvmsoY2hgBANJOfk3-0ry5Rz9TkX3hog?e=vbT3nd
 
