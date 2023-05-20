@@ -1,4 +1,4 @@
-
+mkdir -p /etc/docker
 export FILE=/etc/docker/daemon.json 
 cat >$FILE << 'EOF'  
 {
