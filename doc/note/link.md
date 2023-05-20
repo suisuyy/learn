@@ -22,6 +22,8 @@ https://speed.neu6.edu.cn/getIP.php
 
 http://www.ip111.cn/
 
+https://gadgetversus.com/processor/intel-celeron-j1900-vs-intel-pentium-silver-n6000/
+
 
 https://hosturl/vnc.html?host=h&port=5801&reconnect=true&compression=3&quality=5&password=
 
@@ -34,7 +36,6 @@ http://tongmengxz.com/category/picture
 
 https://learn.microsoft.com/en-us/training/modules/plan-config-global-address-book-finance-operations/4-exercise
 
-https://gadgetversus.com/processor/intel-celeron-j1900-vs-intel-pentium-silver-n6000/
 
 https://webglb.suisuy.eu.org/aquarium/aquarium
 
