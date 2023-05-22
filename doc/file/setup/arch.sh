@@ -14,6 +14,10 @@ termcapinfo xterm* ti@:te@"\n\
 >~/.screenrc
 
 #kenel
+cat /proc/sys/vm/swappiness
+echo vm.swappiness=1 >> /etc/sysctl.conf && sysctl -p
+cat /proc/sys/vm/swappiness
+sysctl vm.swappiness
 
 
 
