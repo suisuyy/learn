@@ -1,6 +1,4 @@
 
-
-
 sudo pacman -S wqy-microhei base-devel sudo openssh usbutils automake autoconf mlocate  alsa-utils  lsof git vim  screen bc nmap w3m aria2 p7zip unrar rsync sshfs tinyproxy ncdu bash-completion qemu-user-static  qemu-user-static-binfmt 
 #sudo no passwd need
 echo "%suisuy  ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
