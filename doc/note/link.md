@@ -37,6 +37,8 @@ http://tongmengxz.com/category/picture
 
 https://learn.microsoft.com/en-us/training/modules/plan-config-global-address-book-finance-operations/4-exercise
 
+https://app.koofr.net/app/storage/650bec12-2870-43f2-7851-10c078db6cd7
+
 
 
 
