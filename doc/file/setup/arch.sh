@@ -1,5 +1,5 @@
 
-echo 
+echo 'Server = https://mirrors.ustc.edu.cn/archlinux/$repo/os/$arch' >/etc/pacman.d/mirrorlist
 pacman -S wqy-microhei base-devel sudo openssh usbutils automake autoconf mlocate  alsa-utils  lsof git vim  screen bc nmap w3m aria2 p7zip unrar rsync sshfs tinyproxy ncdu bash-completion qemu-user-static  qemu-user-static-binfmt 
 
 
