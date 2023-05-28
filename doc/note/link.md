@@ -12,6 +12,11 @@ onedriver tmp rw
 https://527y3c-my.sharepoint.com/:f:/g/personal/suisuy_527y3c_onmicrosoft_com/EqfqKSGGIU1NjZaibDlAc2sBLDPFxC0XbBiVQn1TxhozkA?e=DbxikP
 
 
+https://futtsu.teracloud.jp/dav/
+suisuy
+evRw2d5b9LgJDmUZ
+
+
 https://github.com/suisuyy/learn/blob/main/doc/note/qnote.md
 
 
