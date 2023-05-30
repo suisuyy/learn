@@ -11,6 +11,9 @@ https://527y3c-my.sharepoint.com/:f:/g/personal/suisuy_527y3c_onmicrosoft_com/Eq
 onedriver tmp rw
 https://527y3c-my.sharepoint.com/:f:/g/personal/suisuy_527y3c_onmicrosoft_com/EqfqKSGGIU1NjZaibDlAc2sBLDPFxC0XbBiVQn1TxhozkA?e=DbxikP
 
+onedriver dav 
+https://527y3c-my.sharepoint.com/personal/suisuy_527y3c_onmicrosoft_com/Documents
+
 
 https://futtsu.teracloud.jp/dav/
 suisuy
