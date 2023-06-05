@@ -9,7 +9,7 @@ function FindProxyForURL(url, host) {
   if (proxyRegx.test(url)) return proxy;
 
   else if (isPlainHostName(host) || dnsDomainIs(host, ".localhost")) return "DIRECT";
-  else if (/^192\.168\..*\.|^172\.22\..*\./.test(host)) return "DIRECT";
+  else if (/^192\.168\..*\.|^172\.22\..*\.|^172\.22\..*\./.test(host)) return "DIRECT";
   else if (directRegx.test(url)) return "DIRECT";
   
   return proxy;
