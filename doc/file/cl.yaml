@@ -33,7 +33,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - Proxies
-      - 
+      
   - name: Others
     type: select
     proxies:
