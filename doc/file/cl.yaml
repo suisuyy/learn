@@ -39,8 +39,7 @@ proxy-groups:
     proxies:
       - Proxies
       - DIRECT
-      - http104
-      - http192
+    
 
 
 
