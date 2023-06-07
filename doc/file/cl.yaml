@@ -33,7 +33,8 @@ proxy-groups:
     proxies:
       - DIRECT
       - Proxies
-      - http
+      - http104
+      - http192
   - name: Others
     type: select
     proxies:
