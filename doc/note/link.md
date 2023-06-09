@@ -31,7 +31,7 @@ https://github.com/suisuyy/learn/blob/main/doc/note/qnote.md
 
 https://speed.neu6.edu.cn/getIP.php
 
-http://www.ip111.cn/
+http://www.ip233.cn/
 
 https://gadgetversus.com/processor/intel-celeron-j1900-vs-intel-pentium-silver-n6000/
 
