@@ -33,6 +33,9 @@ https://speed.neu6.edu.cn/getIP.php
 
 https://www.ip233.cn/
 
+https://playcs.yikm.net/play/4
+
+
 https://gadgetversus.com/processor/intel-celeron-j1900-vs-intel-pentium-silver-n6000/
 
 
