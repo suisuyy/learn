@@ -11,17 +11,6 @@ https://527y3c-my.sharepoint.com/:f:/g/personal/suisuy_527y3c_onmicrosoft_com/Eq
 onedriver tmp rw
 https://527y3c-my.sharepoint.com/:f:/g/personal/suisuy_527y3c_onmicrosoft_com/EqfqKSGGIU1NjZaibDlAc2sBLDPFxC0XbBiVQn1TxhozkA?e=DbxikP
 
-onedriver dav 
-https://527y3c-my.sharepoint.com/personal/suisuy_527y3c_onmicrosoft_com/Documents
-
-
-https://futtsu.teracloud.jp/dav/
-suisuy
-evRw2d5b9LgJDmUZ
-
-https://suisuyy:evRw2d5b9LgJDmUZ@futtsu.teracloud.jp/dav/
-
-
 
 https://github.com/suisuyy/learn/blob/main/doc/note/qnote.md
 
@@ -31,10 +20,7 @@ https://github.com/suisuyy/learn/blob/main/doc/note/qnote.md
 
 https://speed.neu6.edu.cn/getIP.php
 
-https://www.ip233.cn/
-
-https://playcs.yikm.net/play/4
-
+http://www.ip111.cn/
 
 https://gadgetversus.com/processor/intel-celeron-j1900-vs-intel-pentium-silver-n6000/
 
@@ -84,6 +70,8 @@ https://dns.adguard-dns.com/dns-query
 https://codeberg.org/retronav/ixora
 
 https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/latest-virtio/virtio-win-guest-tools.exe
+
+https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022
 
 805429436
 805429436
