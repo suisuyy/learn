@@ -22,7 +22,6 @@ https://github.com/suisuyy/learn/blob/main/doc/note/qnote.md
 
 https://aio-suisuyy.koyeb.app
 
-https://aio-suisuyy.koyeb.app/d/aliyunopen/else/iso/Tiny-Win11-22H2.iso
 
 
 
