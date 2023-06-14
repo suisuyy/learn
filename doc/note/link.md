@@ -33,6 +33,8 @@ https://aio-suisuyy.koyeb.app
 
 testspeed
 
+https://aio-suisuyy.koyeb.app/d/aliyunopen/else/iso/Tiny-Win11-22H2.iso
+
 
 https://speed.neu6.edu.cn/getIP.php
 
