@@ -31,7 +31,8 @@ https://aio-suisuyy.koyeb.app
 
 # tools 
 
-test
+testspeed
+
 
 https://speed.neu6.edu.cn/getIP.php
 
