@@ -61,6 +61,8 @@ https://app.koofr.net/app/storage/650bec12-2870-43f2-7851-10c078db6cd7
 
 # js
 
+javascript:(function f() {  document.body.contentEditable='true';  return;  })();
+
 
 # ad filter
 
