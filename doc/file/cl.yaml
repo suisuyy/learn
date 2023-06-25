@@ -25,6 +25,7 @@ proxy-groups:
     type: select
     proxies:
       - http104
+      - http104
       - http192
       - httpz
       - httpz2
