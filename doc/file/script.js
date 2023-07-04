@@ -28,7 +28,7 @@
 
   //for boadtool bar
   styles = `
-    .notion-text-action-menu { position: fixed; top: 90vh !important; }
+    . { position: fixed; top: 90vh !important; }
 `;
 
   styleSheet = document.createElement("style");
