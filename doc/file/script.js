@@ -11,31 +11,26 @@
 // ==/UserScript==
 
 (function () {
-    "use strict";
-  
-    // Your code here...
-  
-    //for notion
-    console.log("****move action tool to top****");
-    let styles = `
+  "use strict";
+
+  // Your code here...
+
+  //for notion
+  console.log("****move action tool to top****");
+  let styles = `
       .notion-text-action-menu { position: fixed; top: 90vh !important; }
   `;
-  
-    let styleSheet = document.createElement("style");
-    styleSheet.innerText = styles;
-    document.head.appendChild(styleSheet);
-  
-  
-    //for boadtool bar
-    styles = `
+
+  let styleSheet = document.createElement("style");
+  styleSheet.innerText = styles;
+  document.head.appendChild(styleSheet);
+
+  //for boadtool bar
+  styles = `
       .chatgptbox-toolbar-container { position: fixed; top: 95vh !important; }
   `;
-  
-    styleSheet = document.createElement("style");
-    styleSheet.innerText = styles;
-    document.head.appendChild(styleSheet);
-  
-  
-  
-  })();
-  
+
+  styleSheet = document.createElement("style");
+  styleSheet.innerText = styles;
+  document.head.appendChild(styleSheet);
+})();
