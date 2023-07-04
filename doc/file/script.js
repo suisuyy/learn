@@ -18,7 +18,7 @@
     //for notion
     console.log("****move action tool to top****");
     let styles = `
-        .notion-text-action-menu { position: fixed; top:  !important; }
+        .notion-text-action-menu { position: fixed; top: 0 !important; }
         #notion-app > div > div.notion-overlay-container.notion-default-overlay-container > div:nth-child(2) > div > div > div:nth-child(2) > div { position: fixed; top: 50vh !important;  }
     `;
   
