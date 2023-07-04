@@ -5,6 +5,7 @@
 // @description  try to take over the world!notion.so
 // @author       suisuy
 // @match        https://www.notion.so/*
+// @match        https://www.notion.so/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=notion.so
 // @grant        none
 // ==/UserScript==
@@ -25,5 +26,5 @@
   document.head.appendChild(styleSheet);
 
 
-  
+
 })();
