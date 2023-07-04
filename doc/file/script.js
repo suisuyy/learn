@@ -16,7 +16,7 @@
 
   //for notion
   console.log("****move action tool to top****");
-  var styles = `
+  let styles = `
     .notion-text-action-menu { position: fixed; top: 90vh !important; }
 `;
 
