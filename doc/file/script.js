@@ -27,7 +27,7 @@
 
 
   //for boadtool bar
-  let styles = `
+  styles = `
     .notion-text-action-menu { position: fixed; top: 90vh !important; }
 `;
 
