@@ -20,7 +20,7 @@
     .notion-text-action-menu { position: fixed; top: 90vh !important; }
 `;
 
-  l styleSheet = document.createElement("style");
+  let styleSheet = document.createElement("style");
   styleSheet.innerText = styles;
   document.head.appendChild(styleSheet);
 })();
