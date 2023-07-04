@@ -35,6 +35,6 @@
   styleSheet.innerText = styles;
   document.head.appendChild(styleSheet);
 
-  chatgptbox-toolbar-container
+  
 
 })();
