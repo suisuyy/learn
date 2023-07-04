@@ -9,19 +9,18 @@
 // @grant        none
 // ==/UserScript==
 
-(function() {
-    'use strict';
+(function () {
+  "use strict";
 
-    // Your code here...
+  // Your code here...
 
-    //for notion
-    console.log('****move action tool to top****');
-    var styles = `
+  //for notion
+  console.log("****move action tool to top****");
+  var styles = `
     .notion-text-action-menu { position: fixed; top: 90vh !important; }
-`
+`;
 
-var styleSheet = document.createElement("style")
-styleSheet.innerText = styles
-document.head.appendChild(styleSheet)
-
+  var styleSheet = document.createElement("style");
+  styleSheet.innerText = styles;
+  document.head.appendChild(styleSheet);
 })();
