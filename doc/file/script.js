@@ -11,26 +11,28 @@
 // ==/UserScript==
 
 (function () {
-  "use strict";
-
-  // Your code here...
-
-  //for notion
-  console.log("****move action tool to top****");
-  let styles = `
-      .notion-text-action-menu { position: fixed; top: 90vh !important; }
-  `;
-
-  let styleSheet = document.createElement("style");
-  styleSheet.innerText = styles;
-  document.head.appendChild(styleSheet);
-
-  //for boadtool bar
-  styles = `
-      .chatgptbox-toolbar-container { position: fixed; top: 80vh !important; }
-  `;
-
-  styleSheet = document.createElement("style");
-  styleSheet.innerText = styles;
-  document.head.appendChild(styleSheet);
-})();
+    "use strict";
+  
+    // Your code here...
+  
+    //for notion
+    console.log("****move action tool to top****");
+    let styles = `
+        .notion-text-action-menu { position: fixed; top: 10vh !important; }
+        #notion-app > div > div.notion-overlay-container.notion-default-overlay-container > div:nth-child(2) > div > div > div:nth-child(2) > div { position: fixed; top: 50vh !important;  }
+    `;
+  
+    let styleSheet = document.createElement("style");
+    styleSheet.innerText = styles;
+    document.head.appendChild(styleSheet);
+  
+    //for boadtool bar
+    styles = `
+        .chatgptbox-toolbar-container { position: fixed; top: 80vh !important; }
+    `;
+  
+    styleSheet = document.createElement("style");
+    styleSheet.innerText = styles;
+    document.head.appendChild(styleSheet);
+  })();
+  
