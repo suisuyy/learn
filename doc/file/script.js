@@ -12,27 +12,26 @@
 
 (function () {
     "use strict";
-  
+
     // Your code here...
-  
+
     //for notion
     console.log("****move action tool to top****");
     let styles = `
         .notion-text-action-menu { position: fixed; top: 0 !important; }
-        #notion-app > div > div.notion-overlay-container.notion-default-overlay-container > div:nth-child(2) > div > div > div:nth-child(2) > div { position: fixed; top: 0 !important;  }
+        #notion-app > div > div.notion-overlay-container.notion-default-overlay-container > div:nth-child(2) > div > div > div:nth-child(2) > div { position: fixed !important; top: 10vh !important;  }
     `;
-  
+
     let styleSheet = document.createElement("style");
     styleSheet.innerText = styles;
     document.head.appendChild(styleSheet);
-  
+
     //for boadtool bar
     styles = `
-        .chatgptbox-toolbar-container { position: fixed; top: 10vh !important; }
+        .chatgptbox-toolbar-container { position: fixed; top: 20vh !important; }
     `;
-  
+
     styleSheet = document.createElement("style");
     styleSheet.innerText = styles;
     document.head.appendChild(styleSheet);
   })();
-  
