@@ -27,7 +27,6 @@
 
 
   //for boadtool bar
-  console.log("****move action tool to top****");
   let styles = `
     .notion-text-action-menu { position: fixed; top: 90vh !important; }
 `;
