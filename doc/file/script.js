@@ -27,7 +27,7 @@
 
   //for boadtool bar
   styles = `
-      .chatgptbox-toolbar-container { position: fixed; top: vh !important; }
+      .chatgptbox-toolbar-container { position: fixed; top: 80vh !important; }
   `;
 
   styleSheet = document.createElement("style");
