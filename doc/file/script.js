@@ -31,7 +31,7 @@
     .notion-text-action-menu { position: fixed; top: 90vh !important; }
 `;
 
-  let styleSheet = document.createElement("style");
+  styleSheet = document.createElement("style");
   styleSheet.innerText = styles;
   document.head.appendChild(styleSheet);
 
