@@ -14,7 +14,7 @@
     "use strict";
 
     // Your code here...
-    let styles='';
+    let styles;
     let styleSheet;
 
     //for notion 0vh
