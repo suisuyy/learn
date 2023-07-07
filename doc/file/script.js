@@ -19,7 +19,7 @@
     console.log("****move action tool to top****");
     let styles = `
         .notion-text-action-menu { position: fixed !important; top: 0vh !important; }
-        #notion-app > div > div.notion-overlay-container.notion-default-overlay-container > div:nth-child(2) > div > div > div:nth-child(2) > div { position: fixed !important; top: 10vh !important;  }
+        #notion-app > div > div.notion-overlay-container.notion-default-overlay-container > div:nth-child(2) > div > div > div:nth-child(2) > div { position: fixed !important; top: 0vh !important;  }
     `;
 
     let styleSheet = document.createElement("style");
