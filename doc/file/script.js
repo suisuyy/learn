@@ -15,7 +15,7 @@
 
     // Your code here...
 
-    //for notion
+    //for notion 10vh
     console.log("****move action tool to top****");
     let styles = `
         .notion-text-action-menu { position: fixed !important; top: 0 !important; }
@@ -26,7 +26,7 @@
     styleSheet.innerText = styles;
     document.head.appendChild(styleSheet);
 
-    
+
     //for boadtool bar
     styles = `
         .chatgptbox-toolbar-container { position: fixed !important; top: 20vh !important; }
