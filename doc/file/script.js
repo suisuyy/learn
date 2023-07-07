@@ -29,7 +29,7 @@
 
     //for gptboxtool bar 5vh
     styles = `
-        .chatgptbox-toolbar-container { position: fixed !important; top: 20vh !important; }
+        .chatgptbox-toolbar-container { position: fixed !important; top: 5vh !important; }
     `;
 
     styleSheet = document.createElement("style");
