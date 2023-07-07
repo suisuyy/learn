@@ -24,7 +24,7 @@
         #notion-app > div > div.notion-overlay-container.notion-default-overlay-container > div:nth-child(2) > div > div > div:nth-child(2) > div { position: fixed !important; top: 0vh !important;  }
     `;
 
-    let styleSheet = document.createElement("style");
+    styleSheet = document.createElement("style");
     styleSheet.innerText = styles;
     document.head.appendChild(styleSheet);
 
