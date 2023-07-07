@@ -15,6 +15,7 @@
 
     // Your code here...
     let styles=''
+    let sty
 
     //for notion 0vh
     console.log("****move action tool to top****");
