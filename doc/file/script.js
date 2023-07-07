@@ -27,7 +27,7 @@
     document.head.appendChild(styleSheet);
 
 
-    //for gptboxtool bar 20vh
+    //for gptboxtool bar 5vh
     styles = `
         .chatgptbox-toolbar-container { position: fixed !important; top: 20vh !important; }
     `;
