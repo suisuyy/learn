@@ -26,6 +26,7 @@
     styleSheet.innerText = styles;
     document.head.appendChild(styleSheet);
 
+    
     //for boadtool bar
     styles = `
         .chatgptbox-toolbar-container { position: fixed !important; top: 20vh !important; }
