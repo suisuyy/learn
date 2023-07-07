@@ -31,7 +31,7 @@
 
     //for gptboxtool bar top:5vh
     styles = `
-        .chatgptbox-toolbar-container { position: fixed !important; top: 5vh !important; }
+        .chatgptbox-toolbar-container { position: fixed !important; top: 5vh !important;left: 70vw !important; }
     `;
 
     styleSheet = document.createElement("style");
