@@ -15,7 +15,7 @@
 
     // Your code here...
 
-    //for notion 10vh
+    //for notion 0vh
     console.log("****move action tool to top****");
     let styles = `
         .notion-text-action-menu { position: fixed !important; top: 10vh !important; }
