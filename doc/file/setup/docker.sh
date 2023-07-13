@@ -15,5 +15,6 @@ EOF
 systemctl restart docker
 
 decentraland high
-#
+#ExecStart=/usr/bin/dockerd -g /new/path/docker -H fd://
+
 
