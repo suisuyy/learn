@@ -14,5 +14,6 @@ EOF
 
 systemctl restart docker
 
+decentraland high
 #
 
