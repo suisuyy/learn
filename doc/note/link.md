@@ -5,7 +5,7 @@ https://lnote.suisuy.eu.org/doc/file/test.pac
 
 suisuy@527y3c.onmicrosoft.com
 
-
+onenote qnote
 https://527y3c-my.sharepoint.com/:o:/g/personal/suisuy_527y3c_onmicrosoft_com/Ehnp3HdFFplPsBf2Uq58icIBeoUg9QIf-sdGmiCa-Q-XAQ?e=uMkRt8
 
 onedrive share readonly 
