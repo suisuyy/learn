@@ -5,6 +5,7 @@ https://lnote.suisuy.eu.org/doc/file/test.pac
 
 suisuy@527y3c.onmicrosoft.com
 
+notion qnote
 
 
 onenote qnote
