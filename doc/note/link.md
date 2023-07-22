@@ -8,7 +8,7 @@ suisuy@527y3c.onmicrosoft.com
 notion qnote
 https://suisuy.notion.site/qnote-83bdd917eafe4f9a8d5a168ab06832ff?pvs=4
 
-onenote qnote
+onenote qnote 
 https://527y3c-my.sharepoint.com/:o:/g/personal/suisuy_527y3c_onmicrosoft_com/Ehnp3HdFFplPsBf2Uq58icIBeoUg9QIf-sdGmiCa-Q-XAQ?e=uMkRt8
 
 onedrive share readonly 
