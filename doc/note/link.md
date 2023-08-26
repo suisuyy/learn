@@ -2,6 +2,7 @@
 
 https://lnote.suisuy.eu.org/doc/file/test.pac
 
+https://aio-suisuyy.koyeb.app
 
 suisuy@527y3c.onmicrosoft.com
 
@@ -26,7 +27,7 @@ https://github.com/suisuyy/learn/blob/main/doc/note/qnote.md
 
 13.114.30.2
 
-https://aio-suisuyy.koyeb.app
+
 
 
 
