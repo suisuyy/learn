@@ -1,98 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>template</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>test</title>
-</head>
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./main.js"></script>
 
-<body>
-  <h1>test h1</h1>
+    <style>
+      #testdiv {
+        background-color: lightgray;
+      }
 
-  <div id="txtdiv">
-    <p>
-      Donald Trump hits out at "corruption, scandal, and failure" after being charged with plotting to overturn the 2020
-      election result
-      "I have never had so much support on anything before," he claims after Tuesday's indictment
-      The charges follow an inquiry into the attack on the US Capitol in Washington DC on 6 January 2021
-      Trump is accused of "spreading lies" about election fraud for more than two months
-      In total, Trump has now been charged in three criminal cases - but experts say the latest could be the most
-      serious
-      The other cases relate to secret documents, and payments to Stormy Daniels, a former porn star
-      Despite the criminal cases, Trump is the favourite to be the Republican candidate in the 2024 election
+      #img1 {
+        width: 30%;
+        padding: 5%;
+        margin: 5%;
+        box-shadow: 20px 20px 10px 0px lightgray;
+      }
 
-    </p>
+      #TestContainer p {
+        background: red;
+      }
+    </style>
+  </head>
+  <body>
+    https://statichtmltest.stackblitz.io/template/index.html
 
-  </div>
+    <div id="app">this is #app div</div>
 
-  <div id="">
-    <input type="text"> <br>
-    <textarea name="testta" id="" cols="30" rows="10"></textarea>
+    <div id="TestContainer">
+      this is .TestContainer div
+      <p>this is test p in div</p>
+      <div id="testdiv">this #testdiv backgroud changed by css</div>
 
-  </div>
+      <div class="InputContainer">
+        this is .InputContainer <br />
+        <input placeholder="#binput" id="binput" /> <br />
+        <textarea placeholder="#bta" id="bta">#bta</textarea>
+      </div>
 
-  <div id="else">
-    Japan and the US set to strike a deal to develop an interceptor missile to counter hypersonic warheads made by
-    China, Russia and North Korea
-    President Joe Biden will meet Japanese prime minister Fumio Kishida on Friday
-    By MAIL FOREIGN SERVICE
+      <div class="ButtonContainer">
+        <button class="TestButton" id="testb1">#testb1</button>
+        <button class="TestButton" id="testb2">#testb2</button>
+        <button class="TestButton" id="testb3">#testb3</button>
+      </div>
+    </div>
 
-    PUBLISHED: 00:16 BST, 14 August 2023 | UPDATED: 00:41 BST, 14 August 2023
+    <br />
+    <p>this is a p tag</p>
 
-    e-mail
-    27
+    <div class="ImgDiv">
+      this is .ImgDiv <br />
+      <img
+        src="https://bubu.suisuy.eu.org/doc/img/demotrans.png"
+        alt="img1"
+        id="img1"
+      />
+      <img src="https://bubu.suisuy.eu.org/images/icon-128.png" alt="img2" />
+    </div>
 
-    View comments
-    Japan and the US will this week agree to develop an interceptor missile to counter hypersonic warheads made by
-    China, Russia and North Korea, it was claimed yesterday.
+    <div class="IframeDiv">
+      this is .IframeDiv <br />
 
-    The agreement to target weapons designed to evade ballistic missile defences is expected when President Joe Biden
-    meets Japanese prime minister Fumio Kishida in the US on Friday.
+      <!-- <iframe
+        src="https://mz7x62j15q6v63.embednotionpage.com/qnote-83bdd917eafe4f9a8d5a168ab06832ff"
+        style="width: 100%; height: 500px; padding: 0"
+      > 
+      </iframe> -->
+      <iframe
+        src="https://www.bing.com/search?q=Bing+AI&showconv=1"
+        style="width: 100%; height: 500px; padding: 0"
+      >
+      </iframe>
+    </div>
 
-    The report, published in Japan’s Yomiuri newspaper, gave no source for the information, and officials at Japan’s
-    Ministry of Foreign Affairs could not be reached for comment last night.
+    <h1>text</h1>
+    <div class="Main">
+      Main is green
+      <div class="textdiv">
+        testb1 testb2 is global available . This code might not work on touch
+        devices like phones because it's primarily designed to handle mouse
+        events, which are different from touch events. Touch devices use touch
+        events, such as "touchstart," "touchmove," and "touchend," to interact
+        with elements on the screen. The code you provided is using mouse events
+        like "pointerdown," "pointermove," and "pointerup," which are tailored
+        for desktop environments with a mouse. To make this code work on touch
+        devices, you'll need to modify it to handle touch events instead of
+        mouse events. You should replace the "pointerdown" event with
+        "touchstart," "pointermove" with "touchmove," and "pointerup" with
+        "touchend." Additionally, you'll need to adjust the event properties to
+        work with touch coordinates, as they are different from mouse
+        coordinates. Here's the modified code that should work on both desktop
+        and touch devices: javascript Copy code
+        dragElement(appView.bubuContainer); function dragElement(elmnt) { var
+        pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0; // For touch devices, use
+        touchstart event appView.bubuIcon.addEventListener('touchstart',
+        dragTouchStart); function dragTouchStart(e) { e = e || window.event;
+        e.preventDefault(); // Get the initial touch position var touch =
+        e.touches[0]; pos3 = touch.clientX; pos4 = touch.clientY; // Set
+        touchmove and touchend event listeners
+        document.addEventListener('touchmove', elementTouchMove);
+        document.addEventListener('touchend', closeDragElement); } function
+        elementTouchMove(e) { e = e || window.event; e.preventDefault(); //
+        Calculate touch position changes var touch = e.touches[0]; pos1 = pos3 -
+        touch.clientX; pos2 = pos4 - touch.clientY; pos3 = touch.clientX; pos4 =
+        touch.clientY; // Update element position elmnt.style.top =
+        (elmnt.offsetTop - pos2) + "px"; elmnt.style.left = (elmnt.offsetLeft -
+        pos1) + "px"; } function closeDragElement() { // Remove touchmove and
+        touchend event listeners document.removeEventListener('touchmove',
+        elementTouchMove); document.removeEventListener('touchend',
+        closeDragElement); } } Remember that touch events have some differences
+        from mouse events, such as handling multiple touches, and you might need
+        to consider those aspects if your application involves multi-touch
+        interactions.
+      </div>
+    </div>
 
-    Unlike typical ballistic warheads which fly on predictable trajectories, hypersonic projectiles can change course –
-    making them more difficult to target.
-
-    U.S. President Joe Biden and Fumio Kishida, Japan's prime minister, shake hands prior to a bilateral meeting ahead
-    of the Group of Seven leaders summit in Hiroshima, Japan, on Thursday May 18
-    +2
-    View gallery
-    U.S. President Joe Biden and Fumio Kishida, Japan's prime minister, shake hands prior to a bilateral meeting ahead
-    of the Group of Seven leaders summit in Hiroshima, Japan, on Thursday May 18
-
-    Japanese Prime Minister Fumio Kishida and US President Joe Biden pose for a group photo at the Itsukushima Shrine
-    during the G7 Summit on May 19
-    +2
-    View gallery
-    Japanese Prime Minister Fumio Kishida and US President Joe Biden pose for a group photo at the Itsukushima Shrine
-    during the G7 Summit on May 19
-
-    TRENDING
-
-    Sen. wanted to 'kick s**t' out of Biden for 'getting handsy' with wife
-    14k viewing now
-
-    Biden weighs Maui visit as wildfire death toll hits 93
-    2.6k viewing now
-
-    Prince Harry and his friend say they 'miss their wives very much'
-    5.5k viewing now
-    Mr Biden and Mr Kishida are due to meet during a trilateral summit with South Korea’s president Yoon Suk Yeol at
-    Camp David, Maryland, the report said.
-
-    The US and Japan agreed in January to consider developing the interceptor at a meeting between Secretary of State
-    Antony Blinken and Defence Secretary Lloyd Austin with their Japanese counterparts.
-
-    A deal would be the second such collaboration in missile defence technology after Washington and Tokyo developed a
-    longer-range missile designed to hit warheads in space.
-
-    Japan is deploying the missile on warships in the sea between it and the Korean peninsula to defend against any
-    North Korean strikes.
-  </div>
-
-</body>
-
+    <div class="Foot">end</div>
+  </body>
 </html>
