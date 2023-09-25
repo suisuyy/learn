@@ -26,7 +26,7 @@ proxy-groups:
     proxies:
       - http104
       - http105
-      - http
+      - http1021
       - httpz
       - httpz2
       - vmess
