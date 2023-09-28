@@ -25,6 +25,7 @@ proxy-groups:
   - name: Proxies
     type: select
     proxies:
+      - httpn2n
       - http104
       - http105
       - http1021
