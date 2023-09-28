@@ -1,4 +1,88 @@
+mixed-port: 11111
+redir-port: 7892
+tproxy-port: 7893
+authentication: [""]
+allow-lan: true
+mode: Rule
+log-level: info
+ipv6: true
+external-controller: :9999
+external-ui: ui
+secret: a
+tun: {enable: false}
+experimental: {ignore-resolve-fail: true, interface-name: en0}
 
+proxies:
+  - {name: sshsock, server: localhost, port: 11112, type: socks5, udp: true}
+  - {name: sshsock6, server: 192.168.193.2, port: 11116, type: socks5, udp: true}
+  - {name: httpn2n, server: 192.168.193.2, port: 11111, type: http, udp: true}
+  - {name: http1021, server: 10.0.0.21, port: 11111, type: http, udp: true}
+  - {name: http104, server: 10.0.0.4, port: 11111, type: http, udp: true}
+  - {name: http105, server: 10.0.0.5, port: 11111, type: http, udp: true}
+  - {name: httpz, server: 192.168.192.1, port: 11111, type: http, udp: true}
+  - {name: httpz2, server: 192.168.192.2, port: 11111, type: http, udp: true}
+  - {name: vmess, server: lin.musekidan.com, port: 443, type: vmess, uuid: c93335a2-3f75-4c2b-825c-1e0a062efa4c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: lin.musekidan.com, network: ws, ws-opts: {path: /lin, headers: {Host: lin.untilmu.com}}, udp: true}
+
+proxy-groups:
+  - name: Proxies
+    type: select
+    proxies:
+      - httpn2n
+      - http104
+      - http105
+      - http1021
+      - httpz
+      - httpz2
+      - vmess
+  - name: Domestic
+    type: select
+    proxies:
+      - DIRECT
+      - Proxies
+      
+  - name: Others
+    type: select
+    proxies:
+      - Proxies
+      - DIRECT
+    
+
+
+
+nameserver:
+    
+    - 8.8.8.8
+    - tls://dns.rubyfish.cn:853 # DNS over TLS
+    - https://1.1.1.1/dns-query # DNS over HTTPS
+   
+
+
+
+
+store-selected: true
+hosts:
+   'time.android.com': 203.107.6.88
+   'time.facebook.com': 203.107.6.88  
+   'rt': 127.0.1.1
+   'localhost': 127.0.0.1
+
+
+
+rules:
+ - DOMAIN-KEYWORD,bing,Proxies
+ - DOMAIN-KEYWORD,hali,DIRECT
+ - DOMAIN-SUFFIX,local,DIRECT
+ - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+ - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+ - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+ - IP-CIDR6,::1/128,DIRECT,no-resolve
+ - IP-CIDR6,fc00::/7,DIRECT,no-resolve
+ - IP-CIDR6,fe80::/10,DIRECT,no-resolve
+ - IP-CIDR6,fd00::/8,DIRECT,no-resolve
+ - GEOIP,CN,Domestic
+ - MATCH,Others
 
 
 
